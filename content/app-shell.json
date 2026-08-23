@@ -1,0 +1,9 @@
+{
+  "greeting": {
+    "text": "Բարև ձեզ։",
+    "translation": "こんにちは。",
+    "dialect": "east",
+    "status": "verified",
+    "source": "docs/roadmap.md Phase 0 完了条件"
+  }
+}
