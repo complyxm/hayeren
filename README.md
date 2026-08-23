@@ -40,9 +40,17 @@ push するたびに自動デプロイされる状態になっていることを
 [`public/dev/speech-test.html`](./public/dev/speech-test.html)（`npm run dev` 後に
 `http://localhost:5173/dev/speech-test.html` で開く）。
 
-- 測定日：（未測定）
-- ブラウザ / OS：（未測定）
-- 結果：（未測定 — 非対応でも Phase 3 は L2/L3（音響解析ベース）のみで成立するため、ここで実装を止めない）
+- 測定日：2026-08-23
+- ブラウザ / OS：Google Chrome / macOS
+- 結果：`lang = "hy-AM"` を指定した認識は `onerror`（`language-not-supported` 等）を出さず、
+  `onresult` が発火した（＝完全な未対応ではない）。ただし転写結果はアルメニア文字ではなく
+  **ラテン翻字**で返ってきた（例：発話「սիրում ես ինձ」に対し `transcript="sirum es indz"`）。
+  また `confidence` は常に `0`。
+  → L1 レイヤー（Web Speech API によるフレーズ一致判定、`docs/phonetics.md`）をそのまま使うには、
+  アルメニア文字での完全一致判定ができない・信頼度が使えないという2つの制約がある。
+  Phase 3 で L1 を採用する場合は、期待文字列側もラテン翻字して比較する、または
+  confidence を判定に使わない設計にする必要がある。非対応ではないため実装を止める理由にはならないが、
+  L2/L3（音響解析ベース）を主軸に据える方針の妥当性を補強する結果。
 
 ## 課金要素ゼロ監査（Phase 0 完了条件）
 
