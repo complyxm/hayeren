@@ -108,10 +108,7 @@ docs/                  # 必要になった時点で読む詳細仕様
   roadmap.md           #   フェーズ別タスクと完了条件
 content/               # ★コンテンツデータ（コードから完全分離）
   alphabet.json / grammar/ / vocab/ / scenarios/ / ru/ / audio-credits.json
-src/
-  domain/              # 純粋ロジック・副作用なし・テスト必須
-    srs/ grammar/ phonetics/ translit/
-  data/ features/ components/
+src/domain/ data/ features/ components/
 scripts/               # validate-content.ts / build-audio-sprite.ts
 ```
 
@@ -154,6 +151,14 @@ scripts/               # validate-content.ts / build-audio-sprite.ts
 - 「それらしいアルメニア語」を大量生成するより、**検証済みの 50 語のほうが価値がある。**
 - 曖昧な点はユーザーに質問する。黙って埋めない。
 
+### 著作権
+- 例文・練習問題・解説文は**このプロジェクト用に新規に書く。** 特定の教科書・参考書
+  （市販教材、大学の研修テキスト等）の例文や説明文を書き写したり、言い回しを少し変えただけの
+  ものにしない。文法規則や語形変化のパラダイムそのもの（言語的事実）を参照するのは問題ないが、
+  その提示のしかた・例文・説明の構成は独自に作る
+- 既存教材を参考にした場合は `source` に「参考にしたが独自に作成」と分かる形で記録する
+- 歌詞・詩・小説からの引用はしない（`docs/curriculum.md` §7-3 も参照）
+
 ---
 
 ## 8. コーディング規約
@@ -177,14 +182,7 @@ scripts/               # validate-content.ts / build-audio-sprite.ts
 
 ## 9. 開発コマンド
 
-```bash
-npm run dev        # 開発サーバー
-npm run build      # 本番ビルド
-npm run test       # Vitest
-npm run lint       # ESLint + tsc --noEmit
-npm run validate   # content/ の Zod 検証（CI 必須）
-```
-
+`npm run dev` / `build` / `test`(Vitest) / `lint`(ESLint+tsc) / `validate`(content/ の Zod 検証)。
 **コミット前に `npm run lint && npm run test && npm run validate` が通ること。**
 
 ## 10. 作業の進め方
