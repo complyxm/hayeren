@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>hy-AM Web Speech API 実測ハーネス</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 40rem;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        line-height: 1.6;
+      }
+      button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+      }
+      pre {
+        background: #f0f0f0;
+        padding: 1rem;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>hy-AM Web Speech API 実測ハーネス</h1>
+    <p>
+      docs/roadmap.md Phase 0
+      の完了条件用に、ブラウザの音声認識がアルメニア語（<code>hy-AM</code>）に対応しているかを実測するための開発専用ページです。
+      <code>npm run dev</code> 実行後、このページを <code>http://localhost:5173/dev/speech-test.html</code>
+      で開いてください（<code>file://</code>
+      では動作しないブラウザがあります）。マイクの使用許可を求められたら許可し、ボタンを押して何か話してください。
+    </p>
+    <button id="start">認識テストを開始</button>
+    <p>結果：</p>
+    <pre id="log">（まだ実行していません）</pre>
+
+    <script>
+      const logEl = document.getElementById("log");
+      const startButton = document.getElementById("start");
+
+      function log(line) {
+        logEl.textContent += "\n" + line;
+      }
+
+      const SpeechRecognitionCtor =
+        window.SpeechRecognition || window.webkitSpeechRecognition;
+
+      if (!SpeechRecognitionCtor) {
+        logEl.textContent =
+          "このブラウザには SpeechRecognition API 自体が存在しません（hy-AM 以前に非対応）。";
+        startButton.disabled = true;
+      } else {
+        logEl.textContent = "SpeechRecognition API は存在します。ボタンを押して hy-AM を試してください。";
+      }
+
+      startButton.addEventListener("click", () => {
+        logEl.textContent = "";
+        log(`UA: ${navigator.userAgent}`);
+
+        const recognition = new SpeechRecognitionCtor();
+        recognition.lang = "hy-AM";
+        recognition.interimResults = false;
+        recognition.maxAlternatives = 1;
+
+        recognition.onresult = (event) => {
+          const transcript = event.results[0]?.[0]?.transcript ?? "(空)";
+          const confidence = event.results[0]?.[0]?.confidence ?? "(不明)";
+          log(`[onresult] transcript="${transcript}" confidence=${confidence}`);
+        };
+        recognition.onerror = (event) => {
+          log(`[onerror] error="${event.error}"`);
+        };
+        recognition.onend = () => {
+          log("[onend] 認識セッション終了");
+        };
+
+        try {
+          recognition.start();
+          log("[start] hy-AM で認識を開始しました。話しかけてください。");
+        } catch (err) {
+          log(`[start失敗] ${err instanceof Error ? err.message : String(err)}`);
+        }
+      });
+    </script>
+  </body>
+</html>
