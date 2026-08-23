@@ -244,7 +244,6 @@ decline(noun: string, opts: { case: Case, number, definite: boolean }): string
   "ipa": "/ɡiɾkʰ/",
   "ja": ["本", "書物"],
   "pos": "noun",
-  "freq_rank": 412,
   "theme": "school",
   "forms": {                    // 不規則な形は明示的に持つ
     "plural": "գրքեր",
@@ -270,8 +269,14 @@ decline(noun: string, opts: { case: Case, number, definite: boolean }): string
 - **Web Speech API はアルメニア語（`hy-AM`）をほぼサポートしていない。** TTS 前提の設計にしない
 - 実装方針：`content/` の各エントリに音声ファイルパスを持たせ、
   **音声が無くても機能が壊れない**ようにする（`audio` は optional）
-- 音声ファイルの調達方法（録音／外部サービス）はユーザーと相談して決める。
-  Claude Code が勝手に外部 API を組み込まないこと
+### 調達方法（決定済み）
+1. **Phase 1 は音声なしで完成させる。** 文字の字形・筆順・読解に音声は要らない。
+   音声を要する「聞き分けチャレンジ」は Phase 3 に移動済み
+2. Phase 3 以降の調達順：
+   - **Seyfarth & Garellek (2018) の OSF 公開データ**（https://osf.io/wy45v/）— 閉鎖音の較正用
+   - **Mozilla Common Voice (hy-AM)** — CC0
+   - **Wikimedia Commons / Wiktionary の発音ファイル** — CC BY-SA（クレジット表示が必要）
+3. 足りなければユーザーに相談。**Claude Code が勝手に外部 API を組み込まないこと**
 
 ---
 
@@ -281,6 +286,10 @@ decline(noun: string, opts: { case: Case, number, definite: boolean }): string
 - カードの粒度：
   - 文字：`letter → 音`、`音 → letter`、`大文字 ⇄ 小文字` を別カードにする
   - 語彙：`hy → ja`（再認）と `ja → hy`（想起）を別カード。想起は再認の後に解禁する
+  - **採点方法：`hy → ja` は機械採点しない**（本人が 4 段階で自己評価する）。
+    日本語訳が配列なのは表示用であり、正解判定には使わない。
+    機械採点するのは `ja → hy` のタイピングのみで、正解はアルメニア語文字列 1 つ。
+    正規化は前後空白と句読点の除去のみ（`ը` の有無などは吸収しない＝綴りも学習対象）
   - 文法：課ごとの練習問題をカード化
 - 1 日の新規カード上限を設定可能にする（既定 10）
 - **進捗データはエクスポート可能にする**（JSON）。ユーザーの学習履歴を人質にしない
@@ -318,7 +327,11 @@ decline(noun: string, opts: { case: Case, number, definite: boolean }): string
 
 各場面ユニット（`content/scenarios/`）は次を持つ：
 必要語彙 ID の配列 / 必要文法課の配列 / 場面の対話 3–5 往復 /
-「通過」判定の条件（該当カードの SRS 状態が一定以上）。
+「通過」判定の条件。
+
+**「安定」の定義（全モジュール共通。1 箇所の定数にまとめる）**
+FSRS の `stability >= 21`（日）かつ カード状態が `Review` かつ 直近の評価が `Again` でない。
+この 3 条件を満たすカードを「安定」とする。値は設定で調整可能にする。
 
 ### 7.2 実物を読む
 
