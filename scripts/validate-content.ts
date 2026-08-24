@@ -2,14 +2,19 @@ import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
 import type { z } from "zod";
 import { appShellSchema } from "../src/data/schemas/appShell";
+import { alphabetSchema } from "../src/data/schemas/alphabet";
+import { punctuationSchema } from "../src/data/schemas/punctuation";
+import { metroSchema } from "../src/data/schemas/metro";
 
 const CONTENT_DIR = join(import.meta.dirname, "..", "content");
 
 // ファイル名（content/ からの相対パス）ごとの検証スキーマ。
-// Phase 1 以降、alphabet.json / grammar/**.json / vocab/**.json 等が
-// ここに追加されていく想定。
+// Phase 1 以降、grammar/**.json / vocab/**.json 等がここに追加されていく想定。
 const schemaByRelativePath: Record<string, z.ZodTypeAny> = {
   "app-shell.json": appShellSchema,
+  "alphabet.json": alphabetSchema,
+  "punctuation.json": punctuationSchema,
+  "metro.json": metroSchema,
 };
 
 function listJsonFilesRecursively(dir: string): string[] {

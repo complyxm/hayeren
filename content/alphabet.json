@@ -1,0 +1,501 @@
+[
+  {
+    "id": "ayb", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（東アルメニア語・改革正書法の列を参照。2026-08-25 参照）を docs/curriculum.md §1.2 の下書きと相互確認。",
+    "order": 1, "type": "letter", "upper": "Ա", "lower": "ա",
+    "name": "այբ", "nameTranslit": "ayb", "translit": "a", "ipa": "/ɑ/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": null,
+    "exampleWords": [
+      { "hy": "անուն", "translit": "anun", "ja": "名前", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "արև", "translit": "arev", "ja": "太陽", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ամիս", "translit": "amis", "ja": "月（暦の）", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "ben", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 2, "type": "letter", "upper": "Բ", "lower": "բ",
+    "name": "բեն", "nameTranslit": "ben", "translit": "b", "ipa": "/b/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": "三系列破裂音の有声音（CLAUDE.md §6-8）。「バ行」に単純化しない。",
+    "exampleWords": [
+      { "hy": "բարև", "translit": "barev", "ja": "こんにちは", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "բարի", "translit": "bari", "ja": "良い", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "բժիշկ", "translit": "bzhishk", "ja": "医者", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "gim", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 3, "type": "letter", "upper": "Գ", "lower": "գ",
+    "name": "գիմ", "nameTranslit": "gim", "translit": "g", "ipa": "/ɡ/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": "三系列破裂音の有声音。",
+    "exampleWords": [
+      { "hy": "գիրք", "translit": "girk'", "ja": "本", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "գույն", "translit": "guyn", "ja": "色", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "գարուն", "translit": "garun", "ja": "春", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "da", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 4, "type": "letter", "upper": "Դ", "lower": "դ",
+    "name": "դա", "nameTranslit": "da", "translit": "d", "ipa": "/d/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": "三系列破裂音の有声音。",
+    "exampleWords": [
+      { "hy": "դուռ", "translit": "dur'", "ja": "扉", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "դեղատուն", "translit": "deghatun", "ja": "薬局", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "դրամ", "translit": "dram", "ja": "ドラム（通貨）／お金", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "ech", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 5, "type": "letter", "upper": "Ե", "lower": "ե",
+    "name": "եչ", "nameTranslit": "ech'", "translit": "e", "ipa": "/ɛ/",
+    "ipaWordInitial": "/jɛ/",
+    "initialReadingNoteJa": "語頭では ye（/jɛ/）と読む。CLAUDE.md §6-5。例: եմ（em, 私は〜です）は「イェム」。",
+    "noteJa": null,
+    "exampleWords": [
+      { "hy": "երեկո", "translit": "yereko", "ja": "夕方", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "երկիր", "translit": "yerkir", "ja": "国", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "եղանակ", "translit": "yeghanak", "ja": "天気", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "za", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 6, "type": "letter", "upper": "Զ", "lower": "զ",
+    "name": "զա", "nameTranslit": "za", "translit": "z", "ipa": "/z/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": null,
+    "exampleWords": [
+      { "hy": "զանգ", "translit": "zang", "ja": "鐘／電話の呼び出し", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "զույգ", "translit": "zuyg", "ja": "ペア", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "զբաղված", "translit": "zbaghvats", "ja": "忙しい", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "e", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 7, "type": "letter", "upper": "Է", "lower": "է",
+    "name": "է", "nameTranslit": "ē", "translit": "ē", "ipa": "/ɛ/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "語頭に立つ語は少ない（助動詞 է「〜です」がこの文字そのもの）。",
+    "exampleWords": [
+      { "hy": "էշ", "translit": "esh", "ja": "ロバ", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "էջ", "translit": "ej", "ja": "ページ", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "էներգիա", "translit": "energia", "ja": "エネルギー（借用語）", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "et", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 8, "type": "letter", "upper": "Ը", "lower": "ը",
+    "name": "ըթ", "nameTranslit": "ət'", "translit": "ə", "ipa": "/ə/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "語中の /ə/ は綴りに現れないことがある（例: գրել /ɡəˈɾɛl/）。CLAUDE.md §6-4。",
+    "exampleWords": [
+      { "hy": "ընկեր", "translit": "ynker", "ja": "友人", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ընտանիք", "translit": "yntanik'", "ja": "家族", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ընդհանուր", "translit": "yndhanur", "ja": "一般的な", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "to", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 9, "type": "letter", "upper": "Թ", "lower": "թ",
+    "name": "թո", "nameTranslit": "to", "translit": "t'", "ipa": "/tʰ/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "三系列破裂音の有気無声音。日本語の「タ」より息を強く出す。CLAUDE.md §6-8。",
+    "exampleWords": [
+      { "hy": "թիվ", "translit": "t'iv", "ja": "数", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "թատրոն", "translit": "t'atron", "ja": "劇場", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "թեյ", "translit": "t'ey", "ja": "紅茶", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "zhe", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 10, "type": "letter", "upper": "Ժ", "lower": "ժ",
+    "name": "ժե", "nameTranslit": "zhe", "translit": "ž", "ipa": "/ʒ/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": null,
+    "exampleWords": [
+      { "hy": "ժամ", "translit": "zham", "ja": "時間／時計", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ժամանակ", "translit": "zhamanak", "ja": "時間（概念）", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ժողովուրդ", "translit": "zhoghovurd", "ja": "民衆", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "ini", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 11, "type": "letter", "upper": "Ի", "lower": "ի",
+    "name": "ինի", "nameTranslit": "ini", "translit": "i", "ipa": "/i/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": null,
+    "exampleWords": [
+      { "hy": "ինչ", "translit": "inch'", "ja": "何", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ինքնաթիռ", "translit": "ink'nat'irr", "ja": "飛行機", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "իմ", "translit": "im", "ja": "私の", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "lyun", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 12, "type": "letter", "upper": "Լ", "lower": "լ",
+    "name": "լյուն", "nameTranslit": "lyun", "translit": "l", "ipa": "/l/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": null,
+    "exampleWords": [
+      { "hy": "լավ", "translit": "lav", "ja": "良い", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "լեզու", "translit": "lezu", "ja": "言語／舌", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "լույս", "translit": "luys", "ja": "光", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "khe", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 13, "type": "letter", "upper": "Խ", "lower": "խ",
+    "name": "խե", "nameTranslit": "khe", "translit": "x", "ipa": "/χ/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "口蓋垂の摩擦音。日本語の「ハ行」とは調音位置が異なる。",
+    "exampleWords": [
+      { "hy": "խանութ", "translit": "khanut'", "ja": "店", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "խնձոր", "translit": "khndzor", "ja": "りんご", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "խոհանոց", "translit": "khohanots'", "ja": "台所", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "tsa", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 14, "type": "letter", "upper": "Ծ", "lower": "ծ",
+    "name": "ծա", "nameTranslit": "tsa", "translit": "c", "ipa": "/t͡s/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "三系列破擦音の無気無声音。CLAUDE.md §6-8。",
+    "exampleWords": [
+      { "hy": "ծառ", "translit": "tsar'", "ja": "木", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ծաղիկ", "translit": "tsaghik", "ja": "花", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ծնունդ", "translit": "tsnund", "ja": "誕生／誕生日", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "ken", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 15, "type": "letter", "upper": "Կ", "lower": "կ",
+    "name": "կեն", "nameTranslit": "ken", "translit": "k", "ipa": "/k/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "三系列破裂音の無気無声音。",
+    "exampleWords": [
+      { "hy": "կատու", "translit": "katu", "ja": "猫", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "կին", "translit": "kin", "ja": "女性／妻", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "կարմիր", "translit": "karmir", "ja": "赤い", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "ho", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 16, "type": "letter", "upper": "Հ", "lower": "հ",
+    "name": "հո", "nameTranslit": "ho", "translit": "h", "ipa": "/h/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": null,
+    "exampleWords": [
+      { "hy": "հաց", "translit": "hats'", "ja": "パン", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "հայր", "translit": "hayr", "ja": "父", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "համ", "translit": "ham", "ja": "味", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "dza", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 17, "type": "letter", "upper": "Ձ", "lower": "ձ",
+    "name": "ձա", "nameTranslit": "dza", "translit": "j", "ipa": "/d͡z/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "三系列破擦音の有声音。",
+    "exampleWords": [
+      { "hy": "ձու", "translit": "dzu", "ja": "卵", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ձեռք", "translit": "dzer'k'", "ja": "手", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ձայն", "translit": "dzayn", "ja": "声／音", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "ghat", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 18, "type": "letter", "upper": "Ղ", "lower": "ղ",
+    "name": "ղատ", "nameTranslit": "ghat", "translit": "ġ", "ipa": "/ʁ/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "口蓋垂の有声摩擦音（フランス語の r に近い）。字形が դ・ց と似ているので識別ドリルの対象。CLAUDE.md §6-8, curriculum.md §1.3-2。",
+    "exampleWords": [
+      { "hy": "ղեկ", "translit": "ghek", "ja": "舵／ハンドル", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ղեկավար", "translit": "ghekavar", "ja": "指導者", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ղարիբ", "translit": "gharib", "ja": "見知らぬ／貧しい", "source": "基礎語彙（要検証・低確信）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "che", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 19, "type": "letter", "upper": "Ճ", "lower": "ճ",
+    "name": "ճե", "nameTranslit": "che", "translit": "č", "ipa": "/t͡ʃ/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "三系列破擦音の無気無声音。",
+    "exampleWords": [
+      { "hy": "ճանապարհ", "translit": "chanaparh", "ja": "道", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ճաշ", "translit": "chash", "ja": "食事（昼食）", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ճիշտ", "translit": "chisht", "ja": "正しい", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "men", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 20, "type": "letter", "upper": "Մ", "lower": "մ",
+    "name": "մեն", "nameTranslit": "men", "translit": "m", "ipa": "/m/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": null,
+    "exampleWords": [
+      { "hy": "մայր", "translit": "mayr", "ja": "母", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "միս", "translit": "mis", "ja": "肉", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "մեքենա", "translit": "mek'ena", "ja": "車／機械", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "hi", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Hi (Armenian letter)\"（2026-08-25 参照）。古典正書法での名称「յի」とは異なり、改革正書法では「հի」と呼ぶ点を確認済み（CLAUDE.md §0 の東西混同への注意点）。",
+    "order": 21, "type": "letter", "upper": "Յ", "lower": "յ",
+    "name": "հի", "nameTranslit": "hi", "translit": "y", "ipa": "/j/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "古典正書法での字名は「յի」（yi）。改革正書法では「հի」と呼ぶ。混同注意。",
+    "exampleWords": [
+      { "hy": "յոթ", "translit": "yot'", "ja": "7（数字）", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "յուղ", "translit": "yugh", "ja": "油", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "յուրաքանչյուր", "translit": "yurak'anch'yur", "ja": "それぞれの", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "nu", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 22, "type": "letter", "upper": "Ն", "lower": "ն",
+    "name": "նու", "nameTranslit": "nu", "translit": "n", "ipa": "/n/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": null,
+    "exampleWords": [
+      { "hy": "նոր", "translit": "nor", "ja": "新しい", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "նամակ", "translit": "namak", "ja": "手紙", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "նկար", "translit": "nkar", "ja": "絵", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "sha", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 23, "type": "letter", "upper": "Շ", "lower": "շ",
+    "name": "շա", "nameTranslit": "sha", "translit": "š", "ipa": "/ʃ/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": null,
+    "exampleWords": [
+      { "hy": "շուն", "translit": "shun", "ja": "犬", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "շաբաթ", "translit": "shabat'", "ja": "土曜日／週", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "շուկա", "translit": "shuka", "ja": "市場", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "vo", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 24, "type": "letter", "upper": "Ո", "lower": "ո",
+    "name": "ո", "nameTranslit": "o", "translit": "o", "ipa": "/o/",
+    "ipaWordInitial": "/vo/",
+    "initialReadingNoteJa": "語頭では vo（/vo/）と読む。CLAUDE.md §6-5。例: որ（vor, 〜という関係詞）。",
+    "noteJa": null,
+    "exampleWords": [
+      { "hy": "ոտք", "translit": "votk'", "ja": "足", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "որդի", "translit": "vordi", "ja": "息子", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "որտեղ", "translit": "vortegh", "ja": "どこ", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "cha", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 25, "type": "letter", "upper": "Չ", "lower": "չ",
+    "name": "չա", "nameTranslit": "ch'a", "translit": "č'", "ipa": "/t͡ʃʰ/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "三系列破擦音の有気無声音。否定の助動詞 չ- もこの文字。CLAUDE.md §6-8。",
+    "exampleWords": [
+      { "hy": "չափ", "translit": "ch'ap'", "ja": "寸法／測ること", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "չորս", "translit": "ch'ors", "ja": "4（数字）", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "չար", "translit": "ch'ar", "ja": "意地悪な", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "pe", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 26, "type": "letter", "upper": "Պ", "lower": "պ",
+    "name": "պե", "nameTranslit": "pe", "translit": "p", "ipa": "/p/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "三系列破裂音の無気無声音。日本語の「パ」より息を弱く。CLAUDE.md §6-8。",
+    "exampleWords": [
+      { "hy": "պատուհան", "translit": "patuhan", "ja": "窓", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "պապ", "translit": "pap", "ja": "祖父", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "պար", "translit": "par", "ja": "踊り", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "je", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 27, "type": "letter", "upper": "Ջ", "lower": "ջ",
+    "name": "ջե", "nameTranslit": "je", "translit": "ǰ", "ipa": "/d͡ʒ/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": null,
+    "exampleWords": [
+      { "hy": "ջուր", "translit": "jur", "ja": "水", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ջերմություն", "translit": "jermut'yun", "ja": "熱／暖かさ", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ջահել", "translit": "jahel", "ja": "若い（口語）", "source": "基礎語彙（要検証・低確信）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "ra", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 28, "type": "letter", "upper": "Ռ", "lower": "ռ",
+    "name": "ռա", "nameTranslit": "ra", "translit": "ṙ", "ipa": "/r/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "巻き舌のふるえ音。はじき音の ր（32番）と対立する。",
+    "exampleWords": [
+      { "hy": "ռադիո", "translit": "radio", "ja": "ラジオ（借用語）", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ռեստորան", "translit": "restoran", "ja": "レストラン（借用語）", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ռուս", "translit": "rus", "ja": "ロシア（人）の", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "se", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 29, "type": "letter", "upper": "Ս", "lower": "ս",
+    "name": "սե", "nameTranslit": "se", "translit": "s", "ipa": "/s/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": null,
+    "exampleWords": [
+      { "hy": "սեղան", "translit": "seghan", "ja": "テーブル", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "սուրճ", "translit": "surch'", "ja": "コーヒー", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "սեր", "translit": "ser", "ja": "愛", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "vev", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 30, "type": "letter", "upper": "Վ", "lower": "վ",
+    "name": "վև", "nameTranslit": "vev", "translit": "v", "ipa": "/v/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": null,
+    "exampleWords": [
+      { "hy": "վաղը", "translit": "vaghy", "ja": "明日", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "վարորդ", "translit": "varord", "ja": "運転手", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "վեց", "translit": "vec'", "ja": "6（数字）", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "tyun", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 31, "type": "letter", "upper": "Տ", "lower": "տ",
+    "name": "տյուն", "nameTranslit": "tyun", "translit": "t", "ipa": "/t/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "三系列破裂音の無気無声音。",
+    "exampleWords": [
+      { "hy": "տուն", "translit": "tun", "ja": "家", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "տարի", "translit": "tari", "ja": "年", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "տոն", "translit": "ton", "ja": "祝日", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "re", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 32, "type": "letter", "upper": "Ր", "lower": "ր",
+    "name": "րե", "nameTranslit": "re", "translit": "r", "ipa": "/ɾ/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "はじき音。この文字で始まる固有アルメニア語の単語はほとんど無い（音配列上、語頭に立ちにくい）。例語が1つしかないのはそのため。",
+    "exampleWords": [
+      { "hy": "րոպե", "translit": "rope", "ja": "分（時間の単位）", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "tso", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 33, "type": "letter", "upper": "Ց", "lower": "ց",
+    "name": "ցո", "nameTranslit": "tso", "translit": "c'", "ipa": "/t͡sʰ/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "三系列破擦音の有気無声音。字形が ղ と似ているので識別ドリルの対象。",
+    "exampleWords": [
+      { "hy": "ցանկություն", "translit": "ts'ankut'yun", "ja": "願望", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ցուրտ", "translit": "ts'urt", "ja": "寒い", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ցերեկ", "translit": "ts'erek", "ja": "昼間", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "hyun", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 34, "type": "letter", "upper": "Ւ", "lower": "ւ",
+    "name": "հյուն", "nameTranslit": "hyun", "translit": "w", "ipa": "/v/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "改革正書法では単独で使われず、二重字 ու と合字 և の構成要素としてのみ現れる（CLAUDE.md §6-6, curriculum.md §1.1）。そのため単独で始まる単語は存在しない。",
+    "exampleWords": []
+  },
+  {
+    "id": "pyur", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 35, "type": "letter", "upper": "Փ", "lower": "փ",
+    "name": "փյուր", "nameTranslit": "p'yur", "translit": "p'", "ipa": "/pʰ/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "三系列破裂音の有気無声音。բ（有声）・պ（無気無声）との最小対立が学習の要。CLAUDE.md §6-8。",
+    "exampleWords": [
+      { "hy": "փող", "translit": "p'ogh", "ja": "お金（口語）", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "փողոց", "translit": "p'oghots'", "ja": "通り", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "փետրվար", "translit": "p'etrvar", "ja": "2月", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "ke", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 36, "type": "letter", "upper": "Ք", "lower": "ք",
+    "name": "քե", "nameTranslit": "k'e", "translit": "k'", "ipa": "/kʰ/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "三系列破裂音の有気無声音。",
+    "exampleWords": [
+      { "hy": "քաղաք", "translit": "k'aghak'", "ja": "都市", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "քույր", "translit": "k'uyr", "ja": "姉妹", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "քամի", "translit": "k'ami", "ja": "風", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "o", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）。12世紀頃に追加された文字（curriculum.md §1.1）。",
+    "order": 37, "type": "letter", "upper": "Օ", "lower": "օ",
+    "name": "օ", "nameTranslit": "ō", "translit": "ō", "ipa": "/o/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null, "noteJa": null,
+    "exampleWords": [
+      { "hy": "օր", "translit": "or", "ja": "日", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "օդանավակայան", "translit": "odanavakayan", "ja": "空港", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "օգնություն", "translit": "ognut'yun", "ja": "助け", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "fe", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）。12世紀頃に追加された文字（curriculum.md §1.1）。",
+    "order": 38, "type": "letter", "upper": "Ֆ", "lower": "ֆ",
+    "name": "ֆե", "nameTranslit": "fe", "translit": "f", "ipa": "/f/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "ほぼ借用語にのみ現れる。",
+    "exampleWords": [
+      { "hy": "ֆիլմ", "translit": "film", "ja": "映画（借用語）", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ֆուտբոլ", "translit": "futbol", "ja": "サッカー（借用語）", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ֆիրմա", "translit": "firma", "ja": "会社（借用語）", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "u-digraph", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 39, "type": "digraph", "upper": "ՈՒ", "lower": "ու",
+    "name": "ու", "nameTranslit": "u", "translit": "u", "ipa": "/u/",
+    "ipaWordInitial": null, "initialReadingNoteJa": null,
+    "noteJa": "Ո と Ւ（単独では使われない）を組み合わせた二重字。CLAUDE.md §6-6。「38字母＋2」の数え方は curriculum.md §1.1 参照。",
+    "exampleWords": [
+      { "hy": "ուտել", "translit": "utel", "ja": "食べる", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ուսանող", "translit": "usanogh", "ja": "学生", "source": "基礎語彙（要検証）", "status": "unverified" },
+      { "hy": "ուրախ", "translit": "urakh", "ja": "嬉しい", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  },
+  {
+    "id": "ev-ligature", "dialect": "east", "status": "verified",
+    "source": "Wikipedia (en) \"Armenian alphabet\"（2026-08-25 参照）",
+    "order": 40, "type": "ligature", "upper": "ԵՎ", "lower": "և",
+    "name": "և", "nameTranslit": "ev", "translit": "ev", "ipa": "/ɛv/",
+    "ipaWordInitial": "/jɛv/",
+    "initialReadingNoteJa": "単独の語（等位接続詞「そして／〜と」）として使うときや語頭では yev（/jɛv/）。語中（例: կարևոր）では ev（/ɛv/）。ե と同じ語頭規則が及ぶ。",
+    "noteJa": "Ե と Ւ（単独では使われない）の合字。改革正書法には専用の大文字字形が無く、大文字表記では「ԵՎ」と分けて綴る。CLAUDE.md §6-6。",
+    "exampleWords": [
+      { "hy": "և", "translit": "yev", "ja": "そして／〜と（等位接続詞）", "source": "基礎語彙（要検証）", "status": "unverified" }
+    ]
+  }
+]

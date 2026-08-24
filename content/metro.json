@@ -1,0 +1,112 @@
+[
+  {
+    "id": "barekamutyun",
+    "dialect": "east",
+    "status": "verified",
+    "source": "Wikipedia (en) \"Yerevan Metro\" / Wikipedia (hy) \"Երևանի մետրոպոլիտեն\"（2026-08-25 参照、英語版・アルメニア語版を相互確認）",
+    "order": 1,
+    "branchFromId": null,
+    "hy": "Բարեկամություն",
+    "translit": "Barekamut'yun",
+    "ja": "バレカムトゥユン（「友情」の意）"
+  },
+  {
+    "id": "marshal-baghramyan",
+    "dialect": "east",
+    "status": "verified",
+    "source": "Wikipedia (en) \"Yerevan Metro\" / Wikipedia (hy) \"Երևանի մետրոպոլիտեն\"（2026-08-25 参照）",
+    "order": 2,
+    "branchFromId": null,
+    "hy": "Մարշալ Բաղրամյան",
+    "translit": "Marshal Baghramyan",
+    "ja": "マルシャル・バグラミャン（人名）"
+  },
+  {
+    "id": "yeritasardakan",
+    "dialect": "east",
+    "status": "verified",
+    "source": "Wikipedia (en) \"Yerevan Metro\" / Wikipedia (hy) \"Երևանի մետրոպոլիտեն\"（2026-08-25 参照）",
+    "order": 3,
+    "branchFromId": null,
+    "hy": "Երիտասարդական",
+    "translit": "Yeritasardakan",
+    "ja": "イェリタサルダカン（「青年の」の意）"
+  },
+  {
+    "id": "hanrapetutyan-hraparak",
+    "dialect": "east",
+    "status": "verified",
+    "source": "Wikipedia (en) \"Yerevan Metro\" / Wikipedia (hy) \"Երևանի մետրոպոլիտեն\"（2026-08-25 参照）",
+    "order": 4,
+    "branchFromId": null,
+    "hy": "Հանրապետության հրապարակ",
+    "translit": "Hanrapetut'yan Hraparak",
+    "ja": "共和国広場"
+  },
+  {
+    "id": "zoravar-andranik",
+    "dialect": "east",
+    "status": "verified",
+    "source": "Wikipedia (en) \"Yerevan Metro\" / Wikipedia (hy) \"Երևանի մետրոպոլիտեն\"（2026-08-25 参照）",
+    "order": 5,
+    "branchFromId": null,
+    "hy": "Զորավար Անդրանիկ",
+    "translit": "Zoravar Andranik",
+    "ja": "将軍アンドラニク（人名）"
+  },
+  {
+    "id": "sasuntsi-davit",
+    "dialect": "east",
+    "status": "verified",
+    "source": "Wikipedia (en) \"Yerevan Metro\" / Wikipedia (hy) \"Երևանի մետրոպոլիտեն\"（2026-08-25 参照）",
+    "order": 6,
+    "branchFromId": null,
+    "hy": "Սասունցի Դավիթ",
+    "translit": "Sasunts'i Davit'",
+    "ja": "サスンのダヴィド（英雄叙事詩の主人公）"
+  },
+  {
+    "id": "gortsaranayin",
+    "dialect": "east",
+    "status": "verified",
+    "source": "Wikipedia (en) \"Yerevan Metro\" / Wikipedia (hy) \"Երևանի մետրոպոլիտեն\"（2026-08-25 参照）",
+    "order": 7,
+    "branchFromId": null,
+    "hy": "Գործարանային",
+    "translit": "Gortsaranayin",
+    "ja": "ゴルツァラナイン（「工場の」の意）"
+  },
+  {
+    "id": "shengavit",
+    "dialect": "east",
+    "status": "verified",
+    "source": "Wikipedia (en) \"Yerevan Metro\" / Wikipedia (hy) \"Երևանի մետրոպոլիտեն\"（2026-08-25 参照）",
+    "order": 8,
+    "branchFromId": null,
+    "hy": "Շենգավիթ",
+    "translit": "Shengavit'",
+    "ja": "シェンガヴィト（地区名。先史遺跡でも知られる）"
+  },
+  {
+    "id": "garegin-nzhdehi-hraparak",
+    "dialect": "east",
+    "status": "verified",
+    "source": "Wikipedia (en) \"Yerevan Metro\" / Wikipedia (hy) \"Երևանի մետրոպոլիտեն\"（2026-08-25 参照）",
+    "order": 9,
+    "branchFromId": null,
+    "hy": "Գարեգին Նժդեհի հրապարակ",
+    "translit": "Garegin Nzhdehi Hraparak",
+    "ja": "ガレギン・ンジュデ広場（人名）"
+  },
+  {
+    "id": "charbakh",
+    "dialect": "east",
+    "status": "verified",
+    "source": "Wikipedia (en) \"Yerevan Metro\" / Wikipedia (hy) \"Երևանի մետրոպոլիտեն\"（2026-08-25 参照）",
+    "order": null,
+    "branchFromId": "shengavit",
+    "hy": "Չարբախ",
+    "translit": "Charbakh",
+    "ja": "チャルバフ（Շենգավիթ から分岐する支線の終点）"
+  }
+]
