@@ -17,6 +17,25 @@ export const exampleWordSchema = z.object({
 
 export type ExampleWord = z.infer<typeof exampleWordSchema>;
 
+/**
+ * なぞり書き用の筆順ストローク（小文字のみ。CLAUDE.mdの合意事項:
+ * 大文字は看板等の読解中心なので対象外）。1本のストロークは
+ * viewBox "0 0 100 120"（原点は左上、ベースライン付近y=90想定）内の
+ * SVGパス（M/L のみ、直線近似）。
+ *
+ * 実際のフォント（Noto Sans Armenian）のグリフ輪郭を基準画像として、
+ * skeleton-tracing（LingDong Huang, MIT）で中心線を抽出し、
+ * 「上から下・左から右」という一般的な手書き規則でストロークの
+ * 順序と向きを機械的に決定したもの。公式の書き順規定ではなく、
+ * 学習用に推定した近似値である（ユーザーとの合意事項）。
+ */
+export const strokeSchema = z.object({
+  order: z.number().int().positive(),
+  d: z.string().min(1),
+});
+
+export type Stroke = z.infer<typeof strokeSchema>;
+
 export const alphabetLetterSchema = contentEntryBaseSchema.extend({
   id: z.string().min(1),
   /** 38字母の並び順。ու（digraph）/ և（ligature）は39・40として末尾に置く。 */
@@ -39,6 +58,8 @@ export const alphabetLetterSchema = contentEntryBaseSchema.extend({
    * （ւ）では0〜2語になる。無理に3語を捏造しない（CLAUDE.md §7）。
    */
   exampleWords: z.array(exampleWordSchema).min(0).max(3),
+  /** Ւ（単独では使われない）だけ null。それ以外は最低1ストローク持つ。 */
+  lowerStrokes: z.array(strokeSchema).min(1).nullable(),
 });
 
 export type AlphabetLetter = z.infer<typeof alphabetLetterSchema>;

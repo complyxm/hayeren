@@ -43,6 +43,17 @@ describe("content/alphabet.json", () => {
     const withInitial = alphabet.filter((entry) => entry.ipaWordInitial !== null);
     expect(withInitial.map((entry) => entry.id).sort()).toEqual(["ech", "ev-ligature", "vo"]);
   });
+
+  it("only Ւ (never used standalone) has no tracing strokes", () => {
+    const withoutStrokes = alphabet.filter((entry) => entry.lowerStrokes === null);
+    expect(withoutStrokes.map((entry) => entry.id)).toEqual(["hyun"]);
+    for (const entry of alphabet) {
+      if (entry.lowerStrokes === null) continue;
+      expect(entry.lowerStrokes.length, entry.id).toBeGreaterThan(0);
+      const orders = entry.lowerStrokes.map((s) => s.order);
+      expect(orders, entry.id).toEqual(Array.from({ length: orders.length }, (_, i) => i + 1));
+    }
+  });
 });
 
 describe("content/punctuation.json", () => {

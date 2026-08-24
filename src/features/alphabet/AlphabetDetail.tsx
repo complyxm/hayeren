@@ -1,4 +1,5 @@
 import { alphabet } from "../../data/alphabet";
+import { LetterPracticeSection } from "./LetterPracticeSection";
 
 interface AlphabetDetailProps {
   id: string;
@@ -60,6 +61,8 @@ export function AlphabetDetail({ id, onBack, onSelect }: AlphabetDetailProps) {
             {letter.noteJa}
           </p>
         )}
+
+        {letter.lowerStrokes && <LetterPracticeSection key={letter.id} lowerStrokes={letter.lowerStrokes} />}
 
         <section className="mt-6">
           <h2 className="mb-2 text-sm font-bold tracking-wide text-ink/70">この文字で始まる語</h2>
