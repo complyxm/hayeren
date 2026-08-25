@@ -5,6 +5,7 @@ import { AlphabetDetail } from "./features/alphabet/AlphabetDetail";
 import { PunctuationCards } from "./features/punctuation/PunctuationCards";
 import { ArmenianKeyboard } from "./features/keyboard/ArmenianKeyboard";
 import { MetroNav } from "./features/metro/MetroNav";
+import { ReviewScreen } from "./features/review/ReviewScreen";
 
 type Screen =
   | { name: "home" }
@@ -12,13 +13,15 @@ type Screen =
   | { name: "alphabet-detail"; id: string }
   | { name: "punctuation" }
   | { name: "keyboard" }
-  | { name: "metro" };
+  | { name: "metro" }
+  | { name: "review" };
 
 const HOME: Screen = { name: "home" };
 
 function HomeMenu({ onNavigate }: { onNavigate: (screen: Screen) => void }) {
   const { greeting } = appShell;
   const items: { label: string; screen: Screen }[] = [
+    { label: "今日の復習", screen: { name: "review" } },
     { label: "文字表", screen: { name: "alphabet-list" } },
     { label: "句読点", screen: { name: "punctuation" } },
     { label: "画面内キーボード", screen: { name: "keyboard" } },
@@ -74,6 +77,8 @@ export function App() {
       return <ArmenianKeyboard onBack={() => setScreen(HOME)} />;
     case "metro":
       return <MetroNav onBack={() => setScreen(HOME)} />;
+    case "review":
+      return <ReviewScreen onBack={() => setScreen(HOME)} />;
     default:
       return <HomeMenu onNavigate={setScreen} />;
   }

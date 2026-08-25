@@ -1,28 +1,13 @@
 import Dexie, { type EntityTable } from "dexie";
+import type { CardState, ReviewRating, SrsCard } from "../domain/srs/types";
 
-/**
- * ts-fsrs の Card 型と互換の形状にしておく（Phase 2 で ts-fsrs を導入する際、
- * このテーブルをそのまま読み書きできるようにするため）。
- * 参照: https://github.com/open-spaced-repetition/ts-fsrs
- */
-export type CardState = "new" | "learning" | "review" | "relearning";
+export type { CardState, ReviewRating };
 
-export interface CardRecord {
+export interface CardRecord extends SrsCard {
+  /** content/ 内のエントリ（語彙・文字など）の id と同じ値にする（1コンテンツ = 1カード）。 */
   id: string;
-  /** content/ 内のエントリ（語彙・文字など）を指す外部キー。Phase 1 以降で使用 */
   contentId: string;
-  due: Date;
-  stability: number;
-  difficulty: number;
-  elapsedDays: number;
-  scheduledDays: number;
-  reps: number;
-  lapses: number;
-  state: CardState;
-  lastReview: Date | null;
 }
-
-export type ReviewRating = 1 | 2 | 3 | 4;
 
 export interface ReviewRecord {
   id: string;

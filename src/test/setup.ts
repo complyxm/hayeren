@@ -1,4 +1,6 @@
 import "@testing-library/jest-dom/vitest";
+// jsdom は IndexedDB を実装しないため、Dexie を使うテスト向けにポリフィルする。
+import "fake-indexeddb/auto";
 import { cleanup } from "@testing-library/react";
 import { afterEach } from "vitest";
 
