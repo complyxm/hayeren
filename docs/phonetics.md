@@ -127,10 +127,21 @@ Seyfarth & Garellek は、3 系列を頑健に分離するのは
 ### 較正に使う文献（推測で閾値を決めない）
 
 - **Seyfarth, S. & Garellek, M. (2018)**
-  "Plosive voicing acoustics and voice quality in Yerevan Armenian", *Journal of Phonetics*.
+  "Plosive voicing acoustics and voice quality in Yerevan Armenian", *Journal of Phonetics* 71: 425–450.
   エレバン方言の話者 8 名。語頭・語末の閉鎖音。
-  **論文の全内容とデータが OSF (https://osf.io/wy45v/) で公開されている。**
-  実測値が手に入るので、まずここを当たる
+  OSF (https://osf.io/wy45v/) は**論文 PDF のミラーのみ**（生データ・音声は無い。
+  2026-08-25 に OSF API で確認済み）。個々のトークンの実測値は論文中に表としては
+  無く、Figure 3/6/7/8 のグラフと本文中の要約統計（例: 語末 VOFT は有声
+  μ=-21ms σ=22ms、無気無声 μ=-46ms σ=29ms、帯気無声 μ=-44ms σ=27ms）のみ
+- **Seyfarth, S., Dolatian, H., Guekguezian, P., Kelly, N., & Toparlak, T. (2023)**
+  "Armenian (Yerevan Eastern Armenian and Beirut Western Armenian)",
+  *Journal of the International Phonetic Association*. CC BY 4.0（オープンアクセス）。
+  エレバン方言話者 SK の実録音（語頭・語末の唇音/歯音/軟口蓋音の最小3つ組を含む）が
+  音声 ZIP で公開されている：https://scottseyfarth.com/docs/SeyfarthDolatianGuekguezianKellyToparlak_Audio.zip
+  （`Yerevan/2_Consonants/` に該当語あり）。2026-08-25 に自作スクリプトで
+  語頭 VOT を実測：唇音 պ約6ms/փ約100ms、歯音 տ約10ms/թ約75ms、
+  軟口蓋音 կ約23ms/ք約95ms（各カテゴリ1話者1トークンのみ、Praat 等の検証済み
+  ツールではなく自作の RMS包絡線解析による暫定値）
 - **Hacopian, N. (2003)**
   "A three-way VOT contrast in final position: data from Armenian",
   *Journal of the International Phonetic Association* 33(1).
