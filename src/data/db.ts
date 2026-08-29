@@ -22,7 +22,14 @@ export interface ReviewRecord {
 export interface SettingsRecord {
   id: "singleton";
   showTransliteration: boolean;
+  /** 文字（アルファベット）の復習キュー専用の1日の新規カード上限。 */
   dailyNewCardLimit: number;
+  /**
+   * 語彙の復習キュー専用の1日の新規カード上限。文字用の dailyNewCardLimit とは
+   * 別枠（ユーザーとの合意事項、2026-08-29）。文字と語彙のどちらか一方だけ
+   * 大量に新規カードを導入しても、もう一方の新規枠を消費しない。
+   */
+  vocabDailyNewCardLimit: number;
   /**
    * L1（Web Speech API による音声認識マッチ）を有効にするか。既定オフ。
    * docs/phonetics.md「L1 は音声を Google のサーバーに送信する。オプトイン（既定オフ）」。

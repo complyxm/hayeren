@@ -1,7 +1,7 @@
 import { buildReviewQueue } from "../domain/srs/queue";
 import { vocab } from "./vocab";
 import { db } from "./db";
-import { countNewCardsIntroducedToday, ensureCardsFor, getDailyNewCardLimit } from "./srsRepository";
+import { countNewCardsIntroducedToday, ensureCardsFor, getVocabDailyNewCardLimit } from "./srsRepository";
 
 export type VocabDirection = "hy-ja" | "ja-hy";
 
@@ -42,7 +42,10 @@ export async function getVocabReviewQueue(now: Date): Promise<{ items: VocabQueu
     return recognition !== undefined && recognition.reps >= 1;
   });
 
-  const [dailyLimit, introducedToday] = await Promise.all([getDailyNewCardLimit(), countNewCardsIntroducedToday(now)]);
+  const [dailyLimit, introducedToday] = await Promise.all([
+    getVocabDailyNewCardLimit(),
+    countNewCardsIntroducedToday(allContentIds, now),
+  ]);
 
   const queue = buildReviewQueue(
     eligibleCards.map((c) => ({ contentId: c.contentId, card: c })),

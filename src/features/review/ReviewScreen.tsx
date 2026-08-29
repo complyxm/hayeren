@@ -113,7 +113,7 @@ export function ReviewScreen({ onBack }: ReviewScreenProps) {
 
         <section className="mt-8 rounded-lg border border-gold/20 bg-parchment-light/60 p-4 text-sm">
           <label className="flex items-center gap-2">
-            1日の新規カード上限
+            1日の新規カード上限（語彙とは別枠）
             <input
               type="number"
               min={0}

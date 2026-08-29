@@ -13,6 +13,7 @@ async function ensureSettings(): Promise<SettingsRecord> {
     id: "singleton",
     showTransliteration: true,
     dailyNewCardLimit: DEFAULT_DAILY_NEW_CARD_LIMIT,
+    vocabDailyNewCardLimit: DEFAULT_DAILY_NEW_CARD_LIMIT,
     l1SpeechOptIn: false,
   };
   await db.settings.put(created);
@@ -26,6 +27,16 @@ export async function getDailyNewCardLimit(): Promise<number> {
 export async function setDailyNewCardLimit(limit: number): Promise<void> {
   await ensureSettings();
   await db.settings.update("singleton", { dailyNewCardLimit: limit });
+}
+
+/** vocabDailyNewCardLimit が無いまま保存された既存レコード(移行前)は既定値扱いにする。 */
+export async function getVocabDailyNewCardLimit(): Promise<number> {
+  return (await ensureSettings()).vocabDailyNewCardLimit ?? DEFAULT_DAILY_NEW_CARD_LIMIT;
+}
+
+export async function setVocabDailyNewCardLimit(limit: number): Promise<void> {
+  await ensureSettings();
+  await db.settings.update("singleton", { vocabDailyNewCardLimit: limit });
 }
 
 /** l1SpeechOptIn が無いまま保存された既存レコード(移行前)は false 扱いにする。 */
@@ -65,14 +76,15 @@ function startOfDay(date: Date): Date {
 }
 
 /**
- * 今日すでに導入した新規カードの枚数。content の種類（文字／語彙）にかかわらず
- * 横断で数える — 1日の新規カード上限はアプリ全体で1つの予算として共有する
- * （文字用のキューと語彙用のキューが別々に呼んでも、同じ枠を食い合う）。
+ * 今日すでに導入した新規カードの枚数。渡された contentIds の範囲だけで数える —
+ * 文字用と語彙用で新規カード上限を別枠にする（2026-08-29、ユーザーとの合意事項）ため、
+ * 一方のキューの新規カード導入がもう一方の予算を消費してはいけない。
  */
-export async function countNewCardsIntroducedToday(now: Date): Promise<number> {
+export async function countNewCardsIntroducedToday(contentIds: string[], now: Date): Promise<number> {
   const from = startOfDay(now);
   const reviewsToday = await db.reviews.where("reviewedAt").aboveOrEqual(from).toArray();
-  return reviewsToday.filter((r) => r.stateBefore === "new").length;
+  const idSet = new Set(contentIds);
+  return reviewsToday.filter((r) => idSet.has(r.cardId) && r.stateBefore === "new").length;
 }
 
 /** 指定した content id 群を対象に、今日のキュー（due の復習＋新規カード上限の残り枠）を組み立てる。 */
@@ -81,7 +93,7 @@ export async function getTodaysQueue(contentIds: string[], now: Date): Promise<Q
   const cards = await db.cards.where("contentId").anyOf(contentIds).toArray();
   const [dailyNewCardLimit, newCardsIntroducedToday] = await Promise.all([
     getDailyNewCardLimit(),
-    countNewCardsIntroducedToday(now),
+    countNewCardsIntroducedToday(contentIds, now),
   ]);
   const queueable: QueueableCard[] = cards.map((c) => ({ contentId: c.contentId, card: c }));
   return buildReviewQueue(queueable, now, { dailyNewCardLimit, newCardsIntroducedToday });

@@ -1,7 +1,7 @@
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { beforeEach, describe, expect, it } from "vitest";
 import { db } from "../../data/db";
-import { setDailyNewCardLimit } from "../../data/srsRepository";
+import { setVocabDailyNewCardLimit } from "../../data/srsRepository";
 import { vocab } from "../../data/vocab";
 import { VocabReviewScreen } from "./VocabReviewScreen";
 
@@ -11,7 +11,7 @@ beforeEach(async () => {
 
 describe("VocabReviewScreen", () => {
   it("最初は hy→ja(再認)カードが出て、裏を見て評価すると次に進む", async () => {
-    await setDailyNewCardLimit(1);
+    await setVocabDailyNewCardLimit(1);
     render(<VocabReviewScreen onBack={() => {}} />);
 
     await waitFor(() => expect(screen.queryByText("読み込み中…")).not.toBeInTheDocument());
@@ -29,7 +29,7 @@ describe("VocabReviewScreen", () => {
   });
 
   it("語彙が0件でも「今日の語彙の復習はありません」で壊れない", async () => {
-    await setDailyNewCardLimit(0);
+    await setVocabDailyNewCardLimit(0);
     render(<VocabReviewScreen onBack={() => {}} />);
     await waitFor(() => expect(screen.getByText("今日の語彙の復習はありません。")).toBeInTheDocument());
   });

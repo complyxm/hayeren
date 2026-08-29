@@ -1,7 +1,7 @@
 import { beforeEach, describe, expect, it } from "vitest";
 import { db } from "./db";
 import { vocab } from "./vocab";
-import { reviewCard, setDailyNewCardLimit } from "./srsRepository";
+import { ensureCardsFor, getTodaysQueue, reviewCard, setDailyNewCardLimit, setVocabDailyNewCardLimit } from "./srsRepository";
 import { getVocabReviewQueue, vocabContentId } from "./vocabSrsRepository";
 
 beforeEach(async () => {
@@ -12,7 +12,7 @@ const NOW = new Date("2026-08-29T09:00:00.000Z");
 
 describe("getVocabReviewQueue", () => {
   it("verified な語すべてに hy-ja(再認)カードを用意する", async () => {
-    await setDailyNewCardLimit(1000);
+    await setVocabDailyNewCardLimit(1000);
     const { items } = await getVocabReviewQueue(NOW);
     const verifiedIds = new Set(vocab.filter((v) => v.status === "verified").map((v) => v.id));
 
@@ -21,13 +21,13 @@ describe("getVocabReviewQueue", () => {
   });
 
   it("ja-hy(想起)は、対応する hy-ja が1回もレビューされていないうちは出題されない", async () => {
-    await setDailyNewCardLimit(1000);
+    await setVocabDailyNewCardLimit(1000);
     const { items } = await getVocabReviewQueue(NOW);
     expect(items.filter((i) => i.direction === "ja-hy")).toHaveLength(0);
   });
 
   it("hy-ja を1回レビューすると、対応する ja-hy が次回のキューに解禁される", async () => {
-    await setDailyNewCardLimit(1000);
+    await setVocabDailyNewCardLimit(1000);
     const target = vocab.find((v) => v.status === "verified")!;
 
     await getVocabReviewQueue(NOW); // カードを作らせる
@@ -45,8 +45,25 @@ describe("getVocabReviewQueue", () => {
   });
 
   it("1日の新規カード上限を超えて出題しない", async () => {
-    await setDailyNewCardLimit(3);
+    await setVocabDailyNewCardLimit(3);
     const { items } = await getVocabReviewQueue(NOW);
     expect(items.length).toBeLessThanOrEqual(3);
+  });
+
+  it("文字用の新規カード上限とは別枠で、互いの予算を消費しない(2026-08-29の合意事項)", async () => {
+    await setDailyNewCardLimit(2); // 文字用
+    await setVocabDailyNewCardLimit(2); // 語彙用
+
+    // 文字側で新規カードを2枚(上限いっぱいまで)導入・レビューする。
+    await ensureCardsFor(["alphabet-fixture-a", "alphabet-fixture-b"], NOW);
+    const alphabetQueue = await getTodaysQueue(["alphabet-fixture-a", "alphabet-fixture-b"], NOW);
+    expect(alphabetQueue).toHaveLength(2);
+    for (const c of alphabetQueue) {
+      await reviewCard(c.contentId, 3, NOW);
+    }
+
+    // 語彙側の新規カード予算はまだ手つかずのはず。
+    const { items } = await getVocabReviewQueue(NOW);
+    expect(items.filter((i) => i.direction === "hy-ja")).toHaveLength(2);
   });
 });

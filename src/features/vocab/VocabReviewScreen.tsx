@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { vocab } from "../../data/vocab";
-import { reviewCard } from "../../data/srsRepository";
+import { reviewCard, setVocabDailyNewCardLimit } from "../../data/srsRepository";
 import { getVocabReviewQueue, vocabContentId, type VocabQueueItem } from "../../data/vocabSrsRepository";
 import type { ReviewRating } from "../../domain/srs/types";
 import { VocabRecognitionCard } from "./VocabRecognitionCard";
@@ -15,10 +15,19 @@ export function VocabReviewScreen({ onBack }: VocabReviewScreenProps) {
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [reviewedCount, setReviewedCount] = useState(0);
+  const [dailyLimit, setDailyLimit] = useState<number | null>(null);
 
   useEffect(() => {
-    getVocabReviewQueue(new Date()).then(({ items }) => setQueue(items));
+    getVocabReviewQueue(new Date()).then(({ items, dailyLimit: limit }) => {
+      setQueue(items);
+      setDailyLimit(limit);
+    });
   }, []);
+
+  async function handleLimitChange(value: number) {
+    setDailyLimit(value);
+    await setVocabDailyNewCardLimit(value);
+  }
 
   async function handleRecognitionGrade(item: VocabQueueItem, rating: ReviewRating) {
     await reviewCard(vocabContentId(item.vocabId, item.direction), rating, new Date());
@@ -70,6 +79,19 @@ export function VocabReviewScreen({ onBack }: VocabReviewScreenProps) {
             </p>
           </div>
         )}
+
+        <section className="mt-8 rounded-lg border border-gold/20 bg-parchment-light/60 p-4 text-sm">
+          <label className="flex items-center gap-2">
+            1日の新規カード上限（語彙・文字とは別枠）
+            <input
+              type="number"
+              min={0}
+              value={dailyLimit ?? ""}
+              onChange={(e) => handleLimitChange(Number(e.target.value))}
+              className="w-16 rounded border border-gold/40 bg-parchment px-2 py-1 text-ink"
+            />
+          </label>
+        </section>
       </div>
     </main>
   );
