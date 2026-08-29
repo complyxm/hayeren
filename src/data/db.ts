@@ -22,6 +22,11 @@ export interface SettingsRecord {
   id: "singleton";
   showTransliteration: boolean;
   dailyNewCardLimit: number;
+  /**
+   * L1（Web Speech API による音声認識マッチ）を有効にするか。既定オフ。
+   * docs/phonetics.md「L1 は音声を Google のサーバーに送信する。オプトイン（既定オフ）」。
+   */
+  l1SpeechOptIn: boolean;
 }
 
 export class HayerenDB extends Dexie {

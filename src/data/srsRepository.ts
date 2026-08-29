@@ -13,6 +13,7 @@ async function ensureSettings(): Promise<SettingsRecord> {
     id: "singleton",
     showTransliteration: true,
     dailyNewCardLimit: DEFAULT_DAILY_NEW_CARD_LIMIT,
+    l1SpeechOptIn: false,
   };
   await db.settings.put(created);
   return created;
@@ -25,6 +26,16 @@ export async function getDailyNewCardLimit(): Promise<number> {
 export async function setDailyNewCardLimit(limit: number): Promise<void> {
   await ensureSettings();
   await db.settings.update("singleton", { dailyNewCardLimit: limit });
+}
+
+/** l1SpeechOptIn が無いまま保存された既存レコード(移行前)は false 扱いにする。 */
+export async function getL1SpeechOptIn(): Promise<boolean> {
+  return (await ensureSettings()).l1SpeechOptIn ?? false;
+}
+
+export async function setL1SpeechOptIn(optIn: boolean): Promise<void> {
+  await ensureSettings();
+  await db.settings.update("singleton", { l1SpeechOptIn: optIn });
 }
 
 /**

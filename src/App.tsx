@@ -7,6 +7,7 @@ import { ArmenianKeyboard } from "./features/keyboard/ArmenianKeyboard";
 import { MetroNav } from "./features/metro/MetroNav";
 import { ReviewScreen } from "./features/review/ReviewScreen";
 import { VotPractice } from "./features/phonetics/VotPractice";
+import { L1RecognitionPractice } from "./features/phonetics/L1RecognitionPractice";
 
 type Screen =
   | { name: "home" }
@@ -16,7 +17,8 @@ type Screen =
   | { name: "keyboard" }
   | { name: "metro" }
   | { name: "review" }
-  | { name: "vot-practice" };
+  | { name: "vot-practice" }
+  | { name: "l1-practice" };
 
 const HOME: Screen = { name: "home" };
 
@@ -29,6 +31,7 @@ function HomeMenu({ onNavigate }: { onNavigate: (screen: Screen) => void }) {
     { label: "画面内キーボード", screen: { name: "keyboard" } },
     { label: "エレバン地下鉄ナビ", screen: { name: "metro" } },
     { label: "発音チェック（VOT）", screen: { name: "vot-practice" } },
+    { label: "音声認識で読み確認（実験的）", screen: { name: "l1-practice" } },
   ];
 
   return (
@@ -84,6 +87,8 @@ export function App() {
       return <ReviewScreen onBack={() => setScreen(HOME)} />;
     case "vot-practice":
       return <VotPractice onBack={() => setScreen(HOME)} />;
+    case "l1-practice":
+      return <L1RecognitionPractice onBack={() => setScreen(HOME)} />;
     default:
       return <HomeMenu onNavigate={setScreen} />;
   }
