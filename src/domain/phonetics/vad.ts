@@ -103,3 +103,15 @@ export function trimSilence(signal: AudioSignal, opts: VadOptions = {}): TrimRes
 
   return { startSample: centerSamples[firstIdx], endSample: Math.min(signal.samples.length, centerSamples[lastIdx] + 1) };
 }
+
+/**
+ * ピークフレームエネルギーが minAbsoluteEnergy 未満なら「マイクのノイズフロアのみ」と
+ * みなす。trimSilence が全体無音のとき範囲全体をそのまま返す判定と同じ閾値を再利用する
+ * （docs/phonetics.md §4「SNR が低い、音量が足りない、無音 → 判定せず理由と対処を返す」）。
+ */
+export function hasSufficientSignal(signal: AudioSignal, opts: VadOptions = {}): boolean {
+  const { minAbsoluteEnergy } = { ...DEFAULTS, ...opts };
+  const { energies } = frameEnergies(signal, opts);
+  if (energies.length === 0) return false;
+  return Math.max(...energies) >= minAbsoluteEnergy;
+}

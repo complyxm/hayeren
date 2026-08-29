@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { rmsEnergy, trimSilence, zeroCrossingRate } from "./vad";
+import { hasSufficientSignal, rmsEnergy, trimSilence, zeroCrossingRate } from "./vad";
 import type { AudioSignal } from "./types";
 
 describe("rmsEnergy", () => {
@@ -48,5 +48,24 @@ describe("trimSilence", () => {
     const signal = buildSignal(new Array(100).fill(0.001), 1000);
     const result = trimSilence(signal, { frameMs: 10, hopMs: 5 });
     expect(result).toEqual({ startSample: 0, endSample: signal.samples.length });
+  });
+});
+
+describe("hasSufficientSignal", () => {
+  it("is false for near-silence", () => {
+    const signal = buildSignal(new Array(100).fill(0.001), 1000);
+    expect(hasSufficientSignal(signal, { frameMs: 10, hopMs: 5 })).toBe(false);
+  });
+
+  it("is true when a loud region is present", () => {
+    const silence = new Array(50).fill(0.001);
+    const loud = new Array(50).fill(0.8);
+    const signal = buildSignal([...silence, ...loud, ...silence], 1000);
+    expect(hasSufficientSignal(signal, { frameMs: 10, hopMs: 5 })).toBe(true);
+  });
+
+  it("is false for an empty signal", () => {
+    const signal = buildSignal([], 1000);
+    expect(hasSufficientSignal(signal, { frameMs: 10, hopMs: 5 })).toBe(false);
   });
 });
