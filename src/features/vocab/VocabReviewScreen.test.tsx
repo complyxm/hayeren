@@ -1,0 +1,36 @@
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
+import { beforeEach, describe, expect, it } from "vitest";
+import { db } from "../../data/db";
+import { setDailyNewCardLimit } from "../../data/srsRepository";
+import { vocab } from "../../data/vocab";
+import { VocabReviewScreen } from "./VocabReviewScreen";
+
+beforeEach(async () => {
+  await Promise.all([db.cards.clear(), db.reviews.clear(), db.settings.clear()]);
+});
+
+describe("VocabReviewScreen", () => {
+  it("最初は hy→ja(再認)カードが出て、裏を見て評価すると次に進む", async () => {
+    await setDailyNewCardLimit(1);
+    render(<VocabReviewScreen onBack={() => {}} />);
+
+    await waitFor(() => expect(screen.queryByText("読み込み中…")).not.toBeInTheDocument());
+
+    const first = vocab.find((v) => v.status === "verified")!;
+    expect(screen.getByText(first.hy)).toBeInTheDocument();
+    expect(screen.queryByText(first.ja.join("、"))).not.toBeInTheDocument();
+
+    fireEvent.click(screen.getByText("裏を見る"));
+    expect(screen.getByText(first.ja.join("、"))).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: "普通" }));
+
+    await waitFor(() => expect(screen.getByText(/今日の語彙の復習は終わりました/)).toBeInTheDocument());
+  });
+
+  it("語彙が0件でも「今日の語彙の復習はありません」で壊れない", async () => {
+    await setDailyNewCardLimit(0);
+    render(<VocabReviewScreen onBack={() => {}} />);
+    await waitFor(() => expect(screen.getByText("今日の語彙の復習はありません。")).toBeInTheDocument());
+  });
+});

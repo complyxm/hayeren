@@ -64,7 +64,12 @@ function startOfDay(date: Date): Date {
   return new Date(date.getFullYear(), date.getMonth(), date.getDate());
 }
 
-async function countNewCardsIntroducedToday(now: Date): Promise<number> {
+/**
+ * 今日すでに導入した新規カードの枚数。content の種類（文字／語彙）にかかわらず
+ * 横断で数える — 1日の新規カード上限はアプリ全体で1つの予算として共有する
+ * （文字用のキューと語彙用のキューが別々に呼んでも、同じ枠を食い合う）。
+ */
+export async function countNewCardsIntroducedToday(now: Date): Promise<number> {
   const from = startOfDay(now);
   const reviewsToday = await db.reviews.where("reviewedAt").aboveOrEqual(from).toArray();
   return reviewsToday.filter((r) => r.stateBefore === "new").length;

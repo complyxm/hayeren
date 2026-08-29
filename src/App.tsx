@@ -10,6 +10,7 @@ import { VotPractice } from "./features/phonetics/VotPractice";
 import { L1RecognitionPractice } from "./features/phonetics/L1RecognitionPractice";
 import { VocabList } from "./features/vocab/VocabList";
 import { VocabDetail } from "./features/vocab/VocabDetail";
+import { VocabReviewScreen } from "./features/vocab/VocabReviewScreen";
 
 type Screen =
   | { name: "home" }
@@ -22,7 +23,8 @@ type Screen =
   | { name: "vot-practice" }
   | { name: "l1-practice" }
   | { name: "vocab-list" }
-  | { name: "vocab-detail"; id: string };
+  | { name: "vocab-detail"; id: string }
+  | { name: "vocab-review" };
 
 const HOME: Screen = { name: "home" };
 
@@ -30,6 +32,7 @@ function HomeMenu({ onNavigate }: { onNavigate: (screen: Screen) => void }) {
   const { greeting } = appShell;
   const items: { label: string; screen: Screen }[] = [
     { label: "今日の復習", screen: { name: "review" } },
+    { label: "語彙の復習", screen: { name: "vocab-review" } },
     { label: "文字表", screen: { name: "alphabet-list" } },
     { label: "語彙", screen: { name: "vocab-list" } },
     { label: "句読点", screen: { name: "punctuation" } },
@@ -100,6 +103,8 @@ export function App() {
       );
     case "vocab-detail":
       return <VocabDetail id={screen.id} onBack={() => setScreen({ name: "vocab-list" })} />;
+    case "vocab-review":
+      return <VocabReviewScreen onBack={() => setScreen(HOME)} />;
     default:
       return <HomeMenu onNavigate={setScreen} />;
   }
