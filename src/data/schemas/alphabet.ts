@@ -43,6 +43,12 @@ export const alphabetLetterSchema = contentEntryBaseSchema.extend({
   type: z.enum(["letter", "digraph", "ligature"]),
   upper: z.string().min(1),
   lower: z.string().min(1),
+  /**
+   * 語頭の1文字だけを大文字化する表記（例: Ու, Եվ）。digraph/ligature は
+   * upper（全体を大文字化するブロック体表記 ՈՒ/ԵՎ）と語頭表記が異なるため
+   * 明示的に持つ。それ以外の文字は upper と同じなので null にする。
+   */
+  titleCase: z.string().min(1).nullable(),
   /** 文字名（アルメニア文字表記）。例: "այբ" */
   name: z.string().min(1),
   nameTranslit: z.string().min(1),

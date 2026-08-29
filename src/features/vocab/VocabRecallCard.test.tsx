@@ -6,25 +6,44 @@ import { VocabRecallCard } from "./VocabRecallCard";
 
 const entry = vocab.find((v) => v.status === "verified")!;
 
-function isUpperCaseLetter(ch: string): boolean {
-  return alphabet.some((l) => l.upper === ch);
+/**
+ * digraph（ու）・ligature（և）は1キー=2文字（大文字化時は Ու/Եվ）なので、
+ * 1文字ずつではなく「このキーを押せば入力される単位」でテキストを切り出す。
+ * ArmenianTypingInput の KeyButton と同じロジック（titleCase ?? upper / lower）
+ * をここでも使い、実際のキー操作を模倣する。
+ */
+function chunkAt(text: string, i: number): string {
+  const twoChar = text.slice(i, i + 2);
+  const isMultiCharKey = alphabet.some(
+    (l) => l.type !== "letter" && (l.lower === twoChar || l.upper === twoChar || l.titleCase === twoChar),
+  );
+  return isMultiCharKey ? twoChar : text[i];
 }
 
-/** ArmenianTypingInput は既定で小文字面なので、大文字が必要な文字だけ Aa を切り替える。 */
+function needsUpperToggle(chunk: string): boolean {
+  return alphabet.some((l) => l.upper === chunk || l.titleCase === chunk);
+}
+
+/** ArmenianTypingInput は既定で小文字面なので、大文字が必要なキーだけ Aa を切り替える。 */
 function typeArmenian(text: string) {
   const upperToggle = screen.getByRole("button", { name: /^Aa/ });
-  for (const ch of text) {
-    if (ch === " ") {
+  let i = 0;
+  while (i < text.length) {
+    if (text[i] === " ") {
       fireEvent.click(screen.getByRole("button", { name: "␣ スペース" }));
+      i += 1;
       continue;
     }
-    const needsUpper = isUpperCaseLetter(ch);
+
+    const chunk = chunkAt(text, i);
+    const needsUpper = needsUpperToggle(chunk);
     const currentlyUpper = upperToggle.getAttribute("aria-pressed") === "true";
     if (needsUpper !== currentlyUpper) fireEvent.click(upperToggle);
 
-    const buttons = screen.getAllByRole("button").filter((b) => b.textContent === ch);
-    if (buttons.length === 0) throw new Error(`no key for "${ch}"`);
+    const buttons = screen.getAllByRole("button").filter((b) => b.textContent === chunk);
+    if (buttons.length === 0) throw new Error(`no key for "${chunk}"`);
     fireEvent.click(buttons[0]);
+    i += chunk.length;
   }
 }
 

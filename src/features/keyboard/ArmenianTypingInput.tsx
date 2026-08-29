@@ -38,7 +38,10 @@ function KeyButton({
   disabled: boolean;
   onPress: (char: string) => void;
 }) {
-  const glyph = caseMode === "upper" ? letter.upper : letter.lower;
+  // Aa は「次の1字を大文字にする」ためのトグルであり、この文脈で必要なのは
+  // digraph/ligature の語頭表記（Ու/Եվ）であって、全体を大文字化するブロック体
+  // 表記（ՈՒ/ԵՎ、letter.upper）ではない。両者は綴りが異なるため区別が必要。
+  const glyph = caseMode === "upper" ? (letter.titleCase ?? letter.upper) : letter.lower;
   return (
     <button
       type="button"
