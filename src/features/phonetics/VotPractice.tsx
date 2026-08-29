@@ -1,6 +1,7 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { alphabet } from "../../data/alphabet";
 import type { AlphabetLetter } from "../../data/schemas/alphabet";
+import { getVotAttempts, recordVotAttempt } from "../../data/phoneticsRepository";
 import { classifyVot, VOT_ZONES, type PlosivePlace } from "../../domain/phonetics/calibration";
 import { PLOSIVE_PAIRS } from "../../domain/phonetics/plosivePairs";
 import { measureVot } from "../../domain/phonetics/vot";
@@ -12,6 +13,7 @@ import { VotTargetSelector } from "./VotTargetSelector";
 import { buildVotFeedback, type AttemptedTarget } from "./votFeedback";
 
 const RECORD_DURATION_MS = 1500;
+const PLACES: PlosivePlace[] = ["labial", "dental", "velar"];
 const alphabetById = new Map<string, AlphabetLetter>(alphabet.map((l) => [l.id, l]));
 
 interface VotPracticeProps {
@@ -34,6 +36,23 @@ export function VotPractice({ onBack, captureAdapter }: VotPracticeProps) {
     dental: [],
     velar: [],
   });
+
+  // curriculum.md §5「判定結果を履歴として保持し、改善の推移を見せる」。
+  // セッションをまたいでも過去の録音結果が数直線上に残るよう Dexie から読み込む。
+  useEffect(() => {
+    let cancelled = false;
+    Promise.all(PLACES.map((p) => getVotAttempts(p))).then((results) => {
+      if (cancelled) return;
+      setHistory({
+        labial: results[0].map((a) => ({ votMs: a.votMs, judgement: a.judgement })),
+        dental: results[1].map((a) => ({ votMs: a.votMs, judgement: a.judgement })),
+        velar: results[2].map((a) => ({ votMs: a.votMs, judgement: a.judgement })),
+      });
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const pair = PLOSIVE_PAIRS.find((p) => p.place === place)!;
   const unaspiratedLetter = alphabetById.get(pair.unaspiratedId)!;
@@ -66,6 +85,7 @@ export function VotPractice({ onBack, captureAdapter }: VotPracticeProps) {
 
       const judgement = classifyVot(measurement.votMs, place);
       const votMs = measurement.votMs;
+      await recordVotAttempt({ place, attempted, votMs, judgement, recordedAt: new Date() });
       setHistory((prev) => ({ ...prev, [place]: [...prev[place], { votMs, judgement }] }));
       setFeedback(buildVotFeedback(attempted, judgement, votMs, unaspiratedLetter.lower, aspiratedLetter.lower));
     } catch (e) {

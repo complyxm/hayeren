@@ -2,9 +2,9 @@
  * docs/phonetics.md §5:「何を、どちらの方向に、どれだけ動かすかを言う」。
  * 判定結果から具体的な指示文を組み立てる純粋関数（DOM に依存しないのでテストしやすい）。
  */
-import type { VotJudgement } from "../../domain/phonetics/calibration";
+import type { AttemptedTarget, VotJudgement } from "../../domain/phonetics/calibration";
 
-export type AttemptedTarget = "unaspirated" | "aspirated";
+export type { AttemptedTarget };
 
 export function buildVotFeedback(
   attempted: AttemptedTarget,

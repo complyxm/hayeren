@@ -28,6 +28,8 @@
  */
 export type PlosivePlace = "labial" | "dental" | "velar";
 export type VotJudgement = "unaspirated" | "uncertain" | "aspirated";
+/** どちらの音を狙って発音したか（PLOSIVE_PAIRS の unaspiratedId/aspiratedId に対応）。 */
+export type AttemptedTarget = "unaspirated" | "aspirated";
 
 export interface VotZone {
   /** これ以下なら無気無声（例: պ）と判定する。 */

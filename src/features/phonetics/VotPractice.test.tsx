@@ -1,6 +1,7 @@
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
-import { describe, expect, it } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 import { silence, synthesizeVotToken } from "../../test/audioSynth";
+import { db } from "../../data/db";
 import { MicrophonePermissionError, type AudioCaptureAdapter } from "../../domain/phonetics/audioCapture";
 import type { AudioSignal } from "../../domain/phonetics/types";
 import { VotPractice } from "./VotPractice";
@@ -8,6 +9,10 @@ import { VotPractice } from "./VotPractice";
 function fakeAdapter(record: () => Promise<AudioSignal>, supported = true): AudioCaptureAdapter {
   return { isSupported: () => supported, record };
 }
+
+beforeEach(async () => {
+  await db.votAttempts.clear();
+});
 
 describe("VotPractice", () => {
   it("録音結果が狙った音域と一致すれば肯定フィードバックを出す", async () => {
@@ -51,6 +56,19 @@ describe("VotPractice", () => {
     await waitFor(() =>
       expect(screen.getByText(/声が小さすぎて測定できませんでした/)).toBeInTheDocument(),
     );
+  });
+
+  it("録音結果は永続化され、画面を作り直しても数直線に残る", async () => {
+    const adapter = fakeAdapter(async () => synthesizeVotToken({ burstAtMs: 100, votMs: 15 }));
+    const first = render(<VotPractice onBack={() => {}} captureAdapter={adapter} />);
+
+    fireEvent.click(screen.getByRole("button", { name: "録音する" }));
+    await waitFor(() => expect(screen.getByText(/狙い通り/)).toBeInTheDocument());
+
+    first.unmount();
+
+    const second = render(<VotPractice onBack={() => {}} captureAdapter={adapter} />);
+    await waitFor(() => expect(second.container.querySelectorAll("[title$='ms']")).toHaveLength(1));
   });
 
   it("録音機能未対応のブラウザでは録音ボタンを出さず、他の操作は可能なままにする", () => {
