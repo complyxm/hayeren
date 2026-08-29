@@ -5,16 +5,22 @@ import { appShellSchema } from "../src/data/schemas/appShell";
 import { alphabetSchema } from "../src/data/schemas/alphabet";
 import { punctuationSchema } from "../src/data/schemas/punctuation";
 import { metroSchema } from "../src/data/schemas/metro";
+import { vocabFileSchema } from "../src/data/schemas/vocab";
 
 const CONTENT_DIR = join(import.meta.dirname, "..", "content");
 
 // ファイル名（content/ からの相対パス）ごとの検証スキーマ。
-// Phase 1 以降、grammar/**.json / vocab/**.json 等がここに追加されていく想定。
+// Phase 1 以降、grammar/**.json 等がここに追加されていく想定。
 const schemaByRelativePath: Record<string, z.ZodTypeAny> = {
   "app-shell.json": appShellSchema,
   "alphabet.json": alphabetSchema,
   "punctuation.json": punctuationSchema,
   "metro.json": metroSchema,
+};
+
+// テーマごとに複数ファイルに分かれるディレクトリはプレフィックスで一括登録する。
+const schemaByDirPrefix: Record<string, z.ZodTypeAny> = {
+  "vocab/": vocabFileSchema,
 };
 
 function listJsonFilesRecursively(dir: string): string[] {
@@ -25,6 +31,12 @@ function listJsonFilesRecursively(dir: string): string[] {
     }
     return fullPath.endsWith(".json") ? [fullPath] : [];
   });
+}
+
+function schemaFor(relPath: string): z.ZodTypeAny | undefined {
+  if (schemaByRelativePath[relPath]) return schemaByRelativePath[relPath];
+  const prefix = Object.keys(schemaByDirPrefix).find((p) => relPath.startsWith(p));
+  return prefix ? schemaByDirPrefix[prefix] : undefined;
 }
 
 function main(): void {
@@ -43,7 +55,7 @@ function main(): void {
 
   for (const file of files) {
     const relPath = relative(CONTENT_DIR, file);
-    const schema = schemaByRelativePath[relPath];
+    const schema = schemaFor(relPath);
     if (!schema) {
       console.log(`[skip] ${relPath} — 対応するスキーマが未定義のためスキップ`);
       continue;

@@ -8,6 +8,8 @@ import { MetroNav } from "./features/metro/MetroNav";
 import { ReviewScreen } from "./features/review/ReviewScreen";
 import { VotPractice } from "./features/phonetics/VotPractice";
 import { L1RecognitionPractice } from "./features/phonetics/L1RecognitionPractice";
+import { VocabList } from "./features/vocab/VocabList";
+import { VocabDetail } from "./features/vocab/VocabDetail";
 
 type Screen =
   | { name: "home" }
@@ -18,7 +20,9 @@ type Screen =
   | { name: "metro" }
   | { name: "review" }
   | { name: "vot-practice" }
-  | { name: "l1-practice" };
+  | { name: "l1-practice" }
+  | { name: "vocab-list" }
+  | { name: "vocab-detail"; id: string };
 
 const HOME: Screen = { name: "home" };
 
@@ -27,6 +31,7 @@ function HomeMenu({ onNavigate }: { onNavigate: (screen: Screen) => void }) {
   const items: { label: string; screen: Screen }[] = [
     { label: "今日の復習", screen: { name: "review" } },
     { label: "文字表", screen: { name: "alphabet-list" } },
+    { label: "語彙", screen: { name: "vocab-list" } },
     { label: "句読点", screen: { name: "punctuation" } },
     { label: "画面内キーボード", screen: { name: "keyboard" } },
     { label: "エレバン地下鉄ナビ", screen: { name: "metro" } },
@@ -89,6 +94,12 @@ export function App() {
       return <VotPractice onBack={() => setScreen(HOME)} />;
     case "l1-practice":
       return <L1RecognitionPractice onBack={() => setScreen(HOME)} />;
+    case "vocab-list":
+      return (
+        <VocabList onBack={() => setScreen(HOME)} onSelect={(id) => setScreen({ name: "vocab-detail", id })} />
+      );
+    case "vocab-detail":
+      return <VocabDetail id={screen.id} onBack={() => setScreen({ name: "vocab-list" })} />;
     default:
       return <HomeMenu onNavigate={setScreen} />;
   }

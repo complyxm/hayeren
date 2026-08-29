@@ -5,10 +5,14 @@ import metroRaw from "../../content/metro.json";
 import { alphabetSchema } from "./schemas/alphabet";
 import { punctuationSchema } from "./schemas/punctuation";
 import { metroSchema } from "./schemas/metro";
+import { vocab } from "./vocab";
 
 // アルメニア文字は U+0530–U+058F の範囲のみを使う（見た目の似たラテン/キリル文字の
 // 混入を防ぐ）。CLAUDE.md §6-1。App.test.tsx と同じ範囲を使う。
 const ARMENIAN_ONLY = /^[԰-֏\s]+$/;
+// 語彙の例文は読点(、に相当する ",")を含む完全な文になるため、上の範囲に加えて
+// 半角カンマだけを許容する(ラテン文字の混入検出という目的は変えない)。
+const ARMENIAN_SENTENCE = /^[԰-֏\s,]+$/;
 
 describe("content/alphabet.json", () => {
   const alphabet = alphabetSchema.parse(alphabetRaw);
@@ -88,6 +92,41 @@ describe("content/metro.json", () => {
   it("keeps main-line station names within the Armenian Unicode block", () => {
     for (const station of stations) {
       expect(station.hy, station.id).toMatch(ARMENIAN_ONLY);
+    }
+  });
+});
+
+describe("content/vocab/", () => {
+  it("has at least one theme loaded", () => {
+    expect(vocab.length).toBeGreaterThan(0);
+  });
+
+  it("has unique ids across all theme files", () => {
+    const ids = vocab.map((v) => v.id);
+    expect(new Set(ids).size).toBe(ids.length);
+  });
+
+  it("does not mix look-alike Latin/Cyrillic characters into Armenian-script fields", () => {
+    for (const entry of vocab) {
+      expect(entry.hy, `${entry.id}.hy`).toMatch(ARMENIAN_SENTENCE);
+      expect(entry.example.hy, `${entry.id}.example.hy`).toMatch(ARMENIAN_SENTENCE);
+    }
+  });
+
+  it("never uses an ASCII period or colon as sentence-final punctuation (CLAUDE.md §6-3: use ։)", () => {
+    for (const entry of vocab) {
+      for (const [field, value] of [
+        ["hy", entry.hy],
+        ["example.hy", entry.example.hy],
+      ] as const) {
+        expect(value.endsWith(".") || value.endsWith(":"), `${entry.id}.${field} "${value}"`).toBe(false);
+      }
+    }
+  });
+
+  it("is all dialect:\"east\" (CLAUDE.md §0: the only supported dialect)", () => {
+    for (const entry of vocab) {
+      expect(entry.dialect, entry.id).toBe("east");
     }
   });
 });
