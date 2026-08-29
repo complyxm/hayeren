@@ -1,5 +1,6 @@
+import { useState } from "react";
 import { vocab } from "../../data/vocab";
-import type { VocabTheme } from "../../data/schemas/vocab";
+import { vocabThemeSchema, type VocabTheme } from "../../data/schemas/vocab";
 
 interface VocabListProps {
   onSelect: (id: string) => void;
@@ -29,8 +30,13 @@ const THEME_LABEL_JA: Record<VocabTheme, string> = {
  * 当てずっぽうの UI になる)。unverified な語が増えたら作ること。
  */
 export function VocabList({ onSelect, onBack }: VocabListProps) {
+  const [selectedTheme, setSelectedTheme] = useState<VocabTheme | "all">("all");
+
   const verified = vocab.filter((entry) => entry.status === "verified");
-  const themes = Array.from(new Set(verified.map((entry) => entry.theme)));
+  // curriculum.md §3.2 のテーマ順（vocabThemeSchema の宣言順と同じ）に並べる。
+  // 実データにまだ無いテーマは一覧にもフィルターにも出さない。
+  const themes = vocabThemeSchema.options.filter((theme) => verified.some((entry) => entry.theme === theme));
+  const visibleThemes = selectedTheme === "all" ? themes : themes.filter((theme) => theme === selectedTheme);
 
   return (
     <main className="min-h-screen bg-parchment px-4 py-8 text-ink">
@@ -47,7 +53,39 @@ export function VocabList({ onSelect, onBack }: VocabListProps) {
 
         {themes.length === 0 && <p className="text-sm text-ink/60">まだ語彙がありません。</p>}
 
-        {themes.map((theme) => (
+        {themes.length > 1 && (
+          <div className="mb-6 flex flex-wrap gap-2" role="group" aria-label="テーマで絞り込む">
+            <button
+              type="button"
+              onClick={() => setSelectedTheme("all")}
+              aria-pressed={selectedTheme === "all"}
+              className={`rounded-full border px-3 py-1 text-sm transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold ${
+                selectedTheme === "all"
+                  ? "border-gold bg-gold/20 text-ink"
+                  : "border-gold/30 text-ink/70 hover:border-gold"
+              }`}
+            >
+              すべて
+            </button>
+            {themes.map((theme) => (
+              <button
+                key={theme}
+                type="button"
+                onClick={() => setSelectedTheme(theme)}
+                aria-pressed={selectedTheme === theme}
+                className={`rounded-full border px-3 py-1 text-sm transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold ${
+                  selectedTheme === theme
+                    ? "border-gold bg-gold/20 text-ink"
+                    : "border-gold/30 text-ink/70 hover:border-gold"
+                }`}
+              >
+                {THEME_LABEL_JA[theme]}
+              </button>
+            ))}
+          </div>
+        )}
+
+        {visibleThemes.map((theme) => (
           <section key={theme} className="mb-8">
             <h2 className="mb-3 font-serif text-xl font-bold">{THEME_LABEL_JA[theme]}</h2>
             <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">

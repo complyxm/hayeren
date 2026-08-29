@@ -19,4 +19,27 @@ describe("VocabList", () => {
       expect(screen.queryByText(entry.hy)).not.toBeInTheDocument();
     }
   });
+
+  it("テーマの絞り込みボタンを押すと、そのテーマの語だけが表示される", () => {
+    render(<VocabList onBack={() => {}} onSelect={() => {}} />);
+
+    const greetingsOnly = vocab.filter((v) => v.status === "verified" && v.theme === "greetings");
+    const others = vocab.filter((v) => v.status === "verified" && v.theme !== "greetings");
+    expect(greetingsOnly.length).toBeGreaterThan(0);
+    expect(others.length).toBeGreaterThan(0);
+
+    fireEvent.click(screen.getByRole("button", { name: "挨拶・最低限の受け答え" }));
+
+    for (const entry of greetingsOnly) {
+      expect(screen.getByText(entry.hy)).toBeInTheDocument();
+    }
+    for (const entry of others) {
+      expect(screen.queryByText(entry.hy)).not.toBeInTheDocument();
+    }
+
+    fireEvent.click(screen.getByRole("button", { name: "すべて" }));
+    for (const entry of others) {
+      expect(screen.getByText(entry.hy)).toBeInTheDocument();
+    }
+  });
 });
