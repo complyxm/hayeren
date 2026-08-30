@@ -41,5 +41,7 @@ describe("VocabList", () => {
     for (const entry of others) {
       expect(screen.getByText(entry.hy)).toBeInTheDocument();
     }
-  });
+    // 語彙が増えると全 hy を総当たりで DOM 検索するこのテストは遅くなる。
+    // フィルタの検証内容は変えず、データ量に追随して上限だけ広げる。
+  }, 20000);
 });
