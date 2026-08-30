@@ -418,5 +418,50 @@
     "forms": {},
     "example": { "hy": "Աշխատանքի թույլտվություն ունե՞ք։", "ja": "就労許可はお持ちですか。" },
     "ruCognate": null
+  },
+  {
+    "id": "v-bur-029",
+    "dialect": "east",
+    "status": "verified",
+    "source": "Wiktionary (en) \"հաստատել\"（Eastern Armenian IPA /hɑstɑˈtel/「確認する、承認する」。現在 հաստատում եմ, 2026-08-30 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "bureaucracy-bank-sim",
+    "hy": "Հաստատել",
+    "translit": "hastatel",
+    "ipa": "/hɑstɑˈtel/",
+    "ja": ["確認する", "承認する"],
+    "pos": "verb",
+    "forms": {},
+    "example": { "hy": "Խնդրում եմ հաստատեք վճարումը։", "ja": "支払いを確認してください。" },
+    "ruCognate": null
+  },
+  {
+    "id": "v-bur-030",
+    "dialect": "east",
+    "status": "verified",
+    "source": "Wiktionary (en) \"մերժել\"（Eastern Armenian IPA /meɾˈʒel/「拒否する、却下する」。ժ は /ʒ/。現在 մերժում եմ, 2026-08-30 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "bureaucracy-bank-sim",
+    "hy": "Մերժել",
+    "translit": "merzhel",
+    "ipa": "/meɾˈʒel/",
+    "ja": ["拒否する", "却下する"],
+    "pos": "verb",
+    "forms": {},
+    "example": { "hy": "Դիմումը մերժվեց։", "ja": "申請は却下されました。" },
+    "ruCognate": null
+  },
+  {
+    "id": "v-bur-031",
+    "dialect": "east",
+    "status": "verified",
+    "source": "Wiktionary (en) \"ժամկետ\"（Eastern Armenian IPA /ʒɑmˈket/「期限、期間」。ժ は /ʒ/、語末の տ は /t/, 2026-08-30 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "bureaucracy-bank-sim",
+    "hy": "Ժամկետ",
+    "translit": "zhamket",
+    "ipa": "/ʒɑmˈket/",
+    "ja": ["期限", "期間"],
+    "pos": "noun",
+    "forms": {},
+    "example": { "hy": "Անձնագրի ժամկետը լրացել է։", "ja": "パスポートの有効期限が切れています。" },
+    "ruCognate": null
   }
 ]
