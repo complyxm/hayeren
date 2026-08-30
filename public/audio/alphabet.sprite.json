@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-alphabet-audio.mjs",
+    "sampleRate": 22050,
+    "channels": 1
+  },
+  "clips": {
+    "ayb": {
+      "start": 0,
+      "duration": 0.888
+    },
+    "ben": {
+      "start": 1.008,
+      "duration": 0.899
+    },
+    "gim": {
+      "start": 2.027,
+      "duration": 0.877
+    },
+    "da": {
+      "start": 3.024,
+      "duration": 0.821
+    },
+    "ech": {
+      "start": 3.965,
+      "duration": 0.949
+    },
+    "za": {
+      "start": 5.034,
+      "duration": 0.924
+    },
+    "e": {
+      "start": 6.078,
+      "duration": 0.763
+    },
+    "et": {
+      "start": 6.961,
+      "duration": 0.782
+    },
+    "to": {
+      "start": 7.863,
+      "duration": 0.861
+    },
+    "zhe": {
+      "start": 8.845,
+      "duration": 0.89
+    },
+    "ini": {
+      "start": 9.855,
+      "duration": 0.957
+    },
+    "lyun": {
+      "start": 10.932,
+      "duration": 0.938
+    },
+    "khe": {
+      "start": 11.989,
+      "duration": 0.909
+    },
+    "tsa": {
+      "start": 13.019,
+      "duration": 0.891
+    },
+    "ken": {
+      "start": 14.029,
+      "duration": 0.947
+    },
+    "ho": {
+      "start": 15.096,
+      "duration": 0.859
+    },
+    "dza": {
+      "start": 16.075,
+      "duration": 0.925
+    },
+    "ghat": {
+      "start": 17.12,
+      "duration": 0.982
+    },
+    "che": {
+      "start": 18.222,
+      "duration": 0.868
+    },
+    "men": {
+      "start": 19.209,
+      "duration": 0.938
+    },
+    "hi": {
+      "start": 20.267,
+      "duration": 0.823
+    },
+    "nu": {
+      "start": 21.21,
+      "duration": 0.881
+    },
+    "sha": {
+      "start": 22.211,
+      "duration": 0.916
+    },
+    "vo": {
+      "start": 23.247,
+      "duration": 0.911
+    },
+    "cha": {
+      "start": 24.278,
+      "duration": 0.907
+    },
+    "pe": {
+      "start": 25.305,
+      "duration": 0.849
+    },
+    "je": {
+      "start": 26.274,
+      "duration": 0.819
+    },
+    "ra": {
+      "start": 27.214,
+      "duration": 0.901
+    },
+    "se": {
+      "start": 28.235,
+      "duration": 0.869
+    },
+    "vev": {
+      "start": 29.224,
+      "duration": 1.002
+    },
+    "tyun": {
+      "start": 30.346,
+      "duration": 0.98
+    },
+    "re": {
+      "start": 31.446,
+      "duration": 0.845
+    },
+    "tso": {
+      "start": 32.411,
+      "duration": 0.933
+    },
+    "hyun": {
+      "start": 33.464,
+      "duration": 0.969
+    },
+    "pyur": {
+      "start": 34.553,
+      "duration": 0.905
+    },
+    "ke": {
+      "start": 35.577,
+      "duration": 0.894
+    },
+    "o": {
+      "start": 36.591,
+      "duration": 0.763
+    },
+    "fe": {
+      "start": 37.475,
+      "duration": 0.873
+    },
+    "u-digraph": {
+      "start": 38.467,
+      "duration": 0.763
+    },
+    "ev-ligature": {
+      "start": 39.351,
+      "duration": 0.97
+    }
+  }
+}

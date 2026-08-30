@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "scope": "alphabet",
+      "kind": "synthesized",
+      "source": "eSpeak NG（内蔵の東アルメニア語音声 hy）",
+      "sourceUrl": "https://github.com/espeak-ng/espeak-ng",
+      "license": "エンジンは GPL-3.0-or-later。合成音声の出力は自由に利用・再配布可能。",
+      "generatedBy": "scripts/build-alphabet-audio.mjs",
+      "noteJa": "暫定の機械合成音声。字母名の読み上げのみ。破裂音3系列（բ/պ/փ 等）の細かな帯気の差までは再現しない。将来的に人間の録音（curriculum.md §4 の調達順：Common Voice hy-AM CC0 → Wikimedia Commons CC BY-SA → 自前録音）へ差し替える。"
+    }
+  ]
+}

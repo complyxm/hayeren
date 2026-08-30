@@ -1,5 +1,6 @@
 import { alphabet } from "../../data/alphabet";
 import { LetterPracticeSection } from "./LetterPracticeSection";
+import { useAlphabetAudio } from "./useAlphabetAudio";
 
 interface AlphabetDetailProps {
   id: string;
@@ -10,6 +11,7 @@ interface AlphabetDetailProps {
 export function AlphabetDetail({ id, onBack, onSelect }: AlphabetDetailProps) {
   const index = alphabet.findIndex((letter) => letter.id === id);
   const letter = alphabet[index];
+  const { canPlay, play } = useAlphabetAudio(letter?.id ?? "");
   if (!letter) {
     return (
       <main className="min-h-screen bg-parchment px-4 py-8 text-ink">
@@ -49,7 +51,21 @@ export function AlphabetDetail({ id, onBack, onSelect }: AlphabetDetailProps) {
             {letter.nameTranslit} ／ 転写 {letter.translit} ／ IPA {letter.ipa}
             {letter.ipaWordInitial ? `（語頭 ${letter.ipaWordInitial}）` : ""}
           </p>
+          {canPlay && (
+            <button
+              type="button"
+              onClick={play}
+              className="mt-4 inline-flex items-center gap-1.5 rounded-md border border-gold bg-gold/20 px-4 py-1.5 text-sm hover:bg-gold/30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+            >
+              <span aria-hidden="true">♪</span> 字母名を聞く
+            </button>
+          )}
         </div>
+        {canPlay && (
+          <p className="mt-2 text-center text-[11px] text-ink/50">
+            機械合成の暫定音声（eSpeak NG）。発音の細部は参考程度に。
+          </p>
+        )}
 
         {letter.initialReadingNoteJa && (
           <p className="mt-4 rounded-md border border-lapis/50 bg-lapis/10 p-3 text-sm">

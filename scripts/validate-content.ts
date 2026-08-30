@@ -6,6 +6,7 @@ import { alphabetSchema } from "../src/data/schemas/alphabet";
 import { punctuationSchema } from "../src/data/schemas/punctuation";
 import { metroSchema } from "../src/data/schemas/metro";
 import { vocabFileSchema } from "../src/data/schemas/vocab";
+import { audioCreditsSchema } from "../src/data/schemas/audioCredits";
 
 const CONTENT_DIR = join(import.meta.dirname, "..", "content");
 
@@ -16,6 +17,7 @@ const schemaByRelativePath: Record<string, z.ZodTypeAny> = {
   "alphabet.json": alphabetSchema,
   "punctuation.json": punctuationSchema,
   "metro.json": metroSchema,
+  "audio-credits.json": audioCreditsSchema,
 };
 
 // テーマごとに複数ファイルに分かれるディレクトリはプレフィックスで一括登録する。
