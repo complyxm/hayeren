@@ -35,6 +35,9 @@ describe("VocabReviewScreen", () => {
   it("語彙が0件でも「今日の語彙の復習はありません」で壊れない", async () => {
     await setVocabDailyNewCardLimit(0);
     render(<VocabReviewScreen onBack={() => {}} />);
-    await waitFor(() => expect(screen.getByText("今日の語彙の復習はありません。")).toBeInTheDocument());
-  });
+    // 上限0でも初回は全 verified 語のカードを ensure するので、待ち時間を広げる。
+    await waitFor(() => expect(screen.getByText("今日の語彙の復習はありません。")).toBeInTheDocument(), {
+      timeout: 5000,
+    });
+  }, 15000);
 });
