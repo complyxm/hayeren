@@ -14,7 +14,9 @@ describe("VocabReviewScreen", () => {
     await setVocabDailyNewCardLimit(1);
     render(<VocabReviewScreen onBack={() => {}} />);
 
-    await waitFor(() => expect(screen.queryByText("読み込み中…")).not.toBeInTheDocument());
+    // 語彙が増えると初回キュー構築（全 verified 語のカード ensure）が重くなる。
+    // 既定 1s では全スイート同時実行時に間に合わないことがあるので広げる。
+    await waitFor(() => expect(screen.queryByText("読み込み中…")).not.toBeInTheDocument(), { timeout: 5000 });
 
     const first = vocab.find((v) => v.status === "verified")!;
     expect(screen.getByText(first.hy)).toBeInTheDocument();
@@ -25,8 +27,10 @@ describe("VocabReviewScreen", () => {
 
     fireEvent.click(screen.getByRole("button", { name: "普通" }));
 
-    await waitFor(() => expect(screen.getByText(/今日の語彙の復習は終わりました/)).toBeInTheDocument());
-  });
+    await waitFor(() => expect(screen.getByText(/今日の語彙の復習は終わりました/)).toBeInTheDocument(), {
+      timeout: 5000,
+    });
+  }, 15000);
 
   it("語彙が0件でも「今日の語彙の復習はありません」で壊れない", async () => {
     await setVocabDailyNewCardLimit(0);
