@@ -1,0 +1,86 @@
+{
+  "id": "L01",
+  "dialect": "east",
+  "title": "人称代名詞と繋辞 եմ（〜です）",
+  "prerequisites": [],
+  "explanation_ja": "アルメニア語の人称代名詞は6つ。**文法性がない**ので「彼」「彼女」「それ」はすべて **նա**（複数 **նրանք**）で表す。\n\n| 人称 | 単数 | 複数 |\n|---|---|---|\n| 1人称 | **ես**（私） | **մենք**（私たち） |\n| 2人称 | **դու**（君） | **դուք**（あなた／あなたたち） |\n| 3人称 | **նա**（彼・彼女・それ） | **նրանք**（彼ら） |\n\n**դուք** は複数のほか、目上の相手への丁寧な「あなた」にも使う。\n\n「〜は…です」は**繋辞（コピュラ）**で作る。繋辞は主語の人称・数で形が変わり、**述語の後ろ**に置く。\n\n| ես → **եմ** | մենք → **ենք** |\n|---|---|\n| դու → **ես** | դուք → **եք** |\n| նա → **է** | նրանք → **են** |\n\n語順は「主語 → 述語 → 繋辞」：`Ես ուսանող եմ։`（私は学生です）。\n\n**綴りが同じで混同しやすい語**：代名詞の **ես**（私）と、2人称単数の繋辞 **ես**（〜です）は同形。文中の位置で見分ける。\n\n否定は繋辞に **չ-** を付ける：`Ես ուսանող չեմ։`（私は学生ではありません）。3人称単数の否定は **չէ**。",
+  "patterns": [
+    {
+      "template": "{代名詞} + {名詞・形容詞} + {եմ / ես / է / ենք / եք / են}",
+      "gloss_ja": "「〜は…です」。繋辞は主語の人称・数に一致し、述語の後ろに置く。"
+    },
+    {
+      "template": "{代名詞} + {名詞・形容詞} + չ{եմ / ես / է / …}",
+      "gloss_ja": "否定は繋辞に չ- を付ける（չեմ, չես, չէ, չենք, չեք, չեն）。"
+    }
+  ],
+  "examples": [
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "繋辞 եմ 系列と人称代名詞は curriculum.md §2.1（プロジェクト確定事項）。語彙 ճապոնացի は people-family テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ես ճապոնացի եմ։",
+      "translit": "Yes chaponatsi em.",
+      "ja": "私は日本人です。",
+      "notes_ja": "述語 ճապոնացի の後に繋辞 եմ が来る。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "繋辞 եմ 系列は curriculum.md §2.1。語彙 ուսանող は people-family テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Դու ուսանող ես։",
+      "translit": "Du usanogh es.",
+      "ja": "君は学生です。",
+      "notes_ja": "代名詞 դու と2人称単数の繋辞 ես は別語。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "繋辞 եմ 系列は curriculum.md §2.1。語彙 բժիշկ は health-pharmacy テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Նա բժիշկ է։",
+      "translit": "Na bzhishk e.",
+      "ja": "彼は医者です。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "繋辞 եմ 系列は curriculum.md §2.1。語彙 հայ は people-family テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Մենք հայ ենք։",
+      "translit": "Menk hay enk.",
+      "ja": "私たちはアルメニア人です。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "繋辞 եմ 系列は curriculum.md §2.1。語彙 լավ は verbs-adjectives テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Դուք լավ եք։",
+      "translit": "Duk lav ek.",
+      "ja": "あなたたちは元気です。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "繋辞 եմ 系列は curriculum.md §2.1。語彙 այստեղ は directions テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Նրանք այստեղ են։",
+      "translit": "Nrank aystegh en.",
+      "ja": "彼らはここにいます。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "否定繋辞 չ- は curriculum.md §2.1。語彙 ուսանող は people-family テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ես ուսանող չեմ։",
+      "translit": "Yes usanogh chem.",
+      "ja": "私は学生ではありません。",
+      "notes_ja": "否定は繋辞に չ- を付ける。"
+    }
+  ],
+  "exercises": [
+    { "type": "conjugate", "lemma": "լինել", "personNumber": "2sg", "answer": "ես" },
+    { "type": "conjugate", "lemma": "լինել", "personNumber": "1pl", "answer": "ենք" },
+    { "type": "conjugate", "lemma": "լինել", "personNumber": "3sg", "polarity": "negative", "answer": "չէ" },
+    { "type": "cloze", "sentence": "Նա բժիշկ ___։", "answer": "է" },
+    { "type": "cloze", "sentence": "Մենք հայ ___։", "answer": "ենք" },
+    { "type": "reorder", "tokens": ["Ես", "ուսանող", "եմ"], "answer": "Ես ուսանող եմ։" }
+  ]
+}
