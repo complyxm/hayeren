@@ -76,5 +76,43 @@
       "presentParticiple": "լալիս"
     }
   },
-  "nouns": {}
+  "nouns": {
+    "գիրք": {
+      "source": "Wiktionary (en) «գիրք» Eastern Armenian（語幹 գրք- の母音脱落。属格 գրքի、主格複数 գրքեր、2026-08-31 参照）。語彙作成時にも検証済み。参考にしたが独自に整理",
+      "notes_ja": "「本」。語幹の ի が落ちて գրք- になる（曲用・複数ともこの語幹）。",
+      "stem": "գրք",
+      "plural": "գրքեր",
+      "forms": { "genitive": "գրքի" }
+    },
+    "տուն": {
+      "source": "Wiktionary (en) «տուն» Eastern Armenian（属格・与格単数 տան、主格複数 տներ、定与格 տանը/տանն、複数与格 տներին、2026-08-31 参照）。参考にしたが独自に整理",
+      "notes_ja": "「家」。属格は ան 型で տան（不規則）。複数は音節脱落で տներ。",
+      "plural": "տներ",
+      "forms": { "genitive": "տան" }
+    },
+    "հայր": {
+      "source": "Wiktionary (en) «հայր» Eastern Armenian（属格・与格単数 հոր、主格複数 հայրեր、2026-08-31 参照）。語彙 people-family でも検証済み。参考にしたが独自に整理",
+      "notes_ja": "「父」。属格は ոջ 型系の不規則 հոր。複数は規則的に հայրեր。",
+      "plural": "հայրեր",
+      "forms": { "genitive": "հոր" }
+    },
+    "մայր": {
+      "source": "Wiktionary (en) «մայր» Eastern Armenian（属格・与格単数 մոր、主格複数 մայրեր）。語彙 people-family で検証済み（mor/hor の対）。参考にしたが独自に整理",
+      "notes_ja": "「母」。属格は不規則 մոր。複数は規則的に մայրեր。",
+      "plural": "մայրեր",
+      "forms": { "genitive": "մոր" }
+    },
+    "օր": {
+      "source": "Wiktionary (en) «օր» Eastern Armenian（va 型曲用: 属格・与格 օրվա。主格複数 օրեր、2026-08-31 参照）。語彙 time-calendar で検証済み。参考にしたが独自に整理",
+      "notes_ja": "「日」。時間語の va 型で属格は օրվա。複数は規則的に օրեր。",
+      "plural": "օրեր",
+      "forms": { "genitive": "օրվա" }
+    },
+    "մարդ": {
+      "source": "Wiktionary (en) «մարդ» Eastern Armenian（不規則曲用: 属格・与格 մարդու、主格複数は補充法 մարդիկ、2026-08-31 参照）。語彙 people-family で複数 մարդիկ を検証済み。参考にしたが独自に整理",
+      "notes_ja": "「人・男」。属格は ու 型で մարդու。主格複数は補充法 մարդիկ（*մարդեր ではない）。",
+      "plural": "մարդիկ",
+      "forms": { "genitive": "մարդու" }
+    }
+  }
 }

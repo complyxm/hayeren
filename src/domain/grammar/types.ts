@@ -51,3 +51,54 @@ export interface ConjugationResult {
   /** 否定では助動詞が分詞の前に出る — 語順が変わる (curriculum.md §2.1、独立課 L07)。 */
   auxiliaryFirst: boolean;
 }
+
+/** curriculum.md §2.1 の7格。実装済みは主格・属格・与格のみ (roadmap Phase 5、他は後続コミット)。 */
+export type GrammarCase =
+  | "nominative"
+  | "genitive"
+  | "dative"
+  | "accusative"
+  | "ablative"
+  | "instrumental"
+  | "locative";
+
+export interface DeclineOptions {
+  case: GrammarCase;
+  /** 既定 "sg"。 */
+  number?: GrammarNumber;
+  /** 定冠詞を付けるか。既定 false。 */
+  definite?: boolean;
+}
+
+/**
+ * 規則で導出できない名詞 (curriculum.md §2.4 / §3.3:「複数形・格変化形は規則任せにせず forms に持たせる」)。
+ * - stem: 母音脱落など、語尾を付ける基礎となる語幹 (գիրք→գրք-)。省略時は見出し語をそのまま使う。
+ * - plural: 主格複数の完成形 (音節脱落・補充法。տուն→տներ, մարդ→մարդիկ)。
+ * - genitive: 属格・与格 単数の完成形 (非既定の曲用クラス。տուն→տան, հայր→հոր, օր→օրվա)。
+ * - pluralGenitive: 属格・与格 複数の完成形。補充法複数 (մարդիկ→մարդկանց 等) で必須。
+ *   規則的な -եր/-ներ 複数は自動で -ի を付けるのでここは不要。
+ */
+export interface NounIrregularity {
+  stem?: string;
+  plural?: string;
+  genitive?: string;
+  pluralGenitive?: string;
+}
+
+export class AmbiguousDeclensionError extends Error {
+  constructor(noun: string, detail: string) {
+    super(`"${noun}" の曲用は規則だけでは一意に決まりません (${detail})。exceptions に明示してください`);
+    this.name = "AmbiguousDeclensionError";
+  }
+}
+
+export interface DeclensionResult {
+  /** 完成形。 */
+  form: string;
+  /** 格語尾を付けた土台 (見出し語 or 語幹 or 複数形)。 */
+  base: string;
+  /** 付与した格語尾 ("" = 主格)。 */
+  ending: string;
+  /** 付与した定冠詞。無ければ null。 */
+  definiteSuffix: string | null;
+}

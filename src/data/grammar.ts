@@ -1,4 +1,5 @@
 import exceptionsRaw from "../../content/grammar/exceptions.json";
+import type { NounIrregularity, VerbIrregularity } from "../domain/grammar/types";
 import { grammarExceptionsSchema, grammarFileSchema, type GrammarExceptions, type GrammarLesson } from "./schemas/grammar";
 
 /**
@@ -13,3 +14,22 @@ export const grammarLessons: GrammarLesson[] = Object.values(lessonModules)
   .sort((a, b) => a.id.localeCompare(b.id));
 
 export const grammarExceptions: GrammarExceptions = grammarExceptionsSchema.parse(exceptionsRaw);
+
+/**
+ * exceptions.json をエンジン (src/domain/grammar/) が受け取る形に変換したもの。
+ * conjugate() / decline() の第3引数にそのまま渡す。
+ * verbs は構造が一致するのでそのまま、nouns は forms.genitive を平坦化する。
+ */
+export const grammarVerbIrregulars: Record<string, VerbIrregularity> = grammarExceptions.verbs;
+
+export const grammarNounIrregulars: Record<string, NounIrregularity> = Object.fromEntries(
+  Object.entries(grammarExceptions.nouns).map(([noun, entry]) => [
+    noun,
+    {
+      stem: entry.stem,
+      plural: entry.plural,
+      genitive: entry.forms?.genitive ?? entry.forms?.dative,
+      pluralGenitive: entry.pluralForms?.genitive ?? entry.pluralForms?.dative,
+    },
+  ]),
+);

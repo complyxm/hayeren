@@ -171,12 +171,28 @@ export type VerbException = z.infer<typeof verbExceptionSchema>;
  * 不規則名詞。stem を指定すると複数形・格語尾はこの語幹に付ける (գիրք→գրք- の母音脱落など)。
  * plural / forms に完成形を直接持たせることもできる (規則任せにしない、curriculum.md §3.3)。
  */
+/** 7格すべて任意の格形マップ。z.record(enum) は全キー必須になるため object().partial() を使う。 */
+const caseFormsSchema = z
+  .object({
+    nominative: z.string().min(1),
+    genitive: z.string().min(1),
+    dative: z.string().min(1),
+    accusative: z.string().min(1),
+    ablative: z.string().min(1),
+    instrumental: z.string().min(1),
+    locative: z.string().min(1),
+  })
+  .partial();
+
 export const nounExceptionSchema = z.object({
   source: z.string().min(1),
   notes_ja: z.string().min(1).optional(),
   stem: z.string().min(1).optional(),
   plural: z.string().min(1).optional(),
-  forms: z.record(grammarCaseSchema, z.string().min(1)).optional(),
+  /** 単数の格形 (非既定クラス)。今は genitive のみエンジンが参照する。 */
+  forms: caseFormsSchema.optional(),
+  /** 複数の格形。補充法複数 (մարդիկ→մարդկանց) で必要。規則的な -եր/-ներ 複数には不要。 */
+  pluralForms: caseFormsSchema.optional(),
 });
 export type NounException = z.infer<typeof nounExceptionSchema>;
 

@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
-import { grammarExceptions, grammarLessons } from "./grammar";
+import { grammarExceptions, grammarLessons, grammarNounIrregulars } from "./grammar";
 import { grammarLessonIdSchema } from "./schemas/grammar";
 import { PRESENT_AUXILIARY, PRESENT_AUXILIARY_NEGATIVE } from "../domain/grammar/conjugate";
+import { decline } from "../domain/grammar/decline";
 
 // アルメニア文字は U+0530–U+058F の範囲のみ (見た目の似たラテン/キリル文字の混入を防ぐ)。
 // CLAUDE.md §6-1。content.test.ts と同じ範囲。
@@ -65,6 +66,18 @@ describe("content/grammar/exceptions.json", () => {
     }
     for (const entry of Object.values(grammarExceptions.nouns)) {
       expect(entry.source.length).toBeGreaterThan(0);
+    }
+  });
+
+  it("every noun exception round-trips through decline() (adapter + engine consistency)", () => {
+    for (const [noun, entry] of Object.entries(grammarExceptions.nouns)) {
+      if (entry.plural) {
+        expect(decline(noun, { case: "nominative", number: "pl" }, grammarNounIrregulars).form).toBe(entry.plural);
+      }
+      if (entry.forms?.genitive) {
+        expect(decline(noun, { case: "genitive" }, grammarNounIrregulars).form).toBe(entry.forms.genitive);
+        expect(decline(noun, { case: "dative" }, grammarNounIrregulars).form).toBe(entry.forms.genitive);
+      }
     }
   });
 });
