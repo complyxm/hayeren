@@ -1,0 +1,70 @@
+{
+  "id": "L07",
+  "dialect": "east",
+  "title": "否定形と語順の変化",
+  "prerequisites": ["L06"],
+  "explanation_ja": "否定にすると、助動詞に **չ-** が付き、さらに**語順が変わる**。ここがアルメニア語で最初につまずく文法点の一つ。\n\n### 動詞の否定\n肯定：`Ես կարդում եմ։`（私は読む）\n\n否定：`Ես չեմ կարդում։`（私は読まない）\n\n助動詞 `եմ` が `չեմ` になり、**分詞の前**に移動する。分詞は文末に回る。\n\n| 肯定 | 否定 |\n|---|---|\n| կարդում եմ | **չեմ** կարդում |\n| կարդում ես | **չես** կարդում |\n| կարդում է | **չի** կարդում |\n| կարդում ենք | **չենք** կարդում |\n| կարդում եք | **չեք** կարդում |\n| կարդում են | **չեն** կարդում |\n\n3人称単数に注意：肯定は `է` だが、動詞の否定では **`չի`**（`չէ` ではない）。\n\n### 繋辞（〜です）の否定\n`Ես ուսանող եմ։` → `Ես ուսանող չեմ։`\n\nこちらは助動詞が**述語の後ろのまま**。動詞の否定と位置が違う。そして3人称単数は **`չէ`**：`Նա բժիշկ չէ։`（彼は医者ではない）。\n\n**まとめ**：`չի` は動詞の否定、`չէ` は「〜でない」。",
+  "patterns": [
+    {
+      "template": "{主語} + չ{եմ / ես / ի / ենք / եք / են} + {現在分詞}",
+      "gloss_ja": "動詞の否定：助動詞に չ- が付き、分詞の前に移動する。3人称単数は չի。"
+    },
+    {
+      "template": "{主語} + {述語} + չ{եմ / ես / է / …}",
+      "gloss_ja": "繋辞の否定：述語の後ろのまま。3人称単数は չէ。"
+    }
+  ],
+  "examples": [
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "否定の語順（助動詞に չ-、分詞の前へ）は curriculum.md §2.1。語彙 կարդալ は verbs-adjectives テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ես չեմ կարդում։",
+      "translit": "Yes chem kardum.",
+      "ja": "私は読みません。",
+      "notes_ja": "肯定 «Ես կարդում եմ» と比べて、助動詞に չ- が付き、分詞の前に出る。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "迂言形の否定3人称単数 չի は Wiktionary (en) の Eastern Armenian 迂言的否定パラダイム（2026-08-31）。語彙 խոսել は verbs-adjectives テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Նա հայերեն չի խոսում։",
+      "translit": "Na hayeren chi khosum.",
+      "ja": "彼はアルメニア語を話しません。",
+      "notes_ja": "迂言形の否定3人称単数は չի（繋辞の «չէ» とは別）。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "否定の語順は curriculum.md §2.1。「Չեմ հասկանում」は greetings テーマの必須フレーズとして検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Մենք չենք հասկանում։",
+      "translit": "Menk chenk haskanum.",
+      "ja": "私たちは分かりません。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "繋辞否定の位置は curriculum.md §2.1。語彙 ուսանող は people-family テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ես ուսանող չեմ։",
+      "translit": "Yes usanogh chem.",
+      "ja": "私は学生ではありません。",
+      "notes_ja": "繋辞（〜です）の否定は述語の後に չեմ。動詞の否定と位置が違う。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "繋辞否定3人称単数 չէ は content/grammar/exceptions.json の լինել で検証済み。語彙 թանկ は numbers-money テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Դա թանկ չէ։",
+      "translit": "Da tank che.",
+      "ja": "それは高くありません。",
+      "notes_ja": "繋辞の否定3人称単数は չէ。"
+    }
+  ],
+  "exercises": [
+    { "type": "conjugate", "lemma": "կարդալ", "personNumber": "1sg", "polarity": "negative", "answer": "չեմ կարդում" },
+    { "type": "conjugate", "lemma": "խոսել", "personNumber": "3sg", "polarity": "negative", "answer": "չի խոսում" },
+    { "type": "conjugate", "lemma": "լինել", "personNumber": "3sg", "polarity": "negative", "answer": "չէ" },
+    { "type": "cloze", "sentence": "Մենք ___ հասկանում։", "answer": "չենք" },
+    { "type": "reorder", "tokens": ["Ես", "չեմ", "կարդում"], "answer": "Ես չեմ կարդում։" }
+  ]
+}

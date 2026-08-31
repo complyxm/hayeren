@@ -1,0 +1,70 @@
+{
+  "id": "L08",
+  "dialect": "east",
+  "title": "属格・与格（-ի）と所有表現",
+  "prerequisites": ["L07"],
+  "explanation_ja": "属格（「〜の」）と与格（「〜に」）は、**同じ形**になる。規定クラスの名詞は語尾に **-ի** を付ける。\n\n| 主格 | 属格・与格 |\n|---|---|\n| ուսանող | ուսանող**ի** |\n| սենյակ | սենյակ**ի** |\n\n不規則な語もある：`գիրք → գրքի`、`տուն → տան`、`մայր → մոր`、`հայր → հոր`。\n\n### 「AのB」\n`ուսանողի գիրքը`（学生の本）。属格の修飾語が**前**に立ち、被修飾名詞（`գիրք`）は**定冠詞 -ը** を取る。\n\n複数の属格は、複数形に -ի を付ける：`ուսանողներ → ուսանողների`（学生たちの）。\n\n### 所有代名詞\n「私の」「君の」…は、人称代名詞の属格形そのもの。\n\n| իմ（私の） | մեր（私たちの） |\n|---|---|\n| քո（君の） | ձեր（あなたたちの） |\n| նրա（彼の・彼女の） | նրանց（彼らの） |\n\n`Սա իմ գիրքն է։`（これは私の本です）\n\n### 与格\n同じ -ի の形が「〜に」も表す（例：`ուսանողին` = 学生に）。動詞と組み合わせた使い方は L10 以降で扱う。",
+  "patterns": [
+    {
+      "template": "{名詞A}-ի + {名詞B}-ը",
+      "gloss_ja": "「AのB」。属格の修飾語が前、被修飾名詞は定冠詞を取る。属格と与格は同形。"
+    },
+    {
+      "template": "իմ / քո / նրա / մեր / ձեր / նրանց + {名詞}",
+      "gloss_ja": "所有代名詞は人称代名詞の属格形。"
+    }
+  ],
+  "examples": [
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "属格 -ի と修飾語前置は curriculum.md §2.1 / §2.2 L08。usanogh（学生, people-family）, aystegh（ここ, directions）は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ուսանողի գիրքը այստեղ է։",
+      "translit": "Usanoghi girke aystegh e.",
+      "ja": "学生の本はここにあります。",
+      "notes_ja": "属格 -ի は修飾語に付き、被修飾名詞（girke）の前に来る。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "mayr（母, people-family）の属格 mor は content/grammar/exceptions.json で検証済み（Wiktionary Eastern Armenian, 2026-08-31）。例文はこのプロジェクト用に新規作成。",
+      "hy": "Սա մոր տունն է։",
+      "translit": "Sa mor tunn e.",
+      "ja": "これは母の家です。",
+      "notes_ja": "mayr（母）の属格は不規則 mor。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "複数属格 = 複数形 + -ի は curriculum.md §2.1 の複数規則 + 属格規則。usanogh（学生, people-family）, senyak（部屋, housing-landlord）は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ուսանողների սենյակը մեծ է։",
+      "translit": "Usanoghneri senyake mets e.",
+      "ja": "学生たちの部屋は大きいです。",
+      "notes_ja": "複数属格は複数形（usanoghner）に -ի を付ける。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "tun（家, housing-landlord）の属格 tan は content/grammar/exceptions.json で検証済み（Wiktionary Eastern Armenian）。dur（ドア, housing-landlord）, pak（閉まっている, shopping）は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Տան դուռը փակ է։",
+      "translit": "Tan dure pak e.",
+      "ja": "家のドアは閉まっています。",
+      "notes_ja": "tun（家）の属格は不規則 tan。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "所有代名詞 = 人称代名詞の属格（curriculum.md §2.1）。im（私の）は Wiktionary Eastern Armenian。girk（本）は Wiktionary で確認。例文はこのプロジェクト用に新規作成。",
+      "hy": "Սա իմ գիրքն է։",
+      "translit": "Sa im girkn e.",
+      "ja": "これは私の本です。",
+      "notes_ja": "所有代名詞（im / kʻo / nra …）は代名詞の属格形。"
+    }
+  ],
+  "exercises": [
+    { "type": "cloze", "sentence": "___ գիրքը այստեղ է։", "answer": "Ուսանողի" },
+    { "type": "cloze", "sentence": "Սա ___ տունն է։", "answer": "մոր" },
+    { "type": "reorder", "tokens": ["Տան", "դուռը", "փակ", "է"], "answer": "Տան դուռը փակ է։" },
+    { "type": "conjugate", "lemma": "լինել", "personNumber": "3sg", "answer": "է" }
+  ]
+}

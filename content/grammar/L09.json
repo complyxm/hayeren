@@ -1,0 +1,70 @@
+{
+  "id": "L09",
+  "dialect": "east",
+  "title": "「持っている」ունեմ（不規則・重要）",
+  "prerequisites": ["L08"],
+  "explanation_ja": "「持っている・いる」は不規則動詞 **ունեմ**。L06 の「分詞 + 助動詞」のパターンに**従わない**。この形そのものが現在形。\n\n| ունե**մ**（私は持つ） | ունե**նք**（私たちは） |\n|---|---|\n| ունե**ս**（君は） | ունե**ք**（あなたたちは） |\n| ունի（彼・彼女は） | ունե**ն**（彼らは） |\n\n3人称単数だけ語尾が違う：**ունի**。\n\n持ち物は動詞の**前**に置く：`Ես գիրք ունեմ։`（私は本を持っている）。\n\n### 否定\n`չ-` を付ける：`չունեմ, չունես, չունի, չունենք, չունեք, չունեն`。\n\n`Ես ժամանակ չունեմ։`（私は時間がない）— よく使う。\n\n### 過去\n「持っていた」は `ունեի, ունեիր, ուներ, ունեինք, ունեիք, ունեին`（過去形そのものは L17–L18 で）。",
+  "patterns": [
+    {
+      "template": "{主語} + {持ち物} + ունեմ / ունես / ունի / ունենք / ունեք / ունեն",
+      "gloss_ja": "「〜を持っている・〜がいる」。補充法で分詞を作らない。持ち物は動詞の前。"
+    },
+    {
+      "template": "{主語} + {持ち物} + չունեմ / …",
+      "gloss_ja": "否定は չ- を付ける。3人称単数は չունի。"
+    }
+  ],
+  "examples": [
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "補充法現在 unem 系列は content/grammar/exceptions.json（unenal）で検証済み。girk（本）は Wiktionary で確認。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ես գիրք ունեմ։",
+      "translit": "Yes girk unem.",
+      "ja": "私は本を持っています。",
+      "notes_ja": "unem は現在分詞を作らない補充法。持ち物は動詞の前に置く。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "unes と疑問符 ՞ の位置（CLAUDE.md §6-4）。kʻuyr（姉妹, people-family）は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Դու քույր ունե՞ս։",
+      "translit": "Du kuyr unes.",
+      "ja": "君には姉妹がいますか。",
+      "notes_ja": "疑問符 ՞ は unes の最後の母音 ե の上。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "3人称単数 uni は exceptions.json（unenal）で検証済み。ynker（友達, people-family）, shat（たくさん, function-words）は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Նա շատ ընկեր ունի։",
+      "translit": "Na shat ynker uni.",
+      "ja": "彼には友達がたくさんいます。",
+      "notes_ja": "3人称単数は uni。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "否定 chunem は exceptions.json（unenal）で検証済み。zhamanak（時間, time-calendar）は検証済み語彙（v-vadj-002 の例文 «Ես ժամանակ չունեմ» と一致）。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ես ժամանակ չունեմ։",
+      "translit": "Yes zhamanak chunem.",
+      "ja": "私は時間がありません。",
+      "notes_ja": "否定は chunem。3人称単数の否定は chuni。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "否定1人称複数 chunenkʻ は exceptions.json（unenal）で検証済み。tun（家, housing-landlord）は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Մենք տուն չունենք։",
+      "translit": "Menk tun chunenk.",
+      "ja": "私たちは家を持っていません。"
+    }
+  ],
+  "exercises": [
+    { "type": "conjugate", "lemma": "ունենալ", "personNumber": "1sg", "answer": "ունեմ" },
+    { "type": "conjugate", "lemma": "ունենալ", "personNumber": "3sg", "answer": "ունի" },
+    { "type": "conjugate", "lemma": "ունենալ", "personNumber": "1pl", "polarity": "negative", "answer": "չունենք" },
+    { "type": "cloze", "sentence": "Ես գիրք ___։", "answer": "ունեմ" },
+    { "type": "reorder", "tokens": ["Ես", "ժամանակ", "չունեմ"], "answer": "Ես ժամանակ չունեմ։" }
+  ]
+}
