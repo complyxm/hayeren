@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "theme": "health-pharmacy",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-health-001": {
+      "start": 0,
+      "duration": 1.189
+    },
+    "v-health-001__ex": {
+      "start": 1.339,
+      "duration": 2.035
+    },
+    "v-health-002": {
+      "start": 3.524,
+      "duration": 1.398
+    },
+    "v-health-002__ex": {
+      "start": 5.072,
+      "duration": 2.58
+    },
+    "v-health-003": {
+      "start": 7.802,
+      "duration": 1.001
+    },
+    "v-health-003__ex": {
+      "start": 8.953,
+      "duration": 1.723
+    },
+    "v-health-004": {
+      "start": 10.826,
+      "duration": 0.838
+    },
+    "v-health-004__ex": {
+      "start": 11.815,
+      "duration": 1.556
+    },
+    "v-health-005": {
+      "start": 13.521,
+      "duration": 0.93
+    },
+    "v-health-005__ex": {
+      "start": 14.601,
+      "duration": 1.375
+    },
+    "v-health-006": {
+      "start": 16.126,
+      "duration": 1.283
+    },
+    "v-health-006__ex": {
+      "start": 17.559,
+      "duration": 1.932
+    },
+    "v-health-007": {
+      "start": 19.641,
+      "duration": 0.916
+    },
+    "v-health-007__ex": {
+      "start": 20.707,
+      "duration": 1.832
+    },
+    "v-health-008": {
+      "start": 22.689,
+      "duration": 0.743
+    },
+    "v-health-008__ex": {
+      "start": 23.582,
+      "duration": 1.589
+    },
+    "v-health-009": {
+      "start": 25.321,
+      "duration": 1.022
+    },
+    "v-health-009__ex": {
+      "start": 26.493,
+      "duration": 1.866
+    },
+    "v-health-010": {
+      "start": 28.51,
+      "duration": 0.978
+    },
+    "v-health-010__ex": {
+      "start": 29.638,
+      "duration": 1.678
+    },
+    "v-health-011": {
+      "start": 31.466,
+      "duration": 1.068
+    },
+    "v-health-011__ex": {
+      "start": 32.684,
+      "duration": 1.78
+    },
+    "v-health-012": {
+      "start": 34.614,
+      "duration": 0.942
+    },
+    "v-health-012__ex": {
+      "start": 35.706,
+      "duration": 1.813
+    },
+    "v-health-013": {
+      "start": 37.669,
+      "duration": 0.908
+    },
+    "v-health-013__ex": {
+      "start": 38.728,
+      "duration": 1.753
+    },
+    "v-health-014": {
+      "start": 40.631,
+      "duration": 1.225
+    },
+    "v-health-014__ex": {
+      "start": 42.006,
+      "duration": 1.66
+    },
+    "v-health-015": {
+      "start": 43.816,
+      "duration": 1.333
+    },
+    "v-health-015__ex": {
+      "start": 45.299,
+      "duration": 2.853
+    },
+    "v-health-016": {
+      "start": 48.301,
+      "duration": 1.149
+    },
+    "v-health-016__ex": {
+      "start": 49.601,
+      "duration": 1.514
+    },
+    "v-health-017": {
+      "start": 51.264,
+      "duration": 1.682
+    },
+    "v-health-017__ex": {
+      "start": 53.096,
+      "duration": 2.282
+    },
+    "v-health-018": {
+      "start": 55.529,
+      "duration": 1.778
+    },
+    "v-health-018__ex": {
+      "start": 57.457,
+      "duration": 2.968
+    },
+    "v-health-019": {
+      "start": 60.575,
+      "duration": 0.87
+    },
+    "v-health-019__ex": {
+      "start": 61.595,
+      "duration": 1.976
+    },
+    "v-health-020": {
+      "start": 63.721,
+      "duration": 0.811
+    },
+    "v-health-020__ex": {
+      "start": 64.682,
+      "duration": 1.728
+    },
+    "v-health-021": {
+      "start": 66.56,
+      "duration": 0.944
+    },
+    "v-health-021__ex": {
+      "start": 67.654,
+      "duration": 2.685
+    },
+    "v-health-022": {
+      "start": 70.489,
+      "duration": 0.968
+    },
+    "v-health-022__ex": {
+      "start": 71.607,
+      "duration": 1.821
+    },
+    "v-health-023": {
+      "start": 73.578,
+      "duration": 1.378
+    },
+    "v-health-023__ex": {
+      "start": 75.106,
+      "duration": 2.331
+    },
+    "v-health-024": {
+      "start": 77.587,
+      "duration": 1.278
+    },
+    "v-health-024__ex": {
+      "start": 79.015,
+      "duration": 2.633
+    },
+    "v-health-025": {
+      "start": 81.798,
+      "duration": 0.865
+    },
+    "v-health-025__ex": {
+      "start": 82.813,
+      "duration": 1.58
+    },
+    "v-health-026": {
+      "start": 84.543,
+      "duration": 1.076
+    },
+    "v-health-026__ex": {
+      "start": 85.769,
+      "duration": 1.852
+    },
+    "v-health-027": {
+      "start": 87.772,
+      "duration": 1.162
+    },
+    "v-health-027__ex": {
+      "start": 89.084,
+      "duration": 2.69
+    },
+    "v-health-028": {
+      "start": 91.924,
+      "duration": 1.208
+    },
+    "v-health-028__ex": {
+      "start": 93.283,
+      "duration": 1.642
+    },
+    "v-health-029": {
+      "start": 95.075,
+      "duration": 1.103
+    },
+    "v-health-029__ex": {
+      "start": 96.328,
+      "duration": 2.117
+    },
+    "v-health-030": {
+      "start": 98.595,
+      "duration": 1.286
+    },
+    "v-health-030__ex": {
+      "start": 100.031,
+      "duration": 2.439
+    },
+    "v-health-031": {
+      "start": 102.62,
+      "duration": 1.149
+    },
+    "v-health-031__ex": {
+      "start": 103.92,
+      "duration": 2.034
+    },
+    "v-health-032": {
+      "start": 106.103,
+      "duration": 1.554
+    },
+    "v-health-032__ex": {
+      "start": 107.807,
+      "duration": 2.077
+    }
+  }
+}

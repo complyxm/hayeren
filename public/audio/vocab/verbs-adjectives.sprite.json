@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "theme": "verbs-adjectives",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-vadj-001": {
+      "start": 0,
+      "duration": 0.959
+    },
+    "v-vadj-001__ex": {
+      "start": 1.109,
+      "duration": 2.34
+    },
+    "v-vadj-002": {
+      "start": 3.599,
+      "duration": 1.07
+    },
+    "v-vadj-002__ex": {
+      "start": 4.819,
+      "duration": 2.045
+    },
+    "v-vadj-003": {
+      "start": 7.014,
+      "duration": 0.944
+    },
+    "v-vadj-003__ex": {
+      "start": 8.108,
+      "duration": 1.588
+    },
+    "v-vadj-004": {
+      "start": 9.846,
+      "duration": 1.072
+    },
+    "v-vadj-004__ex": {
+      "start": 11.067,
+      "duration": 1.863
+    },
+    "v-vadj-005": {
+      "start": 13.08,
+      "duration": 0.781
+    },
+    "v-vadj-005__ex": {
+      "start": 14.011,
+      "duration": 1.703
+    },
+    "v-vadj-006": {
+      "start": 15.864,
+      "duration": 0.969
+    },
+    "v-vadj-006__ex": {
+      "start": 16.984,
+      "duration": 1.769
+    },
+    "v-vadj-007": {
+      "start": 18.903,
+      "duration": 1.071
+    },
+    "v-vadj-007__ex": {
+      "start": 20.124,
+      "duration": 2.01
+    },
+    "v-vadj-008": {
+      "start": 22.283,
+      "duration": 0.823
+    },
+    "v-vadj-008__ex": {
+      "start": 23.257,
+      "duration": 2.274
+    },
+    "v-vadj-009": {
+      "start": 25.681,
+      "duration": 1.027
+    },
+    "v-vadj-009__ex": {
+      "start": 26.858,
+      "duration": 2.363
+    },
+    "v-vadj-010": {
+      "start": 29.371,
+      "duration": 0.952
+    },
+    "v-vadj-010__ex": {
+      "start": 30.473,
+      "duration": 1.668
+    },
+    "v-vadj-011": {
+      "start": 32.291,
+      "duration": 1.093
+    },
+    "v-vadj-011__ex": {
+      "start": 33.533,
+      "duration": 1.962
+    },
+    "v-vadj-012": {
+      "start": 35.645,
+      "duration": 1.077
+    },
+    "v-vadj-012__ex": {
+      "start": 36.872,
+      "duration": 2.619
+    },
+    "v-vadj-013": {
+      "start": 39.641,
+      "duration": 1.298
+    },
+    "v-vadj-013__ex": {
+      "start": 41.088,
+      "duration": 1.947
+    },
+    "v-vadj-014": {
+      "start": 43.186,
+      "duration": 0.96
+    },
+    "v-vadj-014__ex": {
+      "start": 44.296,
+      "duration": 2.185
+    },
+    "v-vadj-015": {
+      "start": 46.631,
+      "duration": 0.839
+    },
+    "v-vadj-015__ex": {
+      "start": 47.62,
+      "duration": 1.693
+    },
+    "v-vadj-016": {
+      "start": 49.463,
+      "duration": 0.956
+    },
+    "v-vadj-016__ex": {
+      "start": 50.569,
+      "duration": 1.809
+    },
+    "v-vadj-017": {
+      "start": 52.528,
+      "duration": 0.834
+    },
+    "v-vadj-017__ex": {
+      "start": 53.511,
+      "duration": 2.279
+    },
+    "v-vadj-018": {
+      "start": 55.94,
+      "duration": 0.819
+    },
+    "v-vadj-018__ex": {
+      "start": 56.909,
+      "duration": 2.207
+    },
+    "v-vadj-019": {
+      "start": 59.266,
+      "duration": 0.72
+    },
+    "v-vadj-019__ex": {
+      "start": 60.136,
+      "duration": 1.901
+    },
+    "v-vadj-020": {
+      "start": 62.188,
+      "duration": 0.788
+    },
+    "v-vadj-020__ex": {
+      "start": 63.126,
+      "duration": 2.125
+    },
+    "v-vadj-021": {
+      "start": 65.401,
+      "duration": 0.943
+    },
+    "v-vadj-021__ex": {
+      "start": 66.495,
+      "duration": 1.917
+    },
+    "v-vadj-022": {
+      "start": 68.561,
+      "duration": 0.839
+    },
+    "v-vadj-022__ex": {
+      "start": 69.551,
+      "duration": 2.015
+    },
+    "v-vadj-023": {
+      "start": 71.716,
+      "duration": 1.216
+    },
+    "v-vadj-023__ex": {
+      "start": 73.082,
+      "duration": 2.837
+    },
+    "v-vadj-024": {
+      "start": 76.068,
+      "duration": 1.098
+    },
+    "v-vadj-024__ex": {
+      "start": 77.316,
+      "duration": 2.498
+    },
+    "v-vadj-025": {
+      "start": 79.965,
+      "duration": 1.037
+    },
+    "v-vadj-025__ex": {
+      "start": 81.152,
+      "duration": 1.772
+    },
+    "v-vadj-026": {
+      "start": 83.074,
+      "duration": 1.009
+    },
+    "v-vadj-026__ex": {
+      "start": 84.233,
+      "duration": 2.38
+    },
+    "v-vadj-027": {
+      "start": 86.763,
+      "duration": 0.888
+    },
+    "v-vadj-027__ex": {
+      "start": 87.801,
+      "duration": 1.996
+    },
+    "v-vadj-028": {
+      "start": 89.947,
+      "duration": 1.386
+    },
+    "v-vadj-028__ex": {
+      "start": 91.483,
+      "duration": 2.988
+    },
+    "v-vadj-029": {
+      "start": 94.622,
+      "duration": 1.157
+    },
+    "v-vadj-029__ex": {
+      "start": 95.929,
+      "duration": 2.311
+    },
+    "v-vadj-030": {
+      "start": 98.39,
+      "duration": 0.983
+    },
+    "v-vadj-030__ex": {
+      "start": 99.523,
+      "duration": 2.894
+    },
+    "v-vadj-031": {
+      "start": 102.567,
+      "duration": 0.939
+    },
+    "v-vadj-031__ex": {
+      "start": 103.656,
+      "duration": 2.052
+    },
+    "v-vadj-032": {
+      "start": 105.859,
+      "duration": 0.921
+    },
+    "v-vadj-032__ex": {
+      "start": 106.93,
+      "duration": 2.201
+    },
+    "v-vadj-033": {
+      "start": 109.281,
+      "duration": 1.027
+    },
+    "v-vadj-033__ex": {
+      "start": 110.458,
+      "duration": 2.149
+    },
+    "v-vadj-034": {
+      "start": 112.757,
+      "duration": 1.072
+    },
+    "v-vadj-034__ex": {
+      "start": 113.979,
+      "duration": 2.337
+    },
+    "v-vadj-035": {
+      "start": 116.466,
+      "duration": 1.03
+    },
+    "v-vadj-035__ex": {
+      "start": 117.645,
+      "duration": 2.219
+    },
+    "v-vadj-036": {
+      "start": 120.015,
+      "duration": 1.193
+    },
+    "v-vadj-036__ex": {
+      "start": 121.358,
+      "duration": 2.079
+    },
+    "v-vadj-037": {
+      "start": 123.587,
+      "duration": 0.907
+    },
+    "v-vadj-037__ex": {
+      "start": 124.644,
+      "duration": 2.419
+    },
+    "v-vadj-038": {
+      "start": 127.214,
+      "duration": 1.042
+    },
+    "v-vadj-038__ex": {
+      "start": 128.406,
+      "duration": 2.27
+    },
+    "v-vadj-039": {
+      "start": 130.827,
+      "duration": 0.962
+    },
+    "v-vadj-039__ex": {
+      "start": 131.939,
+      "duration": 2.34
+    },
+    "v-vadj-040": {
+      "start": 134.429,
+      "duration": 1.018
+    },
+    "v-vadj-040__ex": {
+      "start": 135.596,
+      "duration": 2.132
+    },
+    "v-vadj-041": {
+      "start": 137.878,
+      "duration": 0.914
+    },
+    "v-vadj-041__ex": {
+      "start": 138.942,
+      "duration": 1.965
+    },
+    "v-vadj-042": {
+      "start": 141.057,
+      "duration": 1.087
+    },
+    "v-vadj-042__ex": {
+      "start": 142.294,
+      "duration": 2.315
+    },
+    "v-vadj-043": {
+      "start": 144.759,
+      "duration": 0.892
+    },
+    "v-vadj-043__ex": {
+      "start": 145.801,
+      "duration": 3.214
+    },
+    "v-vadj-044": {
+      "start": 149.166,
+      "duration": 0.953
+    },
+    "v-vadj-044__ex": {
+      "start": 150.269,
+      "duration": 1.66
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "theme": "housing-landlord",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-house-001": {
+      "start": 0,
+      "duration": 0.812
+    },
+    "v-house-001__ex": {
+      "start": 0.962,
+      "duration": 1.586
+    },
+    "v-house-002": {
+      "start": 2.698,
+      "duration": 1.324
+    },
+    "v-house-002__ex": {
+      "start": 4.171,
+      "duration": 2.291
+    },
+    "v-house-003": {
+      "start": 6.612,
+      "duration": 0.858
+    },
+    "v-house-003__ex": {
+      "start": 7.621,
+      "duration": 1.576
+    },
+    "v-house-004": {
+      "start": 9.347,
+      "duration": 0.967
+    },
+    "v-house-004__ex": {
+      "start": 10.464,
+      "duration": 1.805
+    },
+    "v-house-005": {
+      "start": 12.419,
+      "duration": 1.036
+    },
+    "v-house-005__ex": {
+      "start": 13.605,
+      "duration": 1.749
+    },
+    "v-house-006": {
+      "start": 15.505,
+      "duration": 1.067
+    },
+    "v-house-006__ex": {
+      "start": 16.722,
+      "duration": 1.915
+    },
+    "v-house-007": {
+      "start": 18.786,
+      "duration": 0.814
+    },
+    "v-house-007__ex": {
+      "start": 19.75,
+      "duration": 1.279
+    },
+    "v-house-008": {
+      "start": 21.18,
+      "duration": 1.225
+    },
+    "v-house-008__ex": {
+      "start": 22.554,
+      "duration": 1.96
+    },
+    "v-house-009": {
+      "start": 24.664,
+      "duration": 1.121
+    },
+    "v-house-009__ex": {
+      "start": 25.935,
+      "duration": 1.648
+    },
+    "v-house-010": {
+      "start": 27.733,
+      "duration": 0.827
+    },
+    "v-house-010__ex": {
+      "start": 28.709,
+      "duration": 1.292
+    },
+    "v-house-011": {
+      "start": 30.151,
+      "duration": 1.243
+    },
+    "v-house-011__ex": {
+      "start": 31.544,
+      "duration": 2.217
+    },
+    "v-house-012": {
+      "start": 33.911,
+      "duration": 1.164
+    },
+    "v-house-012__ex": {
+      "start": 35.225,
+      "duration": 2.003
+    },
+    "v-house-013": {
+      "start": 37.379,
+      "duration": 0.993
+    },
+    "v-house-013__ex": {
+      "start": 38.522,
+      "duration": 1.208
+    },
+    "v-house-014": {
+      "start": 39.88,
+      "duration": 1.166
+    },
+    "v-house-014__ex": {
+      "start": 41.195,
+      "duration": 1.888
+    },
+    "v-house-015": {
+      "start": 43.233,
+      "duration": 1.122
+    },
+    "v-house-015__ex": {
+      "start": 44.505,
+      "duration": 1.768
+    },
+    "v-house-016": {
+      "start": 46.423,
+      "duration": 1.244
+    },
+    "v-house-016__ex": {
+      "start": 47.817,
+      "duration": 2.136
+    },
+    "v-house-017": {
+      "start": 50.103,
+      "duration": 1.285
+    },
+    "v-house-017__ex": {
+      "start": 51.538,
+      "duration": 2.258
+    },
+    "v-house-018": {
+      "start": 53.946,
+      "duration": 1.544
+    },
+    "v-house-018__ex": {
+      "start": 55.64,
+      "duration": 2.324
+    },
+    "v-house-019": {
+      "start": 58.114,
+      "duration": 1.248
+    },
+    "v-house-019__ex": {
+      "start": 59.513,
+      "duration": 2.076
+    },
+    "v-house-020": {
+      "start": 61.739,
+      "duration": 2.217
+    },
+    "v-house-020__ex": {
+      "start": 64.106,
+      "duration": 3.408
+    },
+    "v-house-021": {
+      "start": 67.664,
+      "duration": 1.248
+    },
+    "v-house-021__ex": {
+      "start": 69.062,
+      "duration": 2.518
+    },
+    "v-house-022": {
+      "start": 71.73,
+      "duration": 1.455
+    },
+    "v-house-022__ex": {
+      "start": 73.335,
+      "duration": 3.084
+    },
+    "v-house-023": {
+      "start": 76.57,
+      "duration": 1.141
+    },
+    "v-house-023__ex": {
+      "start": 77.86,
+      "duration": 2.401
+    },
+    "v-house-024": {
+      "start": 80.411,
+      "duration": 1.212
+    },
+    "v-house-024__ex": {
+      "start": 81.773,
+      "duration": 2.245
+    },
+    "v-house-025": {
+      "start": 84.168,
+      "duration": 0.75
+    },
+    "v-house-025__ex": {
+      "start": 85.067,
+      "duration": 1.755
+    },
+    "v-house-026": {
+      "start": 86.973,
+      "duration": 0.781
+    },
+    "v-house-026__ex": {
+      "start": 87.904,
+      "duration": 2.239
+    },
+    "v-house-027": {
+      "start": 90.294,
+      "duration": 1.276
+    },
+    "v-house-027__ex": {
+      "start": 91.719,
+      "duration": 2.376
+    },
+    "v-house-028": {
+      "start": 94.245,
+      "duration": 1.124
+    },
+    "v-house-028__ex": {
+      "start": 95.519,
+      "duration": 2.395
+    },
+    "v-house-029": {
+      "start": 98.064,
+      "duration": 1.245
+    },
+    "v-house-029__ex": {
+      "start": 99.458,
+      "duration": 2.325
+    },
+    "v-house-030": {
+      "start": 101.933,
+      "duration": 1.132
+    },
+    "v-house-030__ex": {
+      "start": 103.215,
+      "duration": 3.779
+    },
+    "v-house-031": {
+      "start": 107.144,
+      "duration": 1.58
+    },
+    "v-house-031__ex": {
+      "start": 108.874,
+      "duration": 3.851
+    },
+    "v-house-032": {
+      "start": 112.875,
+      "duration": 0.946
+    },
+    "v-house-032__ex": {
+      "start": 113.971,
+      "duration": 1.763
+    },
+    "v-house-033": {
+      "start": 115.883,
+      "duration": 0.825
+    },
+    "v-house-033__ex": {
+      "start": 116.858,
+      "duration": 2.437
+    }
+  }
+}

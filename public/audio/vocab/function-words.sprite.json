@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "theme": "function-words",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-fn-001": {
+      "start": 0,
+      "duration": 0.777
+    },
+    "v-fn-001__ex": {
+      "start": 0.927,
+      "duration": 1.987
+    },
+    "v-fn-002": {
+      "start": 3.064,
+      "duration": 1.01
+    },
+    "v-fn-002__ex": {
+      "start": 4.225,
+      "duration": 3.008
+    },
+    "v-fn-003": {
+      "start": 7.382,
+      "duration": 1.068
+    },
+    "v-fn-003__ex": {
+      "start": 8.6,
+      "duration": 3.029
+    },
+    "v-fn-004": {
+      "start": 11.779,
+      "duration": 0.811
+    },
+    "v-fn-004__ex": {
+      "start": 12.74,
+      "duration": 2.058
+    },
+    "v-fn-005": {
+      "start": 14.948,
+      "duration": 0.863
+    },
+    "v-fn-005__ex": {
+      "start": 15.961,
+      "duration": 2.874
+    },
+    "v-fn-006": {
+      "start": 18.986,
+      "duration": 1.062
+    },
+    "v-fn-006__ex": {
+      "start": 20.197,
+      "duration": 3.063
+    },
+    "v-fn-007": {
+      "start": 23.411,
+      "duration": 0.842
+    },
+    "v-fn-007__ex": {
+      "start": 24.403,
+      "duration": 2.455
+    },
+    "v-fn-008": {
+      "start": 27.008,
+      "duration": 0.851
+    },
+    "v-fn-008__ex": {
+      "start": 28.009,
+      "duration": 3.574
+    },
+    "v-fn-009": {
+      "start": 31.733,
+      "duration": 0.868
+    },
+    "v-fn-009__ex": {
+      "start": 32.751,
+      "duration": 3.542
+    },
+    "v-fn-010": {
+      "start": 36.443,
+      "duration": 1.412
+    },
+    "v-fn-010__ex": {
+      "start": 38.005,
+      "duration": 3.765
+    },
+    "v-fn-011": {
+      "start": 41.92,
+      "duration": 0.94
+    },
+    "v-fn-011__ex": {
+      "start": 43.01,
+      "duration": 3.118
+    },
+    "v-fn-012": {
+      "start": 46.278,
+      "duration": 0.747
+    },
+    "v-fn-012__ex": {
+      "start": 47.174,
+      "duration": 2.636
+    },
+    "v-fn-013": {
+      "start": 49.96,
+      "duration": 0.941
+    },
+    "v-fn-013__ex": {
+      "start": 51.051,
+      "duration": 2.19
+    },
+    "v-fn-014": {
+      "start": 53.391,
+      "duration": 0.959
+    },
+    "v-fn-014__ex": {
+      "start": 54.501,
+      "duration": 1.674
+    },
+    "v-fn-015": {
+      "start": 56.325,
+      "duration": 0.75
+    },
+    "v-fn-015__ex": {
+      "start": 57.225,
+      "duration": 2.235
+    },
+    "v-fn-016": {
+      "start": 59.609,
+      "duration": 0.806
+    },
+    "v-fn-016__ex": {
+      "start": 60.565,
+      "duration": 1.831
+    },
+    "v-fn-017": {
+      "start": 62.546,
+      "duration": 1.028
+    },
+    "v-fn-017__ex": {
+      "start": 63.724,
+      "duration": 3.102
+    },
+    "v-fn-018": {
+      "start": 66.975,
+      "duration": 0.965
+    },
+    "v-fn-018__ex": {
+      "start": 68.091,
+      "duration": 2.222
+    },
+    "v-fn-019": {
+      "start": 70.463,
+      "duration": 0.95
+    },
+    "v-fn-019__ex": {
+      "start": 71.563,
+      "duration": 2.358
+    },
+    "v-fn-020": {
+      "start": 74.071,
+      "duration": 0.965
+    },
+    "v-fn-020__ex": {
+      "start": 75.186,
+      "duration": 2.181
+    },
+    "v-fn-021": {
+      "start": 77.517,
+      "duration": 0.812
+    },
+    "v-fn-021__ex": {
+      "start": 78.478,
+      "duration": 1.608
+    },
+    "v-fn-022": {
+      "start": 80.236,
+      "duration": 0.941
+    },
+    "v-fn-022__ex": {
+      "start": 81.327,
+      "duration": 2.081
+    },
+    "v-fn-023": {
+      "start": 83.558,
+      "duration": 1.041
+    },
+    "v-fn-023__ex": {
+      "start": 84.748,
+      "duration": 3.237
+    },
+    "v-fn-024": {
+      "start": 88.136,
+      "duration": 0.822
+    },
+    "v-fn-024__ex": {
+      "start": 89.107,
+      "duration": 1.886
+    },
+    "v-fn-025": {
+      "start": 91.143,
+      "duration": 0.86
+    },
+    "v-fn-025__ex": {
+      "start": 92.154,
+      "duration": 2.193
+    },
+    "v-fn-026": {
+      "start": 94.496,
+      "duration": 0.729
+    },
+    "v-fn-026__ex": {
+      "start": 95.375,
+      "duration": 2.416
+    },
+    "v-fn-027": {
+      "start": 97.941,
+      "duration": 1.159
+    },
+    "v-fn-027__ex": {
+      "start": 99.25,
+      "duration": 3.069
+    },
+    "v-fn-028": {
+      "start": 102.47,
+      "duration": 1.219
+    },
+    "v-fn-028__ex": {
+      "start": 103.839,
+      "duration": 2.436
+    },
+    "v-fn-029": {
+      "start": 106.425,
+      "duration": 1.104
+    },
+    "v-fn-029__ex": {
+      "start": 107.679,
+      "duration": 3.506
+    },
+    "v-fn-030": {
+      "start": 111.335,
+      "duration": 0.748
+    },
+    "v-fn-030__ex": {
+      "start": 112.233,
+      "duration": 3.086
+    },
+    "v-fn-031": {
+      "start": 115.468,
+      "duration": 1.103
+    },
+    "v-fn-031__ex": {
+      "start": 116.721,
+      "duration": 2.907
+    },
+    "v-fn-032": {
+      "start": 119.779,
+      "duration": 0.892
+    },
+    "v-fn-032__ex": {
+      "start": 120.821,
+      "duration": 2.807
+    },
+    "v-fn-033": {
+      "start": 123.778,
+      "duration": 1.035
+    },
+    "v-fn-033__ex": {
+      "start": 124.963,
+      "duration": 2.327
+    },
+    "v-fn-034": {
+      "start": 127.44,
+      "duration": 1.118
+    },
+    "v-fn-034__ex": {
+      "start": 128.708,
+      "duration": 2.322
+    },
+    "v-fn-035": {
+      "start": 131.179,
+      "duration": 1.027
+    },
+    "v-fn-035__ex": {
+      "start": 132.356,
+      "duration": 2.365
+    },
+    "v-fn-036": {
+      "start": 134.872,
+      "duration": 1.012
+    },
+    "v-fn-036__ex": {
+      "start": 136.034,
+      "duration": 1.797
+    },
+    "v-fn-037": {
+      "start": 137.981,
+      "duration": 1.013
+    },
+    "v-fn-037__ex": {
+      "start": 139.145,
+      "duration": 2.67
+    },
+    "v-fn-038": {
+      "start": 141.965,
+      "duration": 1.065
+    },
+    "v-fn-038__ex": {
+      "start": 143.18,
+      "duration": 2.378
+    },
+    "v-fn-039": {
+      "start": 145.707,
+      "duration": 1.302
+    },
+    "v-fn-039__ex": {
+      "start": 147.159,
+      "duration": 5.127
+    },
+    "v-fn-040": {
+      "start": 152.437,
+      "duration": 1.178
+    },
+    "v-fn-040__ex": {
+      "start": 153.765,
+      "duration": 3.085
+    },
+    "v-fn-041": {
+      "start": 157,
+      "duration": 1.082
+    },
+    "v-fn-041__ex": {
+      "start": 158.232,
+      "duration": 2.764
+    },
+    "v-fn-042": {
+      "start": 161.145,
+      "duration": 1.209
+    },
+    "v-fn-042__ex": {
+      "start": 162.505,
+      "duration": 2.746
+    },
+    "v-fn-043": {
+      "start": 165.401,
+      "duration": 1.202
+    },
+    "v-fn-043__ex": {
+      "start": 166.753,
+      "duration": 1.962
+    }
+  }
+}

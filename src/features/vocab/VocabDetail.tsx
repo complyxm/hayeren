@@ -1,4 +1,5 @@
 import { vocab } from "../../data/vocab";
+import { useVocabAudio } from "./useVocabAudio";
 
 const POS_LABEL_JA: Record<string, string> = {
   noun: "名詞",
@@ -20,6 +21,8 @@ interface VocabDetailProps {
 
 export function VocabDetail({ id, onBack }: VocabDetailProps) {
   const entry = vocab.find((v) => v.id === id);
+  const { canPlayWord, canPlayExample, playWord, playExample } = useVocabAudio(entry);
+
   if (!entry) {
     return (
       <main className="min-h-screen bg-parchment px-4 py-8 text-ink">
@@ -52,6 +55,15 @@ export function VocabDetail({ id, onBack }: VocabDetailProps) {
             {entry.translit} ／ IPA {entry.ipa} ／ {POS_LABEL_JA[entry.pos]}
           </p>
           <p className="mt-3 text-lg">{entry.ja.join("、")}</p>
+          {canPlayWord && (
+            <button
+              type="button"
+              onClick={playWord}
+              className="mt-4 inline-flex items-center gap-1.5 rounded-md border border-gold bg-gold/20 px-4 py-1.5 text-sm hover:bg-gold/30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+            >
+              <span aria-hidden="true">♪</span> 発音を聞く
+            </button>
+          )}
         </div>
 
         {forms.length > 0 && (
@@ -72,9 +84,24 @@ export function VocabDetail({ id, onBack }: VocabDetailProps) {
             {entry.example.hy}
           </p>
           <p className="mt-1 text-ink/80">{entry.example.ja}</p>
+          {canPlayExample && (
+            <button
+              type="button"
+              onClick={playExample}
+              className="mt-3 inline-flex items-center gap-1.5 rounded-md border border-lapis/60 bg-lapis/10 px-3 py-1 text-xs hover:bg-lapis/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+            >
+              <span aria-hidden="true">♪</span> 例文を聞く
+            </button>
+          )}
         </section>
 
-        {!entry.audio && <p className="mt-4 text-xs text-ink/40">音声はまだありません。</p>}
+        {canPlayWord || canPlayExample ? (
+          <p className="mt-2 text-center text-[11px] text-ink/50">
+            機械合成の暫定音声（eSpeak NG）。発音の細部は参考程度に。
+          </p>
+        ) : (
+          <p className="mt-4 text-xs text-ink/40">音声はまだありません。</p>
+        )}
       </div>
     </main>
   );

@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "theme": "shopping",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-shop-001": {
+      "start": 0,
+      "duration": 1.02
+    },
+    "v-shop-001__ex": {
+      "start": 1.17,
+      "duration": 1.957
+    },
+    "v-shop-002": {
+      "start": 3.277,
+      "duration": 1.021
+    },
+    "v-shop-002__ex": {
+      "start": 4.448,
+      "duration": 1.787
+    },
+    "v-shop-003": {
+      "start": 6.385,
+      "duration": 0.939
+    },
+    "v-shop-003__ex": {
+      "start": 7.474,
+      "duration": 1.861
+    },
+    "v-shop-004": {
+      "start": 9.485,
+      "duration": 1.185
+    },
+    "v-shop-004__ex": {
+      "start": 10.82,
+      "duration": 2.176
+    },
+    "v-shop-005": {
+      "start": 13.146,
+      "duration": 1.271
+    },
+    "v-shop-005__ex": {
+      "start": 14.567,
+      "duration": 2.699
+    },
+    "v-shop-006": {
+      "start": 17.417,
+      "duration": 1.222
+    },
+    "v-shop-006__ex": {
+      "start": 18.788,
+      "duration": 2.686
+    },
+    "v-shop-007": {
+      "start": 21.625,
+      "duration": 0.922
+    },
+    "v-shop-007__ex": {
+      "start": 22.697,
+      "duration": 2.863
+    },
+    "v-shop-008": {
+      "start": 25.709,
+      "duration": 0.858
+    },
+    "v-shop-008__ex": {
+      "start": 26.717,
+      "duration": 2.201
+    },
+    "v-shop-009": {
+      "start": 29.069,
+      "duration": 0.787
+    },
+    "v-shop-009__ex": {
+      "start": 30.006,
+      "duration": 2.308
+    },
+    "v-shop-010": {
+      "start": 32.464,
+      "duration": 1.043
+    },
+    "v-shop-010__ex": {
+      "start": 33.657,
+      "duration": 2.078
+    },
+    "v-shop-011": {
+      "start": 35.885,
+      "duration": 0.822
+    },
+    "v-shop-011__ex": {
+      "start": 36.856,
+      "duration": 1.473
+    },
+    "v-shop-012": {
+      "start": 38.48,
+      "duration": 1.102
+    },
+    "v-shop-012__ex": {
+      "start": 39.731,
+      "duration": 1.56
+    },
+    "v-shop-013": {
+      "start": 41.441,
+      "duration": 0.856
+    },
+    "v-shop-013__ex": {
+      "start": 42.447,
+      "duration": 1.295
+    },
+    "v-shop-014": {
+      "start": 43.892,
+      "duration": 0.775
+    },
+    "v-shop-014__ex": {
+      "start": 44.817,
+      "duration": 1.561
+    },
+    "v-shop-015": {
+      "start": 46.528,
+      "duration": 0.973
+    },
+    "v-shop-015__ex": {
+      "start": 47.651,
+      "duration": 1.767
+    },
+    "v-shop-016": {
+      "start": 49.568,
+      "duration": 0.777
+    },
+    "v-shop-016__ex": {
+      "start": 50.495,
+      "duration": 1.251
+    },
+    "v-shop-017": {
+      "start": 51.896,
+      "duration": 0.715
+    },
+    "v-shop-017__ex": {
+      "start": 52.761,
+      "duration": 1.18
+    },
+    "v-shop-018": {
+      "start": 54.091,
+      "duration": 0.816
+    },
+    "v-shop-018__ex": {
+      "start": 55.057,
+      "duration": 1.707
+    },
+    "v-shop-019": {
+      "start": 56.913,
+      "duration": 0.81
+    },
+    "v-shop-019__ex": {
+      "start": 57.873,
+      "duration": 1.663
+    },
+    "v-shop-020": {
+      "start": 59.686,
+      "duration": 1.204
+    },
+    "v-shop-020__ex": {
+      "start": 61.04,
+      "duration": 2.394
+    },
+    "v-shop-021": {
+      "start": 63.584,
+      "duration": 1.387
+    },
+    "v-shop-021__ex": {
+      "start": 65.121,
+      "duration": 3.515
+    },
+    "v-shop-022": {
+      "start": 68.786,
+      "duration": 2.056
+    },
+    "v-shop-022__ex": {
+      "start": 70.991,
+      "duration": 2.312
+    },
+    "v-shop-023": {
+      "start": 73.453,
+      "duration": 0.903
+    },
+    "v-shop-023__ex": {
+      "start": 74.507,
+      "duration": 1.558
+    },
+    "v-shop-024": {
+      "start": 76.215,
+      "duration": 1.356
+    },
+    "v-shop-024__ex": {
+      "start": 77.721,
+      "duration": 2.444
+    },
+    "v-shop-025": {
+      "start": 80.314,
+      "duration": 0.908
+    },
+    "v-shop-025__ex": {
+      "start": 81.373,
+      "duration": 2.323
+    },
+    "v-shop-026": {
+      "start": 83.846,
+      "duration": 0.985
+    },
+    "v-shop-026__ex": {
+      "start": 84.981,
+      "duration": 1.894
+    },
+    "v-shop-027": {
+      "start": 87.025,
+      "duration": 0.979
+    },
+    "v-shop-027__ex": {
+      "start": 88.154,
+      "duration": 1.785
+    },
+    "v-shop-028": {
+      "start": 90.088,
+      "duration": 0.793
+    },
+    "v-shop-028__ex": {
+      "start": 91.032,
+      "duration": 2.287
+    },
+    "v-shop-029": {
+      "start": 93.469,
+      "duration": 1.114
+    },
+    "v-shop-029__ex": {
+      "start": 94.732,
+      "duration": 2.927
+    },
+    "v-shop-030": {
+      "start": 97.809,
+      "duration": 0.845
+    },
+    "v-shop-030__ex": {
+      "start": 98.804,
+      "duration": 2.24
+    },
+    "v-shop-031": {
+      "start": 101.194,
+      "duration": 0.937
+    },
+    "v-shop-031__ex": {
+      "start": 102.281,
+      "duration": 2.711
+    },
+    "v-shop-032": {
+      "start": 105.142,
+      "duration": 1.07
+    },
+    "v-shop-032__ex": {
+      "start": 106.362,
+      "duration": 2.357
+    },
+    "v-shop-033": {
+      "start": 108.869,
+      "duration": 1.056
+    },
+    "v-shop-033__ex": {
+      "start": 110.075,
+      "duration": 2.384
+    },
+    "v-shop-034": {
+      "start": 112.609,
+      "duration": 1.033
+    },
+    "v-shop-034__ex": {
+      "start": 113.792,
+      "duration": 2.196
+    },
+    "v-shop-035": {
+      "start": 116.138,
+      "duration": 0.855
+    },
+    "v-shop-035__ex": {
+      "start": 117.142,
+      "duration": 1.844
+    },
+    "v-shop-036": {
+      "start": 119.136,
+      "duration": 1.122
+    },
+    "v-shop-036__ex": {
+      "start": 120.408,
+      "duration": 2.063
+    },
+    "v-shop-037": {
+      "start": 122.621,
+      "duration": 1.051
+    },
+    "v-shop-037__ex": {
+      "start": 123.822,
+      "duration": 3.136
+    }
+  }
+}

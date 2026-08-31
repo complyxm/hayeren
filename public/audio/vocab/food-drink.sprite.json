@@ -1,0 +1,333 @@
+{
+  "meta": {
+    "theme": "food-drink",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-food-001": {
+      "start": 0,
+      "duration": 0.845
+    },
+    "v-food-001__ex": {
+      "start": 0.995,
+      "duration": 1.543
+    },
+    "v-food-002": {
+      "start": 2.688,
+      "duration": 1.054
+    },
+    "v-food-002__ex": {
+      "start": 3.893,
+      "duration": 1.89
+    },
+    "v-food-003": {
+      "start": 5.933,
+      "duration": 0.814
+    },
+    "v-food-003__ex": {
+      "start": 6.897,
+      "duration": 1.552
+    },
+    "v-food-004": {
+      "start": 8.6,
+      "duration": 0.794
+    },
+    "v-food-004__ex": {
+      "start": 9.543,
+      "duration": 1.507
+    },
+    "v-food-005": {
+      "start": 11.201,
+      "duration": 0.687
+    },
+    "v-food-005__ex": {
+      "start": 12.038,
+      "duration": 1.391
+    },
+    "v-food-006": {
+      "start": 13.579,
+      "duration": 0.859
+    },
+    "v-food-006__ex": {
+      "start": 14.588,
+      "duration": 1.493
+    },
+    "v-food-007": {
+      "start": 16.231,
+      "duration": 1.027
+    },
+    "v-food-007__ex": {
+      "start": 17.408,
+      "duration": 1.74
+    },
+    "v-food-008": {
+      "start": 19.298,
+      "duration": 0.783
+    },
+    "v-food-008__ex": {
+      "start": 20.231,
+      "duration": 1.415
+    },
+    "v-food-009": {
+      "start": 21.796,
+      "duration": 0.794
+    },
+    "v-food-009__ex": {
+      "start": 22.74,
+      "duration": 1.472
+    },
+    "v-food-010": {
+      "start": 24.362,
+      "duration": 0.899
+    },
+    "v-food-010__ex": {
+      "start": 25.411,
+      "duration": 1.543
+    },
+    "v-food-011": {
+      "start": 27.104,
+      "duration": 0.795
+    },
+    "v-food-011__ex": {
+      "start": 28.049,
+      "duration": 1.406
+    },
+    "v-food-012": {
+      "start": 29.605,
+      "duration": 1.445
+    },
+    "v-food-012__ex": {
+      "start": 31.2,
+      "duration": 2.011
+    },
+    "v-food-013": {
+      "start": 33.361,
+      "duration": 0.921
+    },
+    "v-food-013__ex": {
+      "start": 34.432,
+      "duration": 1.513
+    },
+    "v-food-014": {
+      "start": 36.095,
+      "duration": 0.926
+    },
+    "v-food-014__ex": {
+      "start": 37.171,
+      "duration": 1.541
+    },
+    "v-food-015": {
+      "start": 38.862,
+      "duration": 1.198
+    },
+    "v-food-015__ex": {
+      "start": 40.211,
+      "duration": 1.816
+    },
+    "v-food-016": {
+      "start": 42.177,
+      "duration": 2.568
+    },
+    "v-food-016__ex": {
+      "start": 44.895,
+      "duration": 2.568
+    },
+    "v-food-017": {
+      "start": 47.613,
+      "duration": 2.253
+    },
+    "v-food-017__ex": {
+      "start": 50.016,
+      "duration": 2.253
+    },
+    "v-food-018": {
+      "start": 52.419,
+      "duration": 1.107
+    },
+    "v-food-018__ex": {
+      "start": 53.676,
+      "duration": 1.875
+    },
+    "v-food-019": {
+      "start": 55.701,
+      "duration": 1.323
+    },
+    "v-food-019__ex": {
+      "start": 57.173,
+      "duration": 2.632
+    },
+    "v-food-020": {
+      "start": 59.955,
+      "duration": 1.272
+    },
+    "v-food-020__ex": {
+      "start": 61.377,
+      "duration": 2.474
+    },
+    "v-food-021": {
+      "start": 64.001,
+      "duration": 0.826
+    },
+    "v-food-021__ex": {
+      "start": 64.977,
+      "duration": 1.865
+    },
+    "v-food-022": {
+      "start": 66.993,
+      "duration": 1.028
+    },
+    "v-food-022__ex": {
+      "start": 68.171,
+      "duration": 2.074
+    },
+    "v-food-023": {
+      "start": 70.395,
+      "duration": 0.785
+    },
+    "v-food-023__ex": {
+      "start": 71.33,
+      "duration": 2.328
+    },
+    "v-food-024": {
+      "start": 73.808,
+      "duration": 1.205
+    },
+    "v-food-024__ex": {
+      "start": 75.163,
+      "duration": 1.86
+    },
+    "v-food-025": {
+      "start": 77.173,
+      "duration": 0.807
+    },
+    "v-food-025__ex": {
+      "start": 78.13,
+      "duration": 2.244
+    },
+    "v-food-026": {
+      "start": 80.524,
+      "duration": 0.992
+    },
+    "v-food-026__ex": {
+      "start": 81.666,
+      "duration": 2.405
+    },
+    "v-food-027": {
+      "start": 84.221,
+      "duration": 0.979
+    },
+    "v-food-027__ex": {
+      "start": 85.35,
+      "duration": 2.081
+    },
+    "v-food-028": {
+      "start": 87.581,
+      "duration": 1.247
+    },
+    "v-food-028__ex": {
+      "start": 88.979,
+      "duration": 3.015
+    },
+    "v-food-029": {
+      "start": 92.144,
+      "duration": 0.924
+    },
+    "v-food-029__ex": {
+      "start": 93.218,
+      "duration": 2.898
+    },
+    "v-food-030": {
+      "start": 96.266,
+      "duration": 0.832
+    },
+    "v-food-030__ex": {
+      "start": 97.248,
+      "duration": 1.932
+    },
+    "v-food-031": {
+      "start": 99.33,
+      "duration": 0.98
+    },
+    "v-food-031__ex": {
+      "start": 100.46,
+      "duration": 2.52
+    },
+    "v-food-032": {
+      "start": 103.13,
+      "duration": 1.252
+    },
+    "v-food-032__ex": {
+      "start": 104.532,
+      "duration": 3.334
+    },
+    "v-food-033": {
+      "start": 108.016,
+      "duration": 0.961
+    },
+    "v-food-033__ex": {
+      "start": 109.127,
+      "duration": 2.551
+    },
+    "v-food-034": {
+      "start": 111.828,
+      "duration": 1.276
+    },
+    "v-food-034__ex": {
+      "start": 113.254,
+      "duration": 3.109
+    },
+    "v-food-035": {
+      "start": 116.513,
+      "duration": 0.839
+    },
+    "v-food-035__ex": {
+      "start": 117.501,
+      "duration": 2.013
+    },
+    "v-food-036": {
+      "start": 119.664,
+      "duration": 1.017
+    },
+    "v-food-036__ex": {
+      "start": 120.831,
+      "duration": 2.924
+    },
+    "v-food-037": {
+      "start": 123.906,
+      "duration": 1.211
+    },
+    "v-food-037__ex": {
+      "start": 125.266,
+      "duration": 2.312
+    },
+    "v-food-038": {
+      "start": 127.728,
+      "duration": 0.991
+    },
+    "v-food-038__ex": {
+      "start": 128.87,
+      "duration": 2.603
+    },
+    "v-food-039": {
+      "start": 131.622,
+      "duration": 0.975
+    },
+    "v-food-039__ex": {
+      "start": 132.748,
+      "duration": 2.185
+    },
+    "v-food-040": {
+      "start": 135.083,
+      "duration": 0.946
+    },
+    "v-food-040__ex": {
+      "start": 136.18,
+      "duration": 1.887
+    }
+  }
+}

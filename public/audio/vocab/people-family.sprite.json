@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "theme": "people-family",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-people-001": {
+      "start": 0,
+      "duration": 1.1
+    },
+    "v-people-001__ex": {
+      "start": 1.25,
+      "duration": 1.847
+    },
+    "v-people-002": {
+      "start": 3.247,
+      "duration": 0.802
+    },
+    "v-people-002__ex": {
+      "start": 4.199,
+      "duration": 2.06
+    },
+    "v-people-003": {
+      "start": 6.409,
+      "duration": 0.811
+    },
+    "v-people-003__ex": {
+      "start": 7.37,
+      "duration": 1.58
+    },
+    "v-people-004": {
+      "start": 9.1,
+      "duration": 1.13
+    },
+    "v-people-004__ex": {
+      "start": 10.379,
+      "duration": 1.987
+    },
+    "v-people-005": {
+      "start": 12.516,
+      "duration": 0.765
+    },
+    "v-people-005__ex": {
+      "start": 13.431,
+      "duration": 1.889
+    },
+    "v-people-006": {
+      "start": 15.47,
+      "duration": 0.773
+    },
+    "v-people-006__ex": {
+      "start": 16.393,
+      "duration": 2.056
+    },
+    "v-people-007": {
+      "start": 18.599,
+      "duration": 0.844
+    },
+    "v-people-007__ex": {
+      "start": 19.593,
+      "duration": 1.715
+    },
+    "v-people-008": {
+      "start": 21.458,
+      "duration": 1.136
+    },
+    "v-people-008__ex": {
+      "start": 22.745,
+      "duration": 2.282
+    },
+    "v-people-009": {
+      "start": 25.176,
+      "duration": 0.94
+    },
+    "v-people-009__ex": {
+      "start": 26.267,
+      "duration": 1.88
+    },
+    "v-people-010": {
+      "start": 28.297,
+      "duration": 1.056
+    },
+    "v-people-010__ex": {
+      "start": 29.503,
+      "duration": 2.32
+    },
+    "v-people-011": {
+      "start": 31.972,
+      "duration": 1.088
+    },
+    "v-people-011__ex": {
+      "start": 33.21,
+      "duration": 1.742
+    },
+    "v-people-012": {
+      "start": 35.102,
+      "duration": 0.944
+    },
+    "v-people-012__ex": {
+      "start": 36.197,
+      "duration": 1.714
+    },
+    "v-people-013": {
+      "start": 38.06,
+      "duration": 0.935
+    },
+    "v-people-013__ex": {
+      "start": 39.145,
+      "duration": 2.09
+    },
+    "v-people-014": {
+      "start": 41.385,
+      "duration": 1.685
+    },
+    "v-people-014__ex": {
+      "start": 43.22,
+      "duration": 2.643
+    },
+    "v-people-015": {
+      "start": 46.014,
+      "duration": 1.375
+    },
+    "v-people-015__ex": {
+      "start": 47.539,
+      "duration": 2.584
+    },
+    "v-people-016": {
+      "start": 50.273,
+      "duration": 1.21
+    },
+    "v-people-016__ex": {
+      "start": 51.633,
+      "duration": 2.546
+    },
+    "v-people-017": {
+      "start": 54.329,
+      "duration": 0.923
+    },
+    "v-people-017__ex": {
+      "start": 55.402,
+      "duration": 1.716
+    },
+    "v-people-018": {
+      "start": 57.268,
+      "duration": 1.344
+    },
+    "v-people-018__ex": {
+      "start": 58.762,
+      "duration": 1.868
+    },
+    "v-people-019": {
+      "start": 60.78,
+      "duration": 0.811
+    },
+    "v-people-019__ex": {
+      "start": 61.741,
+      "duration": 1.253
+    },
+    "v-people-020": {
+      "start": 63.144,
+      "duration": 0.986
+    },
+    "v-people-020__ex": {
+      "start": 64.28,
+      "duration": 2.294
+    },
+    "v-people-021": {
+      "start": 66.724,
+      "duration": 0.777
+    },
+    "v-people-021__ex": {
+      "start": 67.65,
+      "duration": 2.317
+    },
+    "v-people-022": {
+      "start": 70.117,
+      "duration": 0.757
+    },
+    "v-people-022__ex": {
+      "start": 71.024,
+      "duration": 2.5
+    },
+    "v-people-023": {
+      "start": 73.674,
+      "duration": 0.857
+    },
+    "v-people-023__ex": {
+      "start": 74.681,
+      "duration": 1.937
+    },
+    "v-people-024": {
+      "start": 76.768,
+      "duration": 0.997
+    },
+    "v-people-024__ex": {
+      "start": 77.916,
+      "duration": 1.744
+    },
+    "v-people-025": {
+      "start": 79.81,
+      "duration": 1.266
+    },
+    "v-people-025__ex": {
+      "start": 81.226,
+      "duration": 2.627
+    },
+    "v-people-026": {
+      "start": 84.003,
+      "duration": 0.894
+    },
+    "v-people-026__ex": {
+      "start": 85.047,
+      "duration": 2.218
+    },
+    "v-people-027": {
+      "start": 87.415,
+      "duration": 1.2
+    },
+    "v-people-027__ex": {
+      "start": 88.765,
+      "duration": 2.419
+    },
+    "v-people-028": {
+      "start": 91.334,
+      "duration": 1.378
+    },
+    "v-people-028__ex": {
+      "start": 92.862,
+      "duration": 1.991
+    },
+    "v-people-029": {
+      "start": 95.003,
+      "duration": 0.927
+    },
+    "v-people-029__ex": {
+      "start": 96.08,
+      "duration": 2.32
+    },
+    "v-people-030": {
+      "start": 98.55,
+      "duration": 1.129
+    },
+    "v-people-030__ex": {
+      "start": 99.83,
+      "duration": 2.346
+    },
+    "v-people-031": {
+      "start": 102.325,
+      "duration": 1.332
+    },
+    "v-people-031__ex": {
+      "start": 103.807,
+      "duration": 2.934
+    },
+    "v-people-032": {
+      "start": 106.891,
+      "duration": 1.078
+    },
+    "v-people-032__ex": {
+      "start": 108.119,
+      "duration": 2.668
+    },
+    "v-people-033": {
+      "start": 110.938,
+      "duration": 1.327
+    },
+    "v-people-033__ex": {
+      "start": 112.415,
+      "duration": 3.182
+    },
+    "v-people-034": {
+      "start": 115.747,
+      "duration": 0.74
+    },
+    "v-people-034__ex": {
+      "start": 116.637,
+      "duration": 2.467
+    }
+  }
+}

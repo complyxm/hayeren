@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "theme": "weather",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-weather-001": {
+      "start": 0,
+      "duration": 1.196
+    },
+    "v-weather-001__ex": {
+      "start": 1.346,
+      "duration": 2.279
+    },
+    "v-weather-002": {
+      "start": 3.775,
+      "duration": 0.933
+    },
+    "v-weather-002__ex": {
+      "start": 4.858,
+      "duration": 2.369
+    },
+    "v-weather-003": {
+      "start": 7.377,
+      "duration": 0.943
+    },
+    "v-weather-003__ex": {
+      "start": 8.47,
+      "duration": 2.824
+    },
+    "v-weather-004": {
+      "start": 11.444,
+      "duration": 0.987
+    },
+    "v-weather-004__ex": {
+      "start": 12.582,
+      "duration": 2.826
+    },
+    "v-weather-005": {
+      "start": 15.558,
+      "duration": 0.994
+    },
+    "v-weather-005__ex": {
+      "start": 16.702,
+      "duration": 2.942
+    },
+    "v-weather-006": {
+      "start": 19.794,
+      "duration": 0.904
+    },
+    "v-weather-006__ex": {
+      "start": 20.848,
+      "duration": 3.205
+    },
+    "v-weather-007": {
+      "start": 24.204,
+      "duration": 1.077
+    },
+    "v-weather-007__ex": {
+      "start": 25.43,
+      "duration": 2.135
+    },
+    "v-weather-008": {
+      "start": 27.716,
+      "duration": 0.857
+    },
+    "v-weather-008__ex": {
+      "start": 28.722,
+      "duration": 1.564
+    },
+    "v-weather-009": {
+      "start": 30.437,
+      "duration": 0.963
+    },
+    "v-weather-009__ex": {
+      "start": 31.55,
+      "duration": 1.999
+    },
+    "v-weather-010": {
+      "start": 33.699,
+      "duration": 0.768
+    },
+    "v-weather-010__ex": {
+      "start": 34.617,
+      "duration": 1.889
+    },
+    "v-weather-011": {
+      "start": 36.656,
+      "duration": 0.868
+    },
+    "v-weather-011__ex": {
+      "start": 37.674,
+      "duration": 1.886
+    },
+    "v-weather-012": {
+      "start": 39.71,
+      "duration": 0.81
+    },
+    "v-weather-012__ex": {
+      "start": 40.669,
+      "duration": 2.288
+    },
+    "v-weather-013": {
+      "start": 43.107,
+      "duration": 0.845
+    },
+    "v-weather-013__ex": {
+      "start": 44.102,
+      "duration": 1.474
+    },
+    "v-weather-014": {
+      "start": 45.726,
+      "duration": 1.406
+    },
+    "v-weather-014__ex": {
+      "start": 47.282,
+      "duration": 2.62
+    },
+    "v-weather-015": {
+      "start": 50.051,
+      "duration": 1.188
+    },
+    "v-weather-015__ex": {
+      "start": 51.39,
+      "duration": 2.282
+    },
+    "v-weather-016": {
+      "start": 53.822,
+      "duration": 1.146
+    },
+    "v-weather-016__ex": {
+      "start": 55.118,
+      "duration": 1.757
+    },
+    "v-weather-017": {
+      "start": 57.024,
+      "duration": 1.06
+    },
+    "v-weather-017__ex": {
+      "start": 58.234,
+      "duration": 2.381
+    },
+    "v-weather-018": {
+      "start": 60.765,
+      "duration": 1.24
+    },
+    "v-weather-018__ex": {
+      "start": 62.155,
+      "duration": 2.374
+    },
+    "v-weather-019": {
+      "start": 64.679,
+      "duration": 1.326
+    },
+    "v-weather-019__ex": {
+      "start": 66.154,
+      "duration": 2.416
+    },
+    "v-weather-020": {
+      "start": 68.721,
+      "duration": 1.021
+    },
+    "v-weather-020__ex": {
+      "start": 69.892,
+      "duration": 2.737
+    },
+    "v-weather-021": {
+      "start": 72.778,
+      "duration": 0.98
+    },
+    "v-weather-021__ex": {
+      "start": 73.909,
+      "duration": 2.133
+    },
+    "v-weather-022": {
+      "start": 76.191,
+      "duration": 1.059
+    },
+    "v-weather-022__ex": {
+      "start": 77.4,
+      "duration": 2.787
+    },
+    "v-weather-023": {
+      "start": 80.338,
+      "duration": 1.1
+    },
+    "v-weather-023__ex": {
+      "start": 81.587,
+      "duration": 1.98
+    },
+    "v-weather-024": {
+      "start": 83.717,
+      "duration": 0.756
+    },
+    "v-weather-024__ex": {
+      "start": 84.624,
+      "duration": 2.605
+    },
+    "v-weather-025": {
+      "start": 87.378,
+      "duration": 1.069
+    },
+    "v-weather-025__ex": {
+      "start": 88.598,
+      "duration": 2.897
+    },
+    "v-weather-026": {
+      "start": 91.645,
+      "duration": 0.989
+    },
+    "v-weather-026__ex": {
+      "start": 92.784,
+      "duration": 2.426
+    },
+    "v-weather-027": {
+      "start": 95.361,
+      "duration": 1.079
+    },
+    "v-weather-027__ex": {
+      "start": 96.59,
+      "duration": 2.961
+    },
+    "v-weather-028": {
+      "start": 99.701,
+      "duration": 0.713
+    },
+    "v-weather-028__ex": {
+      "start": 100.563,
+      "duration": 2.033
+    },
+    "v-weather-029": {
+      "start": 102.747,
+      "duration": 0.932
+    },
+    "v-weather-029__ex": {
+      "start": 103.829,
+      "duration": 2.178
+    },
+    "v-weather-030": {
+      "start": 106.157,
+      "duration": 1.157
+    },
+    "v-weather-030__ex": {
+      "start": 107.464,
+      "duration": 3.041
+    },
+    "v-weather-031": {
+      "start": 110.656,
+      "duration": 1.373
+    },
+    "v-weather-031__ex": {
+      "start": 112.179,
+      "duration": 2.851
+    },
+    "v-weather-032": {
+      "start": 115.18,
+      "duration": 1.157
+    },
+    "v-weather-032__ex": {
+      "start": 116.487,
+      "duration": 1.972
+    },
+    "v-weather-033": {
+      "start": 118.609,
+      "duration": 1.151
+    },
+    "v-weather-033__ex": {
+      "start": 119.91,
+      "duration": 3.051
+    }
+  }
+}
