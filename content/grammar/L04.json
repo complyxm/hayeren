@@ -1,0 +1,70 @@
+{
+  "id": "L04",
+  "dialect": "east",
+  "title": "指示詞 այս / այդ / այն",
+  "prerequisites": ["L03"],
+  "explanation_ja": "アルメニア語の指示詞は**3段階**で、話し手を基準に距離が変わる。\n\n| 距離 | 名詞の前に置く形 | 単独で使う代名詞 | 複数の代名詞 |\n|---|---|---|---|\n| 近称（話し手のそば） | **այս** | **սա** | սրանք |\n| 中称（聞き手のそば） | **այդ** | **դա** | դրանք |\n| 遠称（どちらからも遠い） | **այն** | **նա** | նրանք |\n\n名詞の前に置く形（այս / այդ / այն）は**変化しない**。修飾される名詞には、これまでどおり**定冠詞 -ը / -ն も付く**：`այս գիրքը`（この本）。\n\n`նա` は3人称の代名詞「彼・彼女」と同じ語。文脈で「あの人／あれ」か「彼」かが決まる。",
+  "patterns": [
+    {
+      "template": "այս / այդ / այն + {名詞} + -ը / -ն",
+      "gloss_ja": "指示詞は名詞の前。話し手基準で近称・中称・遠称の3段階。修飾される名詞には定冠詞も付く。"
+    },
+    {
+      "template": "սա / դա / նա （複数 սրանք / դրանք / նրանք）",
+      "gloss_ja": "名詞を伴わず単独で「これ／それ／あれ」を指す代名詞形。"
+    }
+  ],
+  "examples": [
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "指示詞 այս/այդ/այն は curriculum.md §2.2 L04。語彙 նոր は verbs-adjectives テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Այս գիրքը նոր է։",
+      "translit": "Ays girke nor e.",
+      "ja": "この本は新しいです。",
+      "notes_ja": "指示詞 այս は名詞の前。名詞には定冠詞 -ը も付く。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "指示詞は curriculum.md §2.2 L04。語彙 թանկ は numbers-money テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Այդ տունը թանկ է։",
+      "translit": "Ayd tune tank e.",
+      "ja": "その（あなたのそばの）家は高いです。",
+      "notes_ja": "այդ は聞き手に近いものを指す。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "指示詞は curriculum.md §2.2 L04。語彙 հայ は people-family テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Այն մարդը հայ է։",
+      "translit": "Ayn marde hay e.",
+      "ja": "あの人はアルメニア人です。",
+      "notes_ja": "այն は話し手・聞き手のどちらからも遠いものを指す。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "代名詞形 սա は curriculum.md §2.2 L04 / 語彙 shopping（սա）で検証済み。語彙 թեյ は food-drink テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Սա թեյ է։",
+      "translit": "Sa tey e.",
+      "ja": "これはお茶です。",
+      "notes_ja": "名詞を伴わず単独で「これ」を指すときは սա。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "指示詞は複数とも共起する（curriculum.md §2.1 の複数規則 + §2.2 L04）。語彙 թանկ は numbers-money テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Այս գրքերը թանկ են։",
+      "translit": "Ays grkere tank en.",
+      "ja": "これらの本は高いです。",
+      "notes_ja": "指示詞は複数形とも一緒に使える（գիրք→գրքեր）。"
+    }
+  ],
+  "exercises": [
+    { "type": "cloze", "sentence": "___ գիրքը նոր է։", "answer": "Այս" },
+    { "type": "reorder", "tokens": ["Այդ", "տունը", "թանկ", "է"], "answer": "Այդ տունը թանկ է։" },
+    { "type": "cloze", "sentence": "Սա թեյ ___, սուրճ է։", "answer": "չէ" },
+    { "type": "conjugate", "lemma": "լինել", "personNumber": "3pl", "answer": "են" }
+  ]
+}

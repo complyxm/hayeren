@@ -109,6 +109,16 @@ describe("content/grammar/ lessons", () => {
     }
   });
 
+  it("has no look-alike Cyrillic / Greek / Georgian characters anywhere (CLAUDE.md §6-1)", () => {
+    // 解説・注記に「-ум」等をローマ字混じりで書くとキリル文字が紛れ込みやすい。
+    const LOOKALIKE = /[Ͱ-ϿЀ-ӿႠ-ჿ]/u;
+    for (const lesson of grammarLessons) {
+      const hit = JSON.stringify(lesson).match(LOOKALIKE);
+      expect(hit, `${lesson.id}: ${hit ? `stray "${hit[0]}"` : ""}`).toBeNull();
+    }
+    expect(JSON.stringify(grammarExceptions).match(LOOKALIKE)).toBeNull();
+  });
+
   it("has L01–L03 seeded and chained in order", () => {
     const byId = new Map(grammarLessons.map((l) => [l.id, l]));
     expect(byId.has("L01")).toBe(true);

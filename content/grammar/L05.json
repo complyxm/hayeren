@@ -1,0 +1,69 @@
+{
+  "id": "L05",
+  "dialect": "east",
+  "title": "疑問詞と ՞ の位置",
+  "prerequisites": ["L04"],
+  "explanation_ja": "アルメニア語の疑問文で最初につまずくのが**疑問符 ՞ の位置**。\n\n**՞ は文末に置かない。** 問われている語の、**最後の母音の上**に置く。文の終わりはふつうの終止符 `։`。\n\n- 「それは何？」→ `Դա ի՞նչ է։`（`ինչ` の母音 `ի` の上に ՞）\n- 「どこにいる？」→ `Դու որտե՞ղ ես։`（`որտեղ` の最後の母音 `ե` の上）\n\nはい／いいえで答える疑問文には疑問詞がない。その場合は**焦点になる語**（多くは述語）の最後の母音に ՞ を置く：`Դու ուսանո՞ղ ես։`（あなたは学生ですか）。\n\n### 主な疑問詞\n\n| ի՞նչ | 何 |\n|---|---|\n| ո՞վ | 誰 |\n| որտե՞ղ | どこ |\n| ե՞րբ | いつ |\n| ինչու՞ | なぜ |\n| ինչպե՞ս | どうやって |\n| ո՞ր | どれ |\n| քանի՞ | いくつ |\n\n疑問詞はふつう文頭か、述語の直前に来る。",
+  "patterns": [
+    {
+      "template": "{疑問詞（母音の上に ՞）} … ։",
+      "gloss_ja": "疑問符 ՞ は文末ではなく、問われている語の最後の母音の上。文末は ։ のまま。"
+    },
+    {
+      "template": "{主語} {焦点語（母音の上に ՞）} {繋辞} ։",
+      "gloss_ja": "疑問詞のない はい/いいえ疑問文では、焦点の語の最後の母音に ՞ を置く。"
+    }
+  ],
+  "examples": [
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "疑問符 ՞ の位置は CLAUDE.md §6-4 / curriculum.md §2.2 L05。疑問詞 ինչ は Wiktionary «ինչ» Eastern Armenian。例文はこのプロジェクト用に新規作成。",
+      "hy": "Դա ի՞նչ է։",
+      "translit": "Da inch e.",
+      "ja": "それは何ですか。",
+      "notes_ja": "疑問符 ՞ は文末ではなく、問う語 ինչ の唯一の母音 ի の上に置く。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "疑問符 ՞ の位置は CLAUDE.md §6-4。疑問詞 որտեղ は Wiktionary «որտեղ» Eastern Armenian。例文はこのプロジェクト用に新規作成。",
+      "hy": "Դու որտե՞ղ ես։",
+      "translit": "Du vorteğ es.",
+      "ja": "あなたはどこにいますか。",
+      "notes_ja": "՞ は որտեղ の最後の母音 ե の上。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "疑問符 ՞ の位置は CLAUDE.md §6-4。疑問詞 ով は Wiktionary «ով» Eastern Armenian。例文はこのプロジェクト用に新規作成。",
+      "hy": "Նա ո՞վ է։",
+      "translit": "Na ov e.",
+      "ja": "彼は誰ですか。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "はい/いいえ疑問文の ՞ 位置は CLAUDE.md §6-4。語彙 ուսանող は people-family テーマで検証済み。例文はこのプロジェクト用に新規作成。",
+      "hy": "Դու ուսանո՞ղ ես։",
+      "translit": "Du usanoğ es.",
+      "ja": "あなたは学生ですか。",
+      "notes_ja": "疑問詞がないので、焦点の語 ուսանող の最後の母音 ո の上に ՞ を置く。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "値段の聞き方「Ի՞նչ արժե」は shopping テーマの必須フレーズとして検証済み。語彙 գիրք は Wiktionary «գիրք» で確認。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ի՞նչ արժե այս գիրքը։",
+      "translit": "Inch arže ays girke.",
+      "ja": "この本はいくらですか。",
+      "notes_ja": "値段を聞く決まり文句。ここでも ՞ は ինչ の母音の上。"
+    }
+  ],
+  "exercises": [
+    { "type": "cloze", "sentence": "Դա ___ է։", "answer": "ի՞նչ" },
+    { "type": "cloze", "sentence": "Նա ___ է։", "answer": "ո՞վ" },
+    { "type": "reorder", "tokens": ["Դու", "որտե՞ղ", "ես"], "answer": "Դու որտե՞ղ ես։" },
+    { "type": "conjugate", "lemma": "լինել", "personNumber": "2sg", "answer": "ես" }
+  ]
+}
