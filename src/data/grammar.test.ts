@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { grammarExceptions, grammarLessons } from "./grammar";
 import { grammarLessonIdSchema } from "./schemas/grammar";
+import { PRESENT_AUXILIARY, PRESENT_AUXILIARY_NEGATIVE } from "../domain/grammar/conjugate";
 
 // アルメニア文字は U+0530–U+058F の範囲のみ (見た目の似たラテン/キリル文字の混入を防ぐ)。
 // CLAUDE.md §6-1。content.test.ts と同じ範囲。
@@ -26,6 +27,21 @@ describe("content/grammar/exceptions.json", () => {
       "2pl": "չեք",
       "3pl": "չեն",
     });
+  });
+
+  it("keeps the engine's present auxiliary constant in sync with the copula (affirmative)", () => {
+    // 規則動詞の現在形助動詞 = լինել の現在形。肯定は完全一致するはず。
+    expect(grammarExceptions.verbs["լինել"].present).toEqual(PRESENT_AUXILIARY);
+  });
+
+  it("diverges from the copula only at the 3sg negative (չի auxiliary vs չէ predicate)", () => {
+    const copulaNeg = grammarExceptions.verbs["լինել"].presentNegative;
+    expect(copulaNeg).toBeDefined();
+    expect(copulaNeg?.["3sg"]).toBe("չէ");
+    expect(PRESENT_AUXILIARY_NEGATIVE["3sg"]).toBe("չի");
+    for (const pn of ["1sg", "2sg", "1pl", "2pl", "3pl"] as const) {
+      expect(PRESENT_AUXILIARY_NEGATIVE[pn], pn).toBe(copulaNeg?.[pn]);
+    }
   });
 
   it("keeps every irregular verb form within the Armenian Unicode block", () => {
