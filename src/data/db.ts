@@ -35,6 +35,12 @@ export interface SettingsRecord {
    * docs/phonetics.md「L1 は音声を Google のサーバーに送信する。オプトイン（既定オフ）」。
    */
   l1SpeechOptIn: boolean;
+  /**
+   * 完了した文法課の id（roadmap Phase 5「L01–L24 が前提課の順に解放」）。
+   * 課の練習をひと通り解き終えると追加される。前提がこの集合に含まれる課だけを解放する。
+   * 移行前レコード（このフィールドが無い）は空配列扱い。
+   */
+  completedGrammarLessonIds?: string[];
 }
 
 /**

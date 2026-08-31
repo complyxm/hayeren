@@ -15,6 +15,7 @@ async function ensureSettings(): Promise<SettingsRecord> {
     dailyNewCardLimit: DEFAULT_DAILY_NEW_CARD_LIMIT,
     vocabDailyNewCardLimit: DEFAULT_DAILY_NEW_CARD_LIMIT,
     l1SpeechOptIn: false,
+    completedGrammarLessonIds: [],
   };
   await db.settings.put(created);
   return created;
@@ -47,6 +48,18 @@ export async function getL1SpeechOptIn(): Promise<boolean> {
 export async function setL1SpeechOptIn(optIn: boolean): Promise<void> {
   await ensureSettings();
   await db.settings.update("singleton", { l1SpeechOptIn: optIn });
+}
+
+/** completedGrammarLessonIds が無いまま保存された既存レコード(移行前)は空配列扱いにする。 */
+export async function getCompletedGrammarLessonIds(): Promise<string[]> {
+  return (await ensureSettings()).completedGrammarLessonIds ?? [];
+}
+
+export async function markGrammarLessonComplete(lessonId: string): Promise<void> {
+  await ensureSettings();
+  const current = await getCompletedGrammarLessonIds();
+  if (current.includes(lessonId)) return;
+  await db.settings.update("singleton", { completedGrammarLessonIds: [...current, lessonId] });
 }
 
 /**
