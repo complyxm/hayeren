@@ -109,6 +109,44 @@ describe("decline — irregular nouns (exceptions beat the rule, §2.4)", () => 
   });
 });
 
+describe("decline — accusative (animate vs inanimate, L10)", () => {
+  it("inanimate accusative = nominative", () => {
+    expect(decline("գիրք", { case: "accusative" }, IRREGULARS).form).toBe("գիրք");
+    expect(decline("գիրք", { case: "accusative", definite: true }, IRREGULARS).form).toBe("գիրքը");
+    expect(decline("գիրք", { case: "accusative", number: "pl" }, IRREGULARS).form).toBe("գրքեր");
+  });
+
+  it("animate accusative = genitive/dative form", () => {
+    expect(decline("ուսանող", { case: "accusative", animate: true }).form).toBe("ուսանողի");
+    expect(decline("ուսանող", { case: "accusative", animate: true, definite: true }).form).toBe("ուսանողին");
+    expect(decline("ուսանող", { case: "accusative", animate: true, number: "pl" }).form).toBe("ուսանողների");
+  });
+});
+
+describe("decline — ablative / instrumental / locative (L13–L15)", () => {
+  it("derives the default class from the stem (Wiktionary քաղաք)", () => {
+    expect(decline("քաղաք", { case: "ablative" }).form).toBe("քաղաքից");
+    expect(decline("քաղաք", { case: "instrumental" }).form).toBe("քաղաքով");
+    expect(decline("քաղաք", { case: "locative" }).form).toBe("քաղաքում");
+    expect(decline("քաղաք", { case: "ablative", number: "pl" }).form).toBe("քաղաքներից");
+    expect(decline("քաղաք", { case: "instrumental", number: "pl" }).form).toBe("քաղաքներով");
+    expect(decline("քաղաք", { case: "locative", number: "pl" }).form).toBe("քաղաքներում");
+  });
+
+  it("uses the reduced stem for syncope nouns whose genitive is the regular -ի on that stem", () => {
+    expect(decline("գիրք", { case: "instrumental" }, IRREGULARS).form).toBe("գրքով");
+    expect(decline("գիրք", { case: "ablative" }, IRREGULARS).form).toBe("գրքից");
+    expect(decline("գիրք", { case: "locative" }, IRREGULARS).form).toBe("գրքում");
+  });
+
+  it("takes an explicit exception form when the oblique stem differs (տուն → տնից)", () => {
+    const irr = { տուն: { ...IRREGULARS["տուն"], ablative: "տնից", instrumental: "տնով", locative: "տանում" } };
+    expect(decline("տուն", { case: "ablative" }, irr).form).toBe("տնից");
+    expect(decline("տուն", { case: "instrumental" }, irr).form).toBe("տնով");
+    expect(decline("տուն", { case: "locative" }, irr).form).toBe("տանում");
+  });
+});
+
 describe("decline — refuses to guess", () => {
   it("throws AmbiguousDeclensionError for a vowel-final singular genitive with no exception", () => {
     expect(() => decline("կատու", { case: "genitive" })).toThrow(AmbiguousDeclensionError);
@@ -116,9 +154,15 @@ describe("decline — refuses to guess", () => {
     expect(decline("կատու", { case: "nominative", number: "pl" }).form).toBe("կատուներ");
   });
 
-  it("throws for cases not yet implemented", () => {
-    for (const c of ["accusative", "ablative", "instrumental", "locative"] as const) {
-      expect(() => decline("սեղան", { case: c as GrammarCase }), c).toThrow();
+  it("throws for a non-default-class oblique with no explicit exception form", () => {
+    // tun's genitive is the irregular տան (not stem+ի) → ablative/instrumental/locative
+    // cannot be derived and must be listed explicitly.
+    for (const c of ["ablative", "instrumental", "locative"] as const) {
+      expect(() => decline("տուն", { case: c as GrammarCase }, IRREGULARS), c).toThrow(AmbiguousDeclensionError);
     }
+  });
+
+  it("throws for a vowel-final oblique with no exception", () => {
+    expect(() => decline("կատու", { case: "instrumental" })).toThrow(AmbiguousDeclensionError);
   });
 });

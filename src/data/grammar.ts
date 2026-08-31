@@ -30,6 +30,9 @@ export const grammarNounIrregulars: Record<string, NounIrregularity> = Object.fr
       plural: entry.plural,
       genitive: entry.forms?.genitive ?? entry.forms?.dative,
       pluralGenitive: entry.pluralForms?.genitive ?? entry.pluralForms?.dative,
+      ablative: entry.forms?.ablative,
+      instrumental: entry.forms?.instrumental,
+      locative: entry.forms?.locative,
     },
   ]),
 );

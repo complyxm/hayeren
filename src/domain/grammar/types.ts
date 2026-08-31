@@ -52,7 +52,7 @@ export interface ConjugationResult {
   auxiliaryFirst: boolean;
 }
 
-/** curriculum.md §2.1 の7格。実装済みは主格・属格・与格のみ (roadmap Phase 5、他は後続コミット)。 */
+/** curriculum.md §2.1 の7格。すべて decline() が扱う。 */
 export type GrammarCase =
   | "nominative"
   | "genitive"
@@ -68,6 +68,11 @@ export interface DeclineOptions {
   number?: GrammarNumber;
   /** 定冠詞を付けるか。既定 false。 */
   definite?: boolean;
+  /**
+   * 有生名詞か (人・動物)。対格の形が変わる (curriculum.md §2.1、L10):
+   * 無生 → 主格と同形、有生 → 属格・与格と同形。既定 false (無生)。
+   */
+  animate?: boolean;
 }
 
 /**
@@ -77,12 +82,17 @@ export interface DeclineOptions {
  * - genitive: 属格・与格 単数の完成形 (非既定の曲用クラス。տուն→տան, հայր→հոր, օր→օրվա)。
  * - pluralGenitive: 属格・与格 複数の完成形。補充法複数 (մարդիկ→մարդկանց 等) で必須。
  *   規則的な -եր/-ներ 複数は自動で -ի を付けるのでここは不要。
+ * - ablative / instrumental / locative: それぞれ単数の完成形。斜格で語幹が別形になる語
+ *   (例: 家 → 奪格 tnicʻ) や非既定クラスで必須。既定クラスは語幹 + -ic'/-ov/-um で自動導出する。
  */
 export interface NounIrregularity {
   stem?: string;
   plural?: string;
   genitive?: string;
   pluralGenitive?: string;
+  ablative?: string;
+  instrumental?: string;
+  locative?: string;
 }
 
 export class AmbiguousDeclensionError extends Error {
