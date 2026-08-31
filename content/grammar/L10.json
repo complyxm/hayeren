@@ -1,0 +1,71 @@
+{
+  "id": "L10",
+  "dialect": "east",
+  "title": "対格と直接目的語（有生 / 無生の違い）",
+  "prerequisites": ["L09"],
+  "explanation_ja": "他動詞の直接目的語は**対格**に立つ。対格の形は、その名詞が**有生（人・動物）か無生か**で変わる。\n\n### 無生の目的語\n対格 = **主格と同じ形**。格語尾は付かない（定冠詞は付きうる）。\n\n`Ես գիրքը կարդում եմ։`（私はその本を読んでいる）\n\n### 有生の目的語\n対格 = **属格・与格と同じ形**（語尾 `ի`）。特定の相手なら、さらに定冠詞 `ն` が付いた形が普通。\n\n`Ես տեսնում եմ ուսանողին։`（私はその学生を見ている）\n\n| 目的語 | 対格 |\n|---|---|\n| գիրք（無生） | գիրք（＝主格） |\n| ուսանող（有生） | ուսանողի / ուսանողին（＝属与格） |\n\n形容詞が付いても、無生なら対格は主格と同形：`Ես տեսնում եմ մեծ տունը։`",
+  "patterns": [
+    {
+      "template": "{主語} + {無生の目的語（＝主格形）} + {動詞}",
+      "gloss_ja": "無生の直接目的語は主格と同形。定冠詞は付きうる。"
+    },
+    {
+      "template": "{主語} + {動詞} + {有生の目的語 ＋ 語尾 ի（特定なら ին）}",
+      "gloss_ja": "有生の直接目的語は属格・与格と同形。特定の相手なら定形。"
+    }
+  ],
+  "examples": [
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "対格の有生/無生の別は curriculum.md §2.1 / §2.2 L10。kardal（読む, verbs-adjectives）は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ես գիրքը կարդում եմ։",
+      "translit": "Yes girke kardum em.",
+      "ja": "私はその本を読んでいます。",
+      "notes_ja": "無生の目的語（本）の対格は主格と同形。定冠詞だけが付いている。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "対格の別は curriculum.md §2.1。khmel（飲む, food-drink）, tey（お茶, food-drink）は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ես թեյ եմ խմում։",
+      "translit": "Yes tey em khmum.",
+      "ja": "私はお茶を飲んでいます。",
+      "notes_ja": "無印（不定）の無生目的語。焦点なので助動詞が tey の直後、分詞は文末。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "有生の対格 = 属与格は curriculum.md §2.1。tesnel（見る, verbs-adjectives）, usanogh（学生, people-family）は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ես տեսնում եմ ուսանողին։",
+      "translit": "Yes tesnum em usanoghin.",
+      "ja": "私はその学生を見ています。",
+      "notes_ja": "有生の目的語（人）の対格は属格・与格と同形。特定なので定形になっている。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "無生の対格 = 主格は curriculum.md §2.1。sirel（好む, verbs-adjectives）は検証済み語彙。kʻaghakʻ（街）の綴りは Wiktionary «քաղաք» で確認。例文はこのプロジェクト用に新規作成。",
+      "hy": "Նա սիրում է այս քաղաքը։",
+      "translit": "Na sirum e ays kʻaghakʻe.",
+      "ja": "彼はこの街が好きです。",
+      "notes_ja": "街（無生）の対格は主格と同形。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "無生の対格は形容詞が付いても主格と同形（curriculum.md §2.1）。tesnel（見る）, mets（大きい）, tun（家）は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Մենք տեսնում ենք մեծ տունը։",
+      "translit": "Menk tesnum enk mets tune.",
+      "ja": "私たちはその大きい家を見ています。",
+      "notes_ja": "無生の目的語は形容詞が付いても対格は主格と同形。"
+    }
+  ],
+  "exercises": [
+    { "type": "conjugate", "lemma": "տեսնել", "personNumber": "1sg", "answer": "տեսնում եմ" },
+    { "type": "conjugate", "lemma": "խմել", "personNumber": "3sg", "answer": "խմում է" },
+    { "type": "cloze", "sentence": "Ես տեսնում եմ ___։", "answer": "ուսանողին" },
+    { "type": "cloze", "sentence": "Ես ___ եմ խմում։", "answer": "թեյ" },
+    { "type": "reorder", "tokens": ["Ես", "գիրքը", "կարդում", "եմ"], "answer": "Ես գիրքը կարդում եմ։" }
+  ]
+}

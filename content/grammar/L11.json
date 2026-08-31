@@ -1,0 +1,70 @@
+{
+  "id": "L11",
+  "dialect": "east",
+  "title": "形容詞（不変化）と比較",
+  "prerequisites": ["L10"],
+  "explanation_ja": "アルメニア語の形容詞は**変化しない**。名詞の性（そもそも無い）・数・格に一致させない。\n\n### 位置\n連体修飾では形容詞を**名詞の前**に置く：`մեծ տուն`（大きい家）。名詞が複数・斜格になっても形容詞はそのまま：`մեծ տներ`（大きい家々）。\n\n述語では：`Տունը մեծ է։`（その家は大きい）\n\n### 比較級\n`ավելի`（＝もっと）を形容詞の前に置く。「〜より」は `քան`。\n\n`Այս տունը ավելի նոր է, քան այն տունը։`（この家はあの家より新しい）\n\n### 最上級\n接頭辞 `ամենա-` を形容詞につなげて1語にする：`ամենամեծ`（一番大きい）。\n\n`Սա ամենամեծ սենյակն է։`（これは一番大きい部屋だ）",
+  "patterns": [
+    {
+      "template": "{形容詞（不変化）} + {名詞}",
+      "gloss_ja": "連体修飾は形容詞を名詞の前に。数・格で形は変わらない。"
+    },
+    {
+      "template": "ավելի + {形容詞}（＋ քան + {比較対象}）／ ամենա- + {形容詞}",
+      "gloss_ja": "比較級は「もっと」を形容詞の前に、「〜より」を比較対象の前に置く。最上級は接頭辞を頭につなげて1語にする。"
+    }
+  ],
+  "examples": [
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "形容詞の不変化・前置は curriculum.md §2.2 L11。mets（大きい, verbs-adjectives）, tun（家, housing-landlord）は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Սա մեծ տուն է։",
+      "translit": "Sa mets tun e.",
+      "ja": "これは大きい家です。",
+      "notes_ja": "形容詞は名詞の前。性・数・格で形は変わらない。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "形容詞は複数でも不変（curriculum.md §2.2 L11）。mets, tun, tank（値段が高い, numbers-money）は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Մեծ տները թանկ են։",
+      "translit": "Mets tnere tank en.",
+      "ja": "大きい家は（値段が）高いです。",
+      "notes_ja": "複数でも形容詞はそのまま。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "比較級は前置詞的な aveli（Wiktionary «ավելի» Eastern Armenian）＋ 形容詞。senyak（部屋, housing-landlord）, mets は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Այս սենյակը ավելի մեծ է։",
+      "translit": "Ays senyake aveli mets e.",
+      "ja": "この部屋はもっと大きいです。",
+      "notes_ja": "比較級は「もっと」にあたる語を形容詞の前に置く。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "「〜より」= kʻan（Wiktionary «քան» Eastern Armenian）。nor（新しい, verbs-adjectives）, tun は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Այս տունը ավելի նոր է, քան այն տունը։",
+      "translit": "Ays tune aveli nor e, kʻan ayn tune.",
+      "ja": "この家はあの家より新しいです。",
+      "notes_ja": "「〜より」にあたる語を比較対象の前に置く。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "最上級は接頭辞 amena-（curriculum.md §2.2 L11 / Wiktionary «ամենա-»）を形容詞につなげる。senyak, mets は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Սա ամենամեծ սենյակն է։",
+      "translit": "Sa amenamets senyakn e.",
+      "ja": "これは一番大きい部屋です。",
+      "notes_ja": "最上級は接頭辞を形容詞の頭につなげて1語にする。"
+    }
+  ],
+  "exercises": [
+    { "type": "cloze", "sentence": "Այս սենյակը ___ մեծ է։", "answer": "ավելի" },
+    { "type": "cloze", "sentence": "Սա ___ սենյակն է։", "answer": "ամենամեծ" },
+    { "type": "reorder", "tokens": ["Սա", "մեծ", "տուն", "է"], "answer": "Սա մեծ տուն է։" },
+    { "type": "conjugate", "lemma": "լինել", "personNumber": "3pl", "answer": "են" }
+  ]
+}

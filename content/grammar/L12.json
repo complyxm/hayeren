@@ -1,0 +1,69 @@
+{
+  "id": "L12",
+  "dialect": "east",
+  "title": "数詞・時刻・日付",
+  "prerequisites": ["L11"],
+  "explanation_ja": "### 数詞の後の名詞は単数\nアルメニア語では、数詞の後でも名詞は**単数のまま**にする（複数形にしない）。\n\n`երկու գիրք`（本2冊）— `*երկու գրքեր` とは言わない。\n`հինգ մարդ`（5人）。\n\n基本の数詞（1〜10）は語彙モジュールで扱う。\n\n### 時刻\n「何時ですか」＝ `Ժամը ի՞նչ է։`\n\n「〜時です」＝ `Ժամը` ＋ 数詞 ＋ `է`。次に来る `է` は母音で始まるので、数詞には定冠詞 `ն` が付く（L03 の交替）：`Ժամը երեքն է։`（3時です）\n\n### 曜日・日付\n曜日や「今日」は語彙どおりの語を繋辞と組み合わせる：`Այսօր երկուշաբթի է։`（今日は月曜日です）",
+  "patterns": [
+    {
+      "template": "{数詞} + {名詞（単数のまま）}",
+      "gloss_ja": "数詞の後の名詞は単数。複数形にしない。"
+    },
+    {
+      "template": "Ժամը + {数詞 ＋ ն} + է",
+      "gloss_ja": "時刻の言い方。母音で始まる է の前なので数詞は定冠詞 ն を取る。"
+    }
+  ],
+  "examples": [
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "「数詞の後の名詞は単数」は東アルメニア語の一般規則（curriculum.md §2.2 L12）。yerku（2, numbers-money）は検証済み語彙。girk（本）の綴りは Wiktionary «գիրք» で確認。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ես երկու գիրք ունեմ։",
+      "translit": "Yes yerku girk unem.",
+      "ja": "私は本を2冊持っています。",
+      "notes_ja": "数詞の後の名詞は単数のまま（複数形にしない）。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "数詞 + 単数名詞（curriculum.md §2.2 L12）。hing（5, numbers-money）, mard（人, people-family）は検証済み語彙。存在の ka は curriculum.md §2.1。例文はこのプロジェクト用に新規作成。",
+      "hy": "Այստեղ հինգ մարդ կա։",
+      "translit": "Aystegh hing mard ka.",
+      "ja": "ここに5人います。",
+      "notes_ja": "「5人」でも mard は単数。ka は「いる・ある」。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "時刻「Ժամը + 数詞 + է」は東アルメニア語の定型。数詞末尾の ն は母音で始まる է の前の定冠詞交替（本課 L03 の規則）。yerek（3, numbers-money）, zham（時, time-calendar）は検証済み語彙。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ժամը երեքն է։",
+      "translit": "Zhame yerekn e.",
+      "ja": "3時です。",
+      "notes_ja": "数詞 yerek に定冠詞 ն が付いているのは、次の է が母音で始まるため（L03 の交替）。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "「何時ですか」の定型は time-calendar テーマの必須フレーズ v-time-015 として検証済み。疑問符 ՞ の位置は CLAUDE.md §6-4。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ժամը ի՞նչ է։",
+      "translit": "Zhame inch e.",
+      "ja": "何時ですか。",
+      "notes_ja": "時刻を尋ねる決まり文句。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "aysor（今日）, yerkushabti（月曜日）は time-calendar テーマで検証済み。繋辞は L01。例文はこのプロジェクト用に新規作成。",
+      "hy": "Այսօր երկուշաբթի է։",
+      "translit": "Aysor yerkushabti e.",
+      "ja": "今日は月曜日です。"
+    }
+  ],
+  "exercises": [
+    { "type": "cloze", "sentence": "Ես երկու ___ ունեմ։", "answer": "գիրք" },
+    { "type": "cloze", "sentence": "Ժամը ___ է։", "answer": "երեքն" },
+    { "type": "reorder", "tokens": ["Այսօր", "երկուշաբթի", "է"], "answer": "Այսօր երկուշաբթի է։" },
+    { "type": "conjugate", "lemma": "ունենալ", "personNumber": "1sg", "answer": "ունեմ" }
+  ]
+}
