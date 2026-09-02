@@ -141,7 +141,7 @@ export function MetroNav({ onBack }: MetroNavProps) {
                     type="button"
                     onClick={checkAnswer}
                     disabled={stopsInput === "" || directionChoice === null}
-                    className="rounded-md border border-gold bg-vermillion/80 px-4 py-2 text-sm text-ink disabled:opacity-30"
+                    className="rounded-md border border-gold bg-vermillion/80 px-4 py-2 text-sm text-ink disabled:opacity-30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
                   >
                     確認する
                   </button>
@@ -150,7 +150,7 @@ export function MetroNav({ onBack }: MetroNavProps) {
                   <button
                     type="button"
                     onClick={advance}
-                    className="rounded-md border border-gold bg-gold/30 px-4 py-2 text-sm text-ink"
+                    className="rounded-md border border-gold bg-gold/30 px-4 py-2 text-sm text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
                   >
                     {stepIndex + 1 >= course.length ? "コースを完了する" : "次の駅へ"}
                   </button>

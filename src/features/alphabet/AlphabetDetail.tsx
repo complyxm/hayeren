@@ -17,7 +17,7 @@ export function AlphabetDetail({ id, onBack, onSelect }: AlphabetDetailProps) {
     return (
       <main className="min-h-screen bg-parchment px-4 py-8 text-ink">
         <p>文字が見つかりませんでした。</p>
-        <button type="button" onClick={onBack} className="underline">
+        <button type="button" onClick={onBack} className="underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold">
           文字表に戻る
         </button>
       </main>

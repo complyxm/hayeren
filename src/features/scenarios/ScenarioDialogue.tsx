@@ -37,7 +37,7 @@ export function ScenarioDialogue({ id, onBack }: Props) {
     return (
       <main className="min-h-screen bg-parchment px-4 py-8 text-ink">
         <p>場面が見つかりませんでした。</p>
-        <button type="button" onClick={onBack} className="underline">
+        <button type="button" onClick={onBack} className="underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold">
           戻る
         </button>
       </main>

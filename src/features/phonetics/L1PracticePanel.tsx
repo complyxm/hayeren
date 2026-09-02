@@ -52,7 +52,7 @@ export function L1PracticePanel({
         type="button"
         onClick={onListen}
         disabled={listening}
-        className="rounded-md border border-gold bg-vermillion/80 px-4 py-2 text-sm text-ink disabled:opacity-50"
+        className="rounded-md border border-gold bg-vermillion/80 px-4 py-2 text-sm text-ink disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
       >
         {listening ? "聞いています…" : "認識する"}
       </button>

@@ -83,7 +83,7 @@ export function L1RecognitionPractice({ onBack, recognitionAdapter }: L1Recognit
             <button
               type="button"
               onClick={handleEnable}
-              className="rounded-md border border-gold bg-gold/20 px-4 py-2 text-sm hover:border-gold"
+              className="rounded-md border border-gold bg-gold/20 px-4 py-2 text-sm hover:border-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
             >
               同意して有効にする
             </button>
@@ -102,7 +102,7 @@ export function L1RecognitionPractice({ onBack, recognitionAdapter }: L1Recognit
             <button
               type="button"
               onClick={handleDisable}
-              className="mt-4 text-xs text-ink/50 underline decoration-gold/40 underline-offset-4 hover:text-gold"
+              className="mt-4 text-xs text-ink/50 underline decoration-gold/40 underline-offset-4 hover:text-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
             >
               この機能を無効にする
             </button>

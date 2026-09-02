@@ -136,7 +136,7 @@ export function ReviewScreen({ onBack }: ReviewScreenProps) {
               <input
                 type="file"
                 accept="application/json"
-                className="hidden"
+                className="hidden focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
                 onChange={(e) => {
                   const file = e.target.files?.[0];
                   if (file) void handleImportFile(file);

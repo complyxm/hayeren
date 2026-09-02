@@ -143,7 +143,7 @@ export function VotPractice({ onBack, captureAdapter }: VotPracticeProps) {
                 type="button"
                 onClick={handleRecord}
                 disabled={recording}
-                className="rounded-md border border-gold bg-vermillion/80 px-4 py-2 text-sm text-ink disabled:opacity-50"
+                className="rounded-md border border-gold bg-vermillion/80 px-4 py-2 text-sm text-ink disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
               >
                 {recording ? "録音中…" : "録音する"}
               </button>

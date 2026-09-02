@@ -28,7 +28,7 @@ export function VocabDetail({ id, onBack }: VocabDetailProps) {
     return (
       <main className="min-h-screen bg-parchment px-4 py-8 text-ink">
         <p>語が見つかりませんでした。</p>
-        <button type="button" onClick={onBack} className="underline">
+        <button type="button" onClick={onBack} className="underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold">
           語彙に戻る
         </button>
       </main>

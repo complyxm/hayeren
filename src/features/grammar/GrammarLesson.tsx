@@ -19,7 +19,7 @@ export function GrammarLesson({ id, onBack }: Props) {
     return (
       <main className="min-h-screen bg-parchment px-4 py-8 text-ink">
         <p>課が見つかりませんでした。</p>
-        <button type="button" onClick={onBack} className="underline">
+        <button type="button" onClick={onBack} className="underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold">
           文法に戻る
         </button>
       </main>
@@ -108,7 +108,7 @@ export function GrammarLesson({ id, onBack }: Props) {
         {saved && (
           <div className="mt-6 rounded-md border border-gold/40 bg-parchment-light p-4 text-center text-sm">
             <p>完了しました。前提にしている次の課が解放されます。</p>
-            <button type="button" onClick={onBack} className="mt-2 underline">
+            <button type="button" onClick={onBack} className="mt-2 underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold">
               文法に戻る
             </button>
           </div>

@@ -121,7 +121,7 @@ export function SettingsScreen({ onBack }: Props) {
                   aria-label={`${budget.label}の1日の新規カード上限`}
                   value={budgets[budget.key]}
                   onChange={(e) => changeBudget(budget.key, Number(e.target.value))}
-                  className="w-20 rounded border border-gold/40 bg-parchment px-2 py-1 text-ink"
+                  className="w-20 rounded border border-gold/40 bg-parchment px-2 py-1 text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
                 />
               </label>
             ))
@@ -140,7 +140,7 @@ export function SettingsScreen({ onBack }: Props) {
               aria-label="安定とみなす間隔（日）"
               value={threshold ?? ""}
               onChange={(e) => changeThreshold(Number(e.target.value))}
-              className="w-20 rounded border border-gold/40 bg-parchment px-2 py-1 text-ink"
+              className="w-20 rounded border border-gold/40 bg-parchment px-2 py-1 text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
             />
           </label>
         </Section>
@@ -153,7 +153,7 @@ export function SettingsScreen({ onBack }: Props) {
               aria-label="エレバンに行く予定日"
               value={target ?? ""}
               onChange={(e) => changeTarget(e.target.value)}
-              className="rounded border border-gold/40 bg-parchment px-2 py-1 text-ink"
+              className="rounded border border-gold/40 bg-parchment px-2 py-1 text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
             />
           </label>
         </Section>

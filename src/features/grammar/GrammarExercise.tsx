@@ -121,7 +121,7 @@ export function GrammarExercise({ exercise, onAnswered }: Props) {
           type="button"
           onClick={check}
           disabled={exercise.type === "reorder" ? picked.length !== exercise.tokens.length : text.trim() === ""}
-          className="mt-3 w-full rounded-md border border-gold bg-vermillion/80 px-4 py-2 text-sm text-ink disabled:opacity-30"
+          className="mt-3 w-full rounded-md border border-gold bg-vermillion/80 px-4 py-2 text-sm text-ink disabled:opacity-30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
         >
           確認する
         </button>
