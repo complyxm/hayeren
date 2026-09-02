@@ -33,7 +33,7 @@ describe("ScenarioMeter", () => {
 
   it("shows 未着手 before anything has been studied", async () => {
     render(<ScenarioMeter onBack={() => {}} onSelect={() => {}} />);
-    expect(await screen.findByText("── 未着手")).toBeInTheDocument();
+    expect(await screen.findAllByText("── 未着手")).toHaveLength(scenarios.length);
   });
 
   it("shows the concrete word gap once some words are stable", async () => {
@@ -45,7 +45,7 @@ describe("ScenarioMeter", () => {
 
     render(<ScenarioMeter onBack={() => {}} onSelect={() => {}} />);
     const remaining = scenario.requiredVocabIds.length - 1;
-    expect(await screen.findByText(`── あと ${remaining} 語`)).toBeInTheDocument();
+    expect((await screen.findAllByText(`── あと ${remaining} 語`)).length).toBeGreaterThan(0);
   });
 
   it("names the lessons still needed once the words are all stable", async () => {
@@ -53,8 +53,8 @@ describe("ScenarioMeter", () => {
     await stabilizeVocab(scenario.id);
     render(<ScenarioMeter onBack={() => {}} onSelect={() => {}} />);
     expect(
-      await screen.findByText(`── 課 ${scenario.requiredLessonIds.join("・")} が必要`),
-    ).toBeInTheDocument();
+      (await screen.findAllByText(`── 課 ${scenario.requiredLessonIds.join("・")} が必要`)).length,
+    ).toBeGreaterThan(0);
   });
 
   it("marks a scene 通過 once its words are stable and its lessons are done", async () => {
@@ -64,7 +64,7 @@ describe("ScenarioMeter", () => {
       await markGrammarLessonComplete(lessonId);
     }
     render(<ScenarioMeter onBack={() => {}} onSelect={() => {}} />);
-    expect(await screen.findByText("✓ 通過")).toBeInTheDocument();
+    expect((await screen.findAllByText("✓ 通過")).length).toBeGreaterThan(0);
   });
 
   it("opens the dialogue even for a scene that is not passable yet", async () => {

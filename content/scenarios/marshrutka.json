@@ -1,0 +1,205 @@
+{
+  "id": "sc-marshrutka",
+  "dialect": "east",
+  "status": "verified",
+  "source": "対話はこのプロジェクト用に新規作成。使った文はすべて検証済み語彙の例文か、その型に語を差し替えたもの：挨拶 v-greet-001 / v-greet-003、運賃 v-trans-031「Ուղեվարձը հարյուր դրամ է։」、次の停留所 v-trans-017「Հաջորդ կանգառը իմ կանգառն է։」の型、降車依頼 v-trans-032「Այստեղ կանգնեք, խնդրում եմ։」、v-trans-010「Ուզում եմ իջնել։」、行き先の尋ね方 v-trans-014「Ներողություն, որտե՞ղ է մետրոն։」の型、「Սա մարշրուտկա է։」v-trans-003。繋辞の否定（տաքսի չէ）は課 L07、命令形 կանգնեք は課 L20。",
+  "title_ja": "マルシュルートカに乗って降りる",
+  "place_ja": "マルシュルートカ",
+  "order": 2,
+  "requiredVocabIds": [
+    "v-greet-001",
+    "v-greet-003",
+    "v-greet-007",
+    "v-trans-003",
+    "v-trans-010",
+    "v-trans-017",
+    "v-trans-031",
+    "v-trans-032",
+    "v-dir-027",
+    "v-num-022"
+  ],
+  "requiredLessonIds": ["L01", "L03", "L20"],
+  "nodes": [
+    {
+      "id": "start",
+      "hy": "Բարև ձեզ։",
+      "translit": "Barev dzez.",
+      "ja": "こんにちは。（運転手が乗り込むあなたを見る）",
+      "choices": [
+        {
+          "hy": "Բարև ձեզ։ Կենտրոն, խնդրում եմ։",
+          "translit": "Barev dzez. Kentron, khndrum em.",
+          "ja": "こんにちは。中心部までお願いします。",
+          "next": "fare",
+          "outcome": "good",
+          "note_ja": "行き先は名詞ひとつ + խնդրում եմ で足りる。動詞は要らない。"
+        },
+        {
+          "hy": "Ներողություն, որտե՞ղ է կենտրոնը։",
+          "translit": "Neroghutyun, vorteh e kentrone.",
+          "ja": "すみません、中心部はどこですか。",
+          "next": "confirm",
+          "outcome": "clumsy",
+          "note_ja": "場所を尋ねる形。乗ってから聞いても通じるが、先に行き先を言うほうが早い。"
+        },
+        {
+          "hy": "Տաքսի, խնդրում եմ։",
+          "translit": "Taksi, khndrum em.",
+          "ja": "タクシーをお願いします。",
+          "next": "nottaxi",
+          "outcome": "funny"
+        }
+      ]
+    },
+    {
+      "id": "confirm",
+      "hy": "Այո, կենտրոն։",
+      "translit": "Ayo, kentron.",
+      "ja": "ええ、中心部ですよ。",
+      "choices": [
+        {
+          "hy": "Կենտրոն, խնդրում եմ։",
+          "translit": "Kentron, khndrum em.",
+          "ja": "中心部までお願いします。",
+          "next": "fare",
+          "outcome": "good"
+        },
+        {
+          "hy": "Շնորհակալություն։",
+          "translit": "Shnorhakalutyun.",
+          "ja": "ありがとう。",
+          "next": "fare",
+          "outcome": "clumsy",
+          "note_ja": "礼だけでも運転手は乗せてくれるが、行き先は結局聞かれる。"
+        }
+      ]
+    },
+    {
+      "id": "nottaxi",
+      "hy": "Սա տաքսի չէ։ Սա մարշրուտկա է։",
+      "translit": "Sa taksi che. Sa marshrutka e.",
+      "ja": "これはタクシーじゃないよ。マルシュルートカだ。",
+      "choices": [
+        {
+          "hy": "Ներողություն։ Կենտրոն, խնդրում եմ։",
+          "translit": "Neroghutyun. Kentron, khndrum em.",
+          "ja": "すみません。中心部までお願いします。",
+          "next": "fare",
+          "outcome": "good",
+          "note_ja": "繋辞の否定は չէ（動詞の չի とは別。課 L07）。"
+        },
+        {
+          "hy": "Կենտրոն, խնդրում եմ։",
+          "translit": "Kentron, khndrum em.",
+          "ja": "中心部までお願いします。",
+          "next": "fare",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "id": "fare",
+      "hy": "Ուղեվարձը հարյուր դրամ է։",
+      "translit": "Ughevardze haryur dram e.",
+      "ja": "運賃は100ドラムです。",
+      "choices": [
+        {
+          "hy": "Այո, խնդրում եմ։",
+          "translit": "Ayo, khndrum em.",
+          "ja": "はい、お願いします。",
+          "next": "ride",
+          "outcome": "good"
+        },
+        {
+          "hy": "Կրկնեք, խնդրում եմ։",
+          "translit": "Krknek, khndrum em.",
+          "ja": "もう一度言ってください。",
+          "next": "fare",
+          "outcome": "clumsy",
+          "note_ja": "金額は何度聞き返してもよい。走行中は特に聞き取りにくい。"
+        }
+      ]
+    },
+    {
+      "id": "ride",
+      "hy": "Հաջորդ կանգառը կենտրոնն է։",
+      "translit": "Hajord kangare kentronn e.",
+      "ja": "次の停留所が中心部です。",
+      "choices": [
+        {
+          "hy": "Այստեղ կանգնեք, խնդրում եմ։",
+          "translit": "Aystegh kangnek, khndrum em.",
+          "ja": "ここで止まってください。",
+          "next": "getoff",
+          "outcome": "good",
+          "note_ja": "マルシュルートカは声をかけないと止まらない。この一文が要。"
+        },
+        {
+          "hy": "Ուզում եմ իջնել։",
+          "translit": "Uzum em ijnel.",
+          "ja": "降りたいです。",
+          "next": "getoff",
+          "outcome": "clumsy",
+          "note_ja": "これでも通じる。「不定詞 + ուզում եմ」は課 L21。"
+        },
+        {
+          "hy": "Շնորհակալություն։",
+          "translit": "Shnorhakalutyun.",
+          "ja": "ありがとう。",
+          "next": "missed",
+          "outcome": "funny",
+          "note_ja": "礼を言っただけでは止まらない。降りる意思を伝える必要がある。"
+        }
+      ]
+    },
+    {
+      "id": "missed",
+      "hy": "Այստե՞ղ։",
+      "translit": "Aystegh.",
+      "ja": "ここで（降りるの）？",
+      "choices": [
+        {
+          "hy": "Այո, այստեղ կանգնեք, խնդրում եմ։",
+          "translit": "Ayo, aystegh kangnek, khndrum em.",
+          "ja": "はい、ここで止まってください。",
+          "next": "getoff",
+          "outcome": "good"
+        },
+        {
+          "hy": "Այո, խնդրում եմ։",
+          "translit": "Ayo, khndrum em.",
+          "ja": "はい、お願いします。",
+          "next": "getoff",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "id": "getoff",
+      "hy": "Ցտեսություն։",
+      "translit": "Tstesutyun.",
+      "ja": "（車が止まる）さようなら。",
+      "choices": [
+        {
+          "hy": "Շնորհակալություն, ցտեսություն։",
+          "translit": "Shnorhakalutyun, tstesutyun.",
+          "ja": "ありがとう、さようなら。",
+          "next": "done",
+          "outcome": "good"
+        },
+        {
+          "hy": "Ցտեսություն։",
+          "translit": "Tstesutyun.",
+          "ja": "さようなら。",
+          "next": "done",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "id": "done",
+      "ja": "中心部で降りられた。",
+      "ending": "pass"
+    }
+  ]
+}

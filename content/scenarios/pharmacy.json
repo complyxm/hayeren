@@ -1,0 +1,181 @@
+{
+  "id": "sc-pharmacy",
+  "dialect": "east",
+  "status": "verified",
+  "source": "対話はこのプロジェクト用に新規作成。使った文はすべて検証済み語彙の例文か、その型に語を差し替えたもの：症状 v-health-018「Ներողություն, գլուխս ցավում է։」、薬の要求 v-health-004「Ուզում եմ դեղ։」、所有の疑問 v-health-028「Ջերմաչափ ունե՞ք։」の型、服用指示 v-health-027「Օրական երկու դեղահատ խմեք։」、値段 v-num-021「Գինը հազար դրամ է։」、挨拶 v-greet-001 / v-greet-003、否定の返事 v-greet-008「Ոչ, շնորհակալություն։」、聞き返し v-greet-018。繋辞の否定（բժիշկ չեք）は課 L07、ունե՞ք は課 L09。",
+  "title_ja": "薬局で症状を伝えて薬を買う",
+  "place_ja": "薬局",
+  "order": 3,
+  "requiredVocabIds": [
+    "v-greet-001",
+    "v-greet-003",
+    "v-greet-008",
+    "v-health-001",
+    "v-health-004",
+    "v-health-014",
+    "v-health-018",
+    "v-health-027",
+    "v-num-021",
+    "v-num-022"
+  ],
+  "requiredLessonIds": ["L01", "L06", "L09"],
+  "nodes": [
+    {
+      "id": "start",
+      "hy": "Բարև ձեզ։ Ի՞նչ եք ուզում։",
+      "translit": "Barev dzez. Inch ek uzum.",
+      "ja": "こんにちは。どうされましたか。",
+      "choices": [
+        {
+          "hy": "Գլուխս ցավում է։",
+          "translit": "Glukhs tsavum e.",
+          "ja": "頭が痛いです。",
+          "next": "fever",
+          "outcome": "good",
+          "note_ja": "「体の部分 + ս」で「私の〜」。症状はこの形が最短。"
+        },
+        {
+          "hy": "Ուզում եմ դեղ։",
+          "translit": "Uzum em degh.",
+          "ja": "薬が欲しいです。",
+          "next": "whichmed",
+          "outcome": "clumsy",
+          "note_ja": "通じるが「何の薬か」を必ず聞かれる。症状から言うほうが早い。"
+        },
+        {
+          "hy": "Ես բժիշկ եմ։",
+          "translit": "Yes bzhishk em.",
+          "ja": "私は医者です。",
+          "next": "notdoctor",
+          "outcome": "funny"
+        }
+      ]
+    },
+    {
+      "id": "whichmed",
+      "hy": "Ի՞նչ դեղ։",
+      "translit": "Inch degh.",
+      "ja": "何のお薬ですか。",
+      "choices": [
+        {
+          "hy": "Գլուխս ցավում է։",
+          "translit": "Glukhs tsavum e.",
+          "ja": "頭が痛いです。",
+          "next": "fever",
+          "outcome": "good"
+        },
+        {
+          "hy": "Չգիտեմ։ Գլուխս ցավում է։",
+          "translit": "Chgitem. Glukhs tsavum e.",
+          "ja": "分かりません。頭が痛いんです。",
+          "next": "fever",
+          "outcome": "clumsy",
+          "note_ja": "薬の名前を知らなくてよい。症状さえ言えば薬剤師が選んでくれる。"
+        }
+      ]
+    },
+    {
+      "id": "notdoctor",
+      "hy": "Դուք բժիշկ չեք։ Ի՞նչ եք ուզում։",
+      "translit": "Duk bzhishk chek. Inch ek uzum.",
+      "ja": "あなたはお医者さんではないでしょう。どうされましたか。",
+      "choices": [
+        {
+          "hy": "Ներողություն։ Գլուխս ցավում է։",
+          "translit": "Neroghutyun. Glukhs tsavum e.",
+          "ja": "すみません。頭が痛いです。",
+          "next": "fever",
+          "outcome": "good",
+          "note_ja": "繋辞の否定は述語の後ろのまま（չեք）。動詞の否定と位置が違う（課 L07）。"
+        },
+        {
+          "hy": "Ուզում եմ դեղ։",
+          "translit": "Uzum em degh.",
+          "ja": "薬が欲しいです。",
+          "next": "whichmed",
+          "outcome": "clumsy"
+        }
+      ]
+    },
+    {
+      "id": "fever",
+      "hy": "Ջերմություն ունե՞ք։",
+      "translit": "Jermutyun unek.",
+      "ja": "熱はありますか。",
+      "choices": [
+        {
+          "hy": "Ոչ, շնորհակալություն։",
+          "translit": "Voch, shnorhakalutyun.",
+          "ja": "いいえ、ありません。",
+          "next": "dose",
+          "outcome": "good"
+        },
+        {
+          "hy": "Այո, ջերմություն ունեմ։",
+          "translit": "Ayo, jermutyun unem.",
+          "ja": "はい、熱があります。",
+          "next": "dose",
+          "outcome": "good",
+          "note_ja": "「持っている」は ունեմ 一語（課 L09）。*ունենում եմ とは言わない。"
+        },
+        {
+          "hy": "Չեմ հասկանում։ Կրկնեք, խնդրում եմ։",
+          "translit": "Chem haskanum. Krknek, khndrum em.",
+          "ja": "分かりません。もう一度言ってください。",
+          "next": "fever",
+          "outcome": "clumsy"
+        }
+      ]
+    },
+    {
+      "id": "dose",
+      "hy": "Օրական երկու դեղահատ խմեք։",
+      "translit": "Orakan yerku deghahat khmek.",
+      "ja": "1日2錠飲んでください。",
+      "choices": [
+        {
+          "hy": "Այո, շնորհակալություն։",
+          "translit": "Ayo, shnorhakalutyun.",
+          "ja": "はい、ありがとうございます。",
+          "next": "paypharm",
+          "outcome": "good"
+        },
+        {
+          "hy": "Դանդաղ խոսեք, խնդրում եմ։",
+          "translit": "Dandagh khosek, khndrum em.",
+          "ja": "ゆっくり話してください。",
+          "next": "dose",
+          "outcome": "clumsy",
+          "note_ja": "服用量は聞き間違えると危ない。分かるまで頼んでよい。"
+        }
+      ]
+    },
+    {
+      "id": "paypharm",
+      "hy": "Գինը հազար դրամ է։",
+      "translit": "Gine hazar dram e.",
+      "ja": "お値段は1000ドラムです。",
+      "choices": [
+        {
+          "hy": "Այո, խնդրում եմ։",
+          "translit": "Ayo, khndrum em.",
+          "ja": "はい、お願いします。",
+          "next": "donep",
+          "outcome": "good"
+        },
+        {
+          "hy": "Կրկնեք, խնդրում եմ։",
+          "translit": "Krknek, khndrum em.",
+          "ja": "もう一度言ってください。",
+          "next": "paypharm",
+          "outcome": "clumsy"
+        }
+      ]
+    },
+    {
+      "id": "donep",
+      "ja": "頭痛の薬を買えた。飲み方も聞けた。",
+      "ending": "pass"
+    }
+  ]
+}
