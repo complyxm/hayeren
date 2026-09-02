@@ -19,6 +19,7 @@ import { GrammarReviewScreen } from "./features/grammar/GrammarReviewScreen";
 import { ScenarioMeter } from "./features/scenarios/ScenarioMeter";
 import { ScenarioDialogue } from "./features/scenarios/ScenarioDialogue";
 import { ReleaseNotes } from "./features/about/ReleaseNotes";
+import { SignReading } from "./features/signs/SignReading";
 
 type Screen =
   | { name: "home" }
@@ -40,7 +41,8 @@ type Screen =
   | { name: "grammar-review" }
   | { name: "scenario-meter" }
   | { name: "scenario-dialogue"; id: string }
-  | { name: "release-notes" };
+  | { name: "release-notes" }
+  | { name: "sign-reading" };
 
 const HOME: Screen = { name: "home" };
 
@@ -56,6 +58,7 @@ function HomeMenu({ onNavigate }: { onNavigate: (screen: Screen) => void }) {
     { label: "活用マシン", screen: { name: "conjugation-machine" } },
     { label: "文タイル", screen: { name: "sentence-tiles" } },
     { label: "エレバンモード", screen: { name: "scenario-meter" } },
+    { label: "看板を読む", screen: { name: "sign-reading" } },
     { label: "更新のおしらせ", screen: { name: "release-notes" } },
     { label: "句読点", screen: { name: "punctuation" } },
     { label: "画面内キーボード", screen: { name: "keyboard" } },
@@ -150,6 +153,8 @@ export function App() {
       return <ScenarioDialogue id={screen.id} onBack={() => setScreen({ name: "scenario-meter" })} />;
     case "release-notes":
       return <ReleaseNotes onBack={() => setScreen(HOME)} />;
+    case "sign-reading":
+      return <SignReading onBack={() => setScreen(HOME)} />;
     default:
       return <HomeMenu onNavigate={setScreen} />;
   }

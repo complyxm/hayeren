@@ -19,6 +19,7 @@ async function ensureSettings(): Promise<SettingsRecord> {
     completedGrammarLessonIds: [],
     grammarDailyNewCardLimit: DEFAULT_DAILY_NEW_CARD_LIMIT,
     stabilityThresholdDays: DEFAULT_STABILITY_THRESHOLD_DAYS,
+    signDailyNewCardLimit: DEFAULT_DAILY_NEW_CARD_LIMIT,
   };
   await db.settings.put(created);
   return created;
@@ -51,6 +52,16 @@ export async function getGrammarDailyNewCardLimit(): Promise<number> {
 export async function setGrammarDailyNewCardLimit(limit: number): Promise<void> {
   await ensureSettings();
   await db.settings.update("singleton", { grammarDailyNewCardLimit: limit });
+}
+
+/** signDailyNewCardLimit が無いまま保存された既存レコード(移行前)は既定値扱いにする。 */
+export async function getSignDailyNewCardLimit(): Promise<number> {
+  return (await ensureSettings()).signDailyNewCardLimit ?? DEFAULT_DAILY_NEW_CARD_LIMIT;
+}
+
+export async function setSignDailyNewCardLimit(limit: number): Promise<void> {
+  await ensureSettings();
+  await db.settings.update("singleton", { signDailyNewCardLimit: limit });
 }
 
 /** stabilityThresholdDays が無いまま保存された既存レコード(移行前)は既定値扱いにする。 */

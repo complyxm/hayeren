@@ -54,6 +54,11 @@ export interface SettingsRecord {
    * 移行前レコード（このフィールドが無い）は既定値扱い。
    */
   stabilityThresholdDays?: number;
+  /**
+   * 看板読解（curriculum.md §7.2）の復習キュー専用の1日の新規カード上限。
+   * 文字・語彙・文法とは別枠。移行前レコード（このフィールドが無い）は既定値扱い。
+   */
+  signDailyNewCardLimit?: number;
 }
 
 /**
