@@ -1,0 +1,70 @@
+{
+  "id": "L13",
+  "dialect": "east",
+  "title": "奪格 -ից（〜から）",
+  "prerequisites": ["L12"],
+  "explanation_ja": "名詞に **`-ից`** を付けると「〜から」になる。起点・出所を表す格。\n\n`խանութ`（店）→ `խանութից`（店から）\n`Երևան` → `Երևանից`（エレバンから）\n\n### 複数\n複数形にそのまま付ける：`խանութներ` → `խանութներից`。\n\n### 属格が不規則な語は奪格も不規則\nL08 で見た「斜格で語幹が変わる語」は、奪格でも同じ語幹を使う。主格に `-ից` を付けるのではない。\n\n| 主格 | 属格（L08） | 奪格 |\n|---|---|---|\n| `տուն`（家） | `տան` | `տնից`（`*տունից` ではない） |\n| `ընկեր`（友達） | `ընկերոջ` | `ընկերոջից` |\n\n規則で導けない語は覚えるしかない。このアプリは辞書に持っている形だけを出題する。\n\n### 「〜より」（比較）\nL11 では比較を `քան` で作った。奪格でも同じことが言える。日常会話ではこちらのほうがよく耳に入る。\n\n`Մետրոն ավտոբուսից արագ է։`（地下鉄はバスより速い）",
+  "patterns": [
+    {
+      "template": "{名詞} + ից",
+      "gloss_ja": "「〜から」。起点・出所。複数形にも同じように付ける（-ներից）。"
+    },
+    {
+      "template": "{比較対象} + ից + {形容詞} + է",
+      "gloss_ja": "「〜より…だ」。L11 の քան の代わりに、比較対象を奪格に置く言い方。"
+    }
+  ],
+  "examples": [
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en) «Երևան» Eastern Armenian declension（i 型・無生、奪格 Երևանից、2026-09-03 参照）。繋辞は L01。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ես Երևանից եմ։",
+      "translit": "Yes Yerevanits em.",
+      "ja": "私はエレバン出身です。",
+      "notes_ja": "「〜出身です」は奪格＋繋辞。出身地を言う最頻出の形。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en) «խանութ» Eastern Armenian declension（i 型・無生、奪格単数 խանութից、2026-09-03 参照）。khanut（店, v-shop-001）, hats（パン, v-food-001）, gnel（買う, v-shop-003）は検証済み語彙。現在形は L06。例文はこのプロジェクト用に新規作成。",
+      "hy": "Նա խանութից հաց է գնում։",
+      "translit": "Na khanutits hats e gnum.",
+      "ja": "彼はその店でパンを買います。",
+      "notes_ja": "日本語では「店で買う」だが、アルメニア語は買う相手・出所を奪格で示す。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en) «տուն» Eastern Armenian declension（奪格単数 տնից。属格 տան と同じ斜格語幹 տն-、2026-09-03 参照）。gal の現在分詞 գալիս は exceptions.json（Wiktionary «գալ»）。例文はこのプロジェクト用に新規作成。",
+      "hy": "Ես տնից եմ գալիս։",
+      "translit": "Yes tnits em galis.",
+      "ja": "私は家から来るところです。",
+      "notes_ja": "տուն の奪格は տնից。主格に -ից を付けた *տունից とは言わない。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "奪格による比較（languagesgulper.com「the object of comparison is declined in the ablative case」/ Armenian 記事、2026-09-03 参照）。metro（v-trans-001）, avtobus（v-trans-004）, arag（速い, v-trans-030）は検証済み語彙。定冠詞 -ն は母音終わりの語に付く形（L03）。例文はこのプロジェクト用に新規作成。",
+      "hy": "Մետրոն ավտոբուսից արագ է։",
+      "translit": "Metron avtobusits arag e.",
+      "ja": "地下鉄はバスより速い。",
+      "notes_ja": "比較対象 ավտոբուս を奪格に置く。L11 の քան を使って言い換えることもできる。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en) «ընկեր» Eastern Armenian declension（oǰ 型・有生、与格・属格 ընկերոջ、奪格 ընկերոջից、2026-09-03 参照）。ənker（友達, v-people-026）, girk（本）は検証済み語彙。定冠詞が -ն になるのは次の語が母音 ը で始まるため（L03）。例文はこのプロジェクト用に新規作成。",
+      "hy": "Այս գիրքն ընկերոջից է։",
+      "translit": "Ays girkn ənkerojits e.",
+      "ja": "この本は友達からもらったものです。",
+      "notes_ja": "ընկեր は斜格の語幹が ընկերոջ- になる不規則語。奪格は ընկերոջից。"
+    }
+  ],
+  "exercises": [
+    { "type": "cloze", "sentence": "Նա ___ հաց է գնում։", "answer": "խանութից" },
+    { "type": "cloze", "sentence": "Ես ___ եմ գալիս։", "answer": "տնից" },
+    { "type": "cloze", "sentence": "Ես ___ միրգ եմ գնում։", "answer": "խանութներից" },
+    { "type": "reorder", "tokens": ["Մետրոն", "ավտոբուսից", "արագ", "է"], "answer": "Մետրոն ավտոբուսից արագ է։" }
+  ]
+}

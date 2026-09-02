@@ -3,6 +3,7 @@ import { grammarExceptions, grammarLessons, grammarNounIrregulars, grammarVerbIr
 import { grammarLessonIdSchema } from "./schemas/grammar";
 import { conjugate, PRESENT_AUXILIARY, PRESENT_AUXILIARY_NEGATIVE } from "../domain/grammar/conjugate";
 import { decline } from "../domain/grammar/decline";
+import { AmbiguousDeclensionError } from "../domain/grammar/types";
 import { splitPersonNumber } from "../domain/grammar/personNumber";
 
 // アルメニア文字は U+0530–U+058F の範囲のみ (見た目の似たラテン/キリル文字の混入を防ぐ)。
@@ -81,6 +82,22 @@ describe("content/grammar/exceptions.json", () => {
         expect(decline(noun, { case: "genitive" }, grammarNounIrregulars).form).toBe(entry.forms.genitive);
         expect(decline(noun, { case: "dative" }, grammarNounIrregulars).form).toBe(entry.forms.genitive);
       }
+      for (const c of ["ablative", "instrumental", "locative"] as const) {
+        const form = entry.forms?.[c];
+        if (form) {
+          expect(decline(noun, { case: c }, grammarNounIrregulars).form, `${noun} ${c}`).toBe(form);
+        }
+      }
+    }
+  });
+
+  it("refuses to invent a locative for animate nouns that have none (L15)", () => {
+    // Wiktionary の曲用表で ընկեր / մարդ の所格の欄は空 (有生名詞は所格をとらない)。
+    // 例外辞書に locative を持たない以上、engine は推測せず投げること (CLAUDE.md §7)。
+    for (const noun of ["ընկեր", "մարդ"]) {
+      expect(() => decline(noun, { case: "locative" }, grammarNounIrregulars), noun).toThrow(
+        AmbiguousDeclensionError,
+      );
     }
   });
 });
