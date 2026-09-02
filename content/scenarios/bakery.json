@@ -1,0 +1,229 @@
+{
+  "id": "sc-bakery",
+  "dialect": "east",
+  "status": "verified",
+  "source": "対話はこのプロジェクト用に新規作成。使った文はすべて検証済み語彙の例文か、その型に語を差し替えたもの：挨拶 v-greet-001、「〜, խնդրում եմ」型 v-food-021/v-shop-009、「Ի՞նչ եք ուտում։」型 v-food-013（疑問詞前置＋助動詞）、個数の問い v-num-037、値段の言い方 v-num-022/v-num-004、聞き返し v-greet-018、謝罪 v-greet-006、「知りません」v-greet-031、締め v-greet-003。繋辞の否定（հաց չեք）は課 L07。",
+  "title_ja": "パン屋でパンを買う",
+  "place_ja": "パン屋",
+  "order": 1,
+  "requiredVocabIds": [
+    "v-greet-001",
+    "v-greet-003",
+    "v-greet-005",
+    "v-greet-007",
+    "v-food-001",
+    "v-num-003",
+    "v-num-022",
+    "v-shop-009",
+    "v-num-037",
+    "v-vadj-006"
+  ],
+  "requiredLessonIds": ["L01", "L05", "L06"],
+  "nodes": [
+    {
+      "id": "start",
+      "hy": "Բարև ձեզ։ Ի՞նչ եք ուզում։",
+      "translit": "Barev dzez. Inch ek uzum.",
+      "ja": "こんにちは。何にしますか。",
+      "choices": [
+        {
+          "hy": "Հաց, խնդրում եմ։",
+          "translit": "Hats, khndrum em.",
+          "ja": "パンをください。",
+          "next": "howmany",
+          "outcome": "good",
+          "note_ja": "「（もの）, խնդրում եմ」だけで注文になる。動詞は要らない。"
+        },
+        {
+          "hy": "Ես հաց եմ։",
+          "translit": "Yes hats em.",
+          "ja": "私はパンです。",
+          "next": "mixup",
+          "outcome": "funny",
+          "note_ja": "繋辞 եմ を付けると「私＝パン」になる。注文したいときは要らない。"
+        },
+        {
+          "hy": "Չեմ հասկանում։ Կրկնեք, խնդրում եմ։",
+          "translit": "Chem haskanum. Krknek, khndrum em.",
+          "ja": "分かりません。もう一度言ってください。",
+          "next": "slow",
+          "outcome": "clumsy",
+          "note_ja": "聞き取れないときはこれで仕切り直せる。恥ずかしがらずに使う。"
+        }
+      ]
+    },
+    {
+      "id": "mixup",
+      "hy": "Դուք հաց չեք։ Ի՞նչ եք ուզում։",
+      "translit": "Duk hats chek. Inch ek uzum.",
+      "ja": "あなたはパンではありませんよ。何にしますか。",
+      "choices": [
+        {
+          "hy": "Հաց, խնդրում եմ։",
+          "translit": "Hats, khndrum em.",
+          "ja": "パンをください。",
+          "next": "howmany",
+          "outcome": "good"
+        },
+        {
+          "hy": "Ներողություն։ Հաց, խնդրում եմ։",
+          "translit": "Neroghutyun. Hats, khndrum em.",
+          "ja": "すみません。パンをください。",
+          "next": "howmany",
+          "outcome": "clumsy",
+          "note_ja": "言い間違えたら Ներողություն と言って言い直せばよい。"
+        }
+      ]
+    },
+    {
+      "id": "slow",
+      "hy": "Ի՞նչ եք ուզում։",
+      "translit": "Inch ek uzum.",
+      "ja": "（ゆっくり）何にしますか。",
+      "choices": [
+        {
+          "hy": "Հաց, խնդրում եմ։",
+          "translit": "Hats, khndrum em.",
+          "ja": "パンをください。",
+          "next": "howmany",
+          "outcome": "good"
+        },
+        {
+          "hy": "Դանդաղ խոսեք, խնդրում եմ։",
+          "translit": "Dandagh khosek, khndrum em.",
+          "ja": "ゆっくり話してください。",
+          "next": "slow",
+          "outcome": "clumsy",
+          "note_ja": "何度頼んでもよい。相手はたいてい合わせてくれる。"
+        }
+      ]
+    },
+    {
+      "id": "howmany",
+      "hy": "Քանի՞ հատ եք ուզում։",
+      "translit": "Kani hat ek uzum.",
+      "ja": "何個ほしいですか。",
+      "choices": [
+        {
+          "hy": "Երկու հատ, խնդրում եմ։",
+          "translit": "Yerku hat, khndrum em.",
+          "ja": "2つください。",
+          "next": "price",
+          "outcome": "good",
+          "note_ja": "数詞の後の名詞は単数のまま（課 L12）。հատ は「個」。"
+        },
+        {
+          "hy": "Շատ։",
+          "translit": "Shat.",
+          "ja": "たくさん。",
+          "next": "toomany",
+          "outcome": "funny",
+          "note_ja": "通じるが、店員は結局「何個か」を聞き返してくる。"
+        },
+        {
+          "hy": "Չգիտեմ։",
+          "translit": "Chgitem.",
+          "ja": "分かりません。",
+          "next": "counthelp",
+          "outcome": "clumsy"
+        }
+      ]
+    },
+    {
+      "id": "toomany",
+      "hy": "Շա՞տ։ Քանի՞ հատ։",
+      "translit": "Shat. Kani hat.",
+      "ja": "たくさん？　何個ですか。",
+      "choices": [
+        {
+          "hy": "Երկու հատ, խնդրում եմ։",
+          "translit": "Yerku hat, khndrum em.",
+          "ja": "2つください。",
+          "next": "price",
+          "outcome": "good"
+        },
+        {
+          "hy": "Երեք հատ, խնդրում եմ։",
+          "translit": "Yerek hat, khndrum em.",
+          "ja": "3つください。",
+          "next": "price",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "id": "counthelp",
+      "hy": "Մեկ, երկու, երեք։",
+      "translit": "Mek, yerku, yerek.",
+      "ja": "1、2、3。（指で数えてくれる）",
+      "choices": [
+        {
+          "hy": "Երկու հատ, խնդրում եմ։",
+          "translit": "Yerku hat, khndrum em.",
+          "ja": "2つください。",
+          "next": "price",
+          "outcome": "good"
+        },
+        {
+          "hy": "Այո, խնդրում եմ։",
+          "translit": "Ayo, khndrum em.",
+          "ja": "はい、お願いします。",
+          "next": "toomany",
+          "outcome": "funny",
+          "note_ja": "「はい」では個数が伝わらない。数を言う必要がある。"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "hy": "Երկու հարյուր դրամ է։",
+      "translit": "Yerku haryur dram e.",
+      "ja": "200ドラムです。",
+      "choices": [
+        {
+          "hy": "Այո, խնդրում եմ։",
+          "translit": "Ayo, khndrum em.",
+          "ja": "はい、お願いします。",
+          "next": "pay",
+          "outcome": "good"
+        },
+        {
+          "hy": "Կրկնեք, խնդրում եմ։",
+          "translit": "Krknek, khndrum em.",
+          "ja": "もう一度言ってください。",
+          "next": "price",
+          "outcome": "clumsy",
+          "note_ja": "値段は聞き返してよい。数字はいちばん聞き取りにくい。"
+        }
+      ]
+    },
+    {
+      "id": "pay",
+      "hy": "Շնորհակալություն։",
+      "translit": "Shnorhakalutyun.",
+      "ja": "ありがとうございます。",
+      "choices": [
+        {
+          "hy": "Շնորհակալություն, ցտեսություն։",
+          "translit": "Shnorhakalutyun, tstesutyun.",
+          "ja": "ありがとう、さようなら。",
+          "next": "done",
+          "outcome": "good"
+        },
+        {
+          "hy": "Ցտեսություն։",
+          "translit": "Tstesutyun.",
+          "ja": "さようなら。",
+          "next": "done",
+          "outcome": "good",
+          "note_ja": "短くてもよい。言えるほうを使う。"
+        }
+      ]
+    },
+    {
+      "id": "done",
+      "ja": "パンを2つ買えた。",
+      "ending": "pass"
+    }
+  ]
+}
