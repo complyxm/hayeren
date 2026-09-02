@@ -1,0 +1,159 @@
+{
+  "id": "sc-landlord",
+  "dialect": "east",
+  "status": "verified",
+  "source": "対話はこのプロジェクト用に新規作成。使った文はすべて検証済み語彙の例文か、その型に語を差し替えたもの：故障の報告 v-house-020「Ներողություն, ջեռուցումը փչացել է։」、v-house-018「Ջեռուցումը չի աշխատում։」、v-house-017「Ջեռուցումը աշխատու՞մ է։」、不在の言い方 v-house-009「Հոսանք չկա։」/ v-house-013「Ջուր չկա։」/ v-house-023「Լոգարանում տաք ջուր չկա։」、修理 v-house-015「Ուզում եմ նորոգել։」、明日 v-time-007、挨拶 v-greet-001 / v-greet-005、疑問詞 ե՞րբ は課 L05、「では」ուրեմն は v-fn-033。動詞の否定（չի աշխատում）は課 L07。",
+  "title_ja": "大家に故障を伝えて直してもらう",
+  "place_ja": "アパート・大家",
+  "order": 4,
+  "requiredVocabIds": [
+    "v-greet-001",
+    "v-greet-005",
+    "v-house-004",
+    "v-house-011",
+    "v-house-013",
+    "v-house-015",
+    "v-house-018",
+    "v-house-023",
+    "v-time-007",
+    "v-greet-006"
+  ],
+  "requiredLessonIds": ["L01", "L06", "L07"],
+  "nodes": [
+    {
+      "id": "start",
+      "hy": "Բարև ձեզ։",
+      "translit": "Barev dzez.",
+      "ja": "こんにちは。（大家がドアを開ける）",
+      "choices": [
+        {
+          "hy": "Ներողություն, ջեռուցումը փչացել է։",
+          "translit": "Neroghutyun, jerrutsume pchatsel e.",
+          "ja": "すみません、暖房が壊れています。",
+          "next": "which",
+          "outcome": "good",
+          "note_ja": "故障はこの一文で伝わる。まず何が壊れたかを言う。"
+        },
+        {
+          "hy": "Ջեռուցումը չի աշխատում։",
+          "translit": "Jerrutsume chi ashkhatum.",
+          "ja": "暖房が動きません。",
+          "next": "which",
+          "outcome": "good",
+          "note_ja": "「動かない」でも同じように通じる。動詞の否定は չի が分詞の前（課 L07）。"
+        },
+        {
+          "hy": "Ջեռուցումը աշխատում է։",
+          "translit": "Jerrutsume ashkhatum e.",
+          "ja": "暖房は動いています。",
+          "next": "working",
+          "outcome": "funny",
+          "note_ja": "否定の չի を落とすと意味が逆になる。ここが伝わらないと直してもらえない。"
+        }
+      ]
+    },
+    {
+      "id": "working",
+      "hy": "Աշխատու՞մ է։ Ուրեմն լավ է։",
+      "translit": "Ashkhatum e. Uremn lav e.",
+      "ja": "動いてる？　じゃあ問題ないですね。",
+      "choices": [
+        {
+          "hy": "Ոչ, ջեռուցումը չի աշխատում։",
+          "translit": "Voch, jerrutsume chi ashkhatum.",
+          "ja": "いいえ、暖房が動きません。",
+          "next": "which",
+          "outcome": "good",
+          "note_ja": "否定を言い直せば伝わる。չ- を付け忘れただけで真逆になるので気をつける。"
+        },
+        {
+          "hy": "Ներողություն։ Ջեռուցումը փչացել է։",
+          "translit": "Neroghutyun. Jerrutsume pchatsel e.",
+          "ja": "すみません。暖房が壊れています。",
+          "next": "which",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "id": "which",
+      "hy": "Տաք ջուր կա՞։",
+      "translit": "Tak jur ka.",
+      "ja": "お湯は出ますか。",
+      "choices": [
+        {
+          "hy": "Ոչ, տաք ջուր չկա։",
+          "translit": "Voch, tak jur chka.",
+          "ja": "いいえ、お湯も出ません。",
+          "next": "when",
+          "outcome": "good",
+          "note_ja": "「ない」は չկա 一語。「あります」の կա に չ- が付いた形。"
+        },
+        {
+          "hy": "Այո, տաք ջուր կա։",
+          "translit": "Ayo, tak jur ka.",
+          "ja": "はい、お湯は出ます。",
+          "next": "when",
+          "outcome": "good"
+        },
+        {
+          "hy": "Չեմ հասկանում։ Կրկնեք, խնդրում եմ։",
+          "translit": "Chem haskanum. Krknek, khndrum em.",
+          "ja": "分かりません。もう一度言ってください。",
+          "next": "which",
+          "outcome": "clumsy"
+        }
+      ]
+    },
+    {
+      "id": "when",
+      "hy": "Լավ։ Վաղը կնորոգենք։",
+      "translit": "Lav. Vaghe knorogenk.",
+      "ja": "わかりました。明日直します。",
+      "choices": [
+        {
+          "hy": "Շնորհակալություն։",
+          "translit": "Shnorhakalutyun.",
+          "ja": "ありがとうございます。",
+          "next": "donel",
+          "outcome": "good"
+        },
+        {
+          "hy": "Ե՞րբ։",
+          "translit": "Yerb.",
+          "ja": "いつですか。",
+          "next": "confirmday",
+          "outcome": "clumsy",
+          "note_ja": "一語で聞き返せる。疑問符は語の最後の母音の上（課 L05）。"
+        }
+      ]
+    },
+    {
+      "id": "confirmday",
+      "hy": "Վաղը։",
+      "translit": "Vaghe.",
+      "ja": "明日です。",
+      "choices": [
+        {
+          "hy": "Շնորհակալություն։",
+          "translit": "Shnorhakalutyun.",
+          "ja": "ありがとうございます。",
+          "next": "donel",
+          "outcome": "good"
+        },
+        {
+          "hy": "Շնորհակալություն, ցտեսություն։",
+          "translit": "Shnorhakalutyun, tstesutyun.",
+          "ja": "ありがとう、さようなら。",
+          "next": "donel",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "id": "donel",
+      "ja": "暖房とお湯のことを伝えて、明日直してもらえることになった。",
+      "ending": "pass"
+    }
+  ]
+}

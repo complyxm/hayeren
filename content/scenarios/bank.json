@@ -1,0 +1,202 @@
+{
+  "id": "sc-bank",
+  "dialect": "east",
+  "status": "verified",
+  "source": "対話はこのプロジェクト用に新規作成。使った文はすべて検証済み語彙の例文か、その型に語を差し替えたもの：口座開設 v-bank-014「Ներողություն, ուզում եմ հաշիվ բացել։」、身分証 v-bank-002「Անձնագիրը, խնդրում եմ։」、記入 v-bur-025「Լրացրեք այս ձևը։」/ v-bur-026「Ձևը լրացրեք տպատառերով։」、署名 v-bank-003 / v-bank-004「Ուզում եմ ստորագրել։」、口座 v-bur-016「Ուզում եմ բանկային հաշիվ բացել։」、両替 v-bur-017、挨拶 v-greet-001。繋辞の否定（բանկ չեք）は課 L07、「不定詞 + ուզում եմ」は課 L21、疑問符の位置は課 L05。",
+  "title_ja": "銀行で口座を開く",
+  "place_ja": "銀行",
+  "order": 5,
+  "requiredVocabIds": [
+    "v-greet-001",
+    "v-greet-007",
+    "v-bank-002",
+    "v-bank-003",
+    "v-bank-004",
+    "v-bank-005",
+    "v-bank-014",
+    "v-bur-016",
+    "v-bur-025",
+    "v-bur-026"
+  ],
+  "requiredLessonIds": ["L01", "L06", "L21"],
+  "nodes": [
+    {
+      "id": "start",
+      "hy": "Բարև ձեզ։ Ի՞նչ եք ուզում։",
+      "translit": "Barev dzez. Inch ek uzum.",
+      "ja": "こんにちは。ご用件は何でしょうか。",
+      "choices": [
+        {
+          "hy": "Ուզում եմ հաշիվ բացել։",
+          "translit": "Uzum em hashiv batsel.",
+          "ja": "口座を開きたいです。",
+          "next": "passport",
+          "outcome": "good",
+          "note_ja": "「〜したい」は「ուզում եմ + 不定詞」。不定詞は文の最後（課 L21）。"
+        },
+        {
+          "hy": "Ուզում եմ դոլար փոխանակել դրամի։",
+          "translit": "Uzum em dolar pokhanakel drami.",
+          "ja": "ドルをドラムに両替したいです。",
+          "next": "exchange",
+          "outcome": "clumsy",
+          "note_ja": "同じ「ուզում եմ + 不定詞」の型。用件が違うと窓口も変わる。"
+        },
+        {
+          "hy": "Ես բանկ եմ։",
+          "translit": "Yes bank em.",
+          "ja": "私は銀行です。",
+          "next": "notbank",
+          "outcome": "funny"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "hy": "Հաշի՞վ եք ուզում։",
+      "translit": "Hashiv ek uzum.",
+      "ja": "口座をご希望ですか。",
+      "choices": [
+        {
+          "hy": "Այո, ուզում եմ հաշիվ բացել։",
+          "translit": "Ayo, uzum em hashiv batsel.",
+          "ja": "はい、口座を開きたいです。",
+          "next": "passport",
+          "outcome": "good"
+        },
+        {
+          "hy": "Այո, խնդրում եմ։",
+          "translit": "Ayo, khndrum em.",
+          "ja": "はい、お願いします。",
+          "next": "passport",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "id": "notbank",
+      "hy": "Դուք բանկ չեք։ Ի՞նչ եք ուզում։",
+      "translit": "Duk bank chek. Inch ek uzum.",
+      "ja": "あなたは銀行ではありませんよ。ご用件は？",
+      "choices": [
+        {
+          "hy": "Ներողություն։ Ուզում եմ հաշիվ բացել։",
+          "translit": "Neroghutyun. Uzum em hashiv batsel.",
+          "ja": "すみません。口座を開きたいです。",
+          "next": "passport",
+          "outcome": "good",
+          "note_ja": "繋辞の否定は述語の後ろのまま（չեք）。動詞の否定と位置が違う（課 L07）。"
+        },
+        {
+          "hy": "Ուզում եմ հաշիվ բացել։",
+          "translit": "Uzum em hashiv batsel.",
+          "ja": "口座を開きたいです。",
+          "next": "passport",
+          "outcome": "good"
+        }
+      ]
+    },
+    {
+      "id": "passport",
+      "hy": "Անձնագիրը, խնդրում եմ։",
+      "translit": "Andznagire, khndrum em.",
+      "ja": "パスポートをお願いします。",
+      "choices": [
+        {
+          "hy": "Այո, խնդրում եմ։",
+          "translit": "Ayo, khndrum em.",
+          "ja": "はい、どうぞ。",
+          "next": "form",
+          "outcome": "good"
+        },
+        {
+          "hy": "Չեմ հասկանում։ Կրկնեք, խնդրում եմ։",
+          "translit": "Chem haskanum. Krknek, khndrum em.",
+          "ja": "分かりません。もう一度言ってください。",
+          "next": "passport",
+          "outcome": "clumsy"
+        }
+      ]
+    },
+    {
+      "id": "form",
+      "hy": "Լրացրեք այս ձևը։",
+      "translit": "Lratsrek ays dzeve.",
+      "ja": "この用紙に記入してください。",
+      "choices": [
+        {
+          "hy": "Այո, խնդրում եմ։",
+          "translit": "Ayo, khndrum em.",
+          "ja": "はい、分かりました。",
+          "next": "sign",
+          "outcome": "good"
+        },
+        {
+          "hy": "Դանդաղ խոսեք, խնդրում եմ։",
+          "translit": "Dandagh khosek, khndrum em.",
+          "ja": "ゆっくり話してください。",
+          "next": "form",
+          "outcome": "clumsy"
+        },
+        {
+          "hy": "Չգիտեմ։",
+          "translit": "Chgitem.",
+          "ja": "分かりません。",
+          "next": "formhelp",
+          "outcome": "funny",
+          "note_ja": "「知りません」だけだと何が分からないか伝わらない。窓口は書き方を説明してくれる。"
+        }
+      ]
+    },
+    {
+      "id": "formhelp",
+      "hy": "Ձևը լրացրեք տպատառերով։",
+      "translit": "Dzeve lratsrek tpataterov.",
+      "ja": "用紙は活字体で記入してください。",
+      "choices": [
+        {
+          "hy": "Այո, խնդրում եմ։",
+          "translit": "Ayo, khndrum em.",
+          "ja": "はい、分かりました。",
+          "next": "sign",
+          "outcome": "good"
+        },
+        {
+          "hy": "Կրկնեք, խնդրում եմ։",
+          "translit": "Krknek, khndrum em.",
+          "ja": "もう一度言ってください。",
+          "next": "formhelp",
+          "outcome": "clumsy"
+        }
+      ]
+    },
+    {
+      "id": "sign",
+      "hy": "Ստորագրություն, խնդրում եմ։",
+      "translit": "Storagrutyun, khndrum em.",
+      "ja": "ご署名をお願いします。",
+      "choices": [
+        {
+          "hy": "Այո, խնդրում եմ։",
+          "translit": "Ayo, khndrum em.",
+          "ja": "はい。",
+          "next": "doneb",
+          "outcome": "good"
+        },
+        {
+          "hy": "Ուզում եմ ստորագրել։",
+          "translit": "Uzum em storagrel.",
+          "ja": "署名します。",
+          "next": "doneb",
+          "outcome": "clumsy",
+          "note_ja": "動詞で言い直しても通じる。名詞の ստորագրություն と動詞の ստորագրել は同じ語族。"
+        }
+      ]
+    },
+    {
+      "id": "doneb",
+      "ja": "口座を開けた。用紙にも署名できた。",
+      "ending": "pass"
+    }
+  ]
+}
