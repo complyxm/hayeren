@@ -1,5 +1,6 @@
 import { vocab } from "../../data/vocab";
 import { useVocabAudio } from "./useVocabAudio";
+import { Transliteration } from "../settings/transliteration";
 
 const POS_LABEL_JA: Record<string, string> = {
   noun: "名詞",
@@ -52,7 +53,8 @@ export function VocabDetail({ id, onBack }: VocabDetailProps) {
             {entry.hy}
           </p>
           <p className="mt-2 text-sm text-ink/70">
-            {entry.translit} ／ IPA {entry.ipa} ／ {POS_LABEL_JA[entry.pos]}
+            <Transliteration text={`${entry.translit} ／ `} />
+            IPA {entry.ipa} ／ {POS_LABEL_JA[entry.pos]}
           </p>
           <p className="mt-3 text-lg">{entry.ja.join("、")}</p>
           {canPlayWord && (

@@ -3,6 +3,7 @@ import { grammarLessons } from "../../data/grammar";
 import { markGrammarLessonComplete } from "../../data/srsRepository";
 import { GrammarExercise } from "./GrammarExercise";
 import { Markdownish } from "./Markdownish";
+import { Transliteration } from "../settings/transliteration";
 
 interface Props {
   id: string;
@@ -71,7 +72,7 @@ export function GrammarLesson({ id, onBack }: Props) {
               <p lang="hy" className="font-serif text-lg">
                 {ex.hy}
               </p>
-              <p className="mt-1 text-xs text-ink/60">{ex.translit}</p>
+              <Transliteration text={ex.translit} className="mt-1 block text-xs text-ink/60" />
               <p className="mt-1 text-ink/90">{ex.ja}</p>
               {ex.notes_ja && <p className="mt-1 text-sm text-ink/70">{ex.notes_ja}</p>}
             </div>

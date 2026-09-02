@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { scenarios } from "../../data/scenarios";
 import type { ScenarioChoice } from "../../data/schemas/scenarios";
+import { Transliteration } from "../settings/transliteration";
 
 interface Props {
   id: string;
@@ -90,7 +91,7 @@ export function ScenarioDialogue({ id, onBack }: Props) {
               <p lang="hy" className="font-serif text-lg">
                 {line.hy}
               </p>
-              <p className="text-xs text-ink/50">{line.translit}</p>
+              <Transliteration text={line.translit} className="block text-xs text-ink/50" />
               <p className="mt-1 text-sm text-ink/80">{line.ja}</p>
               {line.note_ja && <p className="mt-1 text-xs text-vermillion">{line.note_ja}</p>}
             </li>
@@ -103,7 +104,7 @@ export function ScenarioDialogue({ id, onBack }: Props) {
             <p lang="hy" className="font-serif text-xl">
               {node.hy}
             </p>
-            <p className="text-xs text-ink/50">{node.translit}</p>
+            <Transliteration text={node.translit} className="block text-xs text-ink/50" />
             <p className="mt-1 text-sm text-ink/80">{node.ja}</p>
 
             <p className="mt-4 text-xs uppercase tracking-widest text-ink/50">どう言う？</p>
@@ -118,7 +119,7 @@ export function ScenarioDialogue({ id, onBack }: Props) {
                   <span lang="hy" className="block font-serif text-lg">
                     {choice.hy}
                   </span>
-                  <span className="block text-xs text-ink/50">{choice.translit}</span>
+                  <Transliteration text={choice.translit} className="block text-xs text-ink/50" />
                   <span className="block text-sm text-ink/80">{choice.ja}</span>
                 </button>
               ))}

@@ -1,5 +1,6 @@
 import type { AlphabetLetter } from "../../data/schemas/alphabet";
 import type { ReviewRating } from "../../domain/srs/types";
+import { Transliteration } from "../settings/transliteration";
 
 interface ReviewCardProps {
   letter: AlphabetLetter;
@@ -41,7 +42,8 @@ export function ReviewCard({ letter, revealed, onReveal, onGrade }: ReviewCardPr
             {letter.name}
           </p>
           <p className="mt-1 text-sm text-ink/70">
-            {letter.nameTranslit} ／ 転写 {letter.translit} ／ IPA {letter.ipa}
+            <Transliteration text={`${letter.nameTranslit} ／ 転写 ${letter.translit} ／ `} />
+            IPA {letter.ipa}
             {letter.ipaWordInitial ? `（語頭 ${letter.ipaWordInitial}）` : ""}
           </p>
           {verifiedWord && (
@@ -49,7 +51,7 @@ export function ReviewCard({ letter, revealed, onReveal, onGrade }: ReviewCardPr
               <span lang="hy" className="font-serif text-lg">
                 {verifiedWord.hy}
               </span>
-              <span className="ml-2 text-ink/60">{verifiedWord.translit}</span>
+              <Transliteration text={verifiedWord.translit} className="ml-2 text-ink/60" />
               <span className="ml-2">— {verifiedWord.ja}</span>
             </p>
           )}

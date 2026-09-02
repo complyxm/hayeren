@@ -1,6 +1,7 @@
 import { alphabet } from "../../data/alphabet";
 import { LetterPracticeSection } from "./LetterPracticeSection";
 import { useAlphabetAudio } from "./useAlphabetAudio";
+import { Transliteration } from "../settings/transliteration";
 
 interface AlphabetDetailProps {
   id: string;
@@ -48,7 +49,8 @@ export function AlphabetDetail({ id, onBack, onSelect }: AlphabetDetailProps) {
             {letter.name}
           </p>
           <p className="mt-1 text-sm text-ink/70">
-            {letter.nameTranslit} ／ 転写 {letter.translit} ／ IPA {letter.ipa}
+            <Transliteration text={`${letter.nameTranslit} ／ 転写 ${letter.translit} ／ `} />
+            IPA {letter.ipa}
             {letter.ipaWordInitial ? `（語頭 ${letter.ipaWordInitial}）` : ""}
           </p>
           {canPlay && (
@@ -94,7 +96,7 @@ export function AlphabetDetail({ id, onBack, onSelect }: AlphabetDetailProps) {
                 <span lang="hy" className="font-serif text-lg">
                   {word.hy}
                 </span>
-                <span className="ml-2 text-ink/60">{word.translit}</span>
+                <Transliteration text={word.translit} className="ml-2 text-ink/60" />
                 <span className="ml-2">— {word.ja}</span>
                 {word.status === "unverified" && (
                   <span className="ml-2 rounded bg-vermillion/30 px-1.5 py-0.5 text-[10px] text-ink/90">

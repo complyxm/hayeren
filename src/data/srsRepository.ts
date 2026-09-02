@@ -55,6 +55,19 @@ export async function setGrammarDailyNewCardLimit(limit: number): Promise<void> 
   await db.settings.update("singleton", { grammarDailyNewCardLimit: limit });
 }
 
+/**
+ * ローマ字転写を表示するか（CLAUDE.md §6-7「転写を非表示にできる設定を必ず用意する」）。
+ * 既定は true（学習の初期は補助輪が要る）。
+ */
+export async function getShowTransliteration(): Promise<boolean> {
+  return (await ensureSettings()).showTransliteration ?? true;
+}
+
+export async function setShowTransliteration(show: boolean): Promise<void> {
+  await ensureSettings();
+  await db.settings.update("singleton", { showTransliteration: show });
+}
+
 /** russianDailyNewCardLimit が無いまま保存された既存レコード(移行前)は既定値扱いにする。 */
 export async function getRussianDailyNewCardLimit(): Promise<number> {
   return (await ensureSettings()).russianDailyNewCardLimit ?? DEFAULT_DAILY_NEW_CARD_LIMIT;

@@ -1,5 +1,6 @@
 import type { VocabEntry } from "../../data/schemas/vocab";
 import type { ReviewRating } from "../../domain/srs/types";
+import { Transliteration } from "../settings/transliteration";
 
 interface VocabRecognitionCardProps {
   entry: VocabEntry;
@@ -39,7 +40,7 @@ export function VocabRecognitionCard({ entry, revealed, onReveal, onGrade }: Voc
       {revealed && (
         <>
           <p className="mt-4 text-2xl text-gold">{entry.ja.join("、")}</p>
-          <p className="mt-1 text-sm text-ink/70">{entry.translit}</p>
+          <Transliteration text={entry.translit} className="mt-1 block text-sm text-ink/70" />
           <p lang="hy" className="mt-3 text-sm text-ink/80">
             {entry.example.hy}
             <span lang="ja" className="ml-2 text-ink/60">
