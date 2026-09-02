@@ -54,6 +54,20 @@ export async function setGrammarDailyNewCardLimit(limit: number): Promise<void> 
   await db.settings.update("singleton", { grammarDailyNewCardLimit: limit });
 }
 
+/**
+ * エレバンに行く予定日（curriculum.md §7.4）。未設定は null。
+ * この機能は任意なので、null のまま使い続けても他の機能に影響しない。
+ */
+export async function getTargetDate(): Promise<string | null> {
+  return (await ensureSettings()).targetDate ?? null;
+}
+
+/** null を渡すと設定を消す。 */
+export async function setTargetDate(date: string | null): Promise<void> {
+  await ensureSettings();
+  await db.settings.update("singleton", { targetDate: date ?? undefined });
+}
+
 /** signDailyNewCardLimit が無いまま保存された既存レコード(移行前)は既定値扱いにする。 */
 export async function getSignDailyNewCardLimit(): Promise<number> {
   return (await ensureSettings()).signDailyNewCardLimit ?? DEFAULT_DAILY_NEW_CARD_LIMIT;

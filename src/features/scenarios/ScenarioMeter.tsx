@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { getScenarioStatuses, type ScenarioStatus } from "../../data/scenarioRepository";
+import { getTargetDate, setTargetDate } from "../../data/srsRepository";
+import { countdownTo } from "../../domain/scenarios/countdown";
 
 interface Props {
   onBack: () => void;
@@ -26,12 +28,22 @@ function StatusLabel({ status }: { status: ScenarioStatus }) {
  */
 export function ScenarioMeter({ onBack, onSelect }: Props) {
   const [statuses, setStatuses] = useState<ScenarioStatus[] | null>(null);
+  const [target, setTarget] = useState<string | null>(null);
 
   useEffect(() => {
     getScenarioStatuses().then(setStatuses);
+    getTargetDate().then(setTarget);
   }, []);
 
+  async function changeTarget(value: string) {
+    const next = value === "" ? null : value;
+    setTarget(next);
+    await setTargetDate(next);
+  }
+
   const passed = statuses?.filter((s) => s.progress.passed).length ?? 0;
+  // 目標日は任意。未設定なら null が返り、残り日数の行そのものを出さない（§7.4）。
+  const countdown = countdownTo(target, new Date());
 
   return (
     <main className="min-h-screen bg-parchment px-4 py-8 text-ink">
@@ -57,6 +69,16 @@ export function ScenarioMeter({ onBack, onSelect }: Props) {
               {passed} <span className="text-base text-ink/60">/ {statuses.length} 場面</span>
             </p>
 
+            {countdown && (
+              <p className="mt-1 text-sm text-ink/70">
+                {countdown.past
+                  ? "出発予定日は過ぎました。"
+                  : countdown.days === 0
+                    ? "出発は今日です。"
+                    : `出発まであと ${countdown.days} 日。`}
+              </p>
+            )}
+
             <ol className="mt-4 space-y-2">
               {statuses.map((status) => (
                 <li key={status.scenario.id}>
@@ -79,6 +101,21 @@ export function ScenarioMeter({ onBack, onSelect }: Props) {
               「あと何語」は、その場面に要る語のうち<b>まだ想起（日本語→アルメニア語）が安定していない語</b>の数。
               通過していない場面も、対話の練習だけなら今すぐ試せる。
             </p>
+
+            <section className="mt-6 rounded-lg border border-gold/20 bg-parchment-light/60 p-4 text-sm">
+              <label className="flex flex-wrap items-center gap-2">
+                エレバンに行く予定日（任意）
+                <input
+                  type="date"
+                  value={target ?? ""}
+                  onChange={(e) => changeTarget(e.target.value)}
+                  className="rounded border border-gold/40 bg-parchment px-2 py-1 text-ink"
+                />
+              </label>
+              <p className="mt-2 text-xs text-ink/50">
+                設定しなくてもすべての機能が使えます。入れると、上に残り日数が並びます。
+              </p>
+            </section>
           </>
         )}
       </div>

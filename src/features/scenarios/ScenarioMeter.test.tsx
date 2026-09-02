@@ -1,11 +1,17 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { ScenarioMeter } from "./ScenarioMeter";
 import { db } from "../../data/db";
 import { scenarios } from "../../data/scenarios";
 import { vocabContentId } from "../../data/vocabSrsRepository";
-import { ensureCardsFor, markGrammarLessonComplete, reviewCard } from "../../data/srsRepository";
+import {
+  ensureCardsFor,
+  getTargetDate,
+  markGrammarLessonComplete,
+  reviewCard,
+  setTargetDate,
+} from "../../data/srsRepository";
 
 const NOW = new Date("2026-09-03T09:00:00.000Z");
 
@@ -73,5 +79,26 @@ describe("ScenarioMeter", () => {
     const row = await screen.findByRole("button", { name: new RegExp(scenarios[0].title_ja) });
     await userEvent.click(row);
     expect(onSelect).toHaveBeenCalledWith(scenarios[0].id);
+  });
+
+  it("shows no countdown until a target date is set (§7.4: 設定は任意)", async () => {
+    render(<ScenarioMeter onBack={() => {}} onSelect={() => {}} />);
+    expect(await screen.findByLabelText(/エレバンに行く予定日/)).toHaveValue("");
+    expect(screen.queryByText(/出発まであと/)).not.toBeInTheDocument();
+  });
+
+  it("counts down once a target date is set, and forgets it when cleared", async () => {
+    const inThreeDays = new Date();
+    inThreeDays.setDate(inThreeDays.getDate() + 3);
+    const iso = `${inThreeDays.getFullYear()}-${String(inThreeDays.getMonth() + 1).padStart(2, "0")}-${String(
+      inThreeDays.getDate(),
+    ).padStart(2, "0")}`;
+    await setTargetDate(iso);
+
+    render(<ScenarioMeter onBack={() => {}} onSelect={() => {}} />);
+    expect(await screen.findByText("出発まであと 3 日。")).toBeInTheDocument();
+
+    fireEvent.change(screen.getByLabelText(/エレバンに行く予定日/), { target: { value: "" } });
+    await waitFor(async () => expect(await getTargetDate()).toBeNull());
   });
 });

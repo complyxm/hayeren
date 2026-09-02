@@ -59,6 +59,11 @@ export interface SettingsRecord {
    * 文字・語彙・文法とは別枠。移行前レコード（このフィールドが無い）は既定値扱い。
    */
   signDailyNewCardLimit?: number;
+  /**
+   * エレバンに行く予定日（"YYYY-MM-DD"）。curriculum.md §7.4。
+   * **設定は任意**で、未設定（undefined）でも全機能が動く。
+   */
+  targetDate?: string;
 }
 
 /**
