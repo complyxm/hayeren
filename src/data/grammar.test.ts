@@ -175,14 +175,15 @@ describe("content/grammar/ lessons", () => {
     expect(JSON.stringify(grammarExceptions).match(LOOKALIKE)).toBeNull();
   });
 
-  it("has L01–L03 seeded and chained in order", () => {
+  it("has all 24 lessons, chained L01→L24 (roadmap Phase 5 完了条件)", () => {
+    const order = grammarLessonIdSchema.options;
+    expect(grammarLessons.map((l) => l.id)).toEqual([...order]);
     const byId = new Map(grammarLessons.map((l) => [l.id, l]));
-    expect(byId.has("L01")).toBe(true);
-    expect(byId.has("L02")).toBe(true);
-    expect(byId.has("L03")).toBe(true);
     expect(byId.get("L01")?.prerequisites).toEqual([]);
-    expect(byId.get("L02")?.prerequisites).toEqual(["L01"]);
-    expect(byId.get("L03")?.prerequisites).toEqual(["L02"]);
+    // L02 以降は直前の課ひとつを前提にする一本鎖。どこかで切れると解放順が崩れる。
+    for (let i = 1; i < order.length; i += 1) {
+      expect(byId.get(order[i])?.prerequisites, order[i]).toEqual([order[i - 1]]);
+    }
   });
 
   it("keeps example hy fields within the Armenian block (+ space, comma) and ends them with ։", () => {
