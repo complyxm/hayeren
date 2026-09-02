@@ -11,6 +11,7 @@ import { sentenceTilesFileSchema } from "../src/data/schemas/sentenceTiles";
 import { scenarioFileSchema } from "../src/data/schemas/scenarios";
 import { releaseNotesFileSchema } from "../src/data/schemas/releaseNotes";
 import { signsFileSchema } from "../src/data/schemas/signs";
+import { russianFileSchema } from "../src/data/schemas/russian";
 import { audioCreditsSchema } from "../src/data/schemas/audioCredits";
 
 const CONTENT_DIR = join(import.meta.dirname, "..", "content");
@@ -36,6 +37,7 @@ const schemaByDirPrefix: Record<string, z.ZodTypeAny> = {
   "vocab/": vocabFileSchema,
   "grammar/": grammarFileSchema,
   "scenarios/": scenarioFileSchema,
+  "ru/": russianFileSchema,
 };
 
 function listJsonFilesRecursively(dir: string): string[] {

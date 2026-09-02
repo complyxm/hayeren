@@ -20,6 +20,7 @@ async function ensureSettings(): Promise<SettingsRecord> {
     grammarDailyNewCardLimit: DEFAULT_DAILY_NEW_CARD_LIMIT,
     stabilityThresholdDays: DEFAULT_STABILITY_THRESHOLD_DAYS,
     signDailyNewCardLimit: DEFAULT_DAILY_NEW_CARD_LIMIT,
+    russianDailyNewCardLimit: DEFAULT_DAILY_NEW_CARD_LIMIT,
   };
   await db.settings.put(created);
   return created;
@@ -52,6 +53,16 @@ export async function getGrammarDailyNewCardLimit(): Promise<number> {
 export async function setGrammarDailyNewCardLimit(limit: number): Promise<void> {
   await ensureSettings();
   await db.settings.update("singleton", { grammarDailyNewCardLimit: limit });
+}
+
+/** russianDailyNewCardLimit が無いまま保存された既存レコード(移行前)は既定値扱いにする。 */
+export async function getRussianDailyNewCardLimit(): Promise<number> {
+  return (await ensureSettings()).russianDailyNewCardLimit ?? DEFAULT_DAILY_NEW_CARD_LIMIT;
+}
+
+export async function setRussianDailyNewCardLimit(limit: number): Promise<void> {
+  await ensureSettings();
+  await db.settings.update("singleton", { russianDailyNewCardLimit: limit });
 }
 
 /**

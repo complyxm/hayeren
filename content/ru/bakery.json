@@ -1,0 +1,66 @@
+{
+  "scenarioId": "sc-bakery",
+  "lang": "ru",
+  "phrases": [
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en)「здравствуйте」に «(formal or plural form)» と明記。くだけた単数形は здравствуй（2026-09-03 参照）。",
+      "ru": "Здравствуйте.",
+      "ja": "こんにちは。",
+      "note_ja": "初対面・店員には必ずこちら。вы に対応する丁寧な挨拶。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en)「спасибо」の語義 «thank you, thanks»（2026-09-03 参照）。",
+      "ru": "Спасибо.",
+      "ja": "ありがとう。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en)「пожалуйста」の語義 «please» / «you're welcome» / «here you are»（2026-09-03 参照）。",
+      "ru": "Пожалуйста.",
+      "ja": "お願いします。／どういたしまして。",
+      "note_ja": "頼むときにも、礼への返しにも、物を渡すときにも使う。1語で3役。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en)「пожалуйста」の用例に «Да, пожа́луйста.» ― “Yes, please.” として掲載（2026-09-03 参照）。",
+      "ru": "Да, пожалуйста.",
+      "ja": "はい、お願いします。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en)「сколько」の用例に «Сколько это стоит?» ― “How much does this cost?” として掲載（2026-09-03 参照）。",
+      "ru": "Сколько это стоит?",
+      "ja": "これはいくらですか。",
+      "note_ja": "値段を聞く定型。市場でも店でもこれ1つで足りる。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en)「понимать」の用例 «Я не понимаю, что вы говорите.» の主節（2026-09-03 参照）。",
+      "ru": "Я не понимаю.",
+      "ja": "分かりません。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en)「до свидания」の語義 «goodbye»（phrasebook 項目、2026-09-03 参照）。",
+      "ru": "До свидания.",
+      "ja": "さようなら。"
+    },
+    {
+      "dialect": "east",
+      "status": "unverified",
+      "source": "хлеб（パン）と пожалуйста は個別に確認済みだが、この組み合わせ自体の用例は取れていない。ロシア語話者の確認待ち（docs/russian.md §7）。",
+      "ru": "Хлеб, пожалуйста.",
+      "ja": "パンをください。",
+      "note_ja": "アルメニア語の «Հաց, խնդրում եմ։» と同じ型。"
+    }
+  ]
+}

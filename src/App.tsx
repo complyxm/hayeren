@@ -20,6 +20,7 @@ import { ScenarioMeter } from "./features/scenarios/ScenarioMeter";
 import { ScenarioDialogue } from "./features/scenarios/ScenarioDialogue";
 import { ReleaseNotes } from "./features/about/ReleaseNotes";
 import { SignReading } from "./features/signs/SignReading";
+import { RussianPhrases } from "./features/russian/RussianPhrases";
 
 type Screen =
   | { name: "home" }
@@ -42,7 +43,8 @@ type Screen =
   | { name: "scenario-meter" }
   | { name: "scenario-dialogue"; id: string }
   | { name: "release-notes" }
-  | { name: "sign-reading" };
+  | { name: "sign-reading" }
+  | { name: "russian" };
 
 const HOME: Screen = { name: "home" };
 
@@ -59,6 +61,7 @@ function HomeMenu({ onNavigate }: { onNavigate: (screen: Screen) => void }) {
     { label: "文タイル", screen: { name: "sentence-tiles" } },
     { label: "エレバンモード", screen: { name: "scenario-meter" } },
     { label: "看板を読む", screen: { name: "sign-reading" } },
+    { label: "ロシア語", screen: { name: "russian" } },
     { label: "更新のおしらせ", screen: { name: "release-notes" } },
     { label: "句読点", screen: { name: "punctuation" } },
     { label: "画面内キーボード", screen: { name: "keyboard" } },
@@ -155,6 +158,8 @@ export function App() {
       return <ReleaseNotes onBack={() => setScreen(HOME)} />;
     case "sign-reading":
       return <SignReading onBack={() => setScreen(HOME)} />;
+    case "russian":
+      return <RussianPhrases onBack={() => setScreen(HOME)} />;
     default:
       return <HomeMenu onNavigate={setScreen} />;
   }

@@ -64,6 +64,11 @@ export interface SettingsRecord {
    * **設定は任意**で、未設定（undefined）でも全機能が動く。
    */
   targetDate?: string;
+  /**
+   * ロシア語レイヤーの復習キュー専用の1日の新規カード上限。
+   * **アルメニア語とは完全に別枠**（docs/russian.md §3「レビューキューを完全に分ける」）。
+   */
+  russianDailyNewCardLimit?: number;
 }
 
 /**

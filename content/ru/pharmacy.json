@@ -1,0 +1,65 @@
+{
+  "scenarioId": "sc-pharmacy",
+  "lang": "ru",
+  "phrases": [
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en)「извините」は второе лицо 複数命令形で、丁寧形（вы）。くだけた単数形は извини（2026-09-03 参照）。",
+      "ru": "Извините.",
+      "ja": "すみません。",
+      "note_ja": "声をかけるとき。単数の извини は親しい相手にだけ。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en)「болеть」の用例に «У меня болит голова» ― “I have a headache” として掲載（2026-09-03 参照）。",
+      "ru": "У меня болит голова.",
+      "ja": "頭が痛いです。",
+      "note_ja": "「体の部分が痛い」の型。アルメニア語の «Գլուխս ցավում է։» にあたる。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en)「болеть」の用例 «У меня болит зуб» ― “I have a toothache”（2026-09-03 参照）。",
+      "ru": "У меня болит зуб.",
+      "ja": "歯が痛いです。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en)「болеть」の用例 «У меня болит горло» ― “I have a sore throat”（2026-09-03 参照）。",
+      "ru": "У меня болит горло.",
+      "ja": "喉が痛いです。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en)「болеть」の用例 «У меня болят глаза» ― “My eyes hurt”（2026-09-03 参照）。",
+      "ru": "У меня болят глаза.",
+      "ja": "目が痛いです。",
+      "note_ja": "目・足のように2つあるものは болят（複数）になる。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Wiktionary (en)「болеть」の用例 «У меня болят ноги» ― “My legs ache”（2026-09-03 参照）。",
+      "ru": "У меня болят ноги.",
+      "ja": "足が痛いです。"
+    },
+    {
+      "dialect": "east",
+      "status": "unverified",
+      "source": "повторите は Wiktionary (en) で повторить の2人称複数命令形と確認済み、пожалуйста も確認済みだが、この組み合わせ自体の用例は取れていない。ロシア語話者の確認待ち（docs/russian.md §7）。",
+      "ru": "Повторите, пожалуйста.",
+      "ja": "もう一度言ってください。"
+    },
+    {
+      "dialect": "east",
+      "status": "unverified",
+      "source": "個々の語は辞書にあるが、この文の用例は取れていない。ロシア語話者の確認待ち（docs/russian.md §7）。",
+      "ru": "Мне нужно лекарство.",
+      "ja": "薬が必要です。"
+    }
+  ]
+}
