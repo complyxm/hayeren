@@ -15,6 +15,7 @@ import { GrammarList } from "./features/grammar/GrammarList";
 import { GrammarLesson } from "./features/grammar/GrammarLesson";
 import { ConjugationMachine } from "./features/grammar/ConjugationMachine";
 import { SentenceTiles } from "./features/grammar/SentenceTiles";
+import { GrammarReviewScreen } from "./features/grammar/GrammarReviewScreen";
 
 type Screen =
   | { name: "home" }
@@ -32,7 +33,8 @@ type Screen =
   | { name: "grammar-list" }
   | { name: "grammar-lesson"; id: string }
   | { name: "conjugation-machine" }
-  | { name: "sentence-tiles" };
+  | { name: "sentence-tiles" }
+  | { name: "grammar-review" };
 
 const HOME: Screen = { name: "home" };
 
@@ -41,6 +43,7 @@ function HomeMenu({ onNavigate }: { onNavigate: (screen: Screen) => void }) {
   const items: { label: string; screen: Screen }[] = [
     { label: "今日の復習", screen: { name: "review" } },
     { label: "語彙の復習", screen: { name: "vocab-review" } },
+    { label: "文法の復習", screen: { name: "grammar-review" } },
     { label: "文字表", screen: { name: "alphabet-list" } },
     { label: "語彙", screen: { name: "vocab-list" } },
     { label: "文法", screen: { name: "grammar-list" } },
@@ -126,6 +129,8 @@ export function App() {
       return <ConjugationMachine onBack={() => setScreen(HOME)} />;
     case "sentence-tiles":
       return <SentenceTiles onBack={() => setScreen(HOME)} />;
+    case "grammar-review":
+      return <GrammarReviewScreen onBack={() => setScreen(HOME)} />;
     default:
       return <HomeMenu onNavigate={setScreen} />;
   }

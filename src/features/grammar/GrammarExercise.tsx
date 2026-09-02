@@ -24,8 +24,12 @@ const TENSE_JA: Record<Tense, string> = {
 
 interface Props {
   exercise: GrammarExerciseData;
-  /** ひと通り解答した（正誤は問わない）ときに一度だけ呼ぶ。 */
-  onAnswered: () => void;
+  /**
+   * 解答して「確認する」を押したときに一度だけ呼ぶ。
+   * 課の画面は正誤を見ずに「解いた」ことだけを数え、復習画面は correct を SRS の
+   * 評価（正解=Good / 不正解=Again）に落とす。
+   */
+  onAnswered: (correct: boolean) => void;
 }
 
 /**
@@ -50,7 +54,11 @@ export function GrammarExercise({ exercise, onAnswered }: Props) {
 
   function check() {
     setChecked(true);
-    onAnswered();
+    onAnswered(
+      exercise.type === "reorder"
+        ? normalizeHyAnswer(assembled) === normalizeHyAnswer(expected)
+        : isCorrectHyAnswer(text, expected),
+    );
   }
 
   return (

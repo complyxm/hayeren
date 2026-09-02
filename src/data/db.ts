@@ -41,6 +41,12 @@ export interface SettingsRecord {
    * 移行前レコード（このフィールドが無い）は空配列扱い。
    */
   completedGrammarLessonIds?: string[];
+  /**
+   * 文法練習の復習キュー専用の1日の新規カード上限。文字・語彙とは別枠
+   * （ユーザーとの合意事項、2026-08-29「コンテンツ種別ごとに独立した枠を持たせる」）。
+   * 移行前レコード（このフィールドが無い）は既定値扱い。
+   */
+  grammarDailyNewCardLimit?: number;
 }
 
 /**

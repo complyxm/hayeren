@@ -16,6 +16,7 @@ async function ensureSettings(): Promise<SettingsRecord> {
     vocabDailyNewCardLimit: DEFAULT_DAILY_NEW_CARD_LIMIT,
     l1SpeechOptIn: false,
     completedGrammarLessonIds: [],
+    grammarDailyNewCardLimit: DEFAULT_DAILY_NEW_CARD_LIMIT,
   };
   await db.settings.put(created);
   return created;
@@ -38,6 +39,16 @@ export async function getVocabDailyNewCardLimit(): Promise<number> {
 export async function setVocabDailyNewCardLimit(limit: number): Promise<void> {
   await ensureSettings();
   await db.settings.update("singleton", { vocabDailyNewCardLimit: limit });
+}
+
+/** grammarDailyNewCardLimit が無いまま保存された既存レコード(移行前)は既定値扱いにする。 */
+export async function getGrammarDailyNewCardLimit(): Promise<number> {
+  return (await ensureSettings()).grammarDailyNewCardLimit ?? DEFAULT_DAILY_NEW_CARD_LIMIT;
+}
+
+export async function setGrammarDailyNewCardLimit(limit: number): Promise<void> {
+  await ensureSettings();
+  await db.settings.update("singleton", { grammarDailyNewCardLimit: limit });
 }
 
 /** l1SpeechOptIn が無いまま保存された既存レコード(移行前)は false 扱いにする。 */
