@@ -418,6 +418,76 @@ describe("conjugate — aorist (単純過去、助動詞なしの総合形)", ()
   });
 });
 
+describe("conjugate — subjunctive (接続法) と conditional (条件法)", () => {
+  // 出典: Wiktionary (en) «գրել» / «կարդալ» の subjunctive・conditional（2026-09-03 参照）。
+  it("adds the -եմ series to a -ել verb and the -ամ series to a -ալ verb, with an odd 3sg", () => {
+    expect(allForms("գրել", { tense: "subjunctive" })).toEqual([
+      "գրեմ",
+      "գրես",
+      "գրի",
+      "գրենք",
+      "գրեք",
+      "գրեն",
+    ]);
+    expect(allForms("կարդալ", { tense: "subjunctive" })).toEqual([
+      "կարդամ",
+      "կարդաս",
+      "կարդա",
+      "կարդանք",
+      "կարդաք",
+      "կարդան",
+    ]);
+  });
+
+  it("is regular even for the verbs that are suppletive in the aorist", () => {
+    // գալ→եկա / տալ→տվեցի / ուտել→կերա / անել→արեցի とアオリストは不規則だが、
+    // 接続法はすべて不定詞の語幹から規則どおりに作れる (Wiktionary, 2026-09-03)。
+    expect(conjugate("գալ", { person: 1, number: "sg", tense: "subjunctive" }, IRREGULARS).form).toBe("գամ");
+    expect(conjugate("տալ", { person: 1, number: "sg", tense: "subjunctive" }, IRREGULARS).form).toBe("տամ");
+    expect(conjugate("լինել", { person: 3, number: "sg", tense: "subjunctive" }, IRREGULARS).form).toBe("լինի");
+    expect(conjugate("ունենալ", { person: 1, number: "sg", tense: "subjunctive" }, IRREGULARS).form).toBe("ունենամ");
+    expect(conjugate("անել", { person: 1, number: "sg", tense: "subjunctive" }).form).toBe("անեմ");
+  });
+
+  it("negates the subjunctive with a plain չ- prefix", () => {
+    expect(conjugate("գրել", { person: 1, number: "sg", tense: "subjunctive", polarity: "negative" }).form)
+      .toBe("չգրեմ");
+    expect(conjugate("գնալ", { person: 2, number: "sg", tense: "subjunctive", polarity: "negative" }).form)
+      .toBe("չգնաս");
+  });
+
+  it("builds the conditional as կ- + the subjunctive", () => {
+    expect(allForms("գրել", { tense: "conditional" })).toEqual([
+      "կգրեմ",
+      "կգրես",
+      "կգրի",
+      "կգրենք",
+      "կգրեք",
+      "կգրեն",
+    ]);
+    expect(conjugate("գալ", { person: 1, number: "sg", tense: "conditional" }, IRREGULARS).form).toBe("կգամ");
+    // 語彙 v-fn-032 の検証済み例文«Նախ նստեք, ապա կխոսենք։»と同じ形。
+    expect(conjugate("խոսել", { person: 1, number: "pl", tense: "conditional" }).form).toBe("կխոսենք");
+  });
+
+  it("drops կ- in the negative conditional and freezes the verb at the 3sg subjunctive", () => {
+    // չեմ գրի / չես գրի / չի գրի … 動詞部分は全人称で不変 (Wiktionary «գրել» / «լինել")。
+    expect(allForms("գրել", { tense: "conditional", polarity: "negative" })).toEqual([
+      "չեմ գրի",
+      "չես գրի",
+      "չի գրի",
+      "չենք գրի",
+      "չեք գրի",
+      "չեն գրի",
+    ]);
+    // 語彙 v-fn-011 の検証済み例文«Եթե անձրև գա, ես չեմ գնա։»と同じ形。
+    expect(conjugate("գնալ", { person: 1, number: "sg", tense: "conditional", polarity: "negative" }).form)
+      .toBe("չեմ գնա");
+    expect(conjugate("լինել", { person: 3, number: "sg", tense: "conditional", polarity: "negative" }, IRREGULARS).form)
+      .toBe("չի լինի");
+  });
+});
+
 describe("conjugate — refuses to guess", () => {
   it("throws UnconjugableError for a non-infinitive with no exception", () => {
     expect(() => conjugate("դրամ", { person: 1, number: "sg" })).toThrow(UnconjugableError);

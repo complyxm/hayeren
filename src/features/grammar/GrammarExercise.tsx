@@ -18,6 +18,8 @@ const TENSE_JA: Record<Tense, string> = {
   imperfect: "過去進行",
   aorist: "アオリスト（単純過去）",
   future: "未来形",
+  subjunctive: "接続法",
+  conditional: "条件法（կ-）",
 };
 
 interface Props {

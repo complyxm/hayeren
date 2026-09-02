@@ -19,8 +19,12 @@ export type PersonNumberKey = "1sg" | "2sg" | "3sg" | "1pl" | "2pl" | "3pl";
  * - imperfect 過去進行 / 未完了 (分詞 + էի 系列)         … 課 L17
  * - future    未来 (不定詞 + ու + եմ 系列)               … 課 L19
  * - aorist    アオリスト / 単純過去 (総合形。助動詞なし)  … 課 L18
+ * - subjunctive 接続法 (պետք է / որ 節 / 勧誘)          … 課 L22 / L23
+ * - conditional 条件法 (կ- + 接続法)                    … 課 L24
+ * 「時制」と呼んでいるが subjunctive / conditional は法 (mood)。UI とデータのキーを
+ * 増やさないために同じ軸で扱っている。
  */
-export type Tense = "present" | "imperfect" | "future" | "aorist";
+export type Tense = "present" | "imperfect" | "future" | "aorist" | "subjunctive" | "conditional";
 /** 肯定 / 否定。 */
 export type Polarity = "affirmative" | "negative";
 
@@ -58,6 +62,12 @@ export interface VerbIrregularity {
   presentParticiple?: string;
   aorist?: FiniteForms;
   aoristNegative?: FiniteForms;
+  /**
+   * 接続法の全人称定形。今のところ確認した動詞はすべて規則どおりなので実データは無いが、
+   * 「規則 + 例外の二層、例外が優先」という契約 (curriculum.md §2.4) を接続法だけ
+   * 欠かさないために置く。条件法 (կ-) と否定条件法もこの形から作られる。
+   */
+  subjunctive?: FiniteForms;
 }
 
 export interface ConjugationResult {

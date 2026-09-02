@@ -1,5 +1,12 @@
 import { joinPersonNumber } from "./personNumber";
-import type { ConjugateOptions, ConjugationResult, FiniteForms, Tense, VerbIrregularity } from "./types";
+import type {
+  ConjugateOptions,
+  ConjugationResult,
+  FiniteForms,
+  PersonNumberKey,
+  Tense,
+  VerbIrregularity,
+} from "./types";
 
 /**
  * 東アルメニア語 現在形の助動詞 = 繋辞 եմ 系列 (= լինել の現在形)。
@@ -90,6 +97,34 @@ export const AORIST_STRONG_ENDINGS: FiniteForms = {
   "3pl": "ան",
 };
 
+/**
+ * 接続法の語尾。`-ել` 動詞の系列。**3人称単数だけ -ի** で系列から外れる。
+ * 出典: Wiktionary (en) «գրել» subjunctive «գրեմ, գրես, գրի, գրենք, գրեք, գրեն»。
+ * «լինել» / «անել» / «տեսնել» でも同じ（2026-09-03 参照）。
+ */
+export const SUBJUNCTIVE_ENDINGS_E: FiniteForms = {
+  "1sg": "եմ",
+  "2sg": "ես",
+  "3sg": "ի",
+  "1pl": "ենք",
+  "2pl": "եք",
+  "3pl": "են",
+};
+
+/**
+ * 接続法の語尾。`-ալ` 動詞の系列。3人称単数は -ա。
+ * 出典: Wiktionary (en) «կարդալ» «կարդամ, կարդաս, կարդա, կարդանք, կարդաք, կարդան»。
+ * «գալ»→գամ / «տալ»→տամ / «ունենալ»→ունենամ も同じ規則で一致（2026-09-03 参照）。
+ */
+export const SUBJUNCTIVE_ENDINGS_A: FiniteForms = {
+  "1sg": "ամ",
+  "2sg": "աս",
+  "3sg": "ա",
+  "1pl": "անք",
+  "2pl": "աք",
+  "3pl": "ան",
+};
+
 const INFINITIVE_ENDINGS = ["ել", "ալ"] as const;
 
 /** 不定詞から -ել / -ալ を落とした現在語幹。規則導出できない (どちらでも終わらない) 場合は null。 */
@@ -148,7 +183,29 @@ function regularAorist(lemma: string): { stem: string; endings: FiniteForms } | 
   return { stem: `${stem}${lemma.endsWith("ալ") ? "աց" : "եց"}`, endings: AORIST_WEAK_ENDINGS };
 }
 
-const SUPPORTED_TENSES: readonly Tense[] = ["present", "imperfect", "future", "aorist"];
+/**
+ * 接続法の全人称。アオリストと違い、確認できた動詞はすべて規則どおりだった —
+ * アオリストで補充法だった գալ→գամ, տալ→տամ, ունենալ→ունենամ, անել→անեմ, լինել→լինեմ も
+ * 例外なく不定詞の語幹から作れる（Wiktionary、2026-09-03 参照）。
+ * それでも例外辞書を先に見るのは、規則 + 例外の二層という契約を守るため。
+ */
+export function subjunctiveForms(lemma: string, irregular?: VerbIrregularity): FiniteForms | null {
+  if (irregular?.subjunctive) return irregular.subjunctive;
+  const stem = presentStem(lemma);
+  if (stem === null) return null;
+  const endings = lemma.endsWith("ալ") ? SUBJUNCTIVE_ENDINGS_A : SUBJUNCTIVE_ENDINGS_E;
+  const keys = Object.keys(endings) as PersonNumberKey[];
+  return Object.fromEntries(keys.map((k) => [k, `${stem}${endings[k]}`])) as FiniteForms;
+}
+
+const SUPPORTED_TENSES: readonly Tense[] = [
+  "present",
+  "imperfect",
+  "future",
+  "aorist",
+  "subjunctive",
+  "conditional",
+];
 
 /** 時制ごとの助動詞。未来は現在と同じ եմ 系列を使う（不定詞+ու が時制を担う）。 */
 function auxiliaryFor(tense: Tense, negative: boolean): FiniteForms {
@@ -158,7 +215,8 @@ function auxiliaryFor(tense: Tense, negative: boolean): FiniteForms {
 
 /**
  * 東アルメニア語の動詞を活用する。規則 + 例外辞書の二層 (curriculum.md §2.4)。
- * 例外が規則に優先する。現在・過去進行 (未完了)・未来・アオリスト (単純過去) を実装。
+ * 例外が規則に優先する。現在・過去進行 (未完了)・未来・アオリスト (単純過去)・
+ * 接続法・条件法を実装。
  *
  * 戻り値は curriculum.md §2.4 が例示する `string` ではなく構造体:
  * 否定形で助動詞が分詞の前に出る語順変化 (L07) を UI (文タイル) が扱うため。
@@ -173,12 +231,34 @@ export function conjugate(
 ): ConjugationResult {
   const tense = opts.tense ?? "present";
   if (!SUPPORTED_TENSES.includes(tense)) {
-    // アオリスト (単純過去) 等はまだエンジンに無い。型を迂回して渡されても黙って現在形を返さない。
-    throw new Error(`tense "${tense}" は未実装です (present / imperfect / future のみ)`);
+    // 完了形など未実装の時制。型を迂回して渡されても黙って現在形を返さない。
+    throw new Error(`tense "${tense}" は未実装です (${SUPPORTED_TENSES.join(" / ")} のみ)`);
   }
   const negative = (opts.polarity ?? "affirmative") === "negative";
   const key = joinPersonNumber(opts.person, opts.number);
   const irregular = irregulars?.[lemma];
+
+  // 接続法・条件法。どちらも接続法の形が土台になる。
+  if (tense === "subjunctive" || tense === "conditional") {
+    const forms = subjunctiveForms(lemma, irregular);
+    if (forms === null) throw new UnconjugableError(lemma);
+
+    if (tense === "subjunctive") {
+      // 否定は չ- 接頭のみ (Wiktionary «գրել» negative subjunctive «չգրեմ …»)。
+      const form = negative ? `չ${forms[key]}` : forms[key];
+      return { form, participle: null, auxiliary: form, auxiliaryFirst: true };
+    }
+    if (!negative) {
+      const form = `կ${forms[key]}`;
+      return { form, participle: null, auxiliary: form, auxiliaryFirst: true };
+    }
+    // 否定の条件法だけ կ- を使わない。否定助動詞 + **3人称単数の接続法形**（全人称で不変）:
+    // չեմ գրի / չես գրի / չի գրի …。出典: Wiktionary (en) «գրել» / «լինել» の negative
+    // conditional（2026-09-03 参照）。語彙 v-fn-011 の検証済み例文«ես չեմ գնա»も同じ形。
+    const auxiliary = PRESENT_AUXILIARY_NEGATIVE[key];
+    const base = forms["3sg"];
+    return { form: `${auxiliary} ${base}`, participle: base, auxiliary, auxiliaryFirst: true };
+  }
 
   // アオリストは助動詞を使わない総合形。分詞も助動詞も無いので他時制と経路を分ける。
   if (tense === "aorist") {

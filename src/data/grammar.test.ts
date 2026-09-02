@@ -65,9 +65,15 @@ describe("content/grammar/exceptions.json", () => {
   });
 
   it("every irregular verb's stored forms round-trip through conjugate() (adapter + engine consistency)", () => {
-    const tenseOf = { present: "present", presentNegative: "present", imperfect: "imperfect", aorist: "aorist" } as const;
+    const tenseOf = {
+      present: "present",
+      presentNegative: "present",
+      imperfect: "imperfect",
+      aorist: "aorist",
+      subjunctive: "subjunctive",
+    } as const;
     for (const [lemma, entry] of Object.entries(grammarExceptions.verbs)) {
-      for (const field of ["present", "presentNegative", "imperfect", "aorist"] as const) {
+      for (const field of ["present", "presentNegative", "imperfect", "aorist", "subjunctive"] as const) {
         const forms = entry[field];
         if (!forms) continue;
         const polarity = field === "presentNegative" ? "negative" : "affirmative";

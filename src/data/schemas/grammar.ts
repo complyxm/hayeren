@@ -42,8 +42,18 @@ export type GrammarLessonId = z.infer<typeof grammarLessonIdSchema>;
 export const personNumberSchema = z.enum(["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"]);
 export type PersonNumber = z.infer<typeof personNumberSchema>;
 
-/** 時制 (curriculum.md §2.2 L06 / L17 / L18 / L19)。 */
-export const tenseSchema = z.enum(["present", "imperfect", "future", "aorist"]);
+/**
+ * 時制・法 (curriculum.md §2.2 L06 / L17 / L18 / L19 / L22 / L24)。
+ * subjunctive / conditional は厳密には法だが、出題データのキーを増やさないため同じ軸で持つ。
+ */
+export const tenseSchema = z.enum([
+  "present",
+  "imperfect",
+  "future",
+  "aorist",
+  "subjunctive",
+  "conditional",
+]);
 export type Tense = z.infer<typeof tenseSchema>;
 
 /** 肯定 / 否定。否定は助動詞に չ- が付き、語順も変わる (curriculum.md §2.1、独立課 L07)。 */
@@ -167,6 +177,8 @@ export const verbExceptionSchema = z
     /** アオリスト (単純過去) の全人称定形。否定は省略時 չ- を付けて導出する。 */
     aorist: finiteFormsSchema.optional(),
     aoristNegative: finiteFormsSchema.optional(),
+    /** 接続法の全人称定形。条件法 (կ-) もここから作られる。 */
+    subjunctive: finiteFormsSchema.optional(),
   })
   .refine((v) => v.present !== undefined || v.presentParticiple !== undefined || v.aorist !== undefined, {
     message: "verb exception には present / presentParticiple / aorist のいずれかが必要",
