@@ -1,5 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { grammarExceptions, grammarLessons, grammarNounIrregulars, grammarVerbIrregulars } from "./grammar";
+import {
+  conjugableVerbs,
+  grammarExceptions,
+  grammarLessons,
+  grammarNounIrregulars,
+  grammarVerbIrregulars,
+} from "./grammar";
 import { grammarLessonIdSchema, type PersonNumber } from "./schemas/grammar";
 import { conjugate, PRESENT_AUXILIARY, PRESENT_AUXILIARY_NEGATIVE } from "../domain/grammar/conjugate";
 import { decline } from "../domain/grammar/decline";
@@ -137,6 +143,37 @@ describe("content/grammar/exceptions.json", () => {
       expect(() => decline(noun, { case: "locative" }, grammarNounIrregulars), noun).toThrow(
         AmbiguousDeclensionError,
       );
+    }
+  });
+});
+
+describe("活用マシンが並べる動詞 (conjugableVerbs)", () => {
+  it("excludes phrase headwords and keeps only real -ել / -ալ infinitives", () => {
+    expect(conjugableVerbs.length).toBeGreaterThan(30);
+    for (const verb of conjugableVerbs) {
+      expect(verb.lemma, verb.vocabId).not.toContain(" ");
+      expect(verb.lemma.endsWith("ել") || verb.lemma.endsWith("ալ"), verb.lemma).toBe(true);
+      // 見出しは文頭の大文字表記なので、例外辞書のキーに合わせて小文字化されていること。
+      expect(verb.lemma, verb.vocabId).toBe(verb.lemma.toLowerCase());
+    }
+  });
+
+  it("produces a form for every verb in every tense/person/polarity the machine offers", () => {
+    // 活用マシンは辞書に無い組み合わせを黙って作らず「出しません」と断る。断りが出るのは
+    // 想定外の欠落なので、語彙に載っている動詞では一度も起きないことをここで保証する。
+    const tenses = ["present", "imperfect", "aorist", "future", "subjunctive", "conditional"] as const;
+    const personNumbers = ["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"] as const;
+    for (const verb of conjugableVerbs) {
+      for (const tense of tenses) {
+        for (const pn of personNumbers) {
+          for (const polarity of ["affirmative", "negative"] as const) {
+            const { person, number } = splitPersonNumber(pn);
+            const label = `${verb.lemma} ${tense} ${pn} ${polarity}`;
+            const call = () => conjugate(verb.lemma, { person, number, tense, polarity }, grammarVerbIrregulars);
+            expect(call, label).not.toThrow();
+          }
+        }
+      }
     }
   });
 });

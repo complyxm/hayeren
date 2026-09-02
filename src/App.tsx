@@ -13,6 +13,7 @@ import { VocabDetail } from "./features/vocab/VocabDetail";
 import { VocabReviewScreen } from "./features/vocab/VocabReviewScreen";
 import { GrammarList } from "./features/grammar/GrammarList";
 import { GrammarLesson } from "./features/grammar/GrammarLesson";
+import { ConjugationMachine } from "./features/grammar/ConjugationMachine";
 
 type Screen =
   | { name: "home" }
@@ -28,7 +29,8 @@ type Screen =
   | { name: "vocab-detail"; id: string }
   | { name: "vocab-review" }
   | { name: "grammar-list" }
-  | { name: "grammar-lesson"; id: string };
+  | { name: "grammar-lesson"; id: string }
+  | { name: "conjugation-machine" };
 
 const HOME: Screen = { name: "home" };
 
@@ -40,6 +42,7 @@ function HomeMenu({ onNavigate }: { onNavigate: (screen: Screen) => void }) {
     { label: "文字表", screen: { name: "alphabet-list" } },
     { label: "語彙", screen: { name: "vocab-list" } },
     { label: "文法", screen: { name: "grammar-list" } },
+    { label: "活用マシン", screen: { name: "conjugation-machine" } },
     { label: "句読点", screen: { name: "punctuation" } },
     { label: "画面内キーボード", screen: { name: "keyboard" } },
     { label: "エレバン地下鉄ナビ", screen: { name: "metro" } },
@@ -116,6 +119,8 @@ export function App() {
       );
     case "grammar-lesson":
       return <GrammarLesson id={screen.id} onBack={() => setScreen({ name: "grammar-list" })} />;
+    case "conjugation-machine":
+      return <ConjugationMachine onBack={() => setScreen(HOME)} />;
     default:
       return <HomeMenu onNavigate={setScreen} />;
   }
