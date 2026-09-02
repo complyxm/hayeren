@@ -46,6 +46,17 @@ export const vocabExampleSchema = z.object({
   ja: z.string().min(1),
 });
 
+/**
+ * ロシア語の対応語。form は綴りだけ（アクセント記号は付けない — 実際の表記に合わせる）。
+ * note に「どの向きの借用か」と裏取りの出典を書く。なぞり訳（形は借りていないが
+ * 構成をまねた語）もここに入れるが、その旨を note に明記する。
+ */
+export const ruCognateSchema = z.object({
+  form: z.string().min(1),
+  note: z.string().min(1),
+});
+export type RuCognate = z.infer<typeof ruCognateSchema>;
+
 export const vocabEntrySchema = contentEntryBaseSchema.extend({
   id: z.string().min(1),
   theme: vocabThemeSchema,
@@ -61,10 +72,11 @@ export const vocabEntrySchema = contentEntryBaseSchema.extend({
   /** 音声スプライトのタイミングキー。無くても UI が壊れないよう optional(Phase 4 完了条件)。 */
   audio: z.string().min(1).optional(),
   /**
-   * ロシア語からの借用語かどうか。Phase 7 で埋める。今は必ず null にする
-   * (roadmap.md「中身は空でよい。後から足すと高くつく」)。
+   * ロシア語との対応 (docs/russian.md §5-1)。借用語なら、その元になったロシア語を持つ。
+   * **併記してよい唯一の例外**がこれ — 干渉ではなく「同じ語である」ことを示すのが目的
+   * (docs/russian.md §3)。対応が確認できない語は null のまま。推測で埋めない。
    */
-  ruCognate: z.string().nullable(),
+  ruCognate: ruCognateSchema.nullable(),
 });
 
 export type VocabEntry = z.infer<typeof vocabEntrySchema>;

@@ -66,6 +66,19 @@ export function VocabDetail({ id, onBack }: VocabDetailProps) {
           )}
         </div>
 
+        {entry.ruCognate && (
+          <section className="mt-4 rounded-md border border-vermillion/40 bg-vermillion/10 p-3 text-sm">
+            <p className="text-xs font-bold uppercase tracking-widest text-vermillion">ロシア語由来</p>
+            <p lang="ru" className="mt-1 font-serif text-lg text-ink">
+              {entry.ruCognate.form}
+            </p>
+            <p className="mt-1 text-ink/80">{entry.ruCognate.note}</p>
+            <p className="mt-2 text-xs text-ink/50">
+              ここだけは2言語を並べます。片方を覚えるともう片方が半分ただで手に入るためです。
+            </p>
+          </section>
+        )}
+
         {forms.length > 0 && (
           <section className="mt-4 rounded-md border border-gold/30 bg-parchment-light p-3 text-sm">
             <h2 className="mb-1 font-bold text-ink/70">不規則な形</h2>

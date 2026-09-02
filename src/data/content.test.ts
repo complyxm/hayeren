@@ -154,3 +154,37 @@ describe("շեշտ (՛, U+055B) の表記方針", () => {
     expect(shesht?.exampleHy).toContain("Մի՛");
   });
 });
+
+describe("ruCognate（ロシア語との対応, docs/russian.md §5-1）", () => {
+  const withCognate = vocab.filter((v) => v.ruCognate !== null);
+
+  it("is filled in for at least the loanwords the spec names", () => {
+    expect(withCognate.length).toBeGreaterThan(0);
+    // docs/russian.md が看板例に挙げている մարշրուտկա ← маршрутка。
+    const marshrutka = vocab.find((v) => v.id === "v-trans-003");
+    expect(marshrutka?.ruCognate?.form).toBe("маршрутка");
+  });
+
+  it("writes the Russian form in Cyrillic only, with no stress marks", () => {
+    for (const entry of withCognate) {
+      expect(entry.ruCognate!.form, `${entry.id}.ruCognate.form`).toMatch(/^[а-яёА-ЯЁ\s-]+$/u);
+      // Wiktionary はアクセント記号つきで見出しを出すが、実際の表記には付けない。
+      expect(entry.ruCognate!.form.normalize("NFD"), entry.id).not.toMatch(/́/u);
+    }
+  });
+
+  it("records where the correspondence was checked", () => {
+    // CLAUDE.md §7: 推測で埋めない。note に裏取りの出典が入っていること。
+    for (const entry of withCognate) {
+      expect(entry.ruCognate!.note, `${entry.id}`).toMatch(/Wiktionary/u);
+    }
+  });
+
+  it("never lets Cyrillic leak into the Armenian fields", () => {
+    // 併記してよいのは ruCognate だけ（docs/russian.md §3）。
+    for (const entry of vocab) {
+      expect(entry.hy, `${entry.id}.hy`).not.toMatch(/[а-яёА-ЯЁ]/u);
+      expect(entry.example.hy, `${entry.id}.example.hy`).not.toMatch(/[а-яёА-ЯЁ]/u);
+    }
+  });
+});
