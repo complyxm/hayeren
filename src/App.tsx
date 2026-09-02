@@ -16,6 +16,8 @@ import { GrammarLesson } from "./features/grammar/GrammarLesson";
 import { ConjugationMachine } from "./features/grammar/ConjugationMachine";
 import { SentenceTiles } from "./features/grammar/SentenceTiles";
 import { GrammarReviewScreen } from "./features/grammar/GrammarReviewScreen";
+import { ScenarioMeter } from "./features/scenarios/ScenarioMeter";
+import { ScenarioDialogue } from "./features/scenarios/ScenarioDialogue";
 
 type Screen =
   | { name: "home" }
@@ -34,7 +36,9 @@ type Screen =
   | { name: "grammar-lesson"; id: string }
   | { name: "conjugation-machine" }
   | { name: "sentence-tiles" }
-  | { name: "grammar-review" };
+  | { name: "grammar-review" }
+  | { name: "scenario-meter" }
+  | { name: "scenario-dialogue"; id: string };
 
 const HOME: Screen = { name: "home" };
 
@@ -49,6 +53,7 @@ function HomeMenu({ onNavigate }: { onNavigate: (screen: Screen) => void }) {
     { label: "文法", screen: { name: "grammar-list" } },
     { label: "活用マシン", screen: { name: "conjugation-machine" } },
     { label: "文タイル", screen: { name: "sentence-tiles" } },
+    { label: "エレバンモード", screen: { name: "scenario-meter" } },
     { label: "句読点", screen: { name: "punctuation" } },
     { label: "画面内キーボード", screen: { name: "keyboard" } },
     { label: "エレバン地下鉄ナビ", screen: { name: "metro" } },
@@ -131,6 +136,15 @@ export function App() {
       return <SentenceTiles onBack={() => setScreen(HOME)} />;
     case "grammar-review":
       return <GrammarReviewScreen onBack={() => setScreen(HOME)} />;
+    case "scenario-meter":
+      return (
+        <ScenarioMeter
+          onBack={() => setScreen(HOME)}
+          onSelect={(id) => setScreen({ name: "scenario-dialogue", id })}
+        />
+      );
+    case "scenario-dialogue":
+      return <ScenarioDialogue id={screen.id} onBack={() => setScreen({ name: "scenario-meter" })} />;
     default:
       return <HomeMenu onNavigate={setScreen} />;
   }
