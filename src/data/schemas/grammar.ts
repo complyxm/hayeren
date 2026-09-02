@@ -42,8 +42,11 @@ export type GrammarLessonId = z.infer<typeof grammarLessonIdSchema>;
 export const personNumberSchema = z.enum(["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"]);
 export type PersonNumber = z.infer<typeof personNumberSchema>;
 
-/** 時制。現在形以外は後続コミットで追加する (roadmap Phase 5、curriculum.md §2.2 L17–L19)。 */
-export const tenseSchema = z.enum(["present"]);
+/**
+ * 時制 (curriculum.md §2.2 L06 / L17 / L19)。
+ * アオリスト (単純過去、L18) は語幹が語類ごとに割れるため後続コミットで追加する。
+ */
+export const tenseSchema = z.enum(["present", "imperfect", "future"]);
 export type Tense = z.infer<typeof tenseSchema>;
 
 /** 肯定 / 否定。否定は助動詞に չ- が付き、語順も変わる (curriculum.md §2.1、独立課 L07)。 */
@@ -138,8 +141,8 @@ export type GrammarLesson = z.infer<typeof grammarLessonSchema>;
 /** content/grammar/L*.json は 1ファイル1課 (オブジェクト、語彙のような配列ではない)。 */
 export const grammarFileSchema = grammarLessonSchema;
 
-/** 現在形の全6人称・数の定形。-ում 分詞をとらない補充法動詞 (եմ / ունեմ 等) で使う。 */
-const finitePresentFormsSchema = z.object({
+/** ある時制の全6人称・数の定形。-ում 分詞をとらない補充法動詞 (եմ / ունեմ 等) で使う。 */
+const finiteFormsSchema = z.object({
   "1sg": z.string().min(1),
   "2sg": z.string().min(1),
   "3sg": z.string().min(1),
@@ -147,23 +150,29 @@ const finitePresentFormsSchema = z.object({
   "2pl": z.string().min(1),
   "3pl": z.string().min(1),
 });
-export type FinitePresentForms = z.infer<typeof finitePresentFormsSchema>;
+export type FiniteForms = z.infer<typeof finiteFormsSchema>;
 
 /**
  * 不規則動詞 (curriculum.md §2.4:「規則で導出できないものは exceptions.json に列挙し、
- * 規則より優先する」)。present / presentNegative は補充法動詞の全人称定形。
+ * 規則より優先する」)。present / imperfect とその Negative は補充法動詞の全人称定形。
  * presentParticiple は分詞だけが不規則で助動詞は規則どおり付け直せる場合に使う。
+ * 未来は補充法動詞でも不定詞 + ու で規則的に作れるのでフィールドを持たない。
  */
 export const verbExceptionSchema = z
   .object({
     source: z.string().min(1),
     notes_ja: z.string().min(1).optional(),
-    present: finitePresentFormsSchema.optional(),
-    presentNegative: finitePresentFormsSchema.optional(),
+    present: finiteFormsSchema.optional(),
+    presentNegative: finiteFormsSchema.optional(),
+    imperfect: finiteFormsSchema.optional(),
+    imperfectNegative: finiteFormsSchema.optional(),
     presentParticiple: z.string().min(1).optional(),
   })
   .refine((v) => v.present !== undefined || v.presentParticiple !== undefined, {
     message: "verb exception には present か presentParticiple のどちらかが必要",
+  })
+  .refine((v) => v.present === undefined || v.imperfect !== undefined, {
+    message: "現在が補充法の動詞は imperfect (過去の補充法系列) も必須",
   });
 export type VerbException = z.infer<typeof verbExceptionSchema>;
 

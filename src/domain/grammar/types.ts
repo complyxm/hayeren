@@ -13,8 +13,14 @@ export type GrammarNumber = "sg" | "pl";
 /** "1sg" 形式の連結キー。content/grammar/*.json と exceptions.json のキーに一致。 */
 export type PersonNumberKey = "1sg" | "2sg" | "3sg" | "1pl" | "2pl" | "3pl";
 
-/** 時制。現在形のみ実装済み (roadmap Phase 5、他は後続コミット)。 */
-export type Tense = "present";
+/**
+ * 時制。
+ * - present   現在 (分詞 + եմ 系列)                     … 課 L06
+ * - imperfect 過去進行 / 未完了 (分詞 + էի 系列)         … 課 L17
+ * - future    未来 (不定詞 + ու + եմ 系列)               … 課 L19
+ * アオリスト (単純過去、課 L18) は語幹が語類ごとに割れるため後続コミット。
+ */
+export type Tense = "present" | "imperfect" | "future";
 /** 肯定 / 否定。 */
 export type Polarity = "affirmative" | "negative";
 
@@ -27,26 +33,35 @@ export interface ConjugateOptions {
   polarity?: Polarity;
 }
 
-/** 現在形の全人称・数の定形マップ。補充法動詞 (եմ / ունեմ / գիտեմ 系列) で使う。 */
-export type FinitePresentForms = Record<PersonNumberKey, string>;
+/** ある時制の全人称・数の定形マップ。補充法動詞 (եմ / ունեմ / գիտեմ 系列とその過去) で使う。 */
+export type FiniteForms = Record<PersonNumberKey, string>;
 
 /**
  * 規則で導出できない動詞 (curriculum.md §2.4:「規則より優先する」)。
  * - present / presentNegative: -ում 分詞をとらない補充法。全人称の定形を直接持つ。
- * - presentParticiple: 分詞だけが不規則 (գալ→գալիս)。助動詞は規則どおり付ける。
+ * - imperfect / imperfectNegative: その過去 (էի / ունեի / գիտեի 系列)。
+ *   規則の迂言形 "ունենում էի" も実在するが意味がずれる (「持つに至っていた」) ので、
+ *   現在が補充法の動詞は過去も明示させる — engine は推測しない。
+ * - presentParticiple: 分詞だけが不規則 (գալ→գալիս)。現在・過去進行の両方で使う。
+ * 未来は補充法動詞でも不定詞から規則的に作れる (ունենալու եմ) のでフィールドを持たない。
  */
 export interface VerbIrregularity {
-  present?: FinitePresentForms;
-  presentNegative?: FinitePresentForms;
+  present?: FiniteForms;
+  presentNegative?: FiniteForms;
+  imperfect?: FiniteForms;
+  imperfectNegative?: FiniteForms;
   presentParticiple?: string;
 }
 
 export interface ConjugationResult {
   /** 提示・採点に使う完成形。肯定 "գրում եմ" / 否定 "չեմ գրում"。 */
   form: string;
-  /** 現在分詞。補充法で分詞が無い場合は null。 */
+  /**
+   * 助動詞と組む非定形部分。現在・過去進行は未完了分詞 (գրում / գալիս)、
+   * 未来は不定詞 + ու (գրելու)。補充法で非定形部分が無い場合は null。
+   */
   participle: string | null;
-  /** 助動詞。否定では չ- が付く (迂言形の否定3単は չի、繋辞の չէ とは別)。 */
+  /** 助動詞。否定では չ- が付く (現在の迂言形の否定3単は չի、繋辞の չէ とは別)。 */
   auxiliary: string;
   /** 否定では助動詞が分詞の前に出る — 語順が変わる (curriculum.md §2.1、独立課 L07)。 */
   auxiliaryFirst: boolean;

@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { conjugate, presentStem, UnconjugableError } from "./conjugate";
-import type { Tense, VerbIrregularity } from "./types";
+import { conjugate, futureParticiple, presentStem, UnconjugableError } from "./conjugate";
+import { splitPersonNumber } from "./personNumber";
+import type { ConjugateOptions, PersonNumberKey, Tense, VerbIrregularity } from "./types";
 
 /**
  * curriculum.md §2.4「テストファーストで書くこと」。
@@ -13,6 +14,15 @@ const IRREGULARS: Record<string, VerbIrregularity> = {
   լինել: {
     present: { "1sg": "եմ", "2sg": "ես", "3sg": "է", "1pl": "ենք", "2pl": "եք", "3pl": "են" },
     presentNegative: { "1sg": "չեմ", "2sg": "չես", "3sg": "չէ", "1pl": "չենք", "2pl": "չեք", "3pl": "չեն" },
+    imperfect: { "1sg": "էի", "2sg": "էիր", "3sg": "էր", "1pl": "էինք", "2pl": "էիք", "3pl": "էին" },
+    imperfectNegative: {
+      "1sg": "չէի",
+      "2sg": "չէիր",
+      "3sg": "չէր",
+      "1pl": "չէինք",
+      "2pl": "չէիք",
+      "3pl": "չէին",
+    },
   },
   ունենալ: {
     present: { "1sg": "ունեմ", "2sg": "ունես", "3sg": "ունի", "1pl": "ունենք", "2pl": "ունեք", "3pl": "ունեն" },
@@ -24,6 +34,22 @@ const IRREGULARS: Record<string, VerbIrregularity> = {
       "2pl": "չունեք",
       "3pl": "չունեն",
     },
+    imperfect: {
+      "1sg": "ունեի",
+      "2sg": "ունեիր",
+      "3sg": "ուներ",
+      "1pl": "ունեինք",
+      "2pl": "ունեիք",
+      "3pl": "ունեին",
+    },
+    imperfectNegative: {
+      "1sg": "չունեի",
+      "2sg": "չունեիր",
+      "3sg": "չուներ",
+      "1pl": "չունեինք",
+      "2pl": "չունեիք",
+      "3pl": "չունեին",
+    },
   },
   իմանալ: {
     present: { "1sg": "գիտեմ", "2sg": "գիտես", "3sg": "գիտի", "1pl": "գիտենք", "2pl": "գիտեք", "3pl": "գիտեն" },
@@ -34,6 +60,22 @@ const IRREGULARS: Record<string, VerbIrregularity> = {
       "1pl": "չգիտենք",
       "2pl": "չգիտեք",
       "3pl": "չգիտեն",
+    },
+    imperfect: {
+      "1sg": "գիտեի",
+      "2sg": "գիտեիր",
+      "3sg": "գիտեր",
+      "1pl": "գիտեինք",
+      "2pl": "գիտեիք",
+      "3pl": "գիտեին",
+    },
+    imperfectNegative: {
+      "1sg": "չգիտեի",
+      "2sg": "չգիտեիր",
+      "3sg": "չգիտեր",
+      "1pl": "չգիտեինք",
+      "2pl": "չգիտեիք",
+      "3pl": "չգիտեին",
     },
   },
   գալ: { presentParticiple: "գալիս" },
@@ -138,12 +180,127 @@ describe("conjugate — participle-only irregulars (գալ / տալ / լալ)", 
   });
 });
 
+const ALL: readonly PersonNumberKey[] = ["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"];
+
+/** 全人称を1行で回すヘルパ。期待値は Wiktionary の表と同じ順に並べる。 */
+function allForms(lemma: string, opts: Omit<ConjugateOptions, "person" | "number">): string[] {
+  return ALL.map((key) => {
+    const { person, number } = splitPersonNumber(key);
+    return conjugate(lemma, { ...opts, person, number }, IRREGULARS).form;
+  });
+}
+
+describe("conjugate — imperfect (過去進行 / 未完了)", () => {
+  // 出典: Wiktionary (en) «գրել» past imperfective（2026-09-03 参照）。
+  it("is the present participle + the էի series", () => {
+    expect(allForms("գրել", { tense: "imperfect" })).toEqual([
+      "գրում էի",
+      "գրում էիր",
+      "գրում էր",
+      "գրում էինք",
+      "գրում էիք",
+      "գրում էին",
+    ]);
+  });
+
+  it("moves the negated auxiliary in front, like the present (L07)", () => {
+    expect(allForms("գրել", { tense: "imperfect", polarity: "negative" })).toEqual([
+      "չէի գրում",
+      "չէիր գրում",
+      "չէր գրում",
+      "չէինք գրում",
+      "չէիք գրում",
+      "չէին գրում",
+    ]);
+    expect(conjugate("գրել", { person: 1, number: "sg", tense: "imperfect", polarity: "negative" }).auxiliaryFirst)
+      .toBe(true);
+  });
+
+  it("has NO չի/չէ split at 3sg — the present's trap disappears in the past", () => {
+    // 現在は迂言形 չի կարդում vs 述語繋辞 չէ で割れるが (L07)、過去はどちらも չէր。
+    expect(conjugate("կարդալ", { person: 3, number: "sg", tense: "imperfect", polarity: "negative" }).auxiliary)
+      .toBe("չէր");
+    expect(conjugate("լինել", { person: 3, number: "sg", tense: "imperfect", polarity: "negative" }, IRREGULARS).form)
+      .toBe("չէր");
+  });
+
+  it("uses the irregular -իս participle for գալ / տալ", () => {
+    expect(conjugate("գալ", { person: 1, number: "sg", tense: "imperfect" }, IRREGULARS).form).toBe("գալիս էի");
+    expect(conjugate("տալ", { person: 3, number: "sg", tense: "imperfect", polarity: "negative" }, IRREGULARS).form)
+      .toBe("չէր տալիս");
+  });
+
+  it("takes the suppletive past series for the եմ / ունեմ / գիտեմ verbs, not a periphrasis", () => {
+    // 出典: Wiktionary (en) «եմ» / «ունեմ» / «գիտեմ» (defective verbs, 2026-09-03 参照)。
+    expect(allForms("լինել", { tense: "imperfect" })).toEqual(["էի", "էիր", "էր", "էինք", "էիք", "էին"]);
+    expect(allForms("ունենալ", { tense: "imperfect" })).toEqual([
+      "ունեի",
+      "ունեիր",
+      "ուներ",
+      "ունեինք",
+      "ունեիք",
+      "ունեին",
+    ]);
+    expect(conjugate("իմանալ", { person: 1, number: "sg", tense: "imperfect" }, IRREGULARS).form).toBe("գիտեի");
+    expect(
+      conjugate("իմանալ", { person: 3, number: "sg", tense: "imperfect", polarity: "negative" }, IRREGULARS).form,
+    ).toBe("չգիտեր");
+  });
+
+  it("refuses to fall back to the periphrasis when a suppletive verb has no imperfect", () => {
+    // "ունենում էի" は実在するが「持つに至っていた」で意味がずれる。黙って返さない (CLAUDE.md §7)。
+    const halfDefined: Record<string, VerbIrregularity> = {
+      ունենալ: { present: IRREGULARS["ունենալ"].present, presentNegative: IRREGULARS["ունենալ"].presentNegative },
+    };
+    expect(() => conjugate("ունենալ", { person: 1, number: "sg", tense: "imperfect" }, halfDefined)).toThrow();
+  });
+});
+
+describe("conjugate — future (不定詞 + ու + եմ 系列)", () => {
+  // 出典: Wiktionary (en) «գրել» / «կարդալ» / «ունենալ» / «լինել» future（2026-09-03 参照）。
+  it("builds on the full infinitive, not the stem", () => {
+    expect(futureParticiple("գրել")).toBe("գրելու");
+    expect(futureParticiple("կարդալ")).toBe("կարդալու");
+    expect(futureParticiple("դրամ")).toBeNull();
+    expect(allForms("գրել", { tense: "future" })).toEqual([
+      "գրելու եմ",
+      "գրելու ես",
+      "գրելու է",
+      "գրելու ենք",
+      "գրելու եք",
+      "գրելու են",
+    ]);
+    expect(conjugate("կարդալ", { person: 1, number: "pl", tense: "future" }).form).toBe("կարդալու ենք");
+  });
+
+  it("negates with the present negative auxiliary in front (3sg is չի)", () => {
+    expect(allForms("գրել", { tense: "future", polarity: "negative" })).toEqual([
+      "չեմ գրելու",
+      "չես գրելու",
+      "չի գրելու",
+      "չենք գրելու",
+      "չեք գրելու",
+      "չեն գրելու",
+    ]);
+  });
+
+  it("is regular even for the verbs that are suppletive in the present and past", () => {
+    // ունեմ / գիտեմ / եմ は現在・過去だけ補充法。未来は不定詞から普通に作る。
+    expect(conjugate("ունենալ", { person: 1, number: "sg", tense: "future" }, IRREGULARS).form)
+      .toBe("ունենալու եմ");
+    expect(conjugate("լինել", { person: 3, number: "sg", tense: "future" }, IRREGULARS).form).toBe("լինելու է");
+    expect(conjugate("գալ", { person: 1, number: "sg", tense: "future" }, IRREGULARS).form).toBe("գալու եմ");
+  });
+});
+
 describe("conjugate — refuses to guess", () => {
   it("throws UnconjugableError for a non-infinitive with no exception", () => {
     expect(() => conjugate("դրամ", { person: 1, number: "sg" })).toThrow(UnconjugableError);
+    expect(() => conjugate("դրամ", { person: 1, number: "sg", tense: "future" })).toThrow(UnconjugableError);
   });
 
   it("throws for an unimplemented tense", () => {
-    expect(() => conjugate("գրել", { person: 1, number: "sg", tense: "past" as unknown as Tense })).toThrow();
+    // アオリスト (単純過去、L18) は語類ごとに語幹が割れるため未実装。黙って現在形を返さない。
+    expect(() => conjugate("գրել", { person: 1, number: "sg", tense: "aorist" as unknown as Tense })).toThrow();
   });
 });
