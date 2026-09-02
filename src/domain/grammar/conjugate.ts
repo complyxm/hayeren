@@ -60,6 +60,36 @@ export const PAST_AUXILIARY_NEGATIVE: FiniteForms = {
   "3pl": "չէին",
 };
 
+/**
+ * アオリスト (単純過去) の弱変化語尾。助動詞を使わない総合形で、**3人称単数は語尾なし**
+ * (գրեց / կարդաց)。否定は一律 չ- 接頭。
+ * 出典: Wiktionary (en) «գրել» aorist «գրեցի, գրեցիր, գրեց, գրեցինք, գրեցիք, գրեցին» /
+ * «կարդալ» «կարդացի …»、否定 «չգրեցի …»（2026-09-03 参照）。
+ */
+export const AORIST_WEAK_ENDINGS: FiniteForms = {
+  "1sg": "ի",
+  "2sg": "իր",
+  "3sg": "",
+  "1pl": "ինք",
+  "2pl": "իք",
+  "3pl": "ին",
+};
+
+/**
+ * アオリストの強変化語尾。-անալ 類と、例外辞書の強変化動詞 (գալ→եկա, ուտել→կերա,
+ * տեսնել→տեսա …) が使う。
+ * 出典: Wiktionary (en) «հասկանալ» «հասկացա, հասկացար, հասկացավ, հասկացանք, հասկացաք,
+ * հասկացան» / «գալ» «եկա …» / «ուտել» «կերա …»（2026-09-03 参照）。
+ */
+export const AORIST_STRONG_ENDINGS: FiniteForms = {
+  "1sg": "ա",
+  "2sg": "ար",
+  "3sg": "ավ",
+  "1pl": "անք",
+  "2pl": "աք",
+  "3pl": "ան",
+};
+
 const INFINITIVE_ENDINGS = ["ել", "ալ"] as const;
 
 /** 不定詞から -ել / -ալ を落とした現在語幹。規則導出できない (どちらでも終わらない) 場合は null。 */
@@ -89,7 +119,36 @@ export class UnconjugableError extends Error {
   }
 }
 
-const SUPPORTED_TENSES: readonly Tense[] = ["present", "imperfect", "future"];
+export class AmbiguousAoristError extends Error {
+  constructor(lemma: string, detail: string) {
+    super(`"${lemma}" のアオリストは規則だけでは決まりません (${detail})。exceptions に明示してください`);
+    this.name = "AmbiguousAoristError";
+  }
+}
+
+/**
+ * 規則で導けるアオリストの語幹と語尾表。導けない語類は null (= 例外辞書が必須)。
+ *
+ * - `-անալ` … 鼻音を落として -աց- + 強変化語尾。իմանալ→իմացա / հասկանալ→հասկացա /
+ *   կարողանալ→կարողացա / մոռանալ→մոռացա の4語で一致を確認したので規則として実装する。
+ * - `-նել` … **規則にしない。** տեսնել→տեսա, հասնել→հասա, իջնել→իջա, առնել→առա,
+ *   տանել→տարա, դնել→դրեցի のように強変化・語幹交替が多い一方、կանգնել→կանգնեցի は
+ *   規則どおり。規則側で割れるので推測せず例外辞書に持たせる (CLAUDE.md §7)。
+ * - `-ենալ` … 確認できたのが ունենալ→ունեցա の1語だけなので規則化しない。
+ * - それ以外 … `-ել` は語幹 + եց-、`-ալ` は語幹 + աց- に弱変化語尾。
+ *   出典はすべて Wiktionary (en) の各動詞の Eastern Armenian conjugation（2026-09-03 参照）。
+ */
+function regularAorist(lemma: string): { stem: string; endings: FiniteForms } | null {
+  if (lemma.endsWith("նել") || lemma.endsWith("ենալ")) return null;
+  if (lemma.endsWith("անալ") && lemma.length > "անալ".length) {
+    return { stem: `${lemma.slice(0, -"անալ".length)}աց`, endings: AORIST_STRONG_ENDINGS };
+  }
+  const stem = presentStem(lemma);
+  if (stem === null) return null;
+  return { stem: `${stem}${lemma.endsWith("ալ") ? "աց" : "եց"}`, endings: AORIST_WEAK_ENDINGS };
+}
+
+const SUPPORTED_TENSES: readonly Tense[] = ["present", "imperfect", "future", "aorist"];
 
 /** 時制ごとの助動詞。未来は現在と同じ եմ 系列を使う（不定詞+ու が時制を担う）。 */
 function auxiliaryFor(tense: Tense, negative: boolean): FiniteForms {
@@ -99,8 +158,7 @@ function auxiliaryFor(tense: Tense, negative: boolean): FiniteForms {
 
 /**
  * 東アルメニア語の動詞を活用する。規則 + 例外辞書の二層 (curriculum.md §2.4)。
- * 例外が規則に優先する。**現在・過去進行 (未完了)・未来を実装**
- * (アオリスト = 単純過去は語類ごとに語幹が割れるため後続コミット)。
+ * 例外が規則に優先する。現在・過去進行 (未完了)・未来・アオリスト (単純過去) を実装。
  *
  * 戻り値は curriculum.md §2.4 が例示する `string` ではなく構造体:
  * 否定形で助動詞が分詞の前に出る語順変化 (L07) を UI (文タイル) が扱うため。
@@ -121,6 +179,27 @@ export function conjugate(
   const negative = (opts.polarity ?? "affirmative") === "negative";
   const key = joinPersonNumber(opts.person, opts.number);
   const irregular = irregulars?.[lemma];
+
+  // アオリストは助動詞を使わない総合形。分詞も助動詞も無いので他時制と経路を分ける。
+  if (tense === "aorist") {
+    const explicit = negative ? irregular?.aoristNegative : irregular?.aorist;
+    let form: string;
+    if (explicit) {
+      form = explicit[key];
+    } else if (negative && irregular?.aorist) {
+      form = `չ${irregular.aorist[key]}`;
+    } else {
+      const regular = regularAorist(lemma);
+      if (regular === null) {
+        if (presentStem(lemma) === null) throw new UnconjugableError(lemma);
+        throw new AmbiguousAoristError(lemma, "強変化・語幹交替が多い語類 (-նել / -ենալ)");
+      }
+      const bare = `${regular.stem}${regular.endings[key]}`;
+      form = negative ? `չ${bare}` : bare;
+    }
+    // 総合形なので participle は無い。auxiliary には完成形をそのまま入れる (補充法と同じ扱い)。
+    return { form, participle: null, auxiliary: form, auxiliaryFirst: true };
+  }
 
   // 例外1: 補充法 — 全人称の定形を直接持つ (現在 եմ / ունեմ / գիտեմ 系列と、その過去 էի / ունեի / գիտեի 系列)。
   // 未来は補充法動詞でも不定詞から規則的に作る (ունենալու եմ) のでここを通さない。

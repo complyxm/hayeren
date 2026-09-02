@@ -18,9 +18,9 @@ export type PersonNumberKey = "1sg" | "2sg" | "3sg" | "1pl" | "2pl" | "3pl";
  * - present   現在 (分詞 + եմ 系列)                     … 課 L06
  * - imperfect 過去進行 / 未完了 (分詞 + էի 系列)         … 課 L17
  * - future    未来 (不定詞 + ու + եմ 系列)               … 課 L19
- * アオリスト (単純過去、課 L18) は語幹が語類ごとに割れるため後続コミット。
+ * - aorist    アオリスト / 単純過去 (総合形。助動詞なし)  … 課 L18
  */
-export type Tense = "present" | "imperfect" | "future";
+export type Tense = "present" | "imperfect" | "future" | "aorist";
 /** 肯定 / 否定。 */
 export type Polarity = "affirmative" | "negative";
 
@@ -43,6 +43,11 @@ export type FiniteForms = Record<PersonNumberKey, string>;
  *   規則の迂言形 "ունենում էի" も実在するが意味がずれる (「持つに至っていた」) ので、
  *   現在が補充法の動詞は過去も明示させる — engine は推測しない。
  * - presentParticiple: 分詞だけが不規則 (գալ→գալիս)。現在・過去進行の両方で使う。
+ * - aorist: アオリスト (単純過去) の全人称定形。語幹が規則で導けない語 (ուտել→կերա,
+ *   ասել→ասացի, տանել→տարա…) と、語尾クラスが規則と違う語で使う。
+ * - aoristNegative: 省略時は aorist に չ- を付けて導出する (東アルメニア語のアオリスト否定は
+ *   一律 չ- 接頭。Wiktionary «գալ» չեկա / «ուտել» չկերա / «լինել» չեղա 等で確認)。
+ *   綴りが変わる語が見つかった場合だけここに明示する。
  * 未来は補充法動詞でも不定詞から規則的に作れる (ունենալու եմ) のでフィールドを持たない。
  */
 export interface VerbIrregularity {
@@ -51,6 +56,8 @@ export interface VerbIrregularity {
   imperfect?: FiniteForms;
   imperfectNegative?: FiniteForms;
   presentParticiple?: string;
+  aorist?: FiniteForms;
+  aoristNegative?: FiniteForms;
 }
 
 export interface ConjugationResult {

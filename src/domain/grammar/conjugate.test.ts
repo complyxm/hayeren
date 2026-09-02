@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { conjugate, futureParticiple, presentStem, UnconjugableError } from "./conjugate";
+import { AmbiguousAoristError, conjugate, futureParticiple, presentStem, UnconjugableError } from "./conjugate";
 import { splitPersonNumber } from "./personNumber";
 import type { ConjugateOptions, PersonNumberKey, Tense, VerbIrregularity } from "./types";
 
@@ -23,6 +23,7 @@ const IRREGULARS: Record<string, VerbIrregularity> = {
       "2pl": "չէիք",
       "3pl": "չէին",
     },
+    aorist: { "1sg": "եղա", "2sg": "եղար", "3sg": "եղավ", "1pl": "եղանք", "2pl": "եղաք", "3pl": "եղան" },
   },
   ունենալ: {
     present: { "1sg": "ունեմ", "2sg": "ունես", "3sg": "ունի", "1pl": "ունենք", "2pl": "ունեք", "3pl": "ունեն" },
@@ -49,6 +50,14 @@ const IRREGULARS: Record<string, VerbIrregularity> = {
       "1pl": "չունեինք",
       "2pl": "չունեիք",
       "3pl": "չունեին",
+    },
+    aorist: {
+      "1sg": "ունեցա",
+      "2sg": "ունեցար",
+      "3sg": "ունեցավ",
+      "1pl": "ունեցանք",
+      "2pl": "ունեցաք",
+      "3pl": "ունեցան",
     },
   },
   իմանալ: {
@@ -78,8 +87,50 @@ const IRREGULARS: Record<string, VerbIrregularity> = {
       "3pl": "չգիտեին",
     },
   },
-  գալ: { presentParticiple: "գալիս" },
-  տալ: { presentParticiple: "տալիս" },
+  գալ: {
+    presentParticiple: "գալիս",
+    aorist: { "1sg": "եկա", "2sg": "եկար", "3sg": "եկավ", "1pl": "եկանք", "2pl": "եկաք", "3pl": "եկան" },
+  },
+  տալ: {
+    presentParticiple: "տալիս",
+    aorist: {
+      "1sg": "տվեցի",
+      "2sg": "տվեցիր",
+      "3sg": "տվեց",
+      "1pl": "տվեցինք",
+      "2pl": "տվեցիք",
+      "3pl": "տվեցին",
+    },
+  },
+  ուտել: {
+    aorist: { "1sg": "կերա", "2sg": "կերար", "3sg": "կերավ", "1pl": "կերանք", "2pl": "կերաք", "3pl": "կերան" },
+  },
+  տանել: {
+    aorist: { "1sg": "տարա", "2sg": "տարար", "3sg": "տարավ", "1pl": "տարանք", "2pl": "տարաք", "3pl": "տարան" },
+  },
+  տեսնել: {
+    aorist: { "1sg": "տեսա", "2sg": "տեսար", "3sg": "տեսավ", "1pl": "տեսանք", "2pl": "տեսաք", "3pl": "տեսան" },
+  },
+  գնել: {
+    aorist: {
+      "1sg": "գնեցի",
+      "2sg": "գնեցիր",
+      "3sg": "գնեց",
+      "1pl": "գնեցինք",
+      "2pl": "գնեցիք",
+      "3pl": "գնեցին",
+    },
+  },
+  կանգնել: {
+    aorist: {
+      "1sg": "կանգնեցի",
+      "2sg": "կանգնեցիր",
+      "3sg": "կանգնեց",
+      "1pl": "կանգնեցինք",
+      "2pl": "կանգնեցիք",
+      "3pl": "կանգնեցին",
+    },
+  },
 };
 
 describe("presentStem", () => {
@@ -293,6 +344,80 @@ describe("conjugate — future (不定詞 + ու + եմ 系列)", () => {
   });
 });
 
+describe("conjugate — aorist (単純過去、助動詞なしの総合形)", () => {
+  // 出典: Wiktionary (en) «գրել» / «կարդալ» / «մնալ» / «ուզել» / «գնել» aorist（2026-09-03 参照）。
+  it("adds -եց- to a -ել verb and -աց- to a -ալ verb, with no ending at 3sg", () => {
+    expect(allForms("գրել", { tense: "aorist" })).toEqual([
+      "գրեցի",
+      "գրեցիր",
+      "գրեց",
+      "գրեցինք",
+      "գրեցիք",
+      "գրեցին",
+    ]);
+    expect(allForms("կարդալ", { tense: "aorist" })).toEqual([
+      "կարդացի",
+      "կարդացիր",
+      "կարդաց",
+      "կարդացինք",
+      "կարդացիք",
+      "կարդացին",
+    ]);
+    expect(conjugate("մնալ", { person: 1, number: "sg", tense: "aorist" }).form).toBe("մնացի");
+    expect(conjugate("ուզել", { person: 3, number: "sg", tense: "aorist" }).form).toBe("ուզեց");
+  });
+
+  it("separates գնել (buy) from գնալ (go), which are identical in the present", () => {
+    // 現在はどちらも գնում եմ。アオリストで初めて分かれる (Wiktionary «գնել» / «գնալ», 2026-09-03)。
+    // գնել は綴りが -նել で終わるため engine が推測を拒む → 例外辞書に規則形を明示してある。
+    expect(conjugate("գնալ", { person: 1, number: "sg", tense: "aorist" }).form).toBe("գնացի");
+    expect(conjugate("գնել", { person: 1, number: "sg", tense: "aorist" }, IRREGULARS).form).toBe("գնեցի");
+    expect(() => conjugate("գնել", { person: 1, number: "sg", tense: "aorist" })).toThrow(AmbiguousAoristError);
+  });
+
+  it("negates with a plain չ- prefix and no auxiliary (unlike every other tense)", () => {
+    const negated = conjugate("գրել", { person: 1, number: "sg", tense: "aorist", polarity: "negative" });
+    expect(negated.form).toBe("չգրեցի");
+    expect(negated.participle).toBeNull();
+    // 強変化・補充法語幹でも չ- 接頭は同じ (Wiktionary «գալ» չեկա / «ուտել» չկերա)。
+    expect(conjugate("գալ", { person: 1, number: "sg", tense: "aorist", polarity: "negative" }, IRREGULARS).form)
+      .toBe("չեկա");
+    expect(conjugate("ուտել", { person: 3, number: "sg", tense: "aorist", polarity: "negative" }, IRREGULARS).form)
+      .toBe("չկերավ");
+  });
+
+  it("derives the -անալ class as a strong aorist (nasal dropped, -աց- + ա/ար/ավ endings)", () => {
+    // իմանալ / հասկանալ / կարողանալ / մոռանալ の4語で一致を確認した規則 (Wiktionary, 2026-09-03)。
+    expect(allForms("հասկանալ", { tense: "aorist" })).toEqual([
+      "հասկացա",
+      "հասկացար",
+      "հասկացավ",
+      "հասկացանք",
+      "հասկացաք",
+      "հասկացան",
+    ]);
+    expect(conjugate("կարողանալ", { person: 1, number: "sg", tense: "aorist" }).form).toBe("կարողացա");
+    expect(conjugate("մոռանալ", { person: 3, number: "sg", tense: "aorist" }).form).toBe("մոռացավ");
+  });
+
+  it("takes the suppletive / stem-changing aorist from the exceptions map", () => {
+    expect(allForms("գալ", { tense: "aorist" })).toEqual(["եկա", "եկար", "եկավ", "եկանք", "եկաք", "եկան"]);
+    expect(conjugate("ուտել", { person: 1, number: "sg", tense: "aorist" }, IRREGULARS).form).toBe("կերա");
+    expect(conjugate("տանել", { person: 1, number: "sg", tense: "aorist" }, IRREGULARS).form).toBe("տարա");
+    expect(conjugate("լինել", { person: 3, number: "sg", tense: "aorist" }, IRREGULARS).form).toBe("եղավ");
+    expect(conjugate("ունենալ", { person: 1, number: "sg", tense: "aorist" }, IRREGULARS).form).toBe("ունեցա");
+  });
+
+  it("refuses to guess the -նել class, which splits between strong and regular", () => {
+    // տեսնել→տեսա は強変化、կանգնել→կանգնեցի は規則。規則側で割れるので推測しない。
+    expect(() => conjugate("տեսնել", { person: 1, number: "sg", tense: "aorist" })).toThrow(AmbiguousAoristError);
+    expect(() => conjugate("կանգնել", { person: 1, number: "sg", tense: "aorist" })).toThrow(AmbiguousAoristError);
+    // 例外辞書を渡せば両方とも正しく返る。
+    expect(conjugate("տեսնել", { person: 1, number: "sg", tense: "aorist" }, IRREGULARS).form).toBe("տեսա");
+    expect(conjugate("կանգնել", { person: 1, number: "sg", tense: "aorist" }, IRREGULARS).form).toBe("կանգնեցի");
+  });
+});
+
 describe("conjugate — refuses to guess", () => {
   it("throws UnconjugableError for a non-infinitive with no exception", () => {
     expect(() => conjugate("դրամ", { person: 1, number: "sg" })).toThrow(UnconjugableError);
@@ -300,7 +425,7 @@ describe("conjugate — refuses to guess", () => {
   });
 
   it("throws for an unimplemented tense", () => {
-    // アオリスト (単純過去、L18) は語類ごとに語幹が割れるため未実装。黙って現在形を返さない。
-    expect(() => conjugate("գրել", { person: 1, number: "sg", tense: "aorist" as unknown as Tense })).toThrow();
+    // 完了形 (L21 以降) はまだエンジンに無い。型を迂回して渡されても黙って現在形を返さない。
+    expect(() => conjugate("գրել", { person: 1, number: "sg", tense: "perfect" as unknown as Tense })).toThrow();
   });
 });

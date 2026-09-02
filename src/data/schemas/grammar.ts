@@ -42,11 +42,8 @@ export type GrammarLessonId = z.infer<typeof grammarLessonIdSchema>;
 export const personNumberSchema = z.enum(["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"]);
 export type PersonNumber = z.infer<typeof personNumberSchema>;
 
-/**
- * 時制 (curriculum.md §2.2 L06 / L17 / L19)。
- * アオリスト (単純過去、L18) は語幹が語類ごとに割れるため後続コミットで追加する。
- */
-export const tenseSchema = z.enum(["present", "imperfect", "future"]);
+/** 時制 (curriculum.md §2.2 L06 / L17 / L18 / L19)。 */
+export const tenseSchema = z.enum(["present", "imperfect", "future", "aorist"]);
 export type Tense = z.infer<typeof tenseSchema>;
 
 /** 肯定 / 否定。否定は助動詞に չ- が付き、語順も変わる (curriculum.md §2.1、独立課 L07)。 */
@@ -167,9 +164,12 @@ export const verbExceptionSchema = z
     imperfect: finiteFormsSchema.optional(),
     imperfectNegative: finiteFormsSchema.optional(),
     presentParticiple: z.string().min(1).optional(),
+    /** アオリスト (単純過去) の全人称定形。否定は省略時 չ- を付けて導出する。 */
+    aorist: finiteFormsSchema.optional(),
+    aoristNegative: finiteFormsSchema.optional(),
   })
-  .refine((v) => v.present !== undefined || v.presentParticiple !== undefined, {
-    message: "verb exception には present か presentParticiple のどちらかが必要",
+  .refine((v) => v.present !== undefined || v.presentParticiple !== undefined || v.aorist !== undefined, {
+    message: "verb exception には present / presentParticiple / aorist のいずれかが必要",
   })
   .refine((v) => v.present === undefined || v.imperfect !== undefined, {
     message: "現在が補充法の動詞は imperfect (過去の補充法系列) も必須",

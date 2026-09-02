@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { grammarExceptions, grammarLessons, grammarNounIrregulars, grammarVerbIrregulars } from "./grammar";
-import { grammarLessonIdSchema } from "./schemas/grammar";
+import { grammarLessonIdSchema, type PersonNumber } from "./schemas/grammar";
 import { conjugate, PRESENT_AUXILIARY, PRESENT_AUXILIARY_NEGATIVE } from "../domain/grammar/conjugate";
 import { decline } from "../domain/grammar/decline";
 import { AmbiguousDeclensionError } from "../domain/grammar/types";
@@ -61,6 +61,39 @@ describe("content/grammar/exceptions.json", () => {
       if (entry.presentParticiple) {
         expect(entry.presentParticiple, `${lemma}.presentParticiple`).toMatch(ARMENIAN_ONLY);
       }
+    }
+  });
+
+  it("every irregular verb's stored forms round-trip through conjugate() (adapter + engine consistency)", () => {
+    const tenseOf = { present: "present", presentNegative: "present", imperfect: "imperfect", aorist: "aorist" } as const;
+    for (const [lemma, entry] of Object.entries(grammarExceptions.verbs)) {
+      for (const field of ["present", "presentNegative", "imperfect", "aorist"] as const) {
+        const forms = entry[field];
+        if (!forms) continue;
+        const polarity = field === "presentNegative" ? "negative" : "affirmative";
+        for (const [pn, expected] of Object.entries(forms)) {
+          const { person, number } = splitPersonNumber(pn as PersonNumber);
+          const actual = conjugate(
+            lemma,
+            { person, number, tense: tenseOf[field], polarity },
+            grammarVerbIrregulars,
+          ).form;
+          expect(actual, `${lemma}.${field}.${pn}`).toBe(expected);
+        }
+      }
+    }
+  });
+
+  it("negates every stored aorist with a plain չ- prefix", () => {
+    // 東アルメニア語のアオリスト否定は一律 չ- 接頭 (Wiktionary «գալ» չեկա / «ուտել» չկերա)。
+    // aoristNegative を持たない語はこの規則で導出される — その規則が効いていることを固定する。
+    for (const [lemma, entry] of Object.entries(grammarExceptions.verbs)) {
+      if (!entry.aorist || entry.aoristNegative) continue;
+      const { person, number } = splitPersonNumber("1sg");
+      expect(
+        conjugate(lemma, { person, number, tense: "aorist", polarity: "negative" }, grammarVerbIrregulars).form,
+        lemma,
+      ).toBe(`չ${entry.aorist["1sg"]}`);
     }
   });
 
