@@ -21,8 +21,10 @@ export interface DashboardSummary {
   totalScenarios: number;
   /** エレバンに行く予定日（未設定は null）。 */
   targetDate: string | null;
-  /** 直近の発音測定の件数。0 なら「まだ測っていない」。 */
+  /** 発音を測った回数。0 なら「まだ測っていない」。 */
   votAttempts: number;
+  /** 直近の測定で「狙いどおり」と判定された割合（0–1）。測定が無ければ null。 */
+  votOnTargetRatio: number | null;
 }
 
 /**
@@ -50,7 +52,7 @@ export async function getDashboardSummary(now: Date): Promise<DashboardSummary> 
     getRussianReviewQueue(now),
     getScenarioStatuses(),
     getTargetDate(),
-    db.votAttempts.count(),
+    db.votAttempts.toArray(),
   ]);
 
   const dueCounts: DueCount[] = [
@@ -67,6 +69,15 @@ export async function getDashboardSummary(now: Date): Promise<DashboardSummary> 
     passedScenarios: scenarios.filter((s) => s.progress.passed).length,
     totalScenarios: scenarios.length,
     targetDate,
-    votAttempts,
+    votAttempts: votAttempts.length,
+    // 直近10回だけを見る。始めた頃の失敗をいつまでも引きずらせない。
+    votOnTargetRatio:
+      votAttempts.length === 0
+        ? null
+        : (() => {
+            const recent = votAttempts.slice(-10);
+            // 「狙いどおり」= 狙った音（attempted）と判定（judgement）が一致した回。
+            return recent.filter((a) => a.judgement === a.attempted).length / recent.length;
+          })(),
   };
 }

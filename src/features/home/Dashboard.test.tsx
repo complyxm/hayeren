@@ -92,6 +92,30 @@ describe("Dashboard", () => {
     expect(container.textContent).not.toMatch(/連続|ポイント|バッジ|ストリーク/u);
   });
 
+  it("hides the pronunciation line until something has been measured", async () => {
+    render(<Dashboard onGo={targets()} />);
+    await ready();
+    expect(screen.queryByText(/発音チェック/)).not.toBeInTheDocument();
+  });
+
+  it("summarises the last 10 pronunciation attempts once there are any", async () => {
+    // 直近10回のうち何回が狙いどおりだったかだけを出す（点数・連続日数は出さない）。
+    for (let i = 0; i < 4; i += 1) {
+      await db.votAttempts.add({
+        id: `a${i}`,
+        place: "labial",
+        attempted: "aspirated",
+        votMs: 60,
+        judgement: i < 3 ? "aspirated" : "unaspirated",
+        recordedAt: new Date(),
+      });
+    }
+    render(<Dashboard onGo={targets()} />);
+    await ready();
+    expect(screen.getByText("75%")).toBeInTheDocument();
+    expect(screen.getByText(/これまで 4 回/)).toBeInTheDocument();
+  });
+
   it("reflects a finished review in the count", async () => {
     await setDailyNewCardLimit(1);
     const ids = alphabet.map((a) => a.id);

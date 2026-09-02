@@ -106,6 +106,18 @@ export function Dashboard({ onGo }: Props) {
               </button>
             </section>
 
+            {summary.votAttempts > 0 && (
+              <section className="mt-4 rounded-lg border border-gold/30 bg-parchment-light px-4 py-3 text-sm">
+                <p className="text-ink/70">
+                  発音チェック：直近10回のうち
+                  <b className="mx-1 text-gold">
+                    {Math.round((summary.votOnTargetRatio ?? 0) * 100)}%
+                  </b>
+                  が狙いどおりでした（これまで {summary.votAttempts} 回）。
+                </p>
+              </section>
+            )}
+
             <nav className="mt-8 grid grid-cols-2 gap-2 text-sm" aria-label="そのほか">
               <button
                 type="button"
