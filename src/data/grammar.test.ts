@@ -189,6 +189,25 @@ describe("content/grammar/ lessons", () => {
     }
   });
 
+  it("writes շեշտ (՛) only as part of մի՛, never on an affirmative imperative", () => {
+    // 2026-09-03 のユーザー決定。content.test.ts が語彙側に同じ規則をかけている。
+    // 対象はアルメニア語を出す欄だけ。解説文 (explanation_ja / notes_ja) は記号そのものを
+    // 説明するために ՛ を単体で書くので除く。
+    for (const lesson of grammarLessons) {
+      const armenianFields = [
+        ...lesson.examples.map((ex) => ex.hy),
+        ...lesson.exercises.flatMap((ex) =>
+          ex.type === "reorder" ? [...ex.tokens, ex.answer] : [ex.answer, ...(ex.type === "cloze" ? [ex.sentence] : [])],
+        ),
+      ];
+      for (const value of armenianFields) {
+        for (let i = value.indexOf("՛"); i !== -1; i = value.indexOf("՛", i + 1)) {
+          expect(value.slice(Math.max(0, i - 2), i).toLowerCase(), `${lesson.id} "${value}"`).toBe("մի");
+        }
+      }
+    }
+  });
+
   it("every conjugate exercise's answer matches the engine (curriculum.md §2.4: 出題前に検証)", () => {
     for (const lesson of grammarLessons) {
       for (const ex of lesson.exercises) {

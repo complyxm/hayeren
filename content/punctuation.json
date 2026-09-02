@@ -57,11 +57,11 @@
     "unicode": "U+055B",
     "name": "շեշտ",
     "nameTranslit": "shesht",
-    "functionJa": "強調符。強調したい語や命令形の語の、最後の母音の上に置く。",
+    "functionJa": "強調符。強調したい語の、最後の母音の上に置く。否定命令では動詞ではなく մի の上に置く（Մի՛ մոռացիր）。肯定の命令形にも付ける流儀があるが（գրի՛ր / կարդա՛）、このアプリでは肯定命令に շեշտ を書かない方針で統一している。付けても誤りではない。",
     "placedOverVowel": true,
-    "exampleHy": "Արի՛ այստեղ։",
-    "exampleTranslit": "Ari՛ aystegh.",
-    "exampleJa": "こっちに来て！（命令形の強調）"
+    "exampleHy": "Մի՛ մոռացիր բանալին։",
+    "exampleTranslit": "Mi՛ moratsir banalin.",
+    "exampleJa": "鍵を忘れないで。（否定命令。շեշտ は մի の上）"
   },
   {
     "id": "but",

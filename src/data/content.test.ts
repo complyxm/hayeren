@@ -130,3 +130,27 @@ describe("content/vocab/", () => {
     }
   });
 });
+
+describe("շեշտ (՛, U+055B) の表記方針", () => {
+  // 2026-09-03 にユーザーが決定: 肯定の命令形には շեշտ を書かず、否定命令の մի՛ にだけ書く。
+  // 辞書は肯定命令にも付けるが (գրի՛ր / կարդա՛)、入力の負担を減らすため付けない側で統一する。
+  // punctuation.json だけは շեշտ という記号そのものを教えるデータなので対象外。
+  it("only ever appears as part of մի՛ (the prohibitive marker)", () => {
+    for (const entry of vocab) {
+      for (const [field, value] of [
+        ["hy", entry.hy],
+        ["example.hy", entry.example.hy],
+      ] as const) {
+        for (let i = value.indexOf("՛"); i !== -1; i = value.indexOf("՛", i + 1)) {
+          expect(value.slice(Math.max(0, i - 2), i).toLowerCase(), `${entry.id}.${field} "${value}"`).toBe("մի");
+        }
+      }
+    }
+  });
+
+  it("is documented as the prohibitive convention in punctuation.json", () => {
+    const shesht = punctuationSchema.parse(punctuationRaw).find((p) => p.id === "shesht");
+    expect(shesht).toBeDefined();
+    expect(shesht?.exampleHy).toContain("Մի՛");
+  });
+});
