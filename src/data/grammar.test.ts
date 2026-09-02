@@ -5,12 +5,14 @@ import {
   grammarLessons,
   grammarNounIrregulars,
   grammarVerbIrregulars,
+  sentenceTiles,
 } from "./grammar";
 import { grammarLessonIdSchema, type PersonNumber } from "./schemas/grammar";
 import { conjugate, PRESENT_AUXILIARY, PRESENT_AUXILIARY_NEGATIVE } from "../domain/grammar/conjugate";
 import { decline } from "../domain/grammar/decline";
 import { AmbiguousDeclensionError } from "../domain/grammar/types";
 import { splitPersonNumber } from "../domain/grammar/personNumber";
+import { composeSentence } from "../domain/grammar/sentenceTiles";
 
 // アルメニア文字は U+0530–U+058F の範囲のみ (見た目の似たラテン/キリル文字の混入を防ぐ)。
 // CLAUDE.md §6-1。content.test.ts と同じ範囲。
@@ -143,6 +145,77 @@ describe("content/grammar/exceptions.json", () => {
       expect(() => decline(noun, { case: "locative" }, grammarNounIrregulars), noun).toThrow(
         AmbiguousDeclensionError,
       );
+    }
+  });
+});
+
+describe("content/grammar/sentence-tiles.json", () => {
+  it("has unique ids and is all verified east Armenian", () => {
+    const ids = sentenceTiles.map((t) => t.id);
+    expect(new Set(ids).size).toBe(ids.length);
+    for (const tile of sentenceTiles) {
+      expect(tile.dialect, tile.id).toBe("east");
+      expect(tile.status, tile.id).toBe("verified");
+      expect(tile.source.length, tile.id).toBeGreaterThan(0);
+    }
+  });
+
+  it("stores no verb forms — every form comes from conjugate()", () => {
+    // content に活用形を書き写すとエンジンと食い違ったときに正解が分からなくなる。
+    // lead は前置きの語だけで、動詞・助動詞を含まないことを固定する。
+    for (const tile of sentenceTiles) {
+      const { person, number } = splitPersonNumber(tile.personNumber);
+      const negative = composeSentence(
+        tile.lead,
+        tile.lemma,
+        { person, number, tense: tile.tense, polarity: "negative" },
+        grammarVerbIrregulars,
+      );
+      const verbForms = negative.tokens.filter((t) => t.role !== "lead").map((t) => t.text);
+      for (const form of verbForms) {
+        expect(tile.lead, `${tile.id} の lead が動詞形 "${form}" を含んでいる`).not.toContain(form);
+      }
+    }
+  });
+
+  it("makes the auxiliary fly for kind:\"verb\" and stay put for kind:\"copula\"", () => {
+    // この対比が練習の目的そのもの (roadmap Phase 5「肯定↔否定で助動詞 եմ が飛ぶ」)。
+    for (const tile of sentenceTiles) {
+      const { person, number } = splitPersonNumber(tile.personNumber);
+      const base = { person, number, tense: tile.tense } as const;
+      const affirmative = composeSentence(tile.lead, tile.lemma, base, grammarVerbIrregulars);
+      const negative = composeSentence(
+        tile.lead,
+        tile.lemma,
+        { ...base, polarity: "negative" },
+        grammarVerbIrregulars,
+      );
+      if (tile.kind === "verb") {
+        expect(affirmative.auxiliaryFirst, `${tile.id} 肯定`).toBe(false);
+        expect(negative.auxiliaryFirst, `${tile.id} 否定`).toBe(true);
+        expect(negative.hasParticiple, tile.id).toBe(true);
+      } else {
+        expect(negative.hasParticiple, `${tile.id} は繋辞なので分詞を持たない`).toBe(false);
+        expect(negative.auxiliaryFirst, `${tile.id} 繋辞は否定でも動かない`).toBe(false);
+        // 語順が肯定と同じ = 前置きの語の後ろに繋辞1語。
+        expect(negative.tokens.map((t) => t.role)).toEqual(affirmative.tokens.map((t) => t.role));
+      }
+    }
+  });
+
+  it("ends every composed sentence with ։ and keeps it inside the Armenian block", () => {
+    for (const tile of sentenceTiles) {
+      const { person, number } = splitPersonNumber(tile.personNumber);
+      for (const polarity of ["affirmative", "negative"] as const) {
+        const composed = composeSentence(
+          tile.lead,
+          tile.lemma,
+          { person, number, tense: tile.tense, polarity },
+          grammarVerbIrregulars,
+        );
+        expect(composed.sentence, tile.id).toMatch(ARMENIAN_SENTENCE);
+        expect(composed.sentence.endsWith("։"), `${tile.id} "${composed.sentence}"`).toBe(true);
+      }
     }
   });
 });

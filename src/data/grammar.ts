@@ -1,8 +1,10 @@
 import exceptionsRaw from "../../content/grammar/exceptions.json";
+import sentenceTilesRaw from "../../content/grammar/sentence-tiles.json";
 import { presentStem } from "../domain/grammar/conjugate";
 import type { NounIrregularity, VerbIrregularity } from "../domain/grammar/types";
 import { vocab } from "./vocab";
 import { grammarExceptionsSchema, grammarFileSchema, type GrammarExceptions, type GrammarLesson } from "./schemas/grammar";
+import { sentenceTilesFileSchema, type SentenceTile } from "./schemas/sentenceTiles";
 
 /**
  * content/grammar/ は 1課1ファイル (L01.json …)。新しい課ファイルを追加しても
@@ -16,6 +18,12 @@ export const grammarLessons: GrammarLesson[] = Object.values(lessonModules)
   .sort((a, b) => a.id.localeCompare(b.id));
 
 export const grammarExceptions: GrammarExceptions = grammarExceptionsSchema.parse(exceptionsRaw);
+
+/**
+ * 文タイル練習の題材 (roadmap Phase 5)。課ではないので L*.json の glob から外し、
+ * exceptions.json と同じく個別に読み込む。活用形は持たず conjugate() が生成する。
+ */
+export const sentenceTiles: SentenceTile[] = sentenceTilesFileSchema.parse(sentenceTilesRaw);
 
 /**
  * exceptions.json をエンジン (src/domain/grammar/) が受け取る形に変換したもの。
