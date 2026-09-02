@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { appShell } from "./data/appShell";
 import { AlphabetList } from "./features/alphabet/AlphabetList";
 import { AlphabetDetail } from "./features/alphabet/AlphabetDetail";
 import { PunctuationCards } from "./features/punctuation/PunctuationCards";
@@ -23,6 +22,8 @@ import { SignReading } from "./features/signs/SignReading";
 import { RussianPhrases } from "./features/russian/RussianPhrases";
 import { SettingsScreen } from "./features/settings/SettingsScreen";
 import { TransliterationProvider } from "./features/settings/transliteration";
+import { Dashboard } from "./features/home/Dashboard";
+import { BrowseMenu } from "./features/home/BrowseMenu";
 
 type Screen =
   | { name: "home" }
@@ -47,56 +48,10 @@ type Screen =
   | { name: "release-notes" }
   | { name: "sign-reading" }
   | { name: "russian" }
-  | { name: "settings" };
+  | { name: "settings" }
+  | { name: "browse" };
 
 const HOME: Screen = { name: "home" };
-
-function HomeMenu({ onNavigate }: { onNavigate: (screen: Screen) => void }) {
-  const { greeting } = appShell;
-  const items: { label: string; screen: Screen }[] = [
-    { label: "今日の復習", screen: { name: "review" } },
-    { label: "語彙の復習", screen: { name: "vocab-review" } },
-    { label: "文法の復習", screen: { name: "grammar-review" } },
-    { label: "文字表", screen: { name: "alphabet-list" } },
-    { label: "語彙", screen: { name: "vocab-list" } },
-    { label: "文法", screen: { name: "grammar-list" } },
-    { label: "活用マシン", screen: { name: "conjugation-machine" } },
-    { label: "文タイル", screen: { name: "sentence-tiles" } },
-    { label: "エレバンモード", screen: { name: "scenario-meter" } },
-    { label: "看板を読む", screen: { name: "sign-reading" } },
-    { label: "ロシア語", screen: { name: "russian" } },
-    { label: "設定", screen: { name: "settings" } },
-    { label: "更新のおしらせ", screen: { name: "release-notes" } },
-    { label: "句読点", screen: { name: "punctuation" } },
-    { label: "画面内キーボード", screen: { name: "keyboard" } },
-    { label: "エレバン地下鉄ナビ", screen: { name: "metro" } },
-    { label: "発音チェック（VOT）", screen: { name: "vot-practice" } },
-    { label: "音声認識で読み確認（実験的）", screen: { name: "l1-practice" } },
-  ];
-
-  return (
-    <main className="flex min-h-screen flex-col items-center gap-8 bg-parchment px-6 py-12 text-center text-ink">
-      <div>
-        <h1 lang="hy" className="font-serif text-5xl font-bold tracking-wide sm:text-6xl">
-          {greeting.text}
-        </h1>
-        <p className="mt-2 font-sans text-lg text-ink/80">{greeting.translation}</p>
-      </div>
-      <nav className="grid w-full max-w-sm gap-3">
-        {items.map((item) => (
-          <button
-            key={item.label}
-            type="button"
-            onClick={() => onNavigate(item.screen)}
-            className="rounded-lg border border-gold/40 bg-parchment-light px-4 py-3 text-left text-ink transition hover:border-gold hover:bg-parchment-light/70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
-          >
-            {item.label}
-          </button>
-        ))}
-      </nav>
-    </main>
-  );
-}
 
 export function App() {
   return (
@@ -175,7 +130,39 @@ function Router() {
       return <RussianPhrases onBack={() => setScreen(HOME)} />;
     case "settings":
       return <SettingsScreen onBack={() => setScreen(HOME)} />;
+    case "browse":
+      return (
+        <BrowseMenu
+          onBack={() => setScreen(HOME)}
+          items={[
+            { label: "文字表", hint: "38字 + ու + և。筆順となぞり書き", go: () => setScreen({ name: "alphabet-list" }) },
+            { label: "語彙", hint: "14テーマ・501語", go: () => setScreen({ name: "vocab-list" }) },
+            { label: "文法", hint: "24課", go: () => setScreen({ name: "grammar-list" }) },
+            { label: "活用マシン", hint: "動詞の形を眺める。採点なし", go: () => setScreen({ name: "conjugation-machine" }) },
+            { label: "文タイル", hint: "肯定を否定に組み替える", go: () => setScreen({ name: "sentence-tiles" }) },
+            { label: "句読点", hint: "։ ՞ ՜ ՛ ՝ の使い分け", go: () => setScreen({ name: "punctuation" }) },
+            { label: "画面内キーボード", go: () => setScreen({ name: "keyboard" }) },
+            { label: "エレバン地下鉄ナビ", go: () => setScreen({ name: "metro" }) },
+            { label: "発音チェック", hint: "破裂音の息の強さを測る", go: () => setScreen({ name: "vot-practice" }) },
+            { label: "音声認識で読み確認", hint: "実験的。既定オフ", go: () => setScreen({ name: "l1-practice" }) },
+          ]}
+        />
+      );
     default:
-      return <HomeMenu onNavigate={setScreen} />;
+      return (
+        <Dashboard
+          onGo={{
+            letters: () => setScreen({ name: "review" }),
+            vocab: () => setScreen({ name: "vocab-review" }),
+            grammar: () => setScreen({ name: "grammar-review" }),
+            signs: () => setScreen({ name: "sign-reading" }),
+            russian: () => setScreen({ name: "russian" }),
+            scenarios: () => setScreen({ name: "scenario-meter" }),
+            browse: () => setScreen({ name: "browse" }),
+            settings: () => setScreen({ name: "settings" }),
+            releaseNotes: () => setScreen({ name: "release-notes" }),
+          }}
+        />
+      );
   }
 }
