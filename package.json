@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "lint": "eslint . && tsc --noEmit",
+    "lint": "eslint . && tsc -b",
     "validate": "tsx scripts/validate-content.ts && node scripts/check-vocab-audio.mjs",
     "build:audio": "node scripts/build-alphabet-audio.mjs",
     "build:audio:vocab": "node scripts/build-vocab-audio.mjs",

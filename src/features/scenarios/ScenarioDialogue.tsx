@@ -104,7 +104,7 @@ export function ScenarioDialogue({ id, onBack }: Props) {
             <p lang="hy" className="font-serif text-xl">
               {node.hy}
             </p>
-            <Transliteration text={node.translit} className="block text-xs text-ink/50" />
+            {node.translit && <Transliteration text={node.translit} className="block text-xs text-ink/50" />}
             <p className="mt-1 text-sm text-ink/80">{node.ja}</p>
 
             <p className="mt-4 text-xs uppercase tracking-widest text-ink/50">どう言う？</p>
