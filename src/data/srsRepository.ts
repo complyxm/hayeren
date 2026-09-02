@@ -1,4 +1,5 @@
 import { buildReviewQueue, type QueueableCard } from "../domain/srs/queue";
+import { DEFAULT_STABILITY_THRESHOLD_DAYS, isStable, type StabilityCriteria } from "../domain/srs/stability";
 import { createNewCard, scheduleReview } from "../domain/srs/scheduler";
 import type { ReviewRating } from "../domain/srs/types";
 import { db, type CardRecord, type ReviewRecord, type SettingsRecord } from "./db";
@@ -17,6 +18,7 @@ async function ensureSettings(): Promise<SettingsRecord> {
     l1SpeechOptIn: false,
     completedGrammarLessonIds: [],
     grammarDailyNewCardLimit: DEFAULT_DAILY_NEW_CARD_LIMIT,
+    stabilityThresholdDays: DEFAULT_STABILITY_THRESHOLD_DAYS,
   };
   await db.settings.put(created);
   return created;
@@ -49,6 +51,44 @@ export async function getGrammarDailyNewCardLimit(): Promise<number> {
 export async function setGrammarDailyNewCardLimit(limit: number): Promise<void> {
   await ensureSettings();
   await db.settings.update("singleton", { grammarDailyNewCardLimit: limit });
+}
+
+/** stabilityThresholdDays が無いまま保存された既存レコード(移行前)は既定値扱いにする。 */
+export async function getStabilityCriteria(): Promise<StabilityCriteria> {
+  return { thresholdDays: (await ensureSettings()).stabilityThresholdDays ?? DEFAULT_STABILITY_THRESHOLD_DAYS };
+}
+
+export async function setStabilityThresholdDays(days: number): Promise<void> {
+  await ensureSettings();
+  await db.settings.update("singleton", { stabilityThresholdDays: days });
+}
+
+/**
+ * 渡した contentId のうち「安定」しているものの集合（curriculum.md §7.1）。
+ * 判定そのものは domain の isStable() に任せ、ここは Dexie から
+ * カードと直近の評価を集めてくる係に徹する（CLAUDE.md §8）。
+ */
+export async function getStableContentIds(contentIds: string[]): Promise<Set<string>> {
+  if (contentIds.length === 0) return new Set();
+  const [criteria, cards] = await Promise.all([
+    getStabilityCriteria(),
+    db.cards.where("contentId").anyOf(contentIds).toArray(),
+  ]);
+  if (cards.length === 0) return new Set();
+
+  // 直近の評価はカードごとに1件だけ要る。reviews を1回で引いて contentId ごとに畳む。
+  const reviews = await db.reviews.where("cardId").anyOf(cards.map((c) => c.contentId)).toArray();
+  const lastRating = new Map<string, { at: Date; rating: ReviewRating }>();
+  for (const review of reviews) {
+    const current = lastRating.get(review.cardId);
+    if (!current || review.reviewedAt > current.at) {
+      lastRating.set(review.cardId, { at: review.reviewedAt, rating: review.rating });
+    }
+  }
+
+  return new Set(
+    cards.filter((c) => isStable(c, lastRating.get(c.contentId)?.rating ?? null, criteria)).map((c) => c.contentId),
+  );
 }
 
 /** l1SpeechOptIn が無いまま保存された既存レコード(移行前)は false 扱いにする。 */

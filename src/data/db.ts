@@ -47,6 +47,13 @@ export interface SettingsRecord {
    * 移行前レコード（このフィールドが無い）は既定値扱い。
    */
   grammarDailyNewCardLimit?: number;
+  /**
+   * 「安定」とみなす FSRS stability（日）の下限。curriculum.md §7.1 の既定は 21 日。
+   * 場面ユニットの通過判定と到達度メーターがこの値を使う（判定そのものは
+   * src/domain/srs/stability.ts の isStable() 1箇所に集約）。
+   * 移行前レコード（このフィールドが無い）は既定値扱い。
+   */
+  stabilityThresholdDays?: number;
 }
 
 /**
