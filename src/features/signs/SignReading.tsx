@@ -79,7 +79,7 @@ export function SignReading({ onBack }: Props) {
 
         {sign && (
           <div className="mt-6 rounded-xl border border-gold/30 bg-parchment-light p-6 text-center">
-            <p className="text-xs uppercase tracking-widest text-ink/40">{KIND_JA[sign.kind]}</p>
+            <p className="text-xs uppercase tracking-widest text-ink/60">{KIND_JA[sign.kind]}</p>
             <p lang="hy" className="mt-3 font-serif text-4xl font-bold tracking-wide text-ink">
               {sign.display}
             </p>
@@ -98,7 +98,7 @@ export function SignReading({ onBack }: Props) {
                 <p lang="hy" className="mt-2 font-serif text-lg text-ink/80">
                   {sign.reading}
                 </p>
-                <p className="mt-1 text-xs text-ink/50">辞書に載っている小文字の形</p>
+                <p className="mt-1 text-xs text-ink/60">辞書に載っている小文字の形</p>
                 {sign.note_ja && <p className="mt-3 text-sm text-ink/70">{sign.note_ja}</p>}
 
                 <div className="mt-6 grid grid-cols-2 gap-2 sm:grid-cols-4">
@@ -136,7 +136,7 @@ export function SignReading({ onBack }: Props) {
               min={0}
               value={dailyLimit ?? ""}
               onChange={(e) => handleLimitChange(Number(e.target.value))}
-              className="w-16 rounded border border-gold/40 bg-parchment px-2 py-1 text-ink"
+              className="w-16 rounded border border-gold/40 bg-parchment px-2 py-1 text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
             />
           </label>
         </section>

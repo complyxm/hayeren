@@ -57,7 +57,7 @@ export function L1PracticePanel({
         {listening ? "聞いています…" : "認識する"}
       </button>
 
-      {error && <p className="mt-4 text-sm text-vermillion">{error}</p>}
+      {error && <p className="mt-4 text-sm text-vermillion-text">{error}</p>}
 
       {alternatives && !error && (
         <div className="mt-4 text-sm">

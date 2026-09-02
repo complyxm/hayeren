@@ -148,7 +148,7 @@ export function VotPractice({ onBack, captureAdapter }: VotPracticeProps) {
                 {recording ? "録音中…" : "録音する"}
               </button>
 
-              {error && <p className="mt-4 text-sm text-vermillion">{error}</p>}
+              {error && <p className="mt-4 text-sm text-vermillion-text">{error}</p>}
               {feedback && !error && <p className="mt-4 text-sm">{feedback}</p>}
 
               <div className="mt-6">

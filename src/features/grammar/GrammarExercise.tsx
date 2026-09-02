@@ -85,7 +85,7 @@ export function GrammarExercise({ exercise, onAnswered }: Props) {
         <div>
           <p className="text-sm text-ink/70">語を並べて文を作る。</p>
           <div lang="hy" className="mt-2 min-h-9 rounded border border-gold/40 bg-parchment px-2 py-1 font-serif text-lg">
-            {picked.map((idx) => exercise.tokens[idx]).join(" ") || <span className="text-ink/30">…</span>}
+            {picked.map((idx) => exercise.tokens[idx]).join(" ") || <span className="text-ink/55">…</span>}
             {picked.length > 0 && "։"}
           </div>
           <div className="mt-2 flex flex-wrap gap-2">
@@ -129,7 +129,7 @@ export function GrammarExercise({ exercise, onAnswered }: Props) {
 
       {checked && (
         <div className="mt-3 text-sm">
-          <p className={correct ? "text-gold" : "text-vermillion"}>{correct ? "正解です。" : "不正解です。"}</p>
+          <p className={correct ? "text-gold" : "text-vermillion-text"}>{correct ? "正解です。" : "不正解です。"}</p>
           <p className="mt-1 text-ink/80">
             正解：
             <span lang="hy" className="font-serif text-base">

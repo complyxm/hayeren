@@ -78,7 +78,7 @@ export function Dashboard({ onGo }: Props) {
                       className="flex w-full items-center justify-between rounded-lg border border-gold/40 bg-parchment-light px-4 py-3 text-left transition hover:border-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
                     >
                       <span>{count.label}</span>
-                      <span className={count.due > 0 ? "font-bold text-gold" : "text-ink/40"}>
+                      <span className={count.due > 0 ? "font-bold text-gold" : "text-ink/60"}>
                         {count.due > 0 ? `${count.due} 件` : "なし"}
                       </span>
                     </button>
@@ -96,7 +96,7 @@ export function Dashboard({ onGo }: Props) {
                 <span>
                   <span className="block">エレバンで切り抜けられる場面</span>
                   {countdown && !countdown.past && (
-                    <span className="block text-xs text-ink/50">出発まであと {countdown.days} 日</span>
+                    <span className="block text-xs text-ink/60">出発まであと {countdown.days} 日</span>
                   )}
                 </span>
                 <span className="font-serif text-xl">

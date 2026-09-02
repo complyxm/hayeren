@@ -39,7 +39,7 @@ function Dial<T extends string>({
 }) {
   return (
     <fieldset className="mt-5">
-      <legend className="text-xs uppercase tracking-widest text-ink/50">{legend}</legend>
+      <legend className="text-xs uppercase tracking-widest text-ink/60">{legend}</legend>
       <div className={`mt-2 grid gap-2 ${columns}`}>
         {options.map((option) => {
           const selected = option.key === value;
@@ -56,7 +56,7 @@ function Dial<T extends string>({
               }`}
             >
               {option.label}
-              {option.hint && <span className="block text-[10px] text-ink/40">{option.hint}</span>}
+              {option.hint && <span className="block text-[10px] text-ink/60">{option.hint}</span>}
             </button>
           );
         })}
@@ -128,7 +128,7 @@ export function ConjugationMachine({ onBack }: { onBack: () => void }) {
             ) : (
               <p className="font-sans text-sm text-ink/60">
                 この組み合わせの形は辞書に無いので出しません。推測した形を見せるより、出さないほうが安全です。
-                <span className="mt-2 block text-xs text-ink/40">
+                <span className="mt-2 block text-xs text-ink/60">
                   {"error" in outcome ? outcome.error : ""}
                 </span>
               </p>
@@ -149,7 +149,7 @@ export function ConjugationMachine({ onBack }: { onBack: () => void }) {
         </div>
 
         <fieldset className="mt-5">
-          <legend className="text-xs uppercase tracking-widest text-ink/50">動詞</legend>
+          <legend className="text-xs uppercase tracking-widest text-ink/60">動詞</legend>
           <select
             value={lemma}
             onChange={(e) => setLemma(e.target.value)}
@@ -162,7 +162,7 @@ export function ConjugationMachine({ onBack }: { onBack: () => void }) {
               </option>
             ))}
           </select>
-          {verb && <p className="mt-1 text-xs text-ink/50">語彙 {verb.vocabId} から</p>}
+          {verb && <p className="mt-1 text-xs text-ink/60">語彙 {verb.vocabId} から</p>}
         </fieldset>
 
         <Dial

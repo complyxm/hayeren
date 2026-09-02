@@ -72,12 +72,12 @@ export function SentenceTiles({ onBack }: { onBack: () => void }) {
         <p className="mt-1 text-sm text-ink/70">
           肯定の文を否定に組み替える。助動詞（朱のタイル）がどこへ動くかを手で確かめる。
         </p>
-        <p className="mt-3 text-xs text-ink/50">
+        <p className="mt-3 text-xs text-ink/60">
           {index + 1} / {sentenceTiles.length}
         </p>
 
         <section className="mt-4 rounded-lg border border-gold/40 bg-parchment-light p-4">
-          <h2 className="text-xs uppercase tracking-widest text-ink/50">元の文（肯定）</h2>
+          <h2 className="text-xs uppercase tracking-widest text-ink/60">元の文（肯定）</h2>
           <div className="mt-2" aria-label="元の文">
             <TileRow tokens={affirmative.tokens} />
           </div>
@@ -85,7 +85,7 @@ export function SentenceTiles({ onBack }: { onBack: () => void }) {
         </section>
 
         <section className="mt-4 rounded-lg border border-gold/40 bg-parchment-light p-4">
-          <h2 className="text-xs uppercase tracking-widest text-ink/50">これを否定にする</h2>
+          <h2 className="text-xs uppercase tracking-widest text-ink/60">これを否定にする</h2>
           <p className="mt-1 text-sm text-ink/70">{item.ja_negative}</p>
 
           <div
@@ -95,7 +95,7 @@ export function SentenceTiles({ onBack }: { onBack: () => void }) {
             {assembled.length > 0 ? (
               <TileRow tokens={assembled} />
             ) : (
-              <span className="font-serif text-xl text-ink/30">…</span>
+              <span className="font-serif text-xl text-ink/55">…</span>
             )}
           </div>
 
@@ -131,7 +131,7 @@ export function SentenceTiles({ onBack }: { onBack: () => void }) {
             </button>
           ) : (
             <div className="mt-3 text-sm">
-              <p className={correct ? "text-gold" : "text-vermillion"}>{correct ? "正解です。" : "不正解です。"}</p>
+              <p className={correct ? "text-gold" : "text-vermillion-text"}>{correct ? "正解です。" : "不正解です。"}</p>
               <div className="mt-2" aria-label="正解の文">
                 <TileRow tokens={negative.tokens} />
               </div>

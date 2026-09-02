@@ -70,12 +70,12 @@ export function VocabDetail({ id, onBack }: VocabDetailProps) {
 
         {entry.ruCognate && (
           <section className="mt-4 rounded-md border border-vermillion/40 bg-vermillion/10 p-3 text-sm">
-            <p className="text-xs font-bold uppercase tracking-widest text-vermillion">ロシア語由来</p>
+            <p className="text-xs font-bold uppercase tracking-widest text-vermillion-text">ロシア語由来</p>
             <p lang="ru" className="mt-1 font-serif text-lg text-ink">
               {entry.ruCognate.form}
             </p>
             <p className="mt-1 text-ink/80">{entry.ruCognate.note}</p>
-            <p className="mt-2 text-xs text-ink/50">
+            <p className="mt-2 text-xs text-ink/60">
               ここだけは2言語を並べます。片方を覚えるともう片方が半分ただで手に入るためです。
             </p>
           </section>
@@ -111,11 +111,11 @@ export function VocabDetail({ id, onBack }: VocabDetailProps) {
         </section>
 
         {canPlayWord || canPlayExample ? (
-          <p className="mt-2 text-center text-[11px] text-ink/50">
+          <p className="mt-2 text-center text-[11px] text-ink/60">
             機械合成の暫定音声（eSpeak NG）。発音の細部は参考程度に。
           </p>
         ) : (
-          <p className="mt-4 text-xs text-ink/40">音声はまだありません。</p>
+          <p className="mt-4 text-xs text-ink/60">音声はまだありません。</p>
         )}
       </div>
     </main>

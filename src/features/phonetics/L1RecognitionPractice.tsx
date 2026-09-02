@@ -102,7 +102,7 @@ export function L1RecognitionPractice({ onBack, recognitionAdapter }: L1Recognit
             <button
               type="button"
               onClick={handleDisable}
-              className="mt-4 text-xs text-ink/50 underline decoration-gold/40 underline-offset-4 hover:text-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+              className="mt-4 text-xs text-ink/60 underline decoration-gold/40 underline-offset-4 hover:text-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
             >
               この機能を無効にする
             </button>

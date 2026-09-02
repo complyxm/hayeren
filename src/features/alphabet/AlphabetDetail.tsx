@@ -64,7 +64,7 @@ export function AlphabetDetail({ id, onBack, onSelect }: AlphabetDetailProps) {
           )}
         </div>
         {canPlay && (
-          <p className="mt-2 text-center text-[11px] text-ink/50">
+          <p className="mt-2 text-center text-[11px] text-ink/60">
             機械合成の暫定音声（eSpeak NG）。発音の細部は参考程度に。
           </p>
         )}

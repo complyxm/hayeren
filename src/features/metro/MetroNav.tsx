@@ -77,7 +77,7 @@ export function MetroNav({ onBack }: MetroNavProps) {
             <p className="mb-1 text-sm text-ink/70">
               駅名をアルメニア語のまま読んで、経路を答えてください。
             </p>
-            <p className="mb-6 text-xs text-ink/50">
+            <p className="mb-6 text-xs text-ink/60">
               {stepIndex + 1} / {course.length} 問目
             </p>
 

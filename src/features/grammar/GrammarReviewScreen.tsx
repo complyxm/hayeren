@@ -73,7 +73,7 @@ export function GrammarReviewScreen({ onBack }: Props) {
 
         {item && exercise && lesson && (
           <section className="mt-4">
-            <p className="text-xs text-ink/50">
+            <p className="text-xs text-ink/60">
               {lesson.id} {lesson.title}
             </p>
             <GrammarExercise
@@ -113,7 +113,7 @@ export function GrammarReviewScreen({ onBack }: Props) {
               min={0}
               value={dailyLimit ?? ""}
               onChange={(e) => handleLimitChange(Number(e.target.value))}
-              className="w-16 rounded border border-gold/40 bg-parchment px-2 py-1 text-ink"
+              className="w-16 rounded border border-gold/40 bg-parchment px-2 py-1 text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
             />
           </label>
         </section>

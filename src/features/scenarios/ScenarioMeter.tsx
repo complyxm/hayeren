@@ -12,7 +12,7 @@ interface Props {
 function StatusLabel({ status }: { status: ScenarioStatus }) {
   const { progress } = status;
   if (progress.passed) return <span className="shrink-0 text-sm font-bold text-gold">✓ 通過</span>;
-  if (progress.untouched) return <span className="shrink-0 text-sm text-ink/50">── 未着手</span>;
+  if (progress.untouched) return <span className="shrink-0 text-sm text-ink/60">── 未着手</span>;
   if (progress.remainingVocabCount > 0) {
     return <span className="shrink-0 text-sm text-ink/70">── あと {progress.remainingVocabCount} 語</span>;
   }
@@ -89,7 +89,7 @@ export function ScenarioMeter({ onBack, onSelect }: Props) {
                   >
                     <span>
                       <span className="block">{status.scenario.title_ja}</span>
-                      <span className="block text-xs text-ink/50">{status.scenario.place_ja}</span>
+                      <span className="block text-xs text-ink/60">{status.scenario.place_ja}</span>
                     </span>
                     <StatusLabel status={status} />
                   </button>
@@ -109,10 +109,10 @@ export function ScenarioMeter({ onBack, onSelect }: Props) {
                   type="date"
                   value={target ?? ""}
                   onChange={(e) => changeTarget(e.target.value)}
-                  className="rounded border border-gold/40 bg-parchment px-2 py-1 text-ink"
+                  className="rounded border border-gold/40 bg-parchment px-2 py-1 text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
                 />
               </label>
-              <p className="mt-2 text-xs text-ink/50">
+              <p className="mt-2 text-xs text-ink/60">
                 設定しなくてもすべての機能が使えます。入れると、上に残り日数が並びます。
               </p>
             </section>

@@ -75,7 +75,7 @@ export function ScenarioDialogue({ id, onBack }: Props) {
         </button>
 
         <h1 className="font-serif text-2xl font-bold">{scenario.title_ja}</h1>
-        <p className="mt-1 text-xs text-ink/50">{scenario.place_ja}</p>
+        <p className="mt-1 text-xs text-ink/60">{scenario.place_ja}</p>
 
         <ol aria-label="やりとり" className="mt-4 space-y-2">
           {log.map((line, i) => (
@@ -85,29 +85,29 @@ export function ScenarioDialogue({ id, onBack }: Props) {
                 line.who === "them" ? "border-gold/25 bg-parchment-light" : "border-gold/50 bg-gold/10 ml-6"
               }`}
             >
-              <p className="text-[10px] uppercase tracking-widest text-ink/40">
+              <p className="text-[10px] uppercase tracking-widest text-ink/60">
                 {line.who === "them" ? "相手" : "あなた"}
               </p>
               <p lang="hy" className="font-serif text-lg">
                 {line.hy}
               </p>
-              <Transliteration text={line.translit} className="block text-xs text-ink/50" />
+              <Transliteration text={line.translit} className="block text-xs text-ink/60" />
               <p className="mt-1 text-sm text-ink/80">{line.ja}</p>
-              {line.note_ja && <p className="mt-1 text-xs text-vermillion">{line.note_ja}</p>}
+              {line.note_ja && <p className="mt-1 text-xs text-vermillion-text">{line.note_ja}</p>}
             </li>
           ))}
         </ol>
 
         {node && node.ending === undefined && (
           <section className="mt-4 rounded-lg border border-gold/40 bg-parchment-light p-4">
-            <p className="text-[10px] uppercase tracking-widest text-ink/40">相手</p>
+            <p className="text-[10px] uppercase tracking-widest text-ink/60">相手</p>
             <p lang="hy" className="font-serif text-xl">
               {node.hy}
             </p>
-            {node.translit && <Transliteration text={node.translit} className="block text-xs text-ink/50" />}
+            {node.translit && <Transliteration text={node.translit} className="block text-xs text-ink/60" />}
             <p className="mt-1 text-sm text-ink/80">{node.ja}</p>
 
-            <p className="mt-4 text-xs uppercase tracking-widest text-ink/50">どう言う？</p>
+            <p className="mt-4 text-xs uppercase tracking-widest text-ink/60">どう言う？</p>
             <div className="mt-2 space-y-2">
               {node.choices?.map((choice, i) => (
                 <button
@@ -119,7 +119,7 @@ export function ScenarioDialogue({ id, onBack }: Props) {
                   <span lang="hy" className="block font-serif text-lg">
                     {choice.hy}
                   </span>
-                  <Transliteration text={choice.translit} className="block text-xs text-ink/50" />
+                  <Transliteration text={choice.translit} className="block text-xs text-ink/60" />
                   <span className="block text-sm text-ink/80">{choice.ja}</span>
                 </button>
               ))}

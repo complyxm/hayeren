@@ -57,16 +57,16 @@ export function VotZonePlot({ zone, maxMs = 150, points }: VotZonePlotProps) {
           />
         )}
       </div>
-      <div className="mt-1 flex justify-between text-xs text-ink/50">
+      <div className="mt-1 flex justify-between text-xs text-ink/60">
         <span>0ms</span>
         <span>{zone.maxUnaspiratedMs}ms</span>
         <span>{zone.minAspiratedMs}ms</span>
         <span>{maxMs}ms+</span>
       </div>
       <div className="mt-1 flex justify-between text-xs text-ink/70">
-        <span className="text-lapis">無気音ゾーン</span>
+        <span className="text-lapis-text">無気音ゾーン</span>
         <span>どちらとも言えない</span>
-        <span className="text-vermillion">帯気音ゾーン</span>
+        <span className="text-vermillion-text">帯気音ゾーン</span>
       </div>
     </div>
   );

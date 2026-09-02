@@ -8,6 +8,11 @@ import { ScenarioDialogue } from "./scenarios/ScenarioDialogue";
 import { ReleaseNotes } from "./about/ReleaseNotes";
 import { ConjugationMachine } from "./grammar/ConjugationMachine";
 import { SentenceTiles } from "./grammar/SentenceTiles";
+import { SignReading } from "./signs/SignReading";
+import { RussianPhrases } from "./russian/RussianPhrases";
+import { ScenarioMeter } from "./scenarios/ScenarioMeter";
+import { GrammarReviewScreen } from "./grammar/GrammarReviewScreen";
+import { VocabReviewScreen } from "./vocab/VocabReviewScreen";
 
 /**
  * アクセシビリティ監査（roadmap Phase 9 完了条件「キーボードのみで全機能が操作できる」）。
@@ -69,6 +74,36 @@ const SCREENS: { name: string; render: () => void; settle?: () => Promise<unknow
   { name: "更新のおしらせ", render: () => render(<ReleaseNotes onBack={noop} />) },
   { name: "活用マシン", render: () => render(<ConjugationMachine onBack={noop} />) },
   { name: "文タイル", render: () => render(<SentenceTiles onBack={noop} />) },
+  {
+    name: "看板を読む",
+    render: () => render(<SignReading onBack={noop} />),
+    settle: async () =>
+      waitFor(() => expect(screen.queryByText("読み込み中…")).not.toBeInTheDocument(), { timeout: 5000 }),
+  },
+  {
+    name: "ロシア語",
+    render: () => render(<RussianPhrases onBack={noop} />),
+    settle: async () =>
+      waitFor(() => expect(screen.queryAllByText("読み込み中…")).toHaveLength(0), { timeout: 5000 }),
+  },
+  {
+    name: "エレバンモード",
+    render: () => render(<ScenarioMeter onBack={noop} onSelect={noop} />),
+    settle: async () =>
+      waitFor(() => expect(screen.queryByText("読み込み中…")).not.toBeInTheDocument(), { timeout: 5000 }),
+  },
+  {
+    name: "文法の復習",
+    render: () => render(<GrammarReviewScreen onBack={noop} />),
+    settle: async () =>
+      waitFor(() => expect(screen.queryByText("読み込み中…")).not.toBeInTheDocument(), { timeout: 5000 }),
+  },
+  {
+    name: "語彙の復習",
+    render: () => render(<VocabReviewScreen onBack={noop} />),
+    settle: async () =>
+      waitFor(() => expect(screen.queryByText("読み込み中…")).not.toBeInTheDocument(), { timeout: 8000 }),
+  },
 ];
 
 describe("アクセシビリティ", () => {

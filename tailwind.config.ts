@@ -13,9 +13,15 @@ export default {
           light: "#2a1f18",
         },
         ink: "#f3e9d8",
+        // 塗り・枠線用の彩度の高い原色。写本の顔料そのものの色。
         vermillion: "#8c1c13",
         lapis: "#2d4a72",
         gold: "#c9a227",
+        // 文字色用の明るい同色相。濃い羊皮紙の地に原色をそのまま文字に使うと
+        // コントラストが 2:1 前後になり読めないため、色相を保ったまま明度だけ上げた
+        // （どちらも parchment / parchment-light 上で 5:1 以上）。
+        "vermillion-text": "#e0746c",
+        "lapis-text": "#7fa0cc",
       },
       fontFamily: {
         // 本文用。西欧文字はNotoの欧文グリフにフォールバックし、

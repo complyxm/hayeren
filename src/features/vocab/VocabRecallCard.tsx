@@ -46,7 +46,7 @@ export function VocabRecallCard({ entry, onGraded }: VocabRecallCardProps) {
 
       {checked && (
         <>
-          <p className={`mt-4 text-center text-sm ${correct ? "text-gold" : "text-vermillion"}`}>
+          <p className={`mt-4 text-center text-sm ${correct ? "text-gold" : "text-vermillion-text"}`}>
             {correct ? "正解です。" : "不正解です。"}
           </p>
           {!correct && (

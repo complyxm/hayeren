@@ -45,7 +45,7 @@ export function GrammarLesson({ id, onBack }: Props) {
         </button>
 
         <h1 className="font-serif text-2xl font-bold">
-          <span className="text-ink/50">{lesson.id}</span> {lesson.title}
+          <span className="text-ink/60">{lesson.id}</span> {lesson.title}
         </h1>
 
         <section className="mt-4">

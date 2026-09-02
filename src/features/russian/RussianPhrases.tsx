@@ -68,7 +68,7 @@ export function RussianPhrases({ onBack }: Props) {
         <button
           type="button"
           onClick={onBack}
-          className="mb-6 text-sm text-ink/70 underline decoration-lapis/50 underline-offset-4 hover:text-lapis focus-visible:outline focus-visible:outline-2 focus-visible:outline-lapis"
+          className="mb-6 text-sm text-ink/70 underline decoration-lapis/50 underline-offset-4 hover:text-lapis-text focus-visible:outline focus-visible:outline-2 focus-visible:outline-lapis"
         >
           ← ホームに戻る
         </button>
@@ -95,7 +95,7 @@ export function RussianPhrases({ onBack }: Props) {
               </button>
             ) : (
               <>
-                <p className="mt-4 text-2xl text-lapis">{phrase.ja}</p>
+                <p className="mt-4 text-2xl text-lapis-text">{phrase.ja}</p>
                 {phrase.note_ja && <p className="mt-3 text-sm text-ink/70">{phrase.note_ja}</p>}
                 <div className="mt-6 grid grid-cols-2 gap-2 sm:grid-cols-4">
                   {GRADE_BUTTONS.map(({ rating, label }) => (
@@ -125,7 +125,7 @@ export function RussianPhrases({ onBack }: Props) {
         )}
 
         <section className="mt-8">
-          <h2 className="text-xs uppercase tracking-widest text-ink/50">場面ごとの解放状況</h2>
+          <h2 className="text-xs uppercase tracking-widest text-ink/60">場面ごとの解放状況</h2>
           {statuses === null ? (
             <p className="mt-2 text-sm text-ink/60">読み込み中…</p>
           ) : (
@@ -159,7 +159,7 @@ export function RussianPhrases({ onBack }: Props) {
               min={0}
               value={dailyLimit ?? ""}
               onChange={(e) => handleLimitChange(Number(e.target.value))}
-              className="w-16 rounded border border-lapis/40 bg-parchment px-2 py-1 text-ink"
+              className="w-16 rounded border border-lapis/40 bg-parchment px-2 py-1 text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-lapis"
             />
           </label>
         </section>

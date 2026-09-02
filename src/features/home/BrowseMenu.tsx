@@ -31,7 +31,7 @@ export function BrowseMenu({ onBack, items }: Props) {
               className="rounded-lg border border-gold/40 bg-parchment-light px-4 py-3 text-left transition hover:border-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
             >
               <span className="block">{item.label}</span>
-              {item.hint && <span className="block text-xs text-ink/50">{item.hint}</span>}
+              {item.hint && <span className="block text-xs text-ink/60">{item.hint}</span>}
             </button>
           ))}
         </nav>

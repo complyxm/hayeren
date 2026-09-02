@@ -32,7 +32,7 @@ export function PunctuationCards({ onBack }: PunctuationCardsProps) {
                     {mark.name}
                     <span className="ml-2 font-sans text-sm text-ink/60">{mark.nameTranslit}</span>
                   </p>
-                  <p className="text-xs text-ink/50">{mark.unicode}</p>
+                  <p className="text-xs text-ink/60">{mark.unicode}</p>
                 </div>
                 {mark.placedOverVowel && (
                   <span className="ml-auto shrink-0 rounded bg-lapis/40 px-2 py-1 text-[11px]">

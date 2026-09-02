@@ -73,7 +73,7 @@ export function ArmenianTypingInput({ value, onChange, disabled = false }: Armen
         className="mb-2 min-h-14 rounded-lg border border-gold/40 bg-parchment-light p-3 font-serif text-3xl"
         aria-label="入力欄"
       >
-        {value || <span className="text-ink/30">ここに表示されます</span>}
+        {value || <span className="text-ink/55">ここに表示されます</span>}
       </div>
 
       <div className="mb-4 flex gap-2">

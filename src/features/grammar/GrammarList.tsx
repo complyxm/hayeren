@@ -49,12 +49,12 @@ export function GrammarList({ onBack, onSelect }: Props) {
                     className="flex w-full items-center justify-between rounded-lg border border-gold/40 bg-parchment-light px-4 py-3 text-left transition hover:border-gold hover:bg-parchment-light/70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold disabled:cursor-not-allowed disabled:opacity-50"
                   >
                     <span>
-                      <span className="text-ink/50">{lesson.id}</span> {lesson.title}
+                      <span className="text-ink/60">{lesson.id}</span> {lesson.title}
                     </span>
                     {done ? (
                       <span className="shrink-0 text-xs text-gold">✓ 完了</span>
                     ) : locked ? (
-                      <span className="shrink-0 text-xs text-ink/50">{`${unmet.join("・")} が必要`}</span>
+                      <span className="shrink-0 text-xs text-ink/60">{`${unmet.join("・")} が必要`}</span>
                     ) : null}
                   </button>
                 </li>
