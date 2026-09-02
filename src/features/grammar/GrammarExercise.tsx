@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { GrammarExercise as GrammarExerciseData, PersonNumber } from "../../data/schemas/grammar";
+import type { GrammarExercise as GrammarExerciseData, PersonNumber, Tense } from "../../data/schemas/grammar";
 import { isCorrectHyAnswer, normalizeHyAnswer } from "../../domain/vocab/answerMatch";
 import { ArmenianTypingInput } from "../keyboard/ArmenianTypingInput";
 
@@ -10,6 +10,14 @@ const PERSON_NUMBER_JA: Record<PersonNumber, string> = {
   "1pl": "1人称複数（私たち）",
   "2pl": "2人称複数（あなたたち）",
   "3pl": "3人称複数（彼ら）",
+};
+
+/** 課の呼び名に合わせる（L06 現在形 / L17 過去進行 / L18 アオリスト / L19 未来形）。 */
+const TENSE_JA: Record<Tense, string> = {
+  present: "現在形",
+  imperfect: "過去進行",
+  aorist: "アオリスト（単純過去）",
+  future: "未来形",
 };
 
 interface Props {
@@ -51,7 +59,7 @@ export function GrammarExercise({ exercise, onAnswered }: Props) {
             {exercise.lemma}
           </span>{" "}
           を <b>{PERSON_NUMBER_JA[exercise.personNumber]}</b>
-          {exercise.polarity === "negative" ? "・否定" : ""}の現在形に。
+          {exercise.polarity === "negative" ? "・否定" : ""}の<b>{TENSE_JA[exercise.tense]}</b>に。
         </p>
       )}
 
