@@ -23,21 +23,48 @@ const CREDITS_PATH = join(ROOT, "content", "audio-credits.json");
 const UA = "hayeren-dev/1.0 (https://github.com/; language-learning app, non-commercial)";
 
 /**
- * 聞き分けチャレンジ（roadmap 3-2）で使う語。**語頭の破裂音だけが問題**なので、
- * 無気無声（պ）と帯気無声（փ）で始まる語をそれぞれ集める。
- * 語彙モジュールに載っている検証済みの語から選んである。
+ * 聞き分けチャレンジ（roadmap 3-2）で使う語。**2項対立ごとに**語を集める。
+ *
+ * - `p-ph`: 語頭の破裂音（無気無声 պ / 帯気無声 փ）。日本語ではどちらも「パ」。
+ * - `rr-r`: 母音にはさまれた ռ（ふるえ音）/ ր（はじき音）。日本語ではどちらも「ラ」。
+ *   位置を母音間にそろえてあるのは、語頭・語末では調音が弱まって
+ *   ふるえ音でも接触が1回になりやすく、対立が聞こえにくいため。
+ *
+ * どの語も語彙モジュールに載っている検証済みの語から選んである。
  */
-const WORDS = [
-  { word: "պատ", letter: "պ" },
-  { word: "պապ", letter: "պ" },
-  { word: "պարկ", letter: "պ" },
-  { word: "պանիր", letter: "պ" },
-  { word: "պայմանագիր", letter: "պ" },
-  { word: "փող", letter: "փ" },
-  { word: "փոր", letter: "փ" },
-  { word: "փակ", letter: "փ" },
-  { word: "փողոց", letter: "փ" },
-  { word: "փոխարեն", letter: "փ" },
+const PAIRS = [
+  {
+    pairId: "p-ph",
+    prefix: "lp",
+    words: [
+      { word: "պատ", letter: "պ" },
+      { word: "պապ", letter: "պ" },
+      { word: "պարկ", letter: "պ" },
+      { word: "պանիր", letter: "պ" },
+      { word: "պայմանագիր", letter: "պ" },
+      { word: "փող", letter: "փ" },
+      { word: "փոր", letter: "փ" },
+      { word: "փակ", letter: "փ" },
+      { word: "փողոց", letter: "փ" },
+      { word: "փոխարեն", letter: "փ" },
+    ],
+  },
+  {
+    pairId: "rr-r",
+    prefix: "lr",
+    words: [
+      { word: "առավոտ", letter: "ռ" },
+      { word: "հեռու", letter: "ռ" },
+      { word: "առաջ", letter: "ռ" },
+      { word: "առողջ", letter: "ռ" },
+      { word: "առաստաղ", letter: "ռ" },
+      { word: "բարև", letter: "ր" },
+      { word: "երեկո", letter: "ր" },
+      { word: "արագ", letter: "ր" },
+      { word: "սիրել", letter: "ր" },
+      { word: "գարուն", letter: "ր" },
+    ],
+  },
 ];
 
 function curl(url, extra = []) {
@@ -69,14 +96,29 @@ function fetchInfo(titles) {
   return new Map(pages.map((p) => [p.title, p]));
 }
 
-function main() {
-  mkdirSync(OUT_DIR, { recursive: true });
+/** Commons の MP3 トランスコードは要求されて初めて生成されることがあるので、一度だけ待って再試行する。 */
+function fetchMp3(originalPath) {
+  const fileName = originalPath.split("/").pop();
+  const url = `https://upload.wikimedia.org/wikipedia/commons/transcoded/${originalPath}/${fileName}.mp3`;
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const bytes = curl(url);
+      // 404 は HTML のエラーページとして返ってくることがある。
+      if (bytes.subarray(0, 4).toString("ascii") === "<!DO") throw new Error("HTML が返ってきた");
+      return bytes;
+    } catch (e) {
+      if (attempt === 1) throw e;
+      execFileSync("sleep", ["5"]);
+    }
+  }
+  return null;
+}
 
-  const titles = WORDS.map((w) => `File:Hy-${w.word}.ogg`);
-  const info = fetchInfo(titles);
-
+function fetchPair({ pairId, prefix, words }) {
+  const info = fetchInfo(words.map((w) => `File:Hy-${w.word}.ogg`));
   const clips = [];
-  for (const { word, letter } of WORDS) {
+
+  for (const { word, letter } of words) {
     const page = info.get(`File:Hy-${word}.ogg`);
     if (!page || page.missing !== undefined) {
       console.error(`[skip] ${word}: Commons にファイルが無い`);
@@ -92,17 +134,21 @@ function main() {
       continue;
     }
 
-    // MP3 トランスコードの URL は原本のパスから決まる。
     const originalPath = new URL(ii.url).pathname.replace(/^\/wikipedia\/commons\//, "");
-    const fileName = originalPath.split("/").pop();
-    const mp3Url = `https://upload.wikimedia.org/wikipedia/commons/transcoded/${originalPath}/${fileName}.mp3`;
+    let bytes;
+    try {
+      bytes = fetchMp3(originalPath);
+    } catch {
+      console.error(`[skip] ${word}: MP3 トランスコードが取れない`);
+      continue;
+    }
 
-    const bytes = curl(mp3Url);
     // ファイル名は ASCII にする。アルメニア文字のままだと URL のエンコードで事故りやすい。
-    const outName = `lp-${String(clips.length + 1).padStart(2, "0")}.mp3`;
+    const outName = `${prefix}-${String(clips.length + 1).padStart(2, "0")}.mp3`;
     writeFileSync(join(OUT_DIR, outName), bytes);
 
     clips.push({
+      pairId,
       word,
       letter,
       file: `audio/listening/${outName}`,
@@ -111,8 +157,16 @@ function main() {
       license,
       descriptionUrl: decodeURI(ii.descriptionurl ?? `https://commons.wikimedia.org/wiki/File:Hy-${word}.ogg`),
     });
-    console.log(`[ok]   ${word}  ${bytes.length} bytes  ${license}  by ${author}`);
+    console.log(`[ok]   ${pairId}  ${word}  ${bytes.length} bytes  ${license}  by ${author}`);
   }
+
+  return clips;
+}
+
+function main() {
+  mkdirSync(OUT_DIR, { recursive: true });
+
+  const clips = PAIRS.flatMap(fetchPair);
 
   // クレジットは content/audio-credits.json にファイル単位で残す。
   const credits = JSON.parse(readFileSync(CREDITS_PATH, "utf-8"));
@@ -136,8 +190,25 @@ function main() {
   });
   writeFileSync(CREDITS_PATH, `${JSON.stringify(credits, null, 2)}\n`);
 
-  console.log(`\n${clips.length}/${WORDS.length} 件取得。合計 ${clips.reduce((n, c) => n + c.bytes, 0)} bytes`);
+  const total = PAIRS.reduce((n, p) => n + p.words.length, 0);
+  console.log(`\n${clips.length}/${total} 件取得。合計 ${clips.reduce((n, c) => n + c.bytes, 0)} bytes`);
   console.log(`クレジットを ${CREDITS_PATH} に書き込んだ。`);
+
+  // content/listening.json に貼るための下書き（語義は人手で埋める）。
+  const draft = PAIRS.map(({ pairId }) => ({
+    pairId,
+    items: clips
+      .filter((c) => c.pairId === pairId)
+      .map((c, i) => ({
+        id: `${PAIRS.find((p) => p.pairId === pairId).prefix}-${String(i + 1).padStart(2, "0")}`,
+        word: c.word,
+        letter: c.letter,
+        audio: c.file,
+        source: `音声は Wikimedia Commons の ${c.descriptionUrl}（${c.license}、録音者 ${c.author}）。語義は語彙モジュールで検証済み。`,
+      })),
+  }));
+  writeFileSync(join(ROOT, "content", "listening.draft.json"), `${JSON.stringify(draft, null, 2)}\n`);
+  console.log("下書きを content/listening.draft.json に書き出した（語義 ja を埋めて listening.json に反映すること）。");
 }
 
 main();

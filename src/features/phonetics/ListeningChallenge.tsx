@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import { listening } from "../../data/listening";
+import { listeningPairs } from "../../data/listening";
 import { getListeningStats, recordListeningAttempt, type ListeningStats } from "../../data/listeningRepository";
 import type { ListeningItem } from "../../data/schemas/listening";
 
@@ -26,8 +26,11 @@ function shuffle<T>(items: readonly T[]): T[] {
  * 聞き分けチャレンジ（roadmap 3-2）。**産出の前に知覚。** 自分で発音する 3-3 より
  * 先に置く課で、日本語だとどちらも「パ」に聞こえる2つの音を耳で分ける練習。
  *
- * 音声は人間の録音（Wikimedia Commons, CC BY-SA）。合成音は帯気の差を正しく作らない
- * ので、この課には使えない。
+ * 音声は人間の録音（Wikimedia Commons, CC BY-SA）。合成音は帯気の差もふるえの
+ * 接触回数も正しく作らないので、この課には使えない。
+ *
+ * 対立は複数ある（`պ/փ` の帯気、`ռ/ր` のふるえ）。**混ぜて出題しない** —
+ * 一度に1つの対立だけを聞き分けるほうが耳が育つし、成績もペアごとに見せる。
  *
  * docs/interaction.md は4択を戒めているが、**知覚訓練だけは2択が正しい形**
  * （「4択が許されるのは知覚訓練（音や字形の聞き分け・見分け）だけ」）。
@@ -35,7 +38,9 @@ function shuffle<T>(items: readonly T[]): T[] {
  * 正解していても迷っていれば聞き分けられていないため。
  */
 export function ListeningChallenge({ onBack, onCredits }: Props) {
-  const [queue, setQueue] = useState<ListeningItem[]>(() => shuffle(listening.items));
+  const [pairId, setPairId] = useState(listeningPairs[0].pairId);
+  const pair = listeningPairs.find((p) => p.pairId === pairId) ?? listeningPairs[0];
+  const [queue, setQueue] = useState<ListeningItem[]>(() => shuffle(listeningPairs[0].items));
   const [index, setIndex] = useState(0);
   const [played, setPlayed] = useState(false);
   const [chosen, setChosen] = useState<string | null>(null);
@@ -48,12 +53,25 @@ export function ListeningChallenge({ onBack, onCredits }: Props) {
   const item = index < queue.length ? queue[index] : undefined;
 
   const refreshStats = useCallback(() => {
-    getListeningStats().then(setStats);
-  }, []);
+    getListeningStats(pairId).then(setStats);
+  }, [pairId]);
 
   useEffect(() => {
     refreshStats();
   }, [refreshStats]);
+
+  function selectPair(nextPairId: string) {
+    if (nextPairId === pairId) return;
+    const next = listeningPairs.find((p) => p.pairId === nextPairId);
+    if (!next) return;
+    setPairId(nextPairId);
+    setQueue(shuffle(next.items));
+    setIndex(0);
+    setChosen(null);
+    setPlayed(false);
+    setStats(null);
+    heardAt.current = null;
+  }
 
   function play() {
     if (!item) return;
@@ -74,6 +92,7 @@ export function ListeningChallenge({ onBack, onCredits }: Props) {
     if (!item || chosen !== null) return;
     setChosen(letter);
     await recordListeningAttempt({
+      pairId,
       word: item.word,
       correctLetter: item.letter,
       chosenLetter: letter,
@@ -88,7 +107,7 @@ export function ListeningChallenge({ onBack, onCredits }: Props) {
     setPlayed(false);
     heardAt.current = null;
     if (index + 1 >= queue.length) {
-      setQueue(shuffle(listening.items));
+      setQueue(shuffle(pair.items));
       setIndex(0);
     } else {
       setIndex((i) => i + 1);
@@ -109,7 +128,29 @@ export function ListeningChallenge({ onBack, onCredits }: Props) {
         </button>
 
         <h1 className="font-serif text-3xl font-bold">聞き分け</h1>
-        <p className="mt-1 text-sm text-ink/70">{listening.note_ja}</p>
+
+        <div role="tablist" aria-label="聞き分ける音の組" className="mt-4 flex gap-2">
+          {listeningPairs.map((p) => (
+            <button
+              key={p.pairId}
+              type="button"
+              role="tab"
+              aria-selected={p.pairId === pairId}
+              onClick={() => selectPair(p.pairId)}
+              className={`rounded-md border px-4 py-2 text-sm transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold ${
+                p.pairId === pairId
+                  ? "border-gold bg-gold/20 text-ink"
+                  : "border-gold/30 bg-parchment hover:border-gold"
+              }`}
+            >
+              <span lang="hy" className="font-serif text-lg">
+                {p.choices[0]} / {p.choices[1]}
+              </span>
+            </button>
+          ))}
+        </div>
+
+        <p className="mt-3 text-sm text-ink/70">{pair.note_ja}</p>
 
         {item && (
           <section className="mt-6 rounded-xl border border-gold/30 bg-parchment-light p-6 text-center">
@@ -127,9 +168,9 @@ export function ListeningChallenge({ onBack, onCredits }: Props) {
 
             {audioError && <p className="mt-3 text-sm text-vermillion-text">{audioError}</p>}
 
-            <p className="mt-6 text-sm text-ink/70">最初の音はどちらでしたか。</p>
+            <p className="mt-6 text-sm text-ink/70">{pair.prompt_ja}</p>
             <div className="mt-3 grid grid-cols-2 gap-3">
-              {listening.choices.map((choice) => (
+              {pair.choices.map((choice) => (
                 <button
                   key={choice}
                   type="button"

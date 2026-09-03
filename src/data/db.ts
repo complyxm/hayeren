@@ -94,9 +94,14 @@ export interface VotAttemptRecord {
  */
 export interface ListeningAttemptRecord {
   id: string;
+  /**
+   * どの2項対立の問題だったか（content/listening.json の pairId）。
+   * 対立ごとに難しさが違うので、成績を混ぜずにペア単位で見せるために持つ。
+   */
+  pairId: string;
   /** 出題した語（content/listening.json の word）。 */
   word: string;
-  /** 実際の語頭の字。 */
+  /** 実際にその語に含まれていた字。 */
   correctLetter: string;
   /** 学習者が選んだ字。 */
   chosenLetter: string;
@@ -132,6 +137,24 @@ export class HayerenDB extends Dexie {
       votAttempts: "id, place, recordedAt",
       listeningAttempts: "id, word, answeredAt",
     });
+    // v4: 聞き分けを複数の2項対立（պ/փ に加えて ռ/ր）に広げたので、記録に pairId を足す。
+    // 既存の記録はすべて պ/փ のものなので、そう埋めてから索引を張る。
+    this.version(4)
+      .stores({
+        cards: "id, contentId, due, state",
+        reviews: "id, cardId, reviewedAt",
+        settings: "id",
+        votAttempts: "id, place, recordedAt",
+        listeningAttempts: "id, word, pairId, answeredAt",
+      })
+      .upgrade((tx) =>
+        tx
+          .table<ListeningAttemptRecord>("listeningAttempts")
+          .toCollection()
+          .modify((a) => {
+            a.pairId ??= "p-ph";
+          }),
+      );
   }
 }
 

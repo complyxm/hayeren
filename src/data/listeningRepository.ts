@@ -31,8 +31,15 @@ function median(values: number[]): number | null {
   return sorted.length % 2 === 0 ? Math.round((sorted[mid - 1] + sorted[mid]) / 2) : sorted[mid];
 }
 
-export async function getListeningStats(): Promise<ListeningStats> {
-  const all = await db.listeningAttempts.toArray();
+/**
+ * 成績は**2項対立ごと**に出す。`պ/փ` と `ռ/ր` では難しさも伸び方も別物なので、
+ * まとめて平均すると「どちらが聞けていないか」が消えてしまう。
+ * pairId を渡さなければ全体（ダッシュボード用）。
+ */
+export async function getListeningStats(pairId?: string): Promise<ListeningStats> {
+  const all = pairId
+    ? await db.listeningAttempts.where("pairId").equals(pairId).toArray()
+    : await db.listeningAttempts.toArray();
   if (all.length === 0) return { attempts: 0, recentAccuracy: null, medianCorrectReactionMs: null };
 
   const recent = all
