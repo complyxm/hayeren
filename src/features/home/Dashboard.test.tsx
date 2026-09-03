@@ -31,6 +31,7 @@ function targets(): DashboardTarget {
     browse: vi.fn(),
     settings: vi.fn(),
     releaseNotes: vi.fn(),
+    credits: vi.fn(),
   };
 }
 

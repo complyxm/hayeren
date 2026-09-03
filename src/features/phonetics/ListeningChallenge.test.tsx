@@ -32,7 +32,7 @@ async function answerOnce(letter: string) {
 
 describe("ListeningChallenge（聞き分けチャレンジ, roadmap 3-2）", () => {
   it("offers exactly two choices — perception is trained on a two-way contrast", () => {
-    render(<ListeningChallenge onBack={() => {}} />);
+    render(<ListeningChallenge onBack={() => {}} onCredits={() => {}} />);
     for (const choice of listening.choices) {
       expect(screen.getByRole("button", { name: choice })).toBeInTheDocument();
     }
@@ -40,7 +40,7 @@ describe("ListeningChallenge（聞き分けチャレンジ, roadmap 3-2）", () 
   });
 
   it("keeps the choices locked until the audio has been heard", async () => {
-    render(<ListeningChallenge onBack={() => {}} />);
+    render(<ListeningChallenge onBack={() => {}} onCredits={() => {}} />);
     expect(screen.getByRole("button", { name: listening.choices[0] })).toBeDisabled();
     expect(screen.getByText("先に音を聞いてください。")).toBeInTheDocument();
 
@@ -49,7 +49,7 @@ describe("ListeningChallenge（聞き分けチャレンジ, roadmap 3-2）", () 
   });
 
   it("records the answer with a reaction time", async () => {
-    render(<ListeningChallenge onBack={() => {}} />);
+    render(<ListeningChallenge onBack={() => {}} onCredits={() => {}} />);
     await userEvent.click(screen.getByRole("button", { name: /聞く/ }));
     await waitFor(() => expect(screen.getByRole("button", { name: listening.choices[0] })).toBeEnabled());
     await userEvent.click(screen.getByRole("button", { name: listening.choices[0] }));
@@ -62,7 +62,7 @@ describe("ListeningChallenge（聞き分けチャレンジ, roadmap 3-2）", () 
   });
 
   it("reveals the word and its meaning only after answering", async () => {
-    render(<ListeningChallenge onBack={() => {}} />);
+    render(<ListeningChallenge onBack={() => {}} onCredits={() => {}} />);
     for (const item of listening.items) {
       expect(screen.queryByText(item.word)).not.toBeInTheDocument();
     }
@@ -76,13 +76,13 @@ describe("ListeningChallenge（聞き分けチャレンジ, roadmap 3-2）", () 
   });
 
   it("explains that accuracy alone is not enough on a two-way choice", async () => {
-    render(<ListeningChallenge onBack={() => {}} />);
+    render(<ListeningChallenge onBack={() => {}} onCredits={() => {}} />);
     await answerOnce(listening.choices[0]);
     expect(await screen.findByText(/当てずっぽうでも5割/)).toBeInTheDocument();
   });
 
   it("reports the time taken to answer, not just whether it was right", async () => {
-    render(<ListeningChallenge onBack={() => {}} />);
+    render(<ListeningChallenge onBack={() => {}} onCredits={() => {}} />);
     // 出題順はランダムなので、常に同じ字を選び続けて正解を1回引くまで進める。
     // 両方の字が最低1つずつ出るので（content の検査で保証）、必ず引ける。
     for (let round = 0; round < listening.items.length; round += 1) {
@@ -94,6 +94,14 @@ describe("ListeningChallenge（聞き分けチャレンジ, roadmap 3-2）", () 
     expect(screen.getByText(/正解までの時間/)).toBeInTheDocument();
   });
 
+  it("links to the credits from the screen that uses the recordings (CC BY-SA)", async () => {
+    // 帰属表示は義務なので、音声を使っている画面から辿れること自体をテストで固定する。
+    const onCredits = vi.fn();
+    render(<ListeningChallenge onBack={() => {}} onCredits={onCredits} />);
+    await userEvent.click(screen.getByRole("button", { name: "録音者を見る" }));
+    expect(onCredits).toHaveBeenCalled();
+  });
+
   it("says so honestly when the audio cannot be played", async () => {
     class BrokenAudio extends FakeAudio {
       override play() {
@@ -101,7 +109,7 @@ describe("ListeningChallenge（聞き分けチャレンジ, roadmap 3-2）", () 
       }
     }
     vi.stubGlobal("Audio", BrokenAudio);
-    render(<ListeningChallenge onBack={() => {}} />);
+    render(<ListeningChallenge onBack={() => {}} onCredits={() => {}} />);
     await userEvent.click(screen.getByRole("button", { name: /聞く/ }));
     expect(await screen.findByText(/再生できませんでした/)).toBeInTheDocument();
   });

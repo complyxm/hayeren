@@ -37,6 +37,7 @@ const dashboardTargets = {
   browse: noop,
   settings: noop,
   releaseNotes: noop,
+  credits: noop,
 };
 
 const SCREENS: { name: string; render: () => void; settle?: () => Promise<unknown> }[] = [

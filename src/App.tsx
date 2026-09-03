@@ -131,7 +131,9 @@ function Router() {
     case "sign-reading":
       return <SignReading onBack={() => setScreen(HOME)} />;
     case "listening":
-      return <ListeningChallenge onBack={() => setScreen(HOME)} />;
+      return (
+        <ListeningChallenge onBack={() => setScreen(HOME)} onCredits={() => setScreen({ name: "credits" })} />
+      );
     case "credits":
       return <Credits onBack={() => setScreen(HOME)} />;
     case "russian":
@@ -154,7 +156,6 @@ function Router() {
             { label: "聞き分け", hint: "պ と փ を耳で分ける。発音練習より先に", go: () => setScreen({ name: "listening" }) },
             { label: "発音チェック", hint: "破裂音の息の強さを測る", go: () => setScreen({ name: "vot-practice" }) },
             { label: "音声認識で読み確認", hint: "実験的。既定オフ", go: () => setScreen({ name: "l1-practice" }) },
-            { label: "クレジット", hint: "音声の出どころとライセンス", go: () => setScreen({ name: "credits" }) },
           ]}
         />
       );
@@ -171,6 +172,7 @@ function Router() {
             browse: () => setScreen({ name: "browse" }),
             settings: () => setScreen({ name: "settings" }),
             releaseNotes: () => setScreen({ name: "release-notes" }),
+            credits: () => setScreen({ name: "credits" }),
           }}
         />
       );

@@ -13,6 +13,7 @@ export interface DashboardTarget {
   browse: () => void;
   settings: () => void;
   releaseNotes: () => void;
+  credits: () => void;
 }
 
 interface Props {
@@ -136,9 +137,16 @@ export function Dashboard({ onGo }: Props) {
               <button
                 type="button"
                 onClick={onGo.releaseNotes}
-                className="col-span-2 rounded-lg border border-gold/30 bg-parchment-light px-3 py-2 hover:border-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+                className="rounded-lg border border-gold/30 bg-parchment-light px-3 py-2 hover:border-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
               >
                 更新のおしらせ
+              </button>
+              <button
+                type="button"
+                onClick={onGo.credits}
+                className="rounded-lg border border-gold/30 bg-parchment-light px-3 py-2 hover:border-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+              >
+                クレジット
               </button>
             </nav>
           </>

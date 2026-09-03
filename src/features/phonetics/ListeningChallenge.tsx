@@ -5,6 +5,8 @@ import type { ListeningItem } from "../../data/schemas/listening";
 
 interface Props {
   onBack: () => void;
+  /** クレジット画面へ。CC BY-SA の帰属表示は義務なので、音声を使う画面から必ず辿れるようにする。 */
+  onCredits: () => void;
 }
 
 /** 反応時間の計測に使う時計。コンポーネントの外に出して純粋性の検査から外す。 */
@@ -32,7 +34,7 @@ function shuffle<T>(items: readonly T[]): T[] {
  * 正誤に加えて**反応時間**を測る — 2択は当てずっぽうでも5割当たるし、
  * 正解していても迷っていれば聞き分けられていないため。
  */
-export function ListeningChallenge({ onBack }: Props) {
+export function ListeningChallenge({ onBack, onCredits }: Props) {
   const [queue, setQueue] = useState<ListeningItem[]>(() => shuffle(listening.items));
   const [index, setIndex] = useState(0);
   const [played, setPlayed] = useState(false);
@@ -188,7 +190,14 @@ export function ListeningChallenge({ onBack }: Props) {
         )}
 
         <p className="mt-6 text-xs text-ink/60">
-          音声は Wikimedia Commons の録音（CC BY-SA）。録音者は「クレジット」で確認できます。
+          音声は Wikimedia Commons の録音（CC BY-SA）。
+          <button
+            type="button"
+            onClick={onCredits}
+            className="ml-1 underline decoration-gold/50 underline-offset-2 hover:text-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+          >
+            録音者を見る
+          </button>
         </p>
       </div>
     </main>
