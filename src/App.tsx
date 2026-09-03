@@ -6,6 +6,7 @@ import { ArmenianKeyboard } from "./features/keyboard/ArmenianKeyboard";
 import { MetroNav } from "./features/metro/MetroNav";
 import { ReviewScreen } from "./features/review/ReviewScreen";
 import { VotPractice } from "./features/phonetics/VotPractice";
+import { VowelPractice } from "./features/phonetics/VowelPractice";
 import { L1RecognitionPractice } from "./features/phonetics/L1RecognitionPractice";
 import { VocabList } from "./features/vocab/VocabList";
 import { VocabDetail } from "./features/vocab/VocabDetail";
@@ -36,6 +37,7 @@ type Screen =
   | { name: "metro" }
   | { name: "review" }
   | { name: "vot-practice" }
+  | { name: "vowel-practice" }
   | { name: "l1-practice" }
   | { name: "vocab-list" }
   | { name: "vocab-detail"; id: string }
@@ -95,6 +97,8 @@ function Router() {
       return <ReviewScreen onBack={() => setScreen(HOME)} />;
     case "vot-practice":
       return <VotPractice onBack={() => setScreen(HOME)} />;
+    case "vowel-practice":
+      return <VowelPractice onBack={() => setScreen(HOME)} />;
     case "l1-practice":
       return <L1RecognitionPractice onBack={() => setScreen(HOME)} />;
     case "vocab-list":
@@ -153,8 +157,13 @@ function Router() {
             { label: "句読点", hint: "։ ՞ ՜ ՛ ՝ の使い分け", go: () => setScreen({ name: "punctuation" }) },
             { label: "画面内キーボード", go: () => setScreen({ name: "keyboard" }) },
             { label: "エレバン地下鉄ナビ", go: () => setScreen({ name: "metro" }) },
-            { label: "聞き分け", hint: "պ と փ を耳で分ける。発音練習より先に", go: () => setScreen({ name: "listening" }) },
+            { label: "聞き分け", hint: "պ/փ と ռ/ր を耳で分ける。発音練習より先に", go: () => setScreen({ name: "listening" }) },
             { label: "発音チェック", hint: "破裂音の息の強さを測る", go: () => setScreen({ name: "vot-practice" }) },
+            {
+              label: "母音の位置",
+              hint: "6つの母音を録音して四辺形に並べる",
+              go: () => setScreen({ name: "vowel-practice" }),
+            },
             { label: "音声認識で読み確認", hint: "実験的。既定オフ", go: () => setScreen({ name: "l1-practice" }) },
           ]}
         />

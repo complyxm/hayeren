@@ -110,12 +110,26 @@ export interface ListeningAttemptRecord {
   answeredAt: Date;
 }
 
+/**
+ * 母音のフォルマント測定1回分（docs/phonetics.md §3b）。
+ * **母音ごとに最新の1回だけ**を残す（id は母音の id そのもの）。母音四辺形は
+ * 6つの点の位置関係を見る図なので、同じ母音の古い点が重なっていても読めない。
+ */
+export interface VowelAttemptRecord {
+  id: string;
+  f1Hz: number;
+  f2Hz: number;
+  f3Hz: number | null;
+  recordedAt: Date;
+}
+
 export class HayerenDB extends Dexie {
   cards!: EntityTable<CardRecord, "id">;
   reviews!: EntityTable<ReviewRecord, "id">;
   settings!: EntityTable<SettingsRecord, "id">;
   votAttempts!: EntityTable<VotAttemptRecord, "id">;
   listeningAttempts!: EntityTable<ListeningAttemptRecord, "id">;
+  vowelAttempts!: EntityTable<VowelAttemptRecord, "id">;
 
   constructor() {
     super("hayeren");
@@ -155,6 +169,15 @@ export class HayerenDB extends Dexie {
             a.pairId ??= "p-ph";
           }),
       );
+    // v5: 母音のフォルマント測定（Phase 8）。母音ごとに最新の1回を持つ。
+    this.version(5).stores({
+      cards: "id, contentId, due, state",
+      reviews: "id, cardId, reviewedAt",
+      settings: "id",
+      votAttempts: "id, place, recordedAt",
+      listeningAttempts: "id, word, pairId, answeredAt",
+      vowelAttempts: "id, recordedAt",
+    });
   }
 }
 

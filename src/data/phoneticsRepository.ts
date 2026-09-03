@@ -1,5 +1,5 @@
 import type { AttemptedTarget, PlosivePlace, VotJudgement } from "../domain/phonetics/calibration";
-import { db, type VotAttemptRecord } from "./db";
+import { db, type VotAttemptRecord, type VowelAttemptRecord } from "./db";
 
 export interface NewVotAttempt {
   place: PlosivePlace;
@@ -22,4 +22,36 @@ export async function recordVotAttempt(attempt: NewVotAttempt): Promise<void> {
 export async function getVotAttempts(place: PlosivePlace): Promise<VotAttemptRecord[]> {
   const attempts = await db.votAttempts.where("place").equals(place).toArray();
   return attempts.sort((a, b) => a.recordedAt.getTime() - b.recordedAt.getTime());
+}
+
+export interface NewVowelAttempt {
+  vowelId: string;
+  f1Hz: number;
+  f2Hz: number;
+  f3Hz: number | null;
+  recordedAt: Date;
+}
+
+/**
+ * 母音のフォルマント測定を保存する（母音ごとに最新の1回で上書き）。
+ * 四辺形は6つの点の位置関係を読む図なので、同じ母音の古い点を重ねると読めなくなる。
+ */
+export async function recordVowelAttempt(attempt: NewVowelAttempt): Promise<void> {
+  await db.vowelAttempts.put({
+    id: attempt.vowelId,
+    f1Hz: attempt.f1Hz,
+    f2Hz: attempt.f2Hz,
+    f3Hz: attempt.f3Hz,
+    recordedAt: attempt.recordedAt,
+  });
+}
+
+/** 測定済みの母音を返す（測っていない母音は含まれない）。 */
+export async function getVowelAttempts(): Promise<VowelAttemptRecord[]> {
+  return db.vowelAttempts.toArray();
+}
+
+/** 測定をやり直せるように、1つ消す。 */
+export async function clearVowelAttempt(vowelId: string): Promise<void> {
+  await db.vowelAttempts.delete(vowelId);
 }

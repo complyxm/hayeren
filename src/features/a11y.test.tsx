@@ -13,6 +13,8 @@ import { RussianPhrases } from "./russian/RussianPhrases";
 import { ScenarioMeter } from "./scenarios/ScenarioMeter";
 import { GrammarReviewScreen } from "./grammar/GrammarReviewScreen";
 import { VocabReviewScreen } from "./vocab/VocabReviewScreen";
+import { VowelPractice } from "./phonetics/VowelPractice";
+import { ListeningChallenge } from "./phonetics/ListeningChallenge";
 
 /**
  * アクセシビリティ監査（roadmap Phase 9 完了条件「キーボードのみで全機能が操作できる」）。
@@ -99,6 +101,19 @@ const SCREENS: { name: string; render: () => void; settle?: () => Promise<unknow
     settle: async () =>
       waitFor(() => expect(screen.queryByText("読み込み中…")).not.toBeInTheDocument(), { timeout: 5000 }),
   },
+  {
+    name: "母音の位置",
+    render: () =>
+      render(
+        <VowelPractice
+          onBack={noop}
+          captureAdapter={{ isSupported: () => true, record: () => Promise.reject(new Error("test")) }}
+        />,
+      ),
+    settle: async () =>
+      waitFor(() => expect(screen.queryByText("読み込み中…")).not.toBeInTheDocument(), { timeout: 5000 }),
+  },
+  { name: "聞き分け", render: () => render(<ListeningChallenge onBack={noop} onCredits={noop} />) },
   {
     name: "語彙の復習",
     render: () => render(<VocabReviewScreen onBack={noop} />),
