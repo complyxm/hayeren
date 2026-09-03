@@ -138,3 +138,29 @@ export function synthesizeVowel(opts: SynthVowelOptions): AudioSignal {
 
   return { samples, sampleRate };
 }
+
+export interface SynthVoicedStopOptions extends SynthVotTokenOptions {
+  /**
+   * 閉鎖区間（バースト前）に入れる声帯振動の振幅。有声破裂音の voice bar を模す。
+   * 0 なら無声（閉鎖区間はほぼ無音）。
+   */
+  closureVoicingAmplitude?: number;
+}
+
+/**
+ * 閉鎖区間に低域の周期音（voice bar）を持つ合成トークン。
+ * closureVoicing.ts / calibration.ts の三系列判定のテスト用。
+ */
+export function synthesizeVoicedStop(opts: SynthVoicedStopOptions): AudioSignal {
+  const { closureVoicingAmplitude = 0.06, f0Hz = 120 } = opts;
+  const token = synthesizeVotToken(opts);
+  const { samples, sampleRate } = token;
+  const burstStart = Math.round((opts.burstAtMs / 1000) * sampleRate);
+  const barStart = Math.max(0, burstStart - Math.round(0.08 * sampleRate));
+
+  for (let i = barStart; i < burstStart; i++) {
+    const tSec = (i - barStart) / sampleRate;
+    samples[i] += closureVoicingAmplitude * Math.sin(2 * Math.PI * f0Hz * tSec);
+  }
+  return { samples, sampleRate };
+}

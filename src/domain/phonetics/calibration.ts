@@ -50,3 +50,89 @@ export function classifyVot(votMs: number, place: PlosivePlace): VotJudgement {
   if (votMs >= zone.minAspiratedMs) return "aspirated";
   return "uncertain";
 }
+
+/* ------------------------------------------------------------------ *
+ * 三系列（有声 / 無気無声 / 帯気無声）の判定
+ * ------------------------------------------------------------------ */
+
+/**
+ * 有声系列（`բ` `դ` `գ`）を加えた3項の判定。roadmap Phase 8「`բ` 系列の判定
+ * （閉鎖区間の有声エネルギー強度 + スペクトル傾斜）。Phase 3 からの持ち越し」。
+ *
+ * 較正データ（2026-09-03 実測）：
+ * Seyfarth, Dolatian, Guekguezian, Kelly & Toparlak (2023) の付属音声
+ * （CC BY 4.0, https://scottseyfarth.com/docs/SeyfarthDolatianGuekguezianKellyToparlak_Audio.zip
+ * の `Yerevan/2_Consonants/`。エレバン方言話者 SK）から、論文本文が挙げている
+ * 語頭の最小三つ組（բոկ/պոկ/փոկ・դասը/տասը/թասը・գարի/կարի/քարի）と
+ * 子音一覧の語（բառ/պար/փակ・դար/տառ/թագ・գահ/կար/քար）の18トークンを、
+ * 本ファイルが実際に使う measureVot() と measureClosureVoicing() で測った値：
+ *
+ *   有声   բոկ  VOT  0ms  周期性0.77 低域比0.036 ／ դասը VOT 0ms 0.34 0.012
+ *          գարի VOT  0ms  周期性0.17 低域比0.003 ／ բառ  VOT 0ms 0.75 0.026
+ *          դար  VOT  0ms  周期性0.58 低域比0.016 ／ գահ  VOT 0ms 0.32 0.018
+ *   無気   պոկ  VOT 21ms  周期性0.20 低域比0.004 ／ տասը VOT 23ms 0.20 0.002
+ *          կարի VOT 31ms  周期性0.10 低域比0.002 ／ պար  VOT 43ms 0.10 0.001
+ *          տառ  VOT 16ms  周期性0.16 低域比0.002 ／ կար  VOT 31ms 0.06 0.002
+ *   帯気   փոկ  VOT110ms  周期性0.11 低域比0.001 ／ թասը VOT 71ms 0.06 0.002
+ *          քարի VOT 55ms  周期性0.19 低域比0.003 ／ փակ  VOT107ms 0.19 0.002
+ *          թագ  VOT 65ms  周期性0.18 低域比0.003 ／ քար  VOT 71ms 0.10 0.002
+ *
+ * 読み取れること：
+ *   - 有声系列は6トークンすべて「バーストと同時に有声が始まる」（VOT ≈ 0）。
+ *     無声系列は最短でも 16ms。
+ *   - 閉鎖区間の周期性は、有声6件中5件が 0.32 以上、無声12件はすべて 0.20 以下。
+ *     例外は գարի（0.17）で、この話者のこのトークンは閉鎖の有声性が弱い。
+ *   - 低域比も同じ傾向（有声5件が 0.012 以上、無声12件は 0.004 以下、例外 գարի 0.003）。
+ *
+ * したがって「VOT がほぼ 0」**かつ**「閉鎖区間に声帯振動の痕跡がある」を有声の
+ * 条件にする。գարի のようにどちらか片方しか満たさないものは "uncertain" に落ちる。
+ * **断定して外すより、判定を保留するほうが害が小さい**（.claude/rules/audio-dsp.md）。
+ *
+ * 話者1名・カテゴリ6トークンの実測なので、閾値は分布ではなく余白を取った境界。
+ * トークンが増え次第、更新すること。
+ */
+export const VOICED_ZONE = {
+  /** これ以下の VOT なら「バーストと同時に有声が始まった」とみなす。 */
+  maxVotMs: 10,
+  /** 閉鎖区間の周期性がこれ以上なら、声帯が鳴っていたとみなす。 */
+  minClosurePeriodicity: 0.3,
+  /** 低域比がこれ以上でも同じ（周期性が低く出る話者・環境の逃げ道）。 */
+  minLowBandRatio: 0.008,
+} as const;
+
+export type ThreeWayJudgement = "voiced" | "unaspirated" | "aspirated" | "uncertain";
+/** 三系列のうち、どれを狙って発音したか。 */
+export type AttemptedSeries = "voiced" | "unaspirated" | "aspirated";
+
+export interface ClosureVoicingEvidence {
+  periodicity: number;
+  lowBandRatio: number;
+}
+
+/**
+ * VOT と閉鎖区間の有声性から三系列を判定する。
+ * closure が null（バースト前が録れていない等）のときは有声かどうかを判断できないので、
+ * VOT が短くても "uncertain" を返す（無気無声だと決めつけない）。
+ */
+export function classifyThreeWay(
+  votMs: number,
+  place: PlosivePlace,
+  closure: ClosureVoicingEvidence | null,
+): ThreeWayJudgement {
+  const voicedClosure =
+    closure !== null &&
+    (closure.periodicity >= VOICED_ZONE.minClosurePeriodicity ||
+      closure.lowBandRatio >= VOICED_ZONE.minLowBandRatio);
+
+  if (votMs <= VOICED_ZONE.maxVotMs) {
+    return voicedClosure ? "voiced" : "uncertain";
+  }
+
+  // 閉鎖が有声なのに VOT が伸びている＝測定が噛み合っていない。断定しない。
+  if (voicedClosure) return "uncertain";
+
+  const zone = VOT_ZONES[place];
+  if (votMs <= zone.maxUnaspiratedMs) return "unaspirated";
+  if (votMs >= zone.minAspiratedMs) return "aspirated";
+  return "uncertain";
+}
