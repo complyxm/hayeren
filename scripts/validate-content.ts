@@ -13,6 +13,7 @@ import { releaseNotesFileSchema } from "../src/data/schemas/releaseNotes";
 import { signsFileSchema } from "../src/data/schemas/signs";
 import { russianFileSchema } from "../src/data/schemas/russian";
 import { listeningFileSchema } from "../src/data/schemas/listening";
+import { vowelsFileSchema } from "../src/data/schemas/vowels";
 import { audioCreditsSchema } from "../src/data/schemas/audioCredits";
 
 const CONTENT_DIR = join(import.meta.dirname, "..", "content");
@@ -28,6 +29,7 @@ const schemaByRelativePath: Record<string, z.ZodTypeAny> = {
   "release-notes.json": releaseNotesFileSchema,
   "signs.json": signsFileSchema,
   "listening.json": listeningFileSchema,
+  "vowels.json": vowelsFileSchema,
   // grammar/ は 1課1ファイルだが、課ではないファイルはスキーマが違うので個別登録する
   // (schemaFor は exact 一致を prefix より優先する)。
   "grammar/exceptions.json": grammarExceptionsSchema,

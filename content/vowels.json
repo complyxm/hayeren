@@ -1,0 +1,77 @@
+{
+  "note_ja": "東アルメニア語の母音は6つ。数が少なく体系も素直なので、口の開き（F1）と舌の前後（F2）の2つの数値で位置がほぼ決まる。ここには「どの母音がどの位置か」という質だけを置き、周波数の目標値は置かない — 声道の長さは人によって違い、同じ母音でも Hz は大きく動くため。",
+  "vowels": [
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "Seyfarth, Dolatian, Guekguezian, Kelly & Toparlak (2023) \"Armenian (Yerevan Eastern Armenian and Beirut Western Armenian)\", Journal of the IPA（オープンアクセス, CC BY 4.0）の母音目録 /ɑ ɛ i o u ə/ と、Dum-Tragut (2009) Armenian: Modern Eastern Armenian の音論の記述。調音の位置（高さ・前後・円唇）は IPA の記号そのものが表す値を取った。",
+      "id": "v-ayb",
+      "letterId": "ayb",
+      "ipa": "/ɑ/",
+      "height": "open",
+      "backness": "back",
+      "rounded": false,
+      "noteJa": "日本語の「ア」とほぼ同じ位置。6つの中でいちばん口が開く。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "同上（母音目録 /ɑ ɛ i o u ə/）。ե と է はどちらもこの音を表す（語頭の ե は /jɛ/）。",
+      "id": "v-ech",
+      "letterId": "ech",
+      "ipa": "/ɛ/",
+      "height": "mid",
+      "backness": "front",
+      "rounded": false,
+      "noteJa": "日本語の「エ」に近いが、やや口が開く。ի と混ざりやすい。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "同上（母音目録 /ɑ ɛ i o u ə/）。",
+      "id": "v-ini",
+      "letterId": "ini",
+      "ipa": "/i/",
+      "height": "close",
+      "backness": "front",
+      "rounded": false,
+      "noteJa": "日本語の「イ」とほぼ同じ。舌がいちばん前で高い。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "同上（母音目録 /ɑ ɛ i o u ə/）。ո と օ はどちらもこの音を表す（語頭の ո は /vo/）。",
+      "id": "v-vo",
+      "letterId": "vo",
+      "ipa": "/o/",
+      "height": "mid",
+      "backness": "back",
+      "rounded": true,
+      "noteJa": "日本語の「オ」より唇を丸める。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "同上（母音目録 /ɑ ɛ i o u ə/）。文字としては二重字 ու で書く。",
+      "id": "v-u",
+      "letterId": "u-digraph",
+      "ipa": "/u/",
+      "height": "close",
+      "backness": "back",
+      "rounded": true,
+      "noteJa": "日本語の「ウ」と違い、唇をはっきり丸めて突き出す。"
+    },
+    {
+      "dialect": "east",
+      "status": "verified",
+      "source": "同上（母音目録 /ɑ ɛ i o u ə/）。日本語に対応する音が無いことは docs/phonetics.md §3b の指摘に基づく。",
+      "id": "v-et",
+      "letterId": "et",
+      "ipa": "/ə/",
+      "height": "mid",
+      "backness": "central",
+      "rounded": false,
+      "noteJa": "日本語に無い音。口の中心で、力を抜いて短く出す。日本語話者は「ウ」で代用しがちで、そうすると ու と同じ位置に来てしまう。"
+    }
+  ]
+}
