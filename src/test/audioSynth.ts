@@ -77,3 +77,64 @@ export function silence(durationMs: number, sampleRate = 16000, seed = 1): Audio
   for (let i = 0; i < n; i++) samples[i] = (rand() - 0.5) * 0.002;
   return { samples, sampleRate };
 }
+
+export interface SynthVowelOptions {
+  sampleRate?: number;
+  durationMs?: number;
+  f0Hz?: number;
+  /** 与えたフォルマント周波数（Hz）。共鳴の帯域幅は既定値を使う。 */
+  formantsHz: number[];
+  /** 各共鳴の帯域幅（Hz）。省略時は 80Hz。 */
+  bandwidthsHz?: number[];
+  seed?: number;
+}
+
+/**
+ * 既知のフォルマントを持つ合成母音。声門パルス列を 2次共鳴器の縦続で色づける
+ * （Klatt 1980 の共鳴器と同じ差分方程式）。
+ * formants.ts のテスト用（docs/phonetics.md §4「テストには合成信号を使う」）。
+ */
+export function synthesizeVowel(opts: SynthVowelOptions): AudioSignal {
+  const {
+    sampleRate = 16000,
+    durationMs = 400,
+    f0Hz = 120,
+    formantsHz,
+    bandwidthsHz = formantsHz.map(() => 80),
+    seed = 7,
+  } = opts;
+
+  const n = Math.round((durationMs / 1000) * sampleRate);
+  const rand = mulberry32(seed);
+
+  // 声門音源：基本周期ごとに1つのパルス。わずかな雑音を足して自然さを持たせる。
+  let source = new Float32Array(n);
+  const period = Math.round(sampleRate / f0Hz);
+  for (let i = 0; i < n; i++) source[i] = (rand() - 0.5) * 0.001;
+  for (let i = 0; i < n; i += period) source[i] += 1;
+
+  // 2次共鳴器の縦続接続。y[n] = x[n] + 2 e^{-πBT} cos(2πFT) y[n-1] − e^{-2πBT} y[n-2]
+  for (let k = 0; k < formantsHz.length; k++) {
+    const t = 1 / sampleRate;
+    const c = -Math.exp(-2 * Math.PI * bandwidthsHz[k] * t);
+    const b = 2 * Math.exp(-Math.PI * bandwidthsHz[k] * t) * Math.cos(2 * Math.PI * formantsHz[k] * t);
+    const a = 1 - b - c;
+    const out = new Float32Array(n);
+    for (let i = 0; i < n; i++) {
+      out[i] = a * source[i] + b * (i >= 1 ? out[i - 1] : 0) + c * (i >= 2 ? out[i - 2] : 0);
+    }
+    source = out;
+  }
+
+  // 振幅をそろえ、前後に短い立ち上がり／立ち下がりを付ける（VAD が端を切れるように）。
+  let peak = 0;
+  for (let i = 0; i < n; i++) peak = Math.max(peak, Math.abs(source[i]));
+  const rampSamples = Math.round(0.01 * sampleRate);
+  const samples = new Float32Array(n);
+  for (let i = 0; i < n; i++) {
+    const ramp = Math.min(1, i / rampSamples, (n - 1 - i) / rampSamples);
+    samples[i] = peak > 0 ? (source[i] / peak) * 0.8 * ramp : 0;
+  }
+
+  return { samples, sampleRate };
+}

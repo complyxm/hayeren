@@ -84,6 +84,22 @@ function normalizedAutocorrelationPeak(frame: Float32Array, lagMin: number, lagM
 }
 
 /**
+ * フレームの周期性の強さ（0〜1）。1 に近いほど声帯振動がはっきりしている。
+ * 有声かどうかを知りたい他の測定（母音のフォルマント等）からも使う。
+ */
+export function periodicityStrength(
+  frame: Float32Array,
+  sampleRate: number,
+  f0MinHz = DEFAULTS.f0MinHz,
+  f0MaxHz = DEFAULTS.f0MaxHz,
+): number {
+  const lagMin = Math.floor(sampleRate / f0MaxHz);
+  const lagMax = Math.min(frame.length - 1, Math.ceil(sampleRate / f0MinHz));
+  if (lagMax <= lagMin) return 0;
+  return normalizedAutocorrelationPeak(frame, lagMin, lagMax).strength;
+}
+
+/**
  * fromSample 以降で、周期的な振動（有声）が安定して始まる最初のサンプル位置を返す。
  * 見つからなければ null。
  */
