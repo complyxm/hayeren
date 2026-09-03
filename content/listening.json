@@ -1,0 +1,110 @@
+{
+  "pairId": "p-ph",
+  "choices": [
+    "պ",
+    "փ"
+  ],
+  "note_ja": "どちらも日本語では「パ」に聞こえるが、փ は息が強く出る帯気音、պ は息を伴わない無気音。語頭のこの違いだけを聞き分ける。",
+  "items": [
+    {
+      "id": "lp-01",
+      "dialect": "east",
+      "status": "verified",
+      "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-պատ.ogg（CC BY-SA 4.0、録音者 Iza Babalyan）。語義は語彙モジュールで検証済み。",
+      "word": "պատ",
+      "letter": "պ",
+      "ja": "壁",
+      "audio": "audio/listening/lp-01.mp3"
+    },
+    {
+      "id": "lp-02",
+      "dialect": "east",
+      "status": "verified",
+      "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-պապ.ogg（CC BY-SA 4.0、録音者 Azniv Stepanian (WMAM)）。語義は語彙モジュールで検証済み。",
+      "word": "պապ",
+      "letter": "պ",
+      "ja": "祖父",
+      "audio": "audio/listening/lp-02.mp3"
+    },
+    {
+      "id": "lp-03",
+      "dialect": "east",
+      "status": "verified",
+      "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-պարկ.ogg（CC BY-SA 4.0、録音者 Հռիփ）。語義は語彙モジュールで検証済み。",
+      "word": "պարկ",
+      "letter": "պ",
+      "ja": "袋",
+      "audio": "audio/listening/lp-03.mp3"
+    },
+    {
+      "id": "lp-04",
+      "dialect": "east",
+      "status": "verified",
+      "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-պանիր.ogg（CC BY-SA 4.0、録音者 Azniv Stepanian (WMAM)）。語義は語彙モジュールで検証済み。",
+      "word": "պանիր",
+      "letter": "պ",
+      "ja": "チーズ",
+      "audio": "audio/listening/lp-04.mp3"
+    },
+    {
+      "id": "lp-05",
+      "dialect": "east",
+      "status": "verified",
+      "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-պայմանագիր.ogg（CC BY-SA 4.0、録音者 Azniv Stepanian (WMAM)）。語義は語彙モジュールで検証済み。",
+      "word": "պայմանագիր",
+      "letter": "պ",
+      "ja": "契約書",
+      "audio": "audio/listening/lp-05.mp3"
+    },
+    {
+      "id": "lp-06",
+      "dialect": "east",
+      "status": "verified",
+      "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-փող.ogg（CC BY-SA 4.0、録音者 Ծովինար Ապարան）。語義は語彙モジュールで検証済み。",
+      "word": "փող",
+      "letter": "փ",
+      "ja": "お金",
+      "audio": "audio/listening/lp-06.mp3"
+    },
+    {
+      "id": "lp-07",
+      "dialect": "east",
+      "status": "verified",
+      "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-փոր.ogg（CC BY-SA 4.0、録音者 Ծովինար Ապարան）。語義は語彙モジュールで検証済み。",
+      "word": "փոր",
+      "letter": "փ",
+      "ja": "お腹",
+      "audio": "audio/listening/lp-07.mp3"
+    },
+    {
+      "id": "lp-08",
+      "dialect": "east",
+      "status": "verified",
+      "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-փակ.ogg（CC BY-SA 4.0、録音者 Gagik Bocinyan）。語義は語彙モジュールで検証済み。",
+      "word": "փակ",
+      "letter": "փ",
+      "ja": "閉まっている",
+      "audio": "audio/listening/lp-08.mp3"
+    },
+    {
+      "id": "lp-09",
+      "dialect": "east",
+      "status": "verified",
+      "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-փողոց.ogg（CC BY-SA 4.0、録音者 Ծովինար Ապարան）。語義は語彙モジュールで検証済み。",
+      "word": "փողոց",
+      "letter": "փ",
+      "ja": "通り",
+      "audio": "audio/listening/lp-09.mp3"
+    },
+    {
+      "id": "lp-10",
+      "dialect": "east",
+      "status": "verified",
+      "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-փոխարեն.ogg（CC BY-SA 4.0、録音者 Varsanyan anahit）。語義は語彙モジュールで検証済み。",
+      "word": "փոխարեն",
+      "letter": "փ",
+      "ja": "〜の代わりに",
+      "audio": "audio/listening/lp-10.mp3"
+    }
+  ]
+}

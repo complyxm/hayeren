@@ -19,6 +19,8 @@ import { ScenarioMeter } from "./features/scenarios/ScenarioMeter";
 import { ScenarioDialogue } from "./features/scenarios/ScenarioDialogue";
 import { ReleaseNotes } from "./features/about/ReleaseNotes";
 import { SignReading } from "./features/signs/SignReading";
+import { ListeningChallenge } from "./features/phonetics/ListeningChallenge";
+import { Credits } from "./features/about/Credits";
 import { RussianPhrases } from "./features/russian/RussianPhrases";
 import { SettingsScreen } from "./features/settings/SettingsScreen";
 import { TransliterationProvider } from "./features/settings/transliteration";
@@ -49,7 +51,9 @@ type Screen =
   | { name: "sign-reading" }
   | { name: "russian" }
   | { name: "settings" }
-  | { name: "browse" };
+  | { name: "browse" }
+  | { name: "listening" }
+  | { name: "credits" };
 
 const HOME: Screen = { name: "home" };
 
@@ -126,6 +130,10 @@ function Router() {
       return <ReleaseNotes onBack={() => setScreen(HOME)} />;
     case "sign-reading":
       return <SignReading onBack={() => setScreen(HOME)} />;
+    case "listening":
+      return <ListeningChallenge onBack={() => setScreen(HOME)} />;
+    case "credits":
+      return <Credits onBack={() => setScreen(HOME)} />;
     case "russian":
       return <RussianPhrases onBack={() => setScreen(HOME)} />;
     case "settings":
@@ -143,8 +151,10 @@ function Router() {
             { label: "句読点", hint: "։ ՞ ՜ ՛ ՝ の使い分け", go: () => setScreen({ name: "punctuation" }) },
             { label: "画面内キーボード", go: () => setScreen({ name: "keyboard" }) },
             { label: "エレバン地下鉄ナビ", go: () => setScreen({ name: "metro" }) },
+            { label: "聞き分け", hint: "պ と փ を耳で分ける。発音練習より先に", go: () => setScreen({ name: "listening" }) },
             { label: "発音チェック", hint: "破裂音の息の強さを測る", go: () => setScreen({ name: "vot-practice" }) },
             { label: "音声認識で読み確認", hint: "実験的。既定オフ", go: () => setScreen({ name: "l1-practice" }) },
+            { label: "クレジット", hint: "音声の出どころとライセンス", go: () => setScreen({ name: "credits" }) },
           ]}
         />
       );

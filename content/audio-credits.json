@@ -17,6 +17,87 @@
       "license": "エンジンは GPL-3.0-or-later。合成音声の出力は自由に利用・再配布可能。",
       "generatedBy": "scripts/build-vocab-audio.mjs",
       "noteJa": "暫定の機械合成音声。見出し語と用例文の読み上げ。テーマごとに public/audio/vocab/<theme>.wav に連結し 11025Hz へ 1/2 ダウンサンプル（軽量化のため）。合成なのでイントネーション・強勢・帯気の差は不正確。将来的に人間の録音へ差し替える（curriculum.md §4）。"
+    },
+    {
+      "scope": "listening",
+      "kind": "recorded",
+      "source": "Wikimedia Commons（アルメニア語の発音ファイル）",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Armenian_pronunciation",
+      "license": "各ファイルの license を参照（CC BY-SA。帰属表示が必要）",
+      "generatedBy": "scripts/fetch-commons-audio.mjs",
+      "noteJa": "聞き分けチャレンジ（roadmap 3-2）用の人間の録音。Commons の MP3 トランスコードをそのまま置いている（変換も加工もしていない）。CC BY-SA は帰属表示が必須なので、ファイルごとの作者・ライセンス・元ページを files に持ち、アプリのクレジット画面に出す。",
+      "files": [
+        {
+          "word": "պատ",
+          "file": "audio/listening/lp-01.mp3",
+          "author": "Iza Babalyan",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-պատ.ogg"
+        },
+        {
+          "word": "պապ",
+          "file": "audio/listening/lp-02.mp3",
+          "author": "Azniv Stepanian (WMAM)",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-պապ.ogg"
+        },
+        {
+          "word": "պարկ",
+          "file": "audio/listening/lp-03.mp3",
+          "author": "Հռիփ",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-պարկ.ogg"
+        },
+        {
+          "word": "պանիր",
+          "file": "audio/listening/lp-04.mp3",
+          "author": "Azniv Stepanian (WMAM)",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-պանիր.ogg"
+        },
+        {
+          "word": "պայմանագիր",
+          "file": "audio/listening/lp-05.mp3",
+          "author": "Azniv Stepanian (WMAM)",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-պայմանագիր.ogg"
+        },
+        {
+          "word": "փող",
+          "file": "audio/listening/lp-06.mp3",
+          "author": "Ծովինար Ապարան",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-փող.ogg"
+        },
+        {
+          "word": "փոր",
+          "file": "audio/listening/lp-07.mp3",
+          "author": "Ծովինար Ապարան",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-փոր.ogg"
+        },
+        {
+          "word": "փակ",
+          "file": "audio/listening/lp-08.mp3",
+          "author": "Gagik Bocinyan",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-փակ.ogg"
+        },
+        {
+          "word": "փողոց",
+          "file": "audio/listening/lp-09.mp3",
+          "author": "Ծովինար Ապարան",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-փողոց.ogg"
+        },
+        {
+          "word": "փոխարեն",
+          "file": "audio/listening/lp-10.mp3",
+          "author": "Varsanyan anahit",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-փոխարեն.ogg"
+        }
+      ]
     }
   ]
 }

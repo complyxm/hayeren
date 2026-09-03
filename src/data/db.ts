@@ -87,11 +87,30 @@ export interface VotAttemptRecord {
   recordedAt: Date;
 }
 
+/**
+ * 聞き分けチャレンジ（roadmap 3-2）1問ぶんの結果。**産出の前に知覚**を鍛える課なので、
+ * 正誤だけでなく**反応時間**も残す — 正解していても迷っているうちは聞き分けられて
+ * いない、という差がここに出る。
+ */
+export interface ListeningAttemptRecord {
+  id: string;
+  /** 出題した語（content/listening.json の word）。 */
+  word: string;
+  /** 実際の語頭の字。 */
+  correctLetter: string;
+  /** 学習者が選んだ字。 */
+  chosenLetter: string;
+  /** 音が鳴り終わってから選ぶまでのミリ秒。 */
+  reactionMs: number;
+  answeredAt: Date;
+}
+
 export class HayerenDB extends Dexie {
   cards!: EntityTable<CardRecord, "id">;
   reviews!: EntityTable<ReviewRecord, "id">;
   settings!: EntityTable<SettingsRecord, "id">;
   votAttempts!: EntityTable<VotAttemptRecord, "id">;
+  listeningAttempts!: EntityTable<ListeningAttemptRecord, "id">;
 
   constructor() {
     super("hayeren");
@@ -105,6 +124,13 @@ export class HayerenDB extends Dexie {
       reviews: "id, cardId, reviewedAt",
       settings: "id",
       votAttempts: "id, place, recordedAt",
+    });
+    this.version(3).stores({
+      cards: "id, contentId, due, state",
+      reviews: "id, cardId, reviewedAt",
+      settings: "id",
+      votAttempts: "id, place, recordedAt",
+      listeningAttempts: "id, word, answeredAt",
     });
   }
 }
