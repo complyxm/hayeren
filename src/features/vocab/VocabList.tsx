@@ -32,6 +32,7 @@ const THEME_LABEL_JA: Record<VocabTheme, string> = {
   "work-study": "仕事・学び",
   cooking: "料理・味",
   driving: "運転・移動",
+  "culture-holidays": "文化・行事",
 };
 
 /**

@@ -8,10 +8,15 @@
     "hy": "Հետ",
     "translit": "het",
     "ipa": "/het/",
-    "ja": ["〜と（一緒に）"],
+    "ja": [
+      "〜と（一緒に）"
+    ],
     "pos": "postposition",
     "forms": {},
-    "example": { "hy": "Նա խոսում է ինձ հետ։", "ja": "彼は私と話しています。" },
+    "example": {
+      "hy": "Նա խոսում է ինձ հետ։",
+      "ja": "彼は私と話しています。"
+    },
     "ruCognate": null
   },
   {
@@ -23,10 +28,15 @@
     "hy": "Մասին",
     "translit": "masin",
     "ipa": "/mɑˈsin/",
-    "ja": ["〜について"],
+    "ja": [
+      "〜について"
+    ],
     "pos": "postposition",
     "forms": {},
-    "example": { "hy": "Մենք խոսում ենք եղանակի մասին։", "ja": "私たちは天気について話しています。" },
+    "example": {
+      "hy": "Մենք խոսում ենք եղանակի մասին։",
+      "ja": "私たちは天気について話しています。"
+    },
     "ruCognate": null
   },
   {
@@ -38,10 +48,15 @@
     "hy": "Առանց",
     "translit": "arants'",
     "ipa": "/ɑˈɾɑnt͡sʰ/",
-    "ja": ["〜なしで"],
+    "ja": [
+      "〜なしで"
+    ],
     "pos": "postposition",
     "forms": {},
-    "example": { "hy": "Ես սուրճ եմ խմում առանց շաքարի։", "ja": "私は砂糖なしでコーヒーを飲みます。" },
+    "example": {
+      "hy": "Ես սուրճ եմ խմում առանց շաքարի։",
+      "ja": "私は砂糖なしでコーヒーを飲みます。"
+    },
     "ruCognate": null
   },
   {
@@ -53,10 +68,15 @@
     "hy": "Պես",
     "translit": "pes",
     "ipa": "/pes/",
-    "ja": ["〜のように"],
+    "ja": [
+      "〜のように"
+    ],
     "pos": "postposition",
     "forms": {},
-    "example": { "hy": "Նա խոսում է հայի պես։", "ja": "彼はアルメニア人のように話します。" },
+    "example": {
+      "hy": "Նա խոսում է հայի պես։",
+      "ja": "彼はアルメニア人のように話します。"
+    },
     "ruCognate": null
   },
   {
@@ -68,10 +88,16 @@
     "hy": "Դեպի",
     "translit": "depi",
     "ipa": "/deˈpi/",
-    "ja": ["〜へ", "〜に向かって"],
+    "ja": [
+      "〜へ",
+      "〜に向かって"
+    ],
     "pos": "postposition",
     "forms": {},
-    "example": { "hy": "Ավտոբուսը գնում է դեպի կենտրոն։", "ja": "バスは中心部へ行きます。" },
+    "example": {
+      "hy": "Ավտոբուսը գնում է դեպի կենտրոն։",
+      "ja": "バスは中心部へ行きます。"
+    },
     "ruCognate": null
   },
   {
@@ -83,10 +109,15 @@
     "hy": "Մինչև",
     "translit": "minch'ev",
     "ipa": "/minˈt͡ʃʰev/",
-    "ja": ["〜まで"],
+    "ja": [
+      "〜まで"
+    ],
     "pos": "postposition",
     "forms": {},
-    "example": { "hy": "Խանութը բաց է մինչև ժամը տասը։", "ja": "店は10時まで開いています。" },
+    "example": {
+      "hy": "Խանութը բաց է մինչև ժամը տասը։",
+      "ja": "店は10時まで開いています。"
+    },
     "ruCognate": null
   },
   {
@@ -98,10 +129,16 @@
     "hy": "և",
     "translit": "ev",
     "ipa": "/jev/",
-    "ja": ["〜と", "そして"],
+    "ja": [
+      "〜と",
+      "そして"
+    ],
     "pos": "conjunction",
     "forms": {},
-    "example": { "hy": "Ես ուզում եմ հաց և կաթ։", "ja": "パンと牛乳が欲しいです。" },
+    "example": {
+      "hy": "Ես ուզում եմ հաց և կաթ։",
+      "ja": "パンと牛乳が欲しいです。"
+    },
     "ruCognate": null
   },
   {
@@ -113,10 +150,15 @@
     "hy": "Բայց",
     "translit": "bayts'",
     "ipa": "/bɑjt͡sʰ/",
-    "ja": ["しかし"],
+    "ja": [
+      "しかし"
+    ],
     "pos": "conjunction",
     "forms": {},
-    "example": { "hy": "Ուզում եմ գնալ, բայց ժամանակ չունեմ։", "ja": "行きたいけれど時間がありません。" },
+    "example": {
+      "hy": "Ուզում եմ գնալ, բայց ժամանակ չունեմ։",
+      "ja": "行きたいけれど時間がありません。"
+    },
     "ruCognate": null
   },
   {
@@ -128,10 +170,15 @@
     "hy": "Կամ",
     "translit": "kam",
     "ipa": "/kɑm/",
-    "ja": ["または"],
+    "ja": [
+      "または"
+    ],
     "pos": "conjunction",
     "forms": {},
-    "example": { "hy": "Կարող ես վճարել կանխիկ կամ քարտով։", "ja": "現金またはカードで払えます。" },
+    "example": {
+      "hy": "Կարող ես վճարել կանխիկ կամ քարտով։",
+      "ja": "現金またはカードで払えます。"
+    },
     "ruCognate": null
   },
   {
@@ -143,10 +190,16 @@
     "hy": "Որովհետև",
     "translit": "orovhetev",
     "ipa": "/voɾovheˈtev/",
-    "ja": ["なぜなら", "〜なので"],
+    "ja": [
+      "なぜなら",
+      "〜なので"
+    ],
     "pos": "conjunction",
     "forms": {},
-    "example": { "hy": "Ես տանը եմ, որովհետև անձրև է գալիս։", "ja": "雨が降っているので家にいます。" },
+    "example": {
+      "hy": "Ես տանը եմ, որովհետև անձրև է գալիս։",
+      "ja": "雨が降っているので家にいます。"
+    },
     "ruCognate": null
   },
   {
@@ -158,10 +211,15 @@
     "hy": "Եթե",
     "translit": "yet'e",
     "ipa": "/jeˈtʰe/",
-    "ja": ["もし"],
+    "ja": [
+      "もし"
+    ],
     "pos": "conjunction",
     "forms": {},
-    "example": { "hy": "Եթե անձրև գա, ես չեմ գնա։", "ja": "もし雨が降ったら、行きません。" },
+    "example": {
+      "hy": "Եթե անձրև գա, ես չեմ գնա։",
+      "ja": "もし雨が降ったら、行きません。"
+    },
     "ruCognate": null
   },
   {
@@ -173,10 +231,15 @@
     "hy": "Որ",
     "translit": "vor",
     "ipa": "/voɾ/",
-    "ja": ["〜ということ"],
+    "ja": [
+      "〜ということ"
+    ],
     "pos": "conjunction",
     "forms": {},
-    "example": { "hy": "Ես գիտեմ, որ դու հայ ես։", "ja": "あなたがアルメニア人だと知っています。" },
+    "example": {
+      "hy": "Ես գիտեմ, որ դու հայ ես։",
+      "ja": "あなたがアルメニア人だと知っています。"
+    },
     "ruCognate": null
   },
   {
@@ -188,10 +251,15 @@
     "hy": "Հիմա",
     "translit": "hima",
     "ipa": "/hiˈmɑ/",
-    "ja": ["今"],
+    "ja": [
+      "今"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Հիմա ժամը երկուսն է։", "ja": "今2時です。" },
+    "example": {
+      "hy": "Հիմա ժամը երկուսն է։",
+      "ja": "今2時です。"
+    },
     "ruCognate": null
   },
   {
@@ -203,10 +271,16 @@
     "hy": "Արդեն",
     "translit": "arden",
     "ipa": "/ɑɾˈden/",
-    "ja": ["すでに", "もう"],
+    "ja": [
+      "すでに",
+      "もう"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Նա արդեն գնաց։", "ja": "彼はもう行きました。" },
+    "example": {
+      "hy": "Նա արդեն գնաց։",
+      "ja": "彼はもう行きました。"
+    },
     "ruCognate": null
   },
   {
@@ -218,10 +292,15 @@
     "hy": "Դեռ",
     "translit": "der",
     "ipa": "/der/",
-    "ja": ["まだ"],
+    "ja": [
+      "まだ"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Ես դեռ չեմ հասկանում։", "ja": "まだ分かりません。" },
+    "example": {
+      "hy": "Ես դեռ չեմ հասկանում։",
+      "ja": "まだ分かりません。"
+    },
     "ruCognate": null
   },
   {
@@ -233,10 +312,15 @@
     "hy": "Միշտ",
     "translit": "misht",
     "ipa": "/miʃt/",
-    "ja": ["いつも"],
+    "ja": [
+      "いつも"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Նա միշտ ուշանում է։", "ja": "彼はいつも遅れます。" },
+    "example": {
+      "hy": "Նա միշտ ուշանում է։",
+      "ja": "彼はいつも遅れます。"
+    },
     "ruCognate": null
   },
   {
@@ -248,10 +332,15 @@
     "hy": "Երբեք",
     "translit": "yerbek'",
     "ipa": "/jeɾˈbekʰ/",
-    "ja": ["決して〜ない"],
+    "ja": [
+      "決して〜ない"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Ես երբեք չեմ եղել Երևանում։", "ja": "エレバンに行ったことがありません。" },
+    "example": {
+      "hy": "Ես երբեք չեմ եղել Երևանում։",
+      "ja": "エレバンに行ったことがありません。"
+    },
     "ruCognate": null
   },
   {
@@ -263,10 +352,16 @@
     "hy": "Գուցե",
     "translit": "guts'e",
     "ipa": "/guˈt͡sʰe/",
-    "ja": ["たぶん", "もしかすると"],
+    "ja": [
+      "たぶん",
+      "もしかすると"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Գուցե վաղը անձրև գա։", "ja": "たぶん明日雨が降るでしょう。" },
+    "example": {
+      "hy": "Գուցե վաղը անձրև գա։",
+      "ja": "たぶん明日雨が降るでしょう。"
+    },
     "ruCognate": null
   },
   {
@@ -278,10 +373,15 @@
     "hy": "Նաև",
     "translit": "naev",
     "ipa": "/nɑˈev/",
-    "ja": ["〜もまた"],
+    "ja": [
+      "〜もまた"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Ես նաև ռուսերեն գիտեմ։", "ja": "私はロシア語も知っています。" },
+    "example": {
+      "hy": "Ես նաև ռուսերեն գիտեմ։",
+      "ja": "私はロシア語も知っています。"
+    },
     "ruCognate": null
   },
   {
@@ -293,10 +393,15 @@
     "hy": "Միայն",
     "translit": "miayn",
     "ipa": "/miˈɑjn/",
-    "ja": ["〜だけ"],
+    "ja": [
+      "〜だけ"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Ես միայն ջուր եմ ուզում։", "ja": "水だけ欲しいです。" },
+    "example": {
+      "hy": "Ես միայն ջուր եմ ուզում։",
+      "ja": "水だけ欲しいです。"
+    },
     "ruCognate": null
   },
   {
@@ -308,10 +413,16 @@
     "hy": "Շուտ",
     "translit": "shut",
     "ipa": "/ʃut/",
-    "ja": ["早く", "すぐに"],
+    "ja": [
+      "早く",
+      "すぐに"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Նա շուտ եկավ։", "ja": "彼は早く来た。" },
+    "example": {
+      "hy": "Նա շուտ եկավ։",
+      "ja": "彼は早く来た。"
+    },
     "ruCognate": null
   },
   {
@@ -323,10 +434,16 @@
     "hy": "Հետո",
     "translit": "heto",
     "ipa": "/heˈto/",
-    "ja": ["後で", "それから"],
+    "ja": [
+      "後で",
+      "それから"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Կզանգեմ քեզ հետո։", "ja": "後で電話します。" },
+    "example": {
+      "hy": "Կզանգեմ քեզ հետո։",
+      "ja": "後で電話します。"
+    },
     "ruCognate": null
   },
   {
@@ -338,10 +455,16 @@
     "hy": "Առաջ",
     "translit": "araj",
     "ipa": "/ɑˈɾɑt͡ʃʰ/",
-    "ja": ["前に", "〜前"],
+    "ja": [
+      "前に",
+      "〜前"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Երկու տարի առաջ ես Ճապոնիայում էի։", "ja": "2年前、私は日本にいました。" },
+    "example": {
+      "hy": "Երկու տարի առաջ ես Ճապոնիայում էի։",
+      "ja": "2年前、私は日本にいました。"
+    },
     "ruCognate": null
   },
   {
@@ -353,10 +476,16 @@
     "hy": "Շատ",
     "translit": "shat",
     "ipa": "/ʃɑt/",
-    "ja": ["とても", "たくさん"],
+    "ja": [
+      "とても",
+      "たくさん"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Այսօր շատ ցուրտ է։", "ja": "今日はとても寒いです。" },
+    "example": {
+      "hy": "Այսօր շատ ցուրտ է։",
+      "ja": "今日はとても寒いです。"
+    },
     "ruCognate": null
   },
   {
@@ -368,10 +497,16 @@
     "hy": "Քիչ",
     "translit": "k'ich'",
     "ipa": "/kʰit͡ʃʰ/",
-    "ja": ["少し", "わずか"],
+    "ja": [
+      "少し",
+      "わずか"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Ես քիչ եմ հասկանում։", "ja": "少ししか分かりません。" },
+    "example": {
+      "hy": "Ես քիչ եմ հասկանում։",
+      "ja": "少ししか分かりません。"
+    },
     "ruCognate": null
   },
   {
@@ -383,10 +518,16 @@
     "hy": "Իսկ",
     "translit": "isk",
     "ipa": "/isk/",
-    "ja": ["一方", "では"],
+    "ja": [
+      "一方",
+      "では"
+    ],
     "pos": "conjunction",
     "forms": {},
-    "example": { "hy": "Ես լավ եմ։ Իսկ դու՞։", "ja": "私は元気です。ではあなたは？" },
+    "example": {
+      "hy": "Ես լավ եմ։ Իսկ դու՞։",
+      "ja": "私は元気です。ではあなたは？"
+    },
     "ruCognate": null
   },
   {
@@ -398,10 +539,16 @@
     "hy": "Կողմից",
     "translit": "koghmits'",
     "ipa": "/koʁˈmit͡sʰ/",
-    "ja": ["〜によって", "〜の側から"],
+    "ja": [
+      "〜によって",
+      "〜の側から"
+    ],
     "pos": "postposition",
     "forms": {},
-    "example": { "hy": "Նամակը ուղարկվել է բանկի կողմից։", "ja": "手紙は銀行から送られました。" },
+    "example": {
+      "hy": "Նամակը ուղարկվել է բանկի կողմից։",
+      "ja": "手紙は銀行から送られました。"
+    },
     "ruCognate": null
   },
   {
@@ -413,10 +560,15 @@
     "hy": "Փոխարեն",
     "translit": "p'okharen",
     "ipa": "/pʰoχɑˈɾen/",
-    "ja": ["〜の代わりに"],
+    "ja": [
+      "〜の代わりに"
+    ],
     "pos": "postposition",
     "forms": {},
-    "example": { "hy": "Սուրճի փոխարեն թեյ խմեմ։", "ja": "コーヒーの代わりに紅茶を飲みます。" },
+    "example": {
+      "hy": "Սուրճի փոխարեն թեյ խմեմ։",
+      "ja": "コーヒーの代わりに紅茶を飲みます。"
+    },
     "ruCognate": null
   },
   {
@@ -428,10 +580,15 @@
     "hy": "Չնայած",
     "translit": "ch'nayats",
     "ipa": "/t͡ʃʰnɑˈjɑt͡s/",
-    "ja": ["〜にもかかわらず"],
+    "ja": [
+      "〜にもかかわらず"
+    ],
     "pos": "postposition",
     "forms": {},
-    "example": { "hy": "Չնայած անձրևին, մենք դուրս եկանք։", "ja": "雨にもかかわらず、私たちは外出しました。" },
+    "example": {
+      "hy": "Չնայած անձրևին, մենք դուրս եկանք։",
+      "ja": "雨にもかかわらず、私たちは外出しました。"
+    },
     "ruCognate": null
   },
   {
@@ -443,10 +600,16 @@
     "hy": "Թե",
     "translit": "t'e",
     "ipa": "/tʰe/",
-    "ja": ["〜かどうか", "それとも"],
+    "ja": [
+      "〜かどうか",
+      "それとも"
+    ],
     "pos": "conjunction",
     "forms": {},
-    "example": { "hy": "Չգիտեմ՝ նա կգա, թե ոչ։", "ja": "彼が来るかどうか分かりません。" },
+    "example": {
+      "hy": "Չգիտեմ՝ նա կգա, թե ոչ։",
+      "ja": "彼が来るかどうか分かりません。"
+    },
     "ruCognate": null
   },
   {
@@ -458,10 +621,16 @@
     "hy": "Ինչպես",
     "translit": "inch'pes",
     "ipa": "/int͡ʃʰˈpes/",
-    "ja": ["〜のように", "〜として"],
+    "ja": [
+      "〜のように",
+      "〜として"
+    ],
     "pos": "conjunction",
     "forms": {},
-    "example": { "hy": "Արա այնպես, ինչպես ասում եմ։", "ja": "私が言うとおりにしてください。" },
+    "example": {
+      "hy": "Արա այնպես, ինչպես ասում եմ։",
+      "ja": "私が言うとおりにしてください。"
+    },
     "ruCognate": null
   },
   {
@@ -473,10 +642,16 @@
     "hy": "Ապա",
     "translit": "apa",
     "ipa": "/ɑˈpɑ/",
-    "ja": ["それから", "次に"],
+    "ja": [
+      "それから",
+      "次に"
+    ],
     "pos": "conjunction",
     "forms": {},
-    "example": { "hy": "Նախ նստեք, ապա կխոսենք։", "ja": "まず座ってください、それから話しましょう。" },
+    "example": {
+      "hy": "Նախ նստեք, ապա կխոսենք։",
+      "ja": "まず座ってください、それから話しましょう。"
+    },
     "ruCognate": null
   },
   {
@@ -488,10 +663,16 @@
     "hy": "Ուրեմն",
     "translit": "uremn",
     "ipa": "/uˈɾemn/",
-    "ja": ["では", "つまり"],
+    "ja": [
+      "では",
+      "つまり"
+    ],
     "pos": "conjunction",
     "forms": {},
-    "example": { "hy": "Ուրեմն վաղը հանդիպենք։", "ja": "では明日会いましょう。" },
+    "example": {
+      "hy": "Ուրեմն վաղը հանդիպենք։",
+      "ja": "では明日会いましょう。"
+    },
     "ruCognate": null
   },
   {
@@ -503,10 +684,15 @@
     "hy": "Նույնպես",
     "translit": "nuynpes",
     "ipa": "/nujnˈpes/",
-    "ja": ["〜も同様に"],
+    "ja": [
+      "〜も同様に"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Ես նույնպես ուսանող եմ։", "ja": "私も学生です。" },
+    "example": {
+      "hy": "Ես նույնպես ուսանող եմ։",
+      "ja": "私も学生です。"
+    },
     "ruCognate": null
   },
   {
@@ -518,10 +704,15 @@
     "hy": "Այսպես",
     "translit": "ayspes",
     "ipa": "/ɑjsˈpes/",
-    "ja": ["このように"],
+    "ja": [
+      "このように"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Այս տառը այսպես է գրվում։", "ja": "この文字はこのように書きます。" },
+    "example": {
+      "hy": "Այս տառը այսպես է գրվում։",
+      "ja": "この文字はこのように書きます。"
+    },
     "ruCognate": null
   },
   {
@@ -533,10 +724,15 @@
     "hy": "Գրեթե",
     "translit": "gret'e",
     "ipa": "/ɡəɾeˈtʰe/",
-    "ja": ["ほとんど"],
+    "ja": [
+      "ほとんど"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Գրեթե հասել ենք։", "ja": "ほとんど着きました。" },
+    "example": {
+      "hy": "Գրեթե հասել ենք։",
+      "ja": "ほとんど着きました。"
+    },
     "ruCognate": null
   },
   {
@@ -548,10 +744,16 @@
     "hy": "Օրինակ",
     "translit": "orinak",
     "ipa": "/oɾiˈnɑk/",
-    "ja": ["例", "たとえば"],
+    "ja": [
+      "例",
+      "たとえば"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Օրինակ, այս բառը դժվար է։", "ja": "たとえば、この単語は難しいです。" },
+    "example": {
+      "hy": "Օրինակ, այս բառը դժվար է։",
+      "ja": "たとえば、この単語は難しいです。"
+    },
     "ruCognate": null
   },
   {
@@ -563,10 +765,15 @@
     "hy": "Իհարկե",
     "translit": "iharke",
     "ipa": "/ihɑɾˈke/",
-    "ja": ["もちろん"],
+    "ja": [
+      "もちろん"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Իհարկե, կօգնեմ քեզ։", "ja": "もちろん、手伝いますよ。" },
+    "example": {
+      "hy": "Իհարկե, կօգնեմ քեզ։",
+      "ja": "もちろん、手伝いますよ。"
+    },
     "ruCognate": null
   },
   {
@@ -578,10 +785,15 @@
     "hy": "Հատկապես",
     "translit": "hatkapes",
     "ipa": "/hɑtkɑˈpes/",
-    "ja": ["特に"],
+    "ja": [
+      "特に"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Ինձ դուր է գալիս հայկական խոհանոցը, հատկապես խորոված։", "ja": "アルメニア料理、特にホロヴァツが好きです。" },
+    "example": {
+      "hy": "Ինձ դուր է գալիս հայկական խոհանոցը, հատկապես խորոված։",
+      "ja": "アルメニア料理、特にホロヴァツが好きです。"
+    },
     "ruCognate": null
   },
   {
@@ -593,10 +805,16 @@
     "hy": "Իսկապես",
     "translit": "iskapes",
     "ipa": "/iskɑˈpes/",
-    "ja": ["本当に", "実際に"],
+    "ja": [
+      "本当に",
+      "実際に"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Այս տեսարանը իսկապես գեղեցիկ է։", "ja": "この景色は本当に美しいです。" },
+    "example": {
+      "hy": "Այս տեսարանը իսկապես գեղեցիկ է։",
+      "ja": "この景色は本当に美しいです。"
+    },
     "ruCognate": null
   },
   {
@@ -608,10 +826,15 @@
     "hy": "Թերևս",
     "translit": "t'erevs",
     "ipa": "/tʰeˈɾevs/",
-    "ja": ["おそらく"],
+    "ja": [
+      "おそらく"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Թերևս վաղը ավելի տաք լինի։", "ja": "おそらく明日はもっと暖かいでしょう。" },
+    "example": {
+      "hy": "Թերևս վաղը ավելի տաք լինի։",
+      "ja": "おそらく明日はもっと暖かいでしょう。"
+    },
     "ruCognate": null
   },
   {
@@ -623,10 +846,16 @@
     "hy": "Ընդամենը",
     "translit": "yndameny",
     "ipa": "/əndɑˈmenə/",
-    "ja": ["たった", "わずか"],
+    "ja": [
+      "たった",
+      "わずか"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Դա ընդամենը հինգ րոպե է տևում։", "ja": "それはたった5分で終わります。" },
+    "example": {
+      "hy": "Դա ընդամենը հինգ րոպե է տևում։",
+      "ja": "それはたった5分で終わります。"
+    },
     "ruCognate": null
   },
   {
@@ -638,10 +867,341 @@
     "hy": "Անպայման",
     "translit": "anpayman",
     "ipa": "/ɑnpɑjˈmɑn/",
-    "ja": ["必ず", "きっと"],
+    "ja": [
+      "必ず",
+      "きっと"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Անպայման կզանգեմ։", "ja": "必ず電話します。" },
+    "example": {
+      "hy": "Անպայման կզանգեմ։",
+      "ja": "必ず電話します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-044",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Բավական",
+    "translit": "bavakan",
+    "ipa": "/bɑvɑˈkɑn/",
+    "ja": [
+      "十分に",
+      "かなり"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Բավական լավ է։",
+      "ja": "かなりいいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-045",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Ամբողջ",
+    "translit": "amboghj",
+    "ipa": "/ɑmˈboχt͡ʃʰ/",
+    "ja": [
+      "全部の",
+      "まるごと"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ամբողջ օրը աշխատում եմ։",
+      "ja": "一日中働いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-046",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Բոլոր",
+    "translit": "bolor",
+    "ipa": "/boˈloɾ/",
+    "ja": [
+      "すべての"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Բոլոր խանութները փակ են։",
+      "ja": "店は全部閉まっています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-047",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Մաս",
+    "translit": "mas",
+    "ipa": "/mɑs/",
+    "ja": [
+      "部分"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մի մաս եմ ուտում։",
+      "ja": "一部を食べます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-048",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Հաճախ",
+    "translit": "hachakh",
+    "ipa": "/hɑˈt͡ʃɑχ/",
+    "ja": [
+      "よく",
+      "しばしば"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Հաճախ եմ գնում։",
+      "ja": "よく行きます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-049",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Երբեմն",
+    "translit": "yerbemn",
+    "ipa": "/jeɾpʰemən/",
+    "ja": [
+      "ときどき"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Երբեմն եմ խոսում։",
+      "ja": "ときどき話します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-050",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Նորից",
+    "translit": "norits'",
+    "ipa": "/noˈɾit͡sʰ/",
+    "ja": [
+      "また",
+      "もう一度"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Նորից ասեք։",
+      "ja": "もう一度言ってください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-051",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Կրկին",
+    "translit": "krkin",
+    "ipa": "/kəɾˈkin/",
+    "ja": [
+      "再び"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Կրկին եմ փորձում։",
+      "ja": "もう一度試します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-052",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Շուտով",
+    "translit": "shutov",
+    "ipa": "/ʃuˈtov/",
+    "ja": [
+      "もうすぐ"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Շուտով կգամ։",
+      "ja": "もうすぐ行きます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-053",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Վերջապես",
+    "translit": "verjapes",
+    "ipa": "/veɾt͡ʃʰɑˈpes/",
+    "ja": [
+      "ついに"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Վերջապես եկավ։",
+      "ja": "ついに来ました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-054",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Անմիջապես",
+    "translit": "anmijapes",
+    "ipa": "/ɑnmit͡ʃʰɑˈpes/",
+    "ja": [
+      "すぐに"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Անմիջապես գալիս եմ։",
+      "ja": "すぐに行きます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-055",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Հանկարծ",
+    "translit": "hankarts",
+    "ipa": "/hɑnˈkɑɾt͡s/",
+    "ja": [
+      "突然"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Հանկարծ անձրև եկավ։",
+      "ja": "突然雨が降りました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-056",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Մոտավորապես",
+    "translit": "motavorapes",
+    "ipa": "/motɑvoɾɑˈpes/",
+    "ja": [
+      "だいたい"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Մոտավորապես մեկ ժամ։",
+      "ja": "だいたい1時間です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-057",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Ընդհանրապես",
+    "translit": "yndhanrapes",
+    "ipa": "/əntʰhɑnɾɑˈpes/",
+    "ja": [
+      "だいたいいつも",
+      "一般に"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Ընդհանրապես տանն եմ։",
+      "ja": "たいてい家にいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-058",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Գոնե",
+    "translit": "gone",
+    "ipa": "/ˈɡone/",
+    "ja": [
+      "せめて"
+    ],
+    "pos": "particle",
+    "forms": {},
+    "example": {
+      "hy": "Գոնե մի քիչ։",
+      "ja": "せめて少しだけ。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-059",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Ավելի",
+    "translit": "aveli",
+    "ipa": "/ɑveˈli/",
+    "ja": [
+      "もっと"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Ավելի դանդաղ, խնդրում եմ։",
+      "ja": "もっとゆっくりお願いします。"
+    },
     "ruCognate": null
   }
 ]

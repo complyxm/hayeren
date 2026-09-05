@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "theme": "culture-holidays",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-cult-001": {
+      "start": 0,
+      "duration": 1.221
+    },
+    "v-cult-001__ex": {
+      "start": 1.371,
+      "duration": 1.41
+    },
+    "v-cult-002": {
+      "start": 2.931,
+      "duration": 1.266
+    },
+    "v-cult-002__ex": {
+      "start": 4.347,
+      "duration": 2.363
+    },
+    "v-cult-003": {
+      "start": 6.86,
+      "duration": 1.317
+    },
+    "v-cult-003__ex": {
+      "start": 8.327,
+      "duration": 1.967
+    },
+    "v-cult-004": {
+      "start": 10.445,
+      "duration": 1.187
+    },
+    "v-cult-004__ex": {
+      "start": 11.781,
+      "duration": 2.104
+    },
+    "v-cult-005": {
+      "start": 14.036,
+      "duration": 0.989
+    },
+    "v-cult-005__ex": {
+      "start": 15.175,
+      "duration": 1.917
+    },
+    "v-cult-006": {
+      "start": 17.241,
+      "duration": 0.812
+    },
+    "v-cult-006__ex": {
+      "start": 18.203,
+      "duration": 1.869
+    },
+    "v-cult-007": {
+      "start": 20.222,
+      "duration": 0.893
+    },
+    "v-cult-007__ex": {
+      "start": 21.266,
+      "duration": 1.709
+    },
+    "v-cult-008": {
+      "start": 23.125,
+      "duration": 1.166
+    },
+    "v-cult-008__ex": {
+      "start": 24.441,
+      "duration": 2.352
+    },
+    "v-cult-009": {
+      "start": 26.943,
+      "duration": 1.1
+    },
+    "v-cult-009__ex": {
+      "start": 28.193,
+      "duration": 1.568
+    },
+    "v-cult-010": {
+      "start": 29.911,
+      "duration": 1.041
+    },
+    "v-cult-010__ex": {
+      "start": 31.102,
+      "duration": 1.497
+    },
+    "v-cult-011": {
+      "start": 32.749,
+      "duration": 0.829
+    },
+    "v-cult-011__ex": {
+      "start": 33.728,
+      "duration": 1.401
+    },
+    "v-cult-012": {
+      "start": 35.279,
+      "duration": 0.981
+    },
+    "v-cult-012__ex": {
+      "start": 36.41,
+      "duration": 1.74
+    },
+    "v-cult-013": {
+      "start": 38.3,
+      "duration": 1.058
+    },
+    "v-cult-013__ex": {
+      "start": 39.508,
+      "duration": 1.904
+    },
+    "v-cult-014": {
+      "start": 41.562,
+      "duration": 1.822
+    },
+    "v-cult-014__ex": {
+      "start": 43.534,
+      "duration": 1.963
+    },
+    "v-cult-015": {
+      "start": 45.646,
+      "duration": 1.379
+    },
+    "v-cult-015__ex": {
+      "start": 47.176,
+      "duration": 2.098
+    },
+    "v-cult-016": {
+      "start": 49.424,
+      "duration": 1.78
+    },
+    "v-cult-016__ex": {
+      "start": 51.354,
+      "duration": 3.189
+    },
+    "v-cult-017": {
+      "start": 54.693,
+      "duration": 0.78
+    },
+    "v-cult-017__ex": {
+      "start": 55.624,
+      "duration": 1.889
+    },
+    "v-cult-018": {
+      "start": 57.662,
+      "duration": 0.732
+    },
+    "v-cult-018__ex": {
+      "start": 58.544,
+      "duration": 1.821
+    },
+    "v-cult-019": {
+      "start": 60.515,
+      "duration": 0.964
+    },
+    "v-cult-019__ex": {
+      "start": 61.629,
+      "duration": 1.219
+    },
+    "v-cult-020": {
+      "start": 62.998,
+      "duration": 1.121
+    },
+    "v-cult-020__ex": {
+      "start": 64.269,
+      "duration": 1.827
+    },
+    "v-cult-021": {
+      "start": 66.246,
+      "duration": 0.816
+    },
+    "v-cult-021__ex": {
+      "start": 67.212,
+      "duration": 1.875
+    },
+    "v-cult-022": {
+      "start": 69.238,
+      "duration": 1.032
+    },
+    "v-cult-022__ex": {
+      "start": 70.419,
+      "duration": 1.28
+    },
+    "v-cult-023": {
+      "start": 71.849,
+      "duration": 0.939
+    },
+    "v-cult-023__ex": {
+      "start": 72.938,
+      "duration": 1.877
+    },
+    "v-cult-024": {
+      "start": 74.966,
+      "duration": 1.182
+    },
+    "v-cult-024__ex": {
+      "start": 76.298,
+      "duration": 1.905
+    },
+    "v-cult-025": {
+      "start": 78.353,
+      "duration": 1.59
+    },
+    "v-cult-025__ex": {
+      "start": 80.093,
+      "duration": 2.055
+    },
+    "v-cult-026": {
+      "start": 82.298,
+      "duration": 1.137
+    },
+    "v-cult-026__ex": {
+      "start": 83.585,
+      "duration": 1.998
+    },
+    "v-cult-027": {
+      "start": 85.733,
+      "duration": 0.948
+    },
+    "v-cult-027__ex": {
+      "start": 86.831,
+      "duration": 1.128
+    },
+    "v-cult-028": {
+      "start": 88.108,
+      "duration": 1.091
+    },
+    "v-cult-028__ex": {
+      "start": 89.349,
+      "duration": 1.607
+    },
+    "v-cult-029": {
+      "start": 91.106,
+      "duration": 1.035
+    },
+    "v-cult-029__ex": {
+      "start": 92.292,
+      "duration": 1.745
+    },
+    "v-cult-030": {
+      "start": 94.187,
+      "duration": 1.214
+    },
+    "v-cult-030__ex": {
+      "start": 95.551,
+      "duration": 1.954
+    },
+    "v-cult-031": {
+      "start": 97.655,
+      "duration": 1.123
+    },
+    "v-cult-031__ex": {
+      "start": 98.928,
+      "duration": 1.604
+    },
+    "v-cult-032": {
+      "start": 100.682,
+      "duration": 0.988
+    },
+    "v-cult-032__ex": {
+      "start": 101.82,
+      "duration": 1.853
+    },
+    "v-cult-033": {
+      "start": 103.822,
+      "duration": 1.085
+    },
+    "v-cult-033__ex": {
+      "start": 105.058,
+      "duration": 1.774
+    },
+    "v-cult-034": {
+      "start": 106.981,
+      "duration": 0.889
+    },
+    "v-cult-034__ex": {
+      "start": 108.02,
+      "duration": 2.347
+    },
+    "v-cult-035": {
+      "start": 110.518,
+      "duration": 0.94
+    },
+    "v-cult-035__ex": {
+      "start": 111.608,
+      "duration": 1.55
+    },
+    "v-cult-036": {
+      "start": 113.309,
+      "duration": 1.007
+    },
+    "v-cult-036__ex": {
+      "start": 114.466,
+      "duration": 2.068
+    },
+    "v-cult-037": {
+      "start": 116.684,
+      "duration": 1.352
+    },
+    "v-cult-037__ex": {
+      "start": 118.186,
+      "duration": 2.632
+    }
+  }
+}

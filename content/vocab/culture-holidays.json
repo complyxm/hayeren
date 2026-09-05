@@ -1,0 +1,748 @@
+[
+  {
+    "id": "v-cult-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Ավանդույթ",
+    "translit": "avanduyt'",
+    "ipa": "/ɑvɑnˈdujtʰ/",
+    "ja": [
+      "伝統"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ավանդույթ է։",
+      "ja": "伝統です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Մշակույթ",
+    "translit": "mshakuyt'",
+    "ipa": "/məʃɑˈkujtʰ/",
+    "ja": [
+      "文化"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մշակույթը հետաքրքիր է։",
+      "ja": "文化はおもしろいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Պատմություն",
+    "translit": "patmut'yun",
+    "ipa": "/pɑtmuˈtʰjun/",
+    "ja": [
+      "歴史",
+      "話"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պատմությունը երկար է։",
+      "ja": "歴史は長いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Այբուբեն",
+    "translit": "aybuben",
+    "ipa": "/ɑjbuˈben/",
+    "ja": [
+      "アルファベット"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Այբուբենը սովորում եմ։",
+      "ja": "文字を習っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Զատիկ",
+    "translit": "zatik",
+    "ipa": "/zɑˈtik/",
+    "ja": [
+      "復活祭",
+      "イースター"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Զատիկը գարնանն է։",
+      "ja": "イースターは春です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Սուրբ",
+    "translit": "surb",
+    "ipa": "/suɾpʰ/",
+    "ja": [
+      "聖なる"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Սուրբ եկեղեցի է։",
+      "ja": "聖なる教会です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Խաչ",
+    "translit": "khach",
+    "ipa": "/χɑt͡ʃʰ/",
+    "ja": [
+      "十字架"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խաչը քարից է։",
+      "ja": "十字架は石でできています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Աղոթել",
+    "translit": "aghot'el",
+    "ipa": "/ɑʁoˈtʰel/",
+    "ja": [
+      "祈る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Եկեղեցում աղոթում են։",
+      "ja": "教会で祈っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Աստված",
+    "translit": "astvats",
+    "ipa": "/ɑstˈvɑt͡s/",
+    "ja": [
+      "神"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Աստված մեծ է։",
+      "ja": "神は偉大です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Հավատ",
+    "translit": "havat",
+    "ipa": "/hɑˈvɑt/",
+    "ja": [
+      "信仰",
+      "信じること"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հավատ ունեմ։",
+      "ja": "信仰があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Ծես",
+    "translit": "tses",
+    "ipa": "/t͡ses/",
+    "ja": [
+      "儀式"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ծեսը հին է։",
+      "ja": "儀式は古いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Մատուռ",
+    "translit": "matur",
+    "ipa": "/mɑˈtur/",
+    "ja": [
+      "礼拝堂"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մատուռը փոքր է։",
+      "ja": "礼拝堂は小さいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Զանգակ",
+    "translit": "zangak",
+    "ipa": "/zɑnˈɡɑk/",
+    "ja": [
+      "鐘"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Զանգակը հնչում է։",
+      "ja": "鐘が鳴っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Ուխտագնացություն",
+    "translit": "ukhtagnats'ut'yun",
+    "ipa": "/uχtɑɡənɑt͡sʰuˈtʰjun/",
+    "ja": [
+      "巡礼"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ուխտագնացություն է։",
+      "ja": "巡礼です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Հուշարձան",
+    "translit": "husharadzan",
+    "ipa": "/huʃɑɾˈd͡zɑn/",
+    "ja": [
+      "記念碑"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հուշարձանը այնտեղ է։",
+      "ja": "記念碑はあそこです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Ցեղասպանություն",
+    "translit": "ts'eghaspanut'yun",
+    "ipa": "/t͡sʰeʁɑspɑnuˈtʰjun/",
+    "ja": [
+      "ジェノサイド"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ապրիլին հիշում են ցեղասպանությունը։",
+      "ja": "4月にジェノサイドを追悼します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Զոհ",
+    "translit": "zoh",
+    "ipa": "/zoh/",
+    "ja": [
+      "犠牲者"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Զոհերին հիշում են։",
+      "ja": "犠牲者を追悼します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Պար",
+    "translit": "par",
+    "ipa": "/pɑɾ/",
+    "ja": [
+      "踊り"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պարը գեղեցիկ է։",
+      "ja": "踊りはきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Պարել",
+    "translit": "parel",
+    "ipa": "/pɑˈɾel/",
+    "ja": [
+      "踊る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Պարում ենք։",
+      "ja": "踊っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-020",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Քոչարի",
+    "translit": "k'ochari",
+    "ipa": "/kʰot͡ʃʰɑˈɾi/",
+    "ja": [
+      "コチャリ（民族舞踊）"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Քոչարի են պարում։",
+      "ja": "コチャリを踊っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-021",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Երգ",
+    "translit": "yerg",
+    "ipa": "/jeɾkʰ/",
+    "ja": [
+      "歌"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Երգը գեղեցիկ է։",
+      "ja": "歌がきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-022",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Երգել",
+    "translit": "yergel",
+    "ipa": "/jeɾˈkʰel/",
+    "ja": [
+      "歌う"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Երգում ենք։",
+      "ja": "歌っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-023",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Դուդուկ",
+    "translit": "duduk",
+    "ipa": "/duˈduk/",
+    "ja": [
+      "ドゥドゥク（管楽器）"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դուդուկ են նվագում։",
+      "ja": "ドゥドゥクを演奏しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-024",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Նվագել",
+    "translit": "nvagel",
+    "ipa": "/nəvɑˈɡel/",
+    "ja": [
+      "演奏する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Դուդուկ եմ նվագում։",
+      "ja": "ドゥドゥクを演奏しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-025",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Ժողովրդական",
+    "translit": "zhoghovrdakan",
+    "ipa": "/ʒoʁovəɾtʰɑˈkɑn/",
+    "ja": [
+      "民族の",
+      "民衆の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ժողովրդական երգ է։",
+      "ja": "民謡です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-026",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Հեքիաթ",
+    "translit": "hek'iat'",
+    "ipa": "/heˈkʰjɑtʰ/",
+    "ja": [
+      "昔話",
+      "おとぎ話"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հեքիաթ եմ կարդում։",
+      "ja": "昔話を読んでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-027",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Առած",
+    "translit": "arats",
+    "ipa": "/ɑˈɾɑt͡s/",
+    "ja": [
+      "ことわざ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Առած է։",
+      "ja": "ことわざです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-028",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Խնջույք",
+    "translit": "khnjuyk'",
+    "ipa": "/χənˈd͡ʒujkʰ/",
+    "ja": [
+      "宴会"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խնջույք է այսօր։",
+      "ja": "今日は宴会です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-029",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Կենաց",
+    "translit": "kenats'",
+    "ipa": "/keˈnɑt͡sʰ/",
+    "ja": [
+      "乾杯の辞"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կենաց ասում են։",
+      "ja": "乾杯の辞を述べます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-030",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Հյուրընկալ",
+    "translit": "hyurynkal",
+    "ipa": "/hjuɾənˈkɑl/",
+    "ja": [
+      "もてなし好きな"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հայերը հյուրընկալ են։",
+      "ja": "アルメニア人はもてなし好きです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-031",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Հարգանք",
+    "translit": "hargank'",
+    "ipa": "/hɑɾˈɡɑnkʰ/",
+    "ja": [
+      "敬意"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հարգանք ունեմ։",
+      "ja": "敬意を持っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-032",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Տոնել",
+    "translit": "tonel",
+    "ipa": "/toˈnel/",
+    "ja": [
+      "祝う"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ծնունդ ենք տոնում։",
+      "ja": "誕生日を祝っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-033",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Նվիրել",
+    "translit": "nvirel",
+    "ipa": "/nəviˈɾel/",
+    "ja": [
+      "贈る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Նվեր եմ նվիրում։",
+      "ja": "贈り物を贈ります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-034",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Թոնիր",
+    "translit": "t'onir",
+    "ipa": "/tʰoˈniɾ/",
+    "ja": [
+      "トニール（地中のかまど）"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հացը թոնիրում են թխում։",
+      "ja": "パンはトニールで焼きます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-035",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Գաթա",
+    "translit": "gat'a",
+    "ipa": "/ɡɑˈtʰɑ/",
+    "ja": [
+      "ガタ（焼き菓子）"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գաթա եմ ուտում։",
+      "ja": "ガタを食べています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-036",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Դոլմա",
+    "translit": "dolma",
+    "ipa": "/dolˈmɑ/",
+    "ja": [
+      "ドルマ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դոլմա ենք պատրաստում։",
+      "ja": "ドルマを作っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cult-037",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "culture-holidays",
+    "hy": "Տոնավաճառ",
+    "translit": "tonavachar",
+    "ipa": "/tonɑvɑˈt͡ʃɑr/",
+    "ja": [
+      "縁日",
+      "市"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տոնավաճառ կա հրապարակում։",
+      "ja": "広場で市が立っています。"
+    },
+    "ruCognate": null
+  }
+]

@@ -8,10 +8,16 @@
     "hy": "Ժամ",
     "translit": "zham",
     "ipa": "/ʒɑm/",
-    "ja": ["時間", "〜時"],
+    "ja": [
+      "時間",
+      "〜時"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Սա մեկ ժամ է։", "ja": "これは1時間です。" },
+    "example": {
+      "hy": "Սա մեկ ժամ է։",
+      "ja": "これは1時間です。"
+    },
     "ruCognate": null
   },
   {
@@ -23,10 +29,15 @@
     "hy": "Օր",
     "translit": "or",
     "ipa": "/oɾ/",
-    "ja": ["日"],
+    "ja": [
+      "日"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Բարի օր, ինչպե՞ս եք։", "ja": "こんにちは、お元気ですか。" },
+    "example": {
+      "hy": "Բարի օր, ինչպե՞ս եք։",
+      "ja": "こんにちは、お元気ですか。"
+    },
     "ruCognate": null
   },
   {
@@ -38,10 +49,16 @@
     "hy": "Շաբաթ",
     "translit": "shabat'",
     "ipa": "/ʃɑˈbɑtʰ/",
-    "ja": ["週", "土曜日"],
+    "ja": [
+      "週",
+      "土曜日"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Սա մեկ շաբաթ է։", "ja": "これは1週間です。" },
+    "example": {
+      "hy": "Սա մեկ շաբաթ է։",
+      "ja": "これは1週間です。"
+    },
     "ruCognate": null
   },
   {
@@ -53,10 +70,15 @@
     "hy": "Ամիս",
     "translit": "amis",
     "ipa": "/ɑˈmis/",
-    "ja": ["月（暦の）"],
+    "ja": [
+      "月（暦の）"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Սա մեկ ամիս է։", "ja": "これは1か月です。" },
+    "example": {
+      "hy": "Սա մեկ ամիս է։",
+      "ja": "これは1か月です。"
+    },
     "ruCognate": null
   },
   {
@@ -68,10 +90,15 @@
     "hy": "Տարի",
     "translit": "tari",
     "ipa": "/tɑˈɾi/",
-    "ja": ["年"],
+    "ja": [
+      "年"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Սա մեկ տարի է։", "ja": "これは1年です。" },
+    "example": {
+      "hy": "Սա մեկ տարի է։",
+      "ja": "これは1年です。"
+    },
     "ruCognate": null
   },
   {
@@ -83,10 +110,15 @@
     "hy": "Այսօր",
     "translit": "aysor",
     "ipa": "/ɑjˈsoɾ/",
-    "ja": ["今日"],
+    "ja": [
+      "今日"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Այսօր չորեքշաբթի է։", "ja": "今日は水曜日です。" },
+    "example": {
+      "hy": "Այսօր չորեքշաբթի է։",
+      "ja": "今日は水曜日です。"
+    },
     "ruCognate": null
   },
   {
@@ -98,10 +130,15 @@
     "hy": "Վաղը",
     "translit": "vaghy",
     "ipa": "/ˈvɑʁə/",
-    "ja": ["明日"],
+    "ja": [
+      "明日"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Վաղը ուրբաթ է։", "ja": "明日は金曜日です。" },
+    "example": {
+      "hy": "Վաղը ուրբաթ է։",
+      "ja": "明日は金曜日です。"
+    },
     "ruCognate": null
   },
   {
@@ -113,10 +150,15 @@
     "hy": "Երեկ",
     "translit": "yerek",
     "ipa": "/jeˈɾek/",
-    "ja": ["昨日"],
+    "ja": [
+      "昨日"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Երեկ ուրբաթ էր։", "ja": "昨日は金曜日でした。" },
+    "example": {
+      "hy": "Երեկ ուրբաթ էր։",
+      "ja": "昨日は金曜日でした。"
+    },
     "ruCognate": null
   },
   {
@@ -128,10 +170,15 @@
     "hy": "Կիրակի",
     "translit": "kiraki",
     "ipa": "/kiɾɑˈki/",
-    "ja": ["日曜日"],
+    "ja": [
+      "日曜日"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Այսօր կիրակի է։", "ja": "今日は日曜日です。" },
+    "example": {
+      "hy": "Այսօր կիրակի է։",
+      "ja": "今日は日曜日です。"
+    },
     "ruCognate": null
   },
   {
@@ -143,10 +190,15 @@
     "hy": "Երկուշաբթի",
     "translit": "yerkushabt'i",
     "ipa": "/jeɾkuʃɑbˈtʰi/",
-    "ja": ["月曜日"],
+    "ja": [
+      "月曜日"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Այսօր երկուշաբթի է։", "ja": "今日は月曜日です。" },
+    "example": {
+      "hy": "Այսօր երկուշաբթի է։",
+      "ja": "今日は月曜日です。"
+    },
     "ruCognate": null
   },
   {
@@ -158,10 +210,15 @@
     "hy": "Երեքշաբթի",
     "translit": "yerek'shabt'i",
     "ipa": "/jeɾekʰʃɑbˈtʰi/",
-    "ja": ["火曜日"],
+    "ja": [
+      "火曜日"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Այսօր երեքշաբթի է։", "ja": "今日は火曜日です。" },
+    "example": {
+      "hy": "Այսօր երեքշաբթի է։",
+      "ja": "今日は火曜日です。"
+    },
     "ruCognate": null
   },
   {
@@ -173,10 +230,15 @@
     "hy": "Չորեքշաբթի",
     "translit": "ch'orek'shabt'i",
     "ipa": "/tʃʰoɾekʰʃɑbˈtʰi/",
-    "ja": ["水曜日"],
+    "ja": [
+      "水曜日"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Վաղը չորեքշաբթի է։", "ja": "明日は水曜日です。" },
+    "example": {
+      "hy": "Վաղը չորեքշաբթի է։",
+      "ja": "明日は水曜日です。"
+    },
     "ruCognate": null
   },
   {
@@ -188,10 +250,15 @@
     "hy": "Հինգշաբթի",
     "translit": "hingshabt'i",
     "ipa": "/hinɡʃɑbˈtʰi/",
-    "ja": ["木曜日"],
+    "ja": [
+      "木曜日"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Այսօր հինգշաբթի է։", "ja": "今日は木曜日です。" },
+    "example": {
+      "hy": "Այսօր հինգշաբթի է։",
+      "ja": "今日は木曜日です。"
+    },
     "ruCognate": null
   },
   {
@@ -203,10 +270,15 @@
     "hy": "Ուրբաթ",
     "translit": "urbat'",
     "ipa": "/uɾˈbɑtʰ/",
-    "ja": ["金曜日"],
+    "ja": [
+      "金曜日"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Այսօր ուրբաթ է։", "ja": "今日は金曜日です。" },
+    "example": {
+      "hy": "Այսօր ուրբաթ է։",
+      "ja": "今日は金曜日です。"
+    },
     "ruCognate": null
   },
   {
@@ -218,10 +290,15 @@
     "hy": "Ժամը ի՞նչ է",
     "translit": "zhamy inch' e",
     "ipa": "/ʒɑˈmə intʃʰ e/",
-    "ja": ["何時ですか"],
+    "ja": [
+      "何時ですか"
+    ],
     "pos": "pronoun",
     "forms": {},
-    "example": { "hy": "Ներողություն, ժամը ի՞նչ է։", "ja": "すみません、何時ですか。" },
+    "example": {
+      "hy": "Ներողություն, ժամը ի՞նչ է։",
+      "ja": "すみません、何時ですか。"
+    },
     "ruCognate": null
   },
   {
@@ -233,10 +310,15 @@
     "hy": "Րոպե",
     "translit": "rope",
     "ipa": "/ɾoˈpe/",
-    "ja": ["分"],
+    "ja": [
+      "分"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Հինգ րոպեից գալիս եմ։", "ja": "5分で行きます。" },
+    "example": {
+      "hy": "Հինգ րոպեից գալիս եմ։",
+      "ja": "5分で行きます。"
+    },
     "ruCognate": null
   },
   {
@@ -248,10 +330,15 @@
     "hy": "Վայրկյան",
     "translit": "vayrkyan",
     "ipa": "/vɑjɾkˈjɑn/",
-    "ja": ["秒"],
+    "ja": [
+      "秒"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Մի վայրկյան սպասեք։", "ja": "少々お待ちください。" },
+    "example": {
+      "hy": "Մի վայրկյան սպասեք։",
+      "ja": "少々お待ちください。"
+    },
     "ruCognate": null
   },
   {
@@ -263,10 +350,15 @@
     "hy": "Առավոտ",
     "translit": "aravot",
     "ipa": "/ɑɾɑˈvot/",
-    "ja": ["朝"],
+    "ja": [
+      "朝"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Առավոտյան սուրճ եմ խմում։", "ja": "朝はコーヒーを飲みます。" },
+    "example": {
+      "hy": "Առավոտյան սուրճ եմ խմում։",
+      "ja": "朝はコーヒーを飲みます。"
+    },
     "ruCognate": null
   },
   {
@@ -278,10 +370,16 @@
     "hy": "Կեսօր",
     "translit": "kesor",
     "ipa": "/kesˈoɾ/",
-    "ja": ["正午", "昼"],
+    "ja": [
+      "正午",
+      "昼"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Կեսօրին կհանդիպենք։", "ja": "正午に会いましょう。" },
+    "example": {
+      "hy": "Կեսօրին կհանդիպենք։",
+      "ja": "正午に会いましょう。"
+    },
     "ruCognate": null
   },
   {
@@ -293,10 +391,16 @@
     "hy": "Երեկո",
     "translit": "yereko",
     "ipa": "/jeɾeˈko/",
-    "ja": ["夕方", "晩"],
+    "ja": [
+      "夕方",
+      "晩"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Երեկոյան տանն եմ լինում։", "ja": "夕方は家にいます。" },
+    "example": {
+      "hy": "Երեկոյան տանն եմ լինում։",
+      "ja": "夕方は家にいます。"
+    },
     "ruCognate": null
   },
   {
@@ -308,10 +412,15 @@
     "hy": "Գիշեր",
     "translit": "gisher",
     "ipa": "/ɡiˈʃeɾ/",
-    "ja": ["夜"],
+    "ja": [
+      "夜"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Գիշերը քաղաքը հանգիստ է։", "ja": "夜は街が静かです。" },
+    "example": {
+      "hy": "Գիշերը քաղաքը հանգիստ է։",
+      "ja": "夜は街が静かです。"
+    },
     "ruCognate": null
   },
   {
@@ -323,10 +432,15 @@
     "hy": "Ամսաթիվ",
     "translit": "amsat'iv",
     "ipa": "/ɑmsɑˈtʰiv/",
-    "ja": ["日付"],
+    "ja": [
+      "日付"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Ի՞նչ ամսաթիվ է այսօր։", "ja": "今日は何日ですか。" },
+    "example": {
+      "hy": "Ի՞նչ ամսաթիվ է այսօր։",
+      "ja": "今日は何日ですか。"
+    },
     "ruCognate": null
   },
   {
@@ -338,10 +452,16 @@
     "hy": "Օրացույց",
     "translit": "orats'uyts'",
     "ipa": "/oɾɑˈt͡sʰujt͡sʰ/",
-    "ja": ["カレンダー", "暦"],
+    "ja": [
+      "カレンダー",
+      "暦"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Օրացույցում այսօրը կարմիր օր է։", "ja": "カレンダーでは今日は祝日です。" },
+    "example": {
+      "hy": "Օրացույցում այսօրը կարմիր օր է։",
+      "ja": "カレンダーでは今日は祝日です。"
+    },
     "ruCognate": null
   },
   {
@@ -353,10 +473,15 @@
     "hy": "Հաջորդ",
     "translit": "hajord",
     "ipa": "/hɑˈd͡ʒoɾtʰ/",
-    "ja": ["次の"],
+    "ja": [
+      "次の"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Հաջորդ շաբաթ արձակուրդ ունեմ։", "ja": "来週は休みです。" },
+    "example": {
+      "hy": "Հաջորդ շաբաթ արձակուրդ ունեմ։",
+      "ja": "来週は休みです。"
+    },
     "ruCognate": null
   },
   {
@@ -368,10 +493,16 @@
     "hy": "Անցյալ",
     "translit": "ants'yal",
     "ipa": "/ɑnˈt͡sʰjɑl/",
-    "ja": ["過去の", "この前の"],
+    "ja": [
+      "過去の",
+      "この前の"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Անցյալ տարի Երևան եկա։", "ja": "去年エレバンに来ました。" },
+    "example": {
+      "hy": "Անցյալ տարի Երևան եկա։",
+      "ja": "去年エレバンに来ました。"
+    },
     "ruCognate": null
   },
   {
@@ -383,10 +514,16 @@
     "hy": "Ամեն",
     "translit": "amen",
     "ipa": "/ɑˈmen/",
-    "ja": ["毎〜", "あらゆる"],
+    "ja": [
+      "毎〜",
+      "あらゆる"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Ամեն օր հայերեն եմ սովորում։", "ja": "毎日アルメニア語を勉強しています。" },
+    "example": {
+      "hy": "Ամեն օր հայերեն եմ սովորում։",
+      "ja": "毎日アルメニア語を勉強しています。"
+    },
     "ruCognate": null
   },
   {
@@ -398,10 +535,16 @@
     "hy": "Ուշ",
     "translit": "ush",
     "ipa": "/uʃ/",
-    "ja": ["遅い", "遅く"],
+    "ja": [
+      "遅い",
+      "遅く"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Երեկ ուշ պառկեցի քնելու։", "ja": "昨日は遅く寝ました。" },
+    "example": {
+      "hy": "Երեկ ուշ պառկեցի քնելու։",
+      "ja": "昨日は遅く寝ました。"
+    },
     "ruCognate": null
   },
   {
@@ -413,10 +556,16 @@
     "hy": "Վաղ",
     "translit": "vagh",
     "ipa": "/vɑʁ/",
-    "ja": ["早い", "早く"],
+    "ja": [
+      "早い",
+      "早く"
+    ],
     "pos": "adverb",
     "forms": {},
-    "example": { "hy": "Վաղ առավոտյան աշխատանքի եմ գնում։", "ja": "早朝に仕事へ行きます。" },
+    "example": {
+      "hy": "Վաղ առավոտյան աշխատանքի եմ գնում։",
+      "ja": "早朝に仕事へ行きます。"
+    },
     "ruCognate": null
   },
   {
@@ -428,10 +577,16 @@
     "hy": "Ժամանակ",
     "translit": "zhamanak",
     "ipa": "/ʒɑmɑˈnɑk/",
-    "ja": ["時間", "時"],
+    "ja": [
+      "時間",
+      "時"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Այսօր ժամանակ չունեմ։", "ja": "今日は時間がありません。" },
+    "example": {
+      "hy": "Այսօր ժամանակ չունեմ։",
+      "ja": "今日は時間がありません。"
+    },
     "ruCognate": null
   },
   {
@@ -443,10 +598,316 @@
     "hy": "Տոն",
     "translit": "ton",
     "ipa": "/ton/",
-    "ja": ["祝日", "祭り"],
+    "ja": [
+      "祝日",
+      "祭り"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Վաղը տոն է, խանութները փակ են։", "ja": "明日は祝日で、店は閉まっています。" },
+    "example": {
+      "hy": "Վաղը տոն է, խանութները փակ են։",
+      "ja": "明日は祝日で、店は閉まっています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-time-031",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "time-calendar",
+    "hy": "Հունվար",
+    "translit": "hunvar",
+    "ipa": "/hunˈvɑɾ/",
+    "ja": [
+      "1月"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հունվարին ցուրտ է։",
+      "ja": "1月は寒いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-time-032",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "time-calendar",
+    "hy": "Փետրվար",
+    "translit": "p'etrvar",
+    "ipa": "/pʰetəɾˈvɑɾ/",
+    "ja": [
+      "2月"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Փետրվարը կարճ է։",
+      "ja": "2月は短いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-time-033",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "time-calendar",
+    "hy": "Մարտ",
+    "translit": "mart",
+    "ipa": "/mɑɾt/",
+    "ja": [
+      "3月"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մարտին գարուն է։",
+      "ja": "3月は春です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-time-034",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "time-calendar",
+    "hy": "Ապրիլ",
+    "translit": "april",
+    "ipa": "/ɑpˈɾil/",
+    "ja": [
+      "4月"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ապրիլին անձրև է գալիս։",
+      "ja": "4月は雨が降ります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-time-035",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "time-calendar",
+    "hy": "Մայիս",
+    "translit": "mayis",
+    "ipa": "/mɑˈjis/",
+    "ja": [
+      "5月"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մայիսին տաք է։",
+      "ja": "5月は暖かいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-time-036",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "time-calendar",
+    "hy": "Հունիս",
+    "translit": "hunis",
+    "ipa": "/huˈnis/",
+    "ja": [
+      "6月"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հունիսին ամառ է։",
+      "ja": "6月は夏です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-time-037",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "time-calendar",
+    "hy": "Հուլիս",
+    "translit": "hulis",
+    "ipa": "/huˈlis/",
+    "ja": [
+      "7月"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հուլիսին շատ տաք է։",
+      "ja": "7月はとても暑いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-time-038",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "time-calendar",
+    "hy": "Օգոստոս",
+    "translit": "ogostos",
+    "ipa": "/oɡosˈtos/",
+    "ja": [
+      "8月"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Օգոստոսին արձակուրդ ունեմ։",
+      "ja": "8月は休暇があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-time-039",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "time-calendar",
+    "hy": "Սեպտեմբեր",
+    "translit": "september",
+    "ipa": "/septemˈbeɾ/",
+    "ja": [
+      "9月"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սեպտեմբերին դպրոց է սկսվում։",
+      "ja": "9月に学校が始まります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-time-040",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "time-calendar",
+    "hy": "Հոկտեմբեր",
+    "translit": "hoktember",
+    "ipa": "/hoktemˈbeɾ/",
+    "ja": [
+      "10月"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հոկտեմբերին աշուն է։",
+      "ja": "10月は秋です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-time-041",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "time-calendar",
+    "hy": "Նոյեմբեր",
+    "translit": "noyember",
+    "ipa": "/nojemˈbeɾ/",
+    "ja": [
+      "11月"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նոյեմբերին սառը է։",
+      "ja": "11月は冷えます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-time-042",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "time-calendar",
+    "hy": "Դեկտեմբեր",
+    "translit": "dektember",
+    "ipa": "/dektemˈbeɾ/",
+    "ja": [
+      "12月"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դեկտեմբերին ձյուն է գալիս։",
+      "ja": "12月は雪が降ります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-time-043",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "time-calendar",
+    "hy": "Գարուն",
+    "translit": "garun",
+    "ipa": "/ɡɑˈɾun/",
+    "ja": [
+      "春"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գարունը գեղեցիկ է։",
+      "ja": "春はきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-time-044",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "time-calendar",
+    "hy": "Ամառ",
+    "translit": "amar",
+    "ipa": "/ɑˈmɑr/",
+    "ja": [
+      "夏"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ամառը տաք է։",
+      "ja": "夏は暑いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-time-045",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "time-calendar",
+    "hy": "Աշուն",
+    "translit": "ashun",
+    "ipa": "/ɑˈʃun/",
+    "ja": [
+      "秋"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Աշունը հանգիստ է։",
+      "ja": "秋は穏やかです。"
+    },
     "ruCognate": null
   }
 ]
