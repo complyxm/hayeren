@@ -128,6 +128,22 @@ export interface VowelAttemptRecord {
   recordedAt: Date;
 }
 
+/**
+ * まねる練習（docs/phonetics.md §2 の L2）の記録。**距離だけを持ち、点数は持たない。**
+ * 「距離いくつなら良い」という物差しは較正していないので、意味があるのは
+ * 同じお手本に対する自分の過去の距離との比較だけ（docs §2「絶対スコアではなく
+ * 自分の過去最高との比較を主に見せる」）。id は content/listening.json の出題 id。
+ */
+export interface ShadowAttemptRecord {
+  id: string;
+  /** これまでで最も近かった距離。 */
+  bestDistance: number;
+  /** 直前の距離。 */
+  lastDistance: number;
+  attempts: number;
+  updatedAt: Date;
+}
+
 export class HayerenDB extends Dexie {
   cards!: EntityTable<CardRecord, "id">;
   reviews!: EntityTable<ReviewRecord, "id">;
@@ -135,6 +151,7 @@ export class HayerenDB extends Dexie {
   votAttempts!: EntityTable<VotAttemptRecord, "id">;
   listeningAttempts!: EntityTable<ListeningAttemptRecord, "id">;
   vowelAttempts!: EntityTable<VowelAttemptRecord, "id">;
+  shadowAttempts!: EntityTable<ShadowAttemptRecord, "id">;
 
   constructor() {
     super("hayeren");
@@ -182,6 +199,16 @@ export class HayerenDB extends Dexie {
       votAttempts: "id, place, recordedAt",
       listeningAttempts: "id, word, pairId, answeredAt",
       vowelAttempts: "id, recordedAt",
+    });
+    // v6: まねる練習（Phase 8 の L2）。出題ごとに最良と直前の距離だけを持つ。
+    this.version(6).stores({
+      cards: "id, contentId, due, state",
+      reviews: "id, cardId, reviewedAt",
+      settings: "id",
+      votAttempts: "id, place, recordedAt",
+      listeningAttempts: "id, word, pairId, answeredAt",
+      vowelAttempts: "id, recordedAt",
+      shadowAttempts: "id, updatedAt",
     });
   }
 }

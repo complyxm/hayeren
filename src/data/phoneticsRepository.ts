@@ -1,5 +1,5 @@
 import type { AttemptedSeries, PlosivePlace, ThreeWayJudgement } from "../domain/phonetics/calibration";
-import { db, type VotAttemptRecord, type VowelAttemptRecord } from "./db";
+import { db, type ShadowAttemptRecord, type VotAttemptRecord, type VowelAttemptRecord } from "./db";
 
 export interface NewVotAttempt {
   place: PlosivePlace;
@@ -54,4 +54,40 @@ export async function getVowelAttempts(): Promise<VowelAttemptRecord[]> {
 /** 測定をやり直せるように、1つ消す。 */
 export async function clearVowelAttempt(vowelId: string): Promise<void> {
   await db.vowelAttempts.delete(vowelId);
+}
+
+export interface ShadowProgress {
+  /** 今回の距離。 */
+  distance: number;
+  /** 今回より前の最良の距離。初回は null。 */
+  previousBest: number | null;
+  /** 直前の距離。初回は null。 */
+  previousLast: number | null;
+}
+
+/**
+ * まねる練習の1回を記録し、**それ以前**の記録と一緒に返す。
+ * 「今回どうだったか」は過去との比較でしか言えないので、更新前の値を返す
+ * （呼び出し側が読み直す必要をなくす）。
+ */
+export async function recordShadowAttempt(id: string, distance: number): Promise<ShadowProgress> {
+  const before = await db.shadowAttempts.get(id);
+  await db.shadowAttempts.put({
+    id,
+    bestDistance: before ? Math.min(before.bestDistance, distance) : distance,
+    lastDistance: distance,
+    attempts: (before?.attempts ?? 0) + 1,
+    updatedAt: new Date(),
+  });
+  return {
+    distance,
+    previousBest: before?.bestDistance ?? null,
+    previousLast: before?.lastDistance ?? null,
+  };
+}
+
+/** 出題 id をキーにした、まねる練習の記録。 */
+export async function getShadowAttempts(): Promise<Map<string, ShadowAttemptRecord>> {
+  const records = await db.shadowAttempts.toArray();
+  return new Map(records.map((r) => [r.id, r]));
 }

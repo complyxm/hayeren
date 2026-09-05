@@ -171,3 +171,34 @@ export function synthesizeVoicedStop(opts: SynthVoicedStopOptions): AudioSignal 
   }
   return { samples, sampleRate };
 }
+
+/** 日本語話者に分かりやすいよう、母音の並びで「語らしさ」を作る合成音の材料。 */
+export interface SynthWordOptions {
+  /** 各区間のフォルマント（Hz）。順に並べて1つの信号にする。 */
+  segments: number[][];
+  sampleRate?: number;
+  segmentMs?: number;
+  f0Hz?: number;
+  seed?: number;
+}
+
+/**
+ * 母音を並べただけの「語」。voiceMatch のテスト用。
+ * 単一の持続母音では使えない — CMVN は系列全体の平均を引くので、持続母音では
+ * その母音らしさ（平均スペクトル）ごと消えてしまう。L2 が対象にするのは語なので、
+ * テストの入力も語の形にする。
+ */
+export function synthesizeWord(opts: SynthWordOptions): AudioSignal {
+  const { segments, sampleRate = 16000, segmentMs = 150, f0Hz = 120, seed = 5 } = opts;
+  const parts = segments.map((formantsHz, i) =>
+    synthesizeVowel({ formantsHz, sampleRate, durationMs: segmentMs, f0Hz, seed: seed + i }),
+  );
+  const total = parts.reduce((n, p) => n + p.samples.length, 0);
+  const samples = new Float32Array(total);
+  let offset = 0;
+  for (const part of parts) {
+    samples.set(part.samples, offset);
+    offset += part.samples.length;
+  }
+  return { samples, sampleRate };
+}

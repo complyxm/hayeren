@@ -21,6 +21,7 @@ import { ScenarioDialogue } from "./features/scenarios/ScenarioDialogue";
 import { ReleaseNotes } from "./features/about/ReleaseNotes";
 import { SignReading } from "./features/signs/SignReading";
 import { ListeningChallenge } from "./features/phonetics/ListeningChallenge";
+import { ShadowPractice } from "./features/phonetics/ShadowPractice";
 import { Credits } from "./features/about/Credits";
 import { RussianPhrases } from "./features/russian/RussianPhrases";
 import { SettingsScreen } from "./features/settings/SettingsScreen";
@@ -55,6 +56,7 @@ type Screen =
   | { name: "settings" }
   | { name: "browse" }
   | { name: "listening" }
+  | { name: "shadow" }
   | { name: "credits" };
 
 const HOME: Screen = { name: "home" };
@@ -138,6 +140,10 @@ function Router() {
       return (
         <ListeningChallenge onBack={() => setScreen(HOME)} onCredits={() => setScreen({ name: "credits" })} />
       );
+    case "shadow":
+      return (
+        <ShadowPractice onBack={() => setScreen(HOME)} onCredits={() => setScreen({ name: "credits" })} />
+      );
     case "credits":
       return <Credits onBack={() => setScreen(HOME)} />;
     case "russian":
@@ -157,7 +163,16 @@ function Router() {
             { label: "句読点", hint: "։ ՞ ՜ ՛ ՝ の使い分け", go: () => setScreen({ name: "punctuation" }) },
             { label: "画面内キーボード", go: () => setScreen({ name: "keyboard" }) },
             { label: "エレバン地下鉄ナビ", go: () => setScreen({ name: "metro" }) },
-            { label: "聞き分け", hint: "պ/փ と ռ/ր を耳で分ける。発音練習より先に", go: () => setScreen({ name: "listening" }) },
+            {
+              label: "聞き分け",
+              hint: "5組の音を耳で分ける。発音練習より先に",
+              go: () => setScreen({ name: "listening" }),
+            },
+            {
+              label: "まねて言う",
+              hint: "話者の録音を聞いて同じ語を言い、近さを測る",
+              go: () => setScreen({ name: "shadow" }),
+            },
             { label: "発音チェック", hint: "破裂音の三系列を録音して測る", go: () => setScreen({ name: "vot-practice" }) },
             {
               label: "母音の位置",

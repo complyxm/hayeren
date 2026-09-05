@@ -21,7 +21,12 @@ describe("VocabList", () => {
   });
 
   it("テーマの絞り込みボタンを押すと、そのテーマの語だけが表示される", () => {
-    render(<VocabList onBack={() => {}} onSelect={() => {}} />);
+    const { container } = render(<VocabList onBack={() => {}} onSelect={() => {}} />);
+
+    // 語ごとに screen.getByText を呼ぶと、DOM 全体の走査 × 語数で二乗に効いて
+    // 数百語の時点で数十秒かかる。表示中の語を一度だけ集めて集合で比べる。
+    const shownWords = () =>
+      new Set(Array.from(container.querySelectorAll('[lang="hy"]'), (el) => el.textContent));
 
     const greetingsOnly = vocab.filter((v) => v.status === "verified" && v.theme === "greetings");
     const others = vocab.filter((v) => v.status === "verified" && v.theme !== "greetings");
@@ -30,18 +35,12 @@ describe("VocabList", () => {
 
     fireEvent.click(screen.getByRole("button", { name: "挨拶・最低限の受け答え" }));
 
-    for (const entry of greetingsOnly) {
-      expect(screen.getByText(entry.hy)).toBeInTheDocument();
-    }
-    for (const entry of others) {
-      expect(screen.queryByText(entry.hy)).not.toBeInTheDocument();
-    }
+    const filtered = shownWords();
+    for (const entry of greetingsOnly) expect(filtered.has(entry.hy)).toBe(true);
+    for (const entry of others) expect(filtered.has(entry.hy)).toBe(false);
 
     fireEvent.click(screen.getByRole("button", { name: "すべて" }));
-    for (const entry of others) {
-      expect(screen.getByText(entry.hy)).toBeInTheDocument();
-    }
-    // 語彙が増えると全 hy を総当たりで DOM 検索するこのテストは遅くなる。
-    // フィルタの検証内容は変えず、データ量に追随して上限だけ広げる。
-  }, 20000);
+    const all = shownWords();
+    for (const entry of others) expect(all.has(entry.hy)).toBe(true);
+  });
 });
