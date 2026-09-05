@@ -22,6 +22,7 @@ const THEME_LABEL_JA: Record<VocabTheme, string> = {
   "people-family": "人・家族・自己紹介",
   "verbs-adjectives": "基本動詞・形容詞",
   "function-words": "機能語",
+  "market-groceries": "市場・食材",
 };
 
 /**

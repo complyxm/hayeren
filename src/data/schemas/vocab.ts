@@ -2,8 +2,11 @@ import { z } from "zod";
 import { contentEntryBaseSchema } from "../contentSchema";
 
 /**
- * curriculum.md §3.2 の第1段階500語・14テーマ。file 名は content/vocab/{theme}.json
- * に対応させる（scripts/validate-content.ts が prefix "vocab/" でこのスキーマを引く）。
+ * テーマ。file 名は content/vocab/{theme}.json に対応させる
+ * （scripts/validate-content.ts が prefix "vocab/" でこのスキーマを引く）。
+ *
+ * 先頭14テーマが curriculum.md §3.2 の第1段階500語。以降は第2段階（+1,500語）で、
+ * **並べる基準は頻度ではなくエレバンで困らない順**（§3.1）。
  */
 export const vocabThemeSchema = z.enum([
   "greetings",
@@ -20,6 +23,7 @@ export const vocabThemeSchema = z.enum([
   "people-family",
   "verbs-adjectives",
   "function-words",
+  "market-groceries",
 ]);
 
 export type VocabTheme = z.infer<typeof vocabThemeSchema>;

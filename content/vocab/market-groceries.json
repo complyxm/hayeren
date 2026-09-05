@@ -1,0 +1,1091 @@
+[
+  {
+    "id": "v-mkt-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Կաղամբ",
+    "translit": "kaghamb",
+    "ipa": "/kɑˈʁɑmb/",
+    "ja": [
+      "キャベツ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կաղամբ եմ գնում։",
+      "ja": "キャベツを買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Գազար",
+    "translit": "gazar",
+    "ipa": "/ɡɑˈzɑɾ/",
+    "ja": [
+      "にんじん"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գազարը թարմ է։",
+      "ja": "にんじんは新鮮です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Սխտոր",
+    "translit": "skhtor",
+    "ipa": "/səχˈtoɾ/",
+    "ja": [
+      "にんにく"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սխտոր կա՞։",
+      "ja": "にんにくはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Վարունգ",
+    "translit": "varung",
+    "ipa": "/vɑˈɾunɡ/",
+    "ja": [
+      "きゅうり"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կես կիլո վարունգ, խնդրում եմ։",
+      "ja": "きゅうりを500グラムください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Բադրիջան",
+    "translit": "badrijan",
+    "ipa": "/bɑdɾiˈd͡ʒɑn/",
+    "ja": [
+      "なす"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բադրիջան եմ գնում։",
+      "ja": "なすを買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 Piper 属（こしょう）と Capsicum 属（ピーマン・唐辛子）の両方を指す。",
+    "theme": "market-groceries",
+    "hy": "Պղպեղ",
+    "translit": "pghpegh",
+    "ipa": "/pəχˈpeʁ/",
+    "ja": [
+      "ピーマン",
+      "唐辛子",
+      "こしょう"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կարմիր պղպեղ եմ ուզում։",
+      "ja": "赤いピーマンがほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Դդում",
+    "translit": "ddum",
+    "ipa": "/dəˈtʰum/",
+    "ja": [
+      "かぼちゃ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դդումը մեծ է։",
+      "ja": "かぼちゃは大きいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Ճակնդեղ",
+    "translit": "chakndegh",
+    "ipa": "/t͡ʃɑkənˈdeʁ/",
+    "ja": [
+      "ビーツ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ճակնդեղ եմ եփում։",
+      "ja": "ビーツを煮ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Բողկ",
+    "translit": "boghk",
+    "ipa": "/boχk/",
+    "ja": [
+      "大根",
+      "ラディッシュ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բողկ կա՞։",
+      "ja": "大根はありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Սունկ",
+    "translit": "sunk",
+    "ipa": "/sunk/",
+    "ja": [
+      "きのこ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սունկ եմ գնում։",
+      "ja": "きのこを買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Եգիպտացորեն",
+    "translit": "yegiptats'oren",
+    "ipa": "/jeɡiptɑt͡sʰoˈɾen/",
+    "ja": [
+      "とうもろこし"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Եգիպտացորեն եմ ուտում։",
+      "ja": "とうもろこしを食べています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Լոբի",
+    "translit": "lobi",
+    "ipa": "/loˈbi/",
+    "ja": [
+      "いんげん豆",
+      "豆"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Լոբի եմ եփում։",
+      "ja": "豆を煮ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Ոսպ",
+    "translit": "vosp",
+    "ipa": "/vosp/",
+    "ja": [
+      "レンズ豆"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ոսպ կա՞։",
+      "ja": "レンズ豆はありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Կանաչի",
+    "translit": "kanachi",
+    "ipa": "/kɑnɑˈt͡ʃʰi/",
+    "ja": [
+      "香草",
+      "青菜"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կանաչի եմ գնում։",
+      "ja": "香草を買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Սամիթ",
+    "translit": "samit'",
+    "ipa": "/sɑˈmitʰ/",
+    "ja": [
+      "ディル"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սամիթ եմ ուզում։",
+      "ja": "ディルがほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Ռեհան",
+    "translit": "rehan",
+    "ipa": "/reˈhɑn/",
+    "ja": [
+      "バジル"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ռեհան կա՞։",
+      "ja": "バジルはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Մաղադանոս",
+    "translit": "maghadanos",
+    "ipa": "/mɑʁɑdɑˈnos/",
+    "ja": [
+      "パセリ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մաղադանոս եմ գնում։",
+      "ja": "パセリを買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Համեմ",
+    "translit": "hamem",
+    "ipa": "/hɑˈmem/",
+    "ja": [
+      "パクチー",
+      "コリアンダー"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Համեմ չեմ սիրում։",
+      "ja": "パクチーは好きではありません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Թարխուն",
+    "translit": "t'arkhun",
+    "ipa": "/tʰɑɾˈχun/",
+    "ja": [
+      "タラゴン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թարխուն կա՞։",
+      "ja": "タラゴンはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-020",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Անանուխ",
+    "translit": "ananukh",
+    "ipa": "/ɑnɑˈnuχ/",
+    "ja": [
+      "ミント"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Անանուխ եմ ուզում։",
+      "ja": "ミントがほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-021",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Տանձ",
+    "translit": "tandz",
+    "ipa": "/tɑnd͡z/",
+    "ja": [
+      "洋なし"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տանձը քաղցր է։",
+      "ja": "洋なしは甘いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-022",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Ծիրան",
+    "translit": "tsiran",
+    "ipa": "/t͡siˈɾɑn/",
+    "ja": [
+      "あんず"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ծիրան եմ սիրում։",
+      "ja": "あんずが好きです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-023",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Դեղձ",
+    "translit": "deghdz",
+    "ipa": "/deχt͡sʰ/",
+    "ja": [
+      "もも"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դեղձ եմ գնում։",
+      "ja": "ももを買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-024",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Բալ",
+    "translit": "bal",
+    "ipa": "/bɑl/",
+    "ja": [
+      "サワーチェリー"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բալ կա՞։",
+      "ja": "サワーチェリーはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-025",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Կեռաս",
+    "translit": "keras",
+    "ipa": "/keˈrɑs/",
+    "ja": [
+      "さくらんぼ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կեռասը թանկ է։",
+      "ja": "さくらんぼは高いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-026",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Սալոր",
+    "translit": "salor",
+    "ipa": "/sɑˈloɾ/",
+    "ja": [
+      "すもも"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սալոր եմ ուտում։",
+      "ja": "すももを食べています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-027",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Նուռ",
+    "translit": "nur",
+    "ipa": "/nur/",
+    "ja": [
+      "ざくろ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նուռ եմ գնում։",
+      "ja": "ざくろを買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-028",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Ձմերուկ",
+    "translit": "dzmeruk",
+    "ipa": "/d͡zəmeˈɾuk/",
+    "ja": [
+      "すいか"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ձմերուկը մեծ է։",
+      "ja": "すいかは大きいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-029",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Սեխ",
+    "translit": "sekh",
+    "ipa": "/seχ/",
+    "ja": [
+      "メロン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սեխ եմ սիրում։",
+      "ja": "メロンが好きです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-030",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Թուզ",
+    "translit": "t'uz",
+    "ipa": "/tʰuz/",
+    "ja": [
+      "いちじく"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թուզ կա՞։",
+      "ja": "いちじくはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-031",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Կիտրոն",
+    "translit": "kitron",
+    "ipa": "/kitˈɾon/",
+    "ja": [
+      "レモン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կիտրոն եմ ուզում։",
+      "ja": "レモンがほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-032",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Նարինջ",
+    "translit": "narinj",
+    "ipa": "/nɑˈɾind͡ʒ/",
+    "ja": [
+      "オレンジ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նարինջ եմ գնում։",
+      "ja": "オレンジを買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-033",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Բանան",
+    "translit": "banan",
+    "ipa": "/bɑˈnɑn/",
+    "ja": [
+      "バナナ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բանան եմ ուտում։",
+      "ja": "バナナを食べています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-034",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Ելակ",
+    "translit": "yelak",
+    "ipa": "/jeˈlɑk/",
+    "ja": [
+      "いちご"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ելակը թարմ է։",
+      "ja": "いちごは新鮮です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-035",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 英語版 Wiktionary は date（なつめやし）と persimmon（柿）の両方を挙げる。エレバンの市場では柿を指すことが多いため、訳は「柿」とした。",
+    "theme": "market-groceries",
+    "hy": "Խուրմա",
+    "translit": "khurma",
+    "ipa": "/χuɾˈmɑ/",
+    "ja": [
+      "柿"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խուրմա եմ գնում։",
+      "ja": "柿を買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-036",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Սերկևիլ",
+    "translit": "serkevil",
+    "ipa": "/seɾkeˈvil/",
+    "ja": [
+      "かりん"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սերկևիլ կա՞։",
+      "ja": "かりんはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-037",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 マツーンはアルメニアの発酵乳。ヨーグルトと訳したが同一ではない。",
+    "theme": "market-groceries",
+    "hy": "Մածուն",
+    "translit": "matsun",
+    "ipa": "/mɑˈt͡sun/",
+    "ja": [
+      "マツーン",
+      "ヨーグルト"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մածուն եմ ուտում։",
+      "ja": "ヨーグルトを食べています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-038",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Թան",
+    "translit": "t'an",
+    "ipa": "/tʰɑn/",
+    "ja": [
+      "タン（ヨーグルトの飲み物）"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թան եմ խմում։",
+      "ja": "タンを飲んでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-039",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Սերուցք",
+    "translit": "seruts'k'",
+    "ipa": "/seˈɾut͡sʰkʰ/",
+    "ja": [
+      "生クリーム"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սերուցք կա՞։",
+      "ja": "生クリームはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-040",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Ալյուր",
+    "translit": "alyur",
+    "ipa": "/ɑˈljuɾ/",
+    "ja": [
+      "小麦粉"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ալյուր եմ գնում։",
+      "ja": "小麦粉を買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-041",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Ձավար",
+    "translit": "dzavar",
+    "ipa": "/d͡zɑˈvɑɾ/",
+    "ja": [
+      "ひき割り小麦"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ձավար եմ եփում։",
+      "ja": "ひき割り小麦を煮ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-042",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Մակարոն",
+    "translit": "makaron",
+    "ipa": "/mɑkɑˈɾon/",
+    "ja": [
+      "パスタ",
+      "マカロニ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մակարոն եմ եփում։",
+      "ja": "パスタをゆでています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-043",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Ձեթ",
+    "translit": "dzet'",
+    "ipa": "/d͡zetʰ/",
+    "ja": [
+      "植物油"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ձեթ եմ ուզում։",
+      "ja": "油がほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-044",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Ընկույզ",
+    "translit": "ynkuyz",
+    "ipa": "/ənˈkujz/",
+    "ja": [
+      "くるみ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ընկույզ եմ ուտում։",
+      "ja": "くるみを食べています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-045",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Նուշ",
+    "translit": "nush",
+    "ipa": "/nuʃ/",
+    "ja": [
+      "アーモンド"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նուշ կա՞։",
+      "ja": "アーモンドはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-046",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Չիր",
+    "translit": "chir",
+    "ipa": "/t͡ʃʰiɾ/",
+    "ja": [
+      "ドライフルーツ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Չիր եմ գնում։",
+      "ja": "ドライフルーツを買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-047",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Չամիչ",
+    "translit": "chamich",
+    "ipa": "/t͡ʃʰɑˈmit͡ʃʰ/",
+    "ja": [
+      "レーズン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Չամիչ եմ ուտում։",
+      "ja": "レーズンを食べています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-048",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Երշիկ",
+    "translit": "yershik",
+    "ipa": "/jeɾˈʃik/",
+    "ja": [
+      "ソーセージ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Երշիկ եմ գնում։",
+      "ja": "ソーセージを買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-049",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Կշռել",
+    "translit": "kshrel",
+    "ipa": "/kəʃˈrel/",
+    "ja": [
+      "量る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Կշռեք, խնդրում եմ։",
+      "ja": "量ってください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-050",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Եփել",
+    "translit": "yep'el",
+    "ipa": "/jeˈpʰel/",
+    "ja": [
+      "煮る",
+      "ゆでる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ապուր եմ եփում։",
+      "ja": "スープを煮ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-051",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Հասած",
+    "translit": "hasats",
+    "ipa": "/hɑˈsɑt͡s/",
+    "ja": [
+      "熟した"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հասած ծիրան կա՞։",
+      "ja": "熟したあんずはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-052",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Տոպրակ",
+    "translit": "toprak",
+    "ipa": "/topˈɾɑk/",
+    "ja": [
+      "袋"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տոպրակ կա՞։",
+      "ja": "袋はありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-053",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Շիշ",
+    "translit": "shish",
+    "ipa": "/ʃiʃ/",
+    "ja": [
+      "瓶"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մեկ շիշ ջուր, խնդրում եմ։",
+      "ja": "水を1本ください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mkt-054",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "market-groceries",
+    "hy": "Տուփ",
+    "translit": "tup'",
+    "ipa": "/tupʰ/",
+    "ja": [
+      "箱"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մեկ տուփ մածուն, խնդրում եմ։",
+      "ja": "ヨーグルトを1箱ください。"
+    },
+    "ruCognate": null
+  }
+]

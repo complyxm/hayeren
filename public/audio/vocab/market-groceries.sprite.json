@@ -1,0 +1,445 @@
+{
+  "meta": {
+    "theme": "market-groceries",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-mkt-001": {
+      "start": 0,
+      "duration": 1.173
+    },
+    "v-mkt-001__ex": {
+      "start": 1.323,
+      "duration": 1.94
+    },
+    "v-mkt-002": {
+      "start": 3.413,
+      "duration": 0.934
+    },
+    "v-mkt-002__ex": {
+      "start": 4.497,
+      "duration": 1.658
+    },
+    "v-mkt-003": {
+      "start": 6.305,
+      "duration": 1.018
+    },
+    "v-mkt-003__ex": {
+      "start": 7.473,
+      "duration": 1.361
+    },
+    "v-mkt-004": {
+      "start": 8.984,
+      "duration": 1.032
+    },
+    "v-mkt-004__ex": {
+      "start": 10.166,
+      "duration": 2.805
+    },
+    "v-mkt-005": {
+      "start": 13.12,
+      "duration": 1.238
+    },
+    "v-mkt-005__ex": {
+      "start": 14.508,
+      "duration": 1.938
+    },
+    "v-mkt-006": {
+      "start": 16.596,
+      "duration": 1.22
+    },
+    "v-mkt-006__ex": {
+      "start": 17.966,
+      "duration": 2.348
+    },
+    "v-mkt-007": {
+      "start": 20.463,
+      "duration": 0.988
+    },
+    "v-mkt-007__ex": {
+      "start": 21.602,
+      "duration": 1.466
+    },
+    "v-mkt-008": {
+      "start": 23.218,
+      "duration": 1.276
+    },
+    "v-mkt-008__ex": {
+      "start": 24.644,
+      "duration": 1.986
+    },
+    "v-mkt-009": {
+      "start": 26.779,
+      "duration": 0.957
+    },
+    "v-mkt-009__ex": {
+      "start": 27.886,
+      "duration": 1.287
+    },
+    "v-mkt-010": {
+      "start": 29.323,
+      "duration": 0.863
+    },
+    "v-mkt-010__ex": {
+      "start": 30.336,
+      "duration": 1.656
+    },
+    "v-mkt-011": {
+      "start": 32.142,
+      "duration": 1.629
+    },
+    "v-mkt-011__ex": {
+      "start": 33.921,
+      "duration": 2.238
+    },
+    "v-mkt-012": {
+      "start": 36.309,
+      "duration": 0.967
+    },
+    "v-mkt-012__ex": {
+      "start": 37.425,
+      "duration": 1.677
+    },
+    "v-mkt-013": {
+      "start": 39.253,
+      "duration": 0.823
+    },
+    "v-mkt-013__ex": {
+      "start": 40.226,
+      "duration": 1.151
+    },
+    "v-mkt-014": {
+      "start": 41.527,
+      "duration": 1.125
+    },
+    "v-mkt-014__ex": {
+      "start": 42.803,
+      "duration": 1.874
+    },
+    "v-mkt-015": {
+      "start": 44.826,
+      "duration": 0.971
+    },
+    "v-mkt-015__ex": {
+      "start": 45.948,
+      "duration": 1.69
+    },
+    "v-mkt-016": {
+      "start": 47.787,
+      "duration": 1.032
+    },
+    "v-mkt-016__ex": {
+      "start": 48.969,
+      "duration": 1.331
+    },
+    "v-mkt-017": {
+      "start": 50.45,
+      "duration": 1.394
+    },
+    "v-mkt-017__ex": {
+      "start": 51.994,
+      "duration": 2.142
+    },
+    "v-mkt-018": {
+      "start": 54.286,
+      "duration": 1.039
+    },
+    "v-mkt-018__ex": {
+      "start": 55.475,
+      "duration": 1.879
+    },
+    "v-mkt-019": {
+      "start": 57.504,
+      "duration": 1.104
+    },
+    "v-mkt-019__ex": {
+      "start": 58.759,
+      "duration": 1.404
+    },
+    "v-mkt-020": {
+      "start": 60.313,
+      "duration": 1.066
+    },
+    "v-mkt-020__ex": {
+      "start": 61.529,
+      "duration": 1.783
+    },
+    "v-mkt-021": {
+      "start": 63.463,
+      "duration": 0.89
+    },
+    "v-mkt-021__ex": {
+      "start": 64.503,
+      "duration": 1.914
+    },
+    "v-mkt-022": {
+      "start": 66.567,
+      "duration": 0.972
+    },
+    "v-mkt-022__ex": {
+      "start": 67.689,
+      "duration": 1.676
+    },
+    "v-mkt-023": {
+      "start": 69.515,
+      "duration": 0.91
+    },
+    "v-mkt-023__ex": {
+      "start": 70.575,
+      "duration": 1.716
+    },
+    "v-mkt-024": {
+      "start": 72.441,
+      "duration": 0.803
+    },
+    "v-mkt-024__ex": {
+      "start": 73.394,
+      "duration": 1.103
+    },
+    "v-mkt-025": {
+      "start": 74.647,
+      "duration": 1.059
+    },
+    "v-mkt-025__ex": {
+      "start": 75.856,
+      "duration": 1.721
+    },
+    "v-mkt-026": {
+      "start": 77.727,
+      "duration": 0.95
+    },
+    "v-mkt-026__ex": {
+      "start": 78.827,
+      "duration": 1.598
+    },
+    "v-mkt-027": {
+      "start": 80.576,
+      "duration": 0.799
+    },
+    "v-mkt-027__ex": {
+      "start": 81.524,
+      "duration": 1.549
+    },
+    "v-mkt-028": {
+      "start": 83.223,
+      "duration": 1.043
+    },
+    "v-mkt-028__ex": {
+      "start": 84.417,
+      "duration": 1.657
+    },
+    "v-mkt-029": {
+      "start": 86.224,
+      "duration": 0.832
+    },
+    "v-mkt-029__ex": {
+      "start": 87.206,
+      "duration": 1.606
+    },
+    "v-mkt-030": {
+      "start": 88.961,
+      "duration": 0.861
+    },
+    "v-mkt-030__ex": {
+      "start": 89.973,
+      "duration": 1.125
+    },
+    "v-mkt-031": {
+      "start": 91.248,
+      "duration": 1.06
+    },
+    "v-mkt-031__ex": {
+      "start": 92.459,
+      "duration": 1.684
+    },
+    "v-mkt-032": {
+      "start": 94.292,
+      "duration": 1.032
+    },
+    "v-mkt-032__ex": {
+      "start": 95.474,
+      "duration": 1.76
+    },
+    "v-mkt-033": {
+      "start": 97.384,
+      "duration": 1.014
+    },
+    "v-mkt-033__ex": {
+      "start": 98.548,
+      "duration": 1.583
+    },
+    "v-mkt-034": {
+      "start": 100.281,
+      "duration": 0.948
+    },
+    "v-mkt-034__ex": {
+      "start": 101.379,
+      "duration": 1.707
+    },
+    "v-mkt-035": {
+      "start": 103.236,
+      "duration": 1.055
+    },
+    "v-mkt-035__ex": {
+      "start": 104.44,
+      "duration": 1.751
+    },
+    "v-mkt-036": {
+      "start": 106.341,
+      "duration": 1.303
+    },
+    "v-mkt-036__ex": {
+      "start": 107.794,
+      "duration": 1.586
+    },
+    "v-mkt-037": {
+      "start": 109.53,
+      "duration": 1.025
+    },
+    "v-mkt-037__ex": {
+      "start": 110.705,
+      "duration": 1.632
+    },
+    "v-mkt-038": {
+      "start": 112.487,
+      "duration": 0.837
+    },
+    "v-mkt-038__ex": {
+      "start": 113.475,
+      "duration": 1.499
+    },
+    "v-mkt-039": {
+      "start": 115.124,
+      "duration": 1.109
+    },
+    "v-mkt-039__ex": {
+      "start": 116.383,
+      "duration": 1.459
+    },
+    "v-mkt-040": {
+      "start": 117.992,
+      "duration": 0.912
+    },
+    "v-mkt-040__ex": {
+      "start": 119.055,
+      "duration": 1.695
+    },
+    "v-mkt-041": {
+      "start": 120.899,
+      "duration": 1
+    },
+    "v-mkt-041__ex": {
+      "start": 122.049,
+      "duration": 1.77
+    },
+    "v-mkt-042": {
+      "start": 123.969,
+      "duration": 1.165
+    },
+    "v-mkt-042__ex": {
+      "start": 125.285,
+      "duration": 1.877
+    },
+    "v-mkt-043": {
+      "start": 127.312,
+      "duration": 0.793
+    },
+    "v-mkt-043__ex": {
+      "start": 128.255,
+      "duration": 1.505
+    },
+    "v-mkt-044": {
+      "start": 129.911,
+      "duration": 1.044
+    },
+    "v-mkt-044__ex": {
+      "start": 131.105,
+      "duration": 1.693
+    },
+    "v-mkt-045": {
+      "start": 132.948,
+      "duration": 0.808
+    },
+    "v-mkt-045__ex": {
+      "start": 133.905,
+      "duration": 1.073
+    },
+    "v-mkt-046": {
+      "start": 135.128,
+      "duration": 0.746
+    },
+    "v-mkt-046__ex": {
+      "start": 136.024,
+      "duration": 1.531
+    },
+    "v-mkt-047": {
+      "start": 137.706,
+      "duration": 1.039
+    },
+    "v-mkt-047__ex": {
+      "start": 138.895,
+      "duration": 1.669
+    },
+    "v-mkt-048": {
+      "start": 140.714,
+      "duration": 1.008
+    },
+    "v-mkt-048__ex": {
+      "start": 141.872,
+      "duration": 1.811
+    },
+    "v-mkt-049": {
+      "start": 143.833,
+      "duration": 1.136
+    },
+    "v-mkt-049__ex": {
+      "start": 145.119,
+      "duration": 2.17
+    },
+    "v-mkt-050": {
+      "start": 147.439,
+      "duration": 1.016
+    },
+    "v-mkt-050__ex": {
+      "start": 148.605,
+      "duration": 1.643
+    },
+    "v-mkt-051": {
+      "start": 150.398,
+      "duration": 1.024
+    },
+    "v-mkt-051__ex": {
+      "start": 151.571,
+      "duration": 1.848
+    },
+    "v-mkt-052": {
+      "start": 153.569,
+      "duration": 1.027
+    },
+    "v-mkt-052__ex": {
+      "start": 154.746,
+      "duration": 1.378
+    },
+    "v-mkt-053": {
+      "start": 156.274,
+      "duration": 0.829
+    },
+    "v-mkt-053__ex": {
+      "start": 157.253,
+      "duration": 2.423
+    },
+    "v-mkt-054": {
+      "start": 159.826,
+      "duration": 0.811
+    },
+    "v-mkt-054__ex": {
+      "start": 160.787,
+      "duration": 2.717
+    }
+  }
+}
