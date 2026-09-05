@@ -8,10 +8,17 @@
     "hy": "Լինել",
     "translit": "linel",
     "ipa": "/liˈnel/",
-    "ja": ["〜である", "いる", "なる"],
+    "ja": [
+      "〜である",
+      "いる",
+      "なる"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Նա ուզում է ուսանող լինել։", "ja": "彼は学生になりたがっています。" },
+    "example": {
+      "hy": "Նա ուզում է ուսանող լինել։",
+      "ja": "彼は学生になりたがっています。"
+    },
     "ruCognate": null
   },
   {
@@ -23,10 +30,18 @@
     "hy": "Ունենալ",
     "translit": "unenal",
     "ipa": "/uneˈnɑl/",
-    "ja": ["持つ", "ある"],
+    "ja": [
+      "持つ",
+      "ある"
+    ],
     "pos": "verb",
-    "forms": { "present": "ունեմ" },
-    "example": { "hy": "Ես ժամանակ չունեմ։", "ja": "私は時間がありません。" },
+    "forms": {
+      "present": "ունեմ"
+    },
+    "example": {
+      "hy": "Ես ժամանակ չունեմ։",
+      "ja": "私は時間がありません。"
+    },
     "ruCognate": null
   },
   {
@@ -38,10 +53,16 @@
     "hy": "Անել",
     "translit": "anel",
     "ipa": "/ɑˈnel/",
-    "ja": ["する", "作る"],
+    "ja": [
+      "する",
+      "作る"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Ի՞նչ ես անում։", "ja": "何をしていますか。" },
+    "example": {
+      "hy": "Ի՞նչ ես անում։",
+      "ja": "何をしていますか。"
+    },
     "ruCognate": null
   },
   {
@@ -53,10 +74,15 @@
     "hy": "Կարդալ",
     "translit": "kardal",
     "ipa": "/kɑɾˈdɑl/",
-    "ja": ["読む"],
+    "ja": [
+      "読む"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Ես կարդում եմ գիրք։", "ja": "私は本を読んでいます。" },
+    "example": {
+      "hy": "Ես կարդում եմ գիրք։",
+      "ja": "私は本を読んでいます。"
+    },
     "ruCognate": null
   },
   {
@@ -68,10 +94,17 @@
     "hy": "Գալ",
     "translit": "gal",
     "ipa": "/gɑl/",
-    "ja": ["来る"],
+    "ja": [
+      "来る"
+    ],
     "pos": "verb",
-    "forms": { "present": "գալիս եմ" },
-    "example": { "hy": "Նա վաղը կգա։", "ja": "彼は明日来ます。" },
+    "forms": {
+      "present": "գալիս եմ"
+    },
+    "example": {
+      "hy": "Նա վաղը կգա։",
+      "ja": "彼は明日来ます。"
+    },
     "ruCognate": null
   },
   {
@@ -83,10 +116,16 @@
     "hy": "Ուզել",
     "translit": "uzel",
     "ipa": "/uˈzel/",
-    "ja": ["欲しい", "〜したい"],
+    "ja": [
+      "欲しい",
+      "〜したい"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Ես ուզում եմ սուրճ։", "ja": "コーヒーが欲しいです。" },
+    "example": {
+      "hy": "Ես ուզում եմ սուրճ։",
+      "ja": "コーヒーが欲しいです。"
+    },
     "ruCognate": null
   },
   {
@@ -98,10 +137,18 @@
     "hy": "Իմանալ",
     "translit": "imanal",
     "ipa": "/imɑˈnɑl/",
-    "ja": ["知る", "分かる"],
+    "ja": [
+      "知る",
+      "分かる"
+    ],
     "pos": "verb",
-    "forms": { "present": "գիտեմ" },
-    "example": { "hy": "Չգիտեմ նրա անունը։", "ja": "彼の名前を知りません。" },
+    "forms": {
+      "present": "գիտեմ"
+    },
+    "example": {
+      "hy": "Չգիտեմ նրա անունը։",
+      "ja": "彼の名前を知りません。"
+    },
     "ruCognate": null
   },
   {
@@ -113,10 +160,18 @@
     "hy": "Տալ",
     "translit": "tal",
     "ipa": "/tɑl/",
-    "ja": ["与える", "渡す"],
+    "ja": [
+      "与える",
+      "渡す"
+    ],
     "pos": "verb",
-    "forms": { "present": "տալիս եմ" },
-    "example": { "hy": "Ես ձեզ փող եմ տալիս։", "ja": "あなたにお金を渡します。" },
+    "forms": {
+      "present": "տալիս եմ"
+    },
+    "example": {
+      "hy": "Ես ձեզ փող եմ տալիս։",
+      "ja": "あなたにお金を渡します。"
+    },
     "ruCognate": null
   },
   {
@@ -128,10 +183,16 @@
     "hy": "Առնել",
     "translit": "arnel",
     "ipa": "/ɑrˈnel/",
-    "ja": ["取る", "買う"],
+    "ja": [
+      "取る",
+      "買う"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Ես ուզում եմ հաց առնել։", "ja": "パンを買いたいです。" },
+    "example": {
+      "hy": "Ես ուզում եմ հաց առնել։",
+      "ja": "パンを買いたいです。"
+    },
     "ruCognate": null
   },
   {
@@ -143,10 +204,15 @@
     "hy": "Ասել",
     "translit": "asel",
     "ipa": "/ɑˈsel/",
-    "ja": ["言う"],
+    "ja": [
+      "言う"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Նա բարև ասաց։", "ja": "彼はこんにちはと言った。" },
+    "example": {
+      "hy": "Նա բարև ասաց։",
+      "ja": "彼はこんにちはと言った。"
+    },
     "ruCognate": null
   },
   {
@@ -158,10 +224,16 @@
     "hy": "Տեսնել",
     "translit": "tesnel",
     "ipa": "/tesˈnel/",
-    "ja": ["見る", "会う"],
+    "ja": [
+      "見る",
+      "会う"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Ես տեսնում եմ քեզ։", "ja": "あなたが見えます。" },
+    "example": {
+      "hy": "Ես տեսնում եմ քեզ։",
+      "ja": "あなたが見えます。"
+    },
     "ruCognate": null
   },
   {
@@ -173,10 +245,15 @@
     "hy": "Խոսել",
     "translit": "khosel",
     "ipa": "/χoˈsel/",
-    "ja": ["話す"],
+    "ja": [
+      "話す"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Ես քիչ եմ խոսում հայերեն։", "ja": "私はアルメニア語を少し話します。" },
+    "example": {
+      "hy": "Ես քիչ եմ խոսում հայերեն։",
+      "ja": "私はアルメニア語を少し話します。"
+    },
     "ruCognate": null
   },
   {
@@ -188,10 +265,16 @@
     "hy": "Հասկանալ",
     "translit": "haskanal",
     "ipa": "/hɑskɑˈnɑl/",
-    "ja": ["理解する", "分かる"],
+    "ja": [
+      "理解する",
+      "分かる"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Ես չեմ հասկանում։", "ja": "わかりません。" },
+    "example": {
+      "hy": "Ես չեմ հասկանում։",
+      "ja": "わかりません。"
+    },
     "ruCognate": null
   },
   {
@@ -203,10 +286,16 @@
     "hy": "Սիրել",
     "translit": "sirel",
     "ipa": "/siˈɾel/",
-    "ja": ["愛する", "好む"],
+    "ja": [
+      "愛する",
+      "好む"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Ես սիրում եմ Երևանը։", "ja": "私はエレバンが好きです。" },
+    "example": {
+      "hy": "Ես սիրում եմ Երևանը։",
+      "ja": "私はエレバンが好きです。"
+    },
     "ruCognate": null
   },
   {
@@ -218,10 +307,16 @@
     "hy": "Հեշտ",
     "translit": "hesht",
     "ipa": "/heʃt/",
-    "ja": ["簡単な", "易しい"],
+    "ja": [
+      "簡単な",
+      "易しい"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Այս գործը հեշտ է։", "ja": "この仕事は簡単です。" },
+    "example": {
+      "hy": "Այս գործը հեշտ է։",
+      "ja": "この仕事は簡単です。"
+    },
     "ruCognate": null
   },
   {
@@ -233,10 +328,16 @@
     "hy": "Մաքուր",
     "translit": "mak'ur",
     "ipa": "/mɑˈkʰuɾ/",
-    "ja": ["清潔な", "きれいな"],
+    "ja": [
+      "清潔な",
+      "きれいな"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Սենյակը մաքուր է։", "ja": "部屋はきれいです。" },
+    "example": {
+      "hy": "Սենյակը մաքուր է։",
+      "ja": "部屋はきれいです。"
+    },
     "ruCognate": null
   },
   {
@@ -248,10 +349,15 @@
     "hy": "Լավ",
     "translit": "lav",
     "ipa": "/lɑv/",
-    "ja": ["良い"],
+    "ja": [
+      "良い"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Այսօր եղանակը լավ է։", "ja": "今日は天気がいいです。" },
+    "example": {
+      "hy": "Այսօր եղանակը լավ է։",
+      "ja": "今日は天気がいいです。"
+    },
     "ruCognate": null
   },
   {
@@ -263,10 +369,15 @@
     "hy": "Վատ",
     "translit": "vat",
     "ipa": "/vɑt/",
-    "ja": ["悪い"],
+    "ja": [
+      "悪い"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Ես ինձ վատ եմ զգում։", "ja": "気分が悪いです。" },
+    "example": {
+      "hy": "Ես ինձ վատ եմ զգում։",
+      "ja": "気分が悪いです。"
+    },
     "ruCognate": null
   },
   {
@@ -278,10 +389,15 @@
     "hy": "Նոր",
     "translit": "nor",
     "ipa": "/noɾ/",
-    "ja": ["新しい"],
+    "ja": [
+      "新しい"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Սա նոր հեռախոս է։", "ja": "これは新しい電話です。" },
+    "example": {
+      "hy": "Սա նոր հեռախոս է։",
+      "ja": "これは新しい電話です。"
+    },
     "ruCognate": null
   },
   {
@@ -293,10 +409,15 @@
     "hy": "Հին",
     "translit": "hin",
     "ipa": "/hin/",
-    "ja": ["古い"],
+    "ja": [
+      "古い"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Այս շենքը շատ հին է։", "ja": "この建物はとても古いです。" },
+    "example": {
+      "hy": "Այս շենքը շատ հին է։",
+      "ja": "この建物はとても古いです。"
+    },
     "ruCognate": null
   },
   {
@@ -308,10 +429,15 @@
     "hy": "Երկար",
     "translit": "yerkar",
     "ipa": "/jeɾˈkɑɾ/",
-    "ja": ["長い"],
+    "ja": [
+      "長い"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Ճանապարհը երկար է։", "ja": "道のりが長いです。" },
+    "example": {
+      "hy": "Ճանապարհը երկար է։",
+      "ja": "道のりが長いです。"
+    },
     "ruCognate": null
   },
   {
@@ -323,10 +449,15 @@
     "hy": "Կարճ",
     "translit": "karch",
     "ipa": "/kɑɾt͡ʃ/",
-    "ja": ["短い"],
+    "ja": [
+      "短い"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Այս փողոցը կարճ է։", "ja": "この通りは短いです。" },
+    "example": {
+      "hy": "Այս փողոցը կարճ է։",
+      "ja": "この通りは短いです。"
+    },
     "ruCognate": null
   },
   {
@@ -338,10 +469,16 @@
     "hy": "Գեղեցիկ",
     "translit": "geghetsik",
     "ipa": "/geʁeˈt͡sʰik/",
-    "ja": ["美しい", "きれいな"],
+    "ja": [
+      "美しい",
+      "きれいな"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Երևանը գեղեցիկ քաղաք է։", "ja": "エレバンは美しい街です。" },
+    "example": {
+      "hy": "Երևանը գեղեցիկ քաղաք է։",
+      "ja": "エレバンは美しい街です。"
+    },
     "ruCognate": null
   },
   {
@@ -353,10 +490,15 @@
     "hy": "Կարևոր",
     "translit": "karevor",
     "ipa": "/kɑɾeˈvoɾ/",
-    "ja": ["重要な"],
+    "ja": [
+      "重要な"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Սա կարևոր փաստաթուղթ է։", "ja": "これは重要な書類です。" },
+    "example": {
+      "hy": "Սա կարևոր փաստաթուղթ է։",
+      "ja": "これは重要な書類です。"
+    },
     "ruCognate": null
   },
   {
@@ -368,10 +510,15 @@
     "hy": "Ուժեղ",
     "translit": "uzhegh",
     "ipa": "/uˈʒeʁ/",
-    "ja": ["強い"],
+    "ja": [
+      "強い"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Նա շատ ուժեղ է։", "ja": "彼はとても強いです。" },
+    "example": {
+      "hy": "Նա շատ ուժեղ է։",
+      "ja": "彼はとても強いです。"
+    },
     "ruCognate": null
   },
   {
@@ -383,10 +530,15 @@
     "hy": "Դժվար",
     "translit": "dzhvar",
     "ipa": "/dəʒˈvɑɾ/",
-    "ja": ["難しい"],
+    "ja": [
+      "難しい"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Հայերենը դժվար լեզու չէ։", "ja": "アルメニア語は難しい言語ではありません。" },
+    "example": {
+      "hy": "Հայերենը դժվար լեզու չէ։",
+      "ja": "アルメニア語は難しい言語ではありません。"
+    },
     "ruCognate": null
   },
   {
@@ -398,10 +550,15 @@
     "hy": "Գրել",
     "translit": "grel",
     "ipa": "/ɡəˈɾel/",
-    "ja": ["書く"],
+    "ja": [
+      "書く"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Անունը գրեք այստեղ։", "ja": "ここに名前を書いてください。" },
+    "example": {
+      "hy": "Անունը գրեք այստեղ։",
+      "ja": "ここに名前を書いてください。"
+    },
     "ruCognate": null
   },
   {
@@ -413,10 +570,15 @@
     "hy": "Կարողանալ",
     "translit": "karoghanal",
     "ipa": "/kɑɾoʁɑˈnɑl/",
-    "ja": ["〜できる"],
+    "ja": [
+      "〜できる"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Չեմ կարողանում կարդալ այս բառը։", "ja": "この単語が読めません。" },
+    "example": {
+      "hy": "Չեմ կարողանում կարդալ այս բառը։",
+      "ja": "この単語が読めません。"
+    },
     "ruCognate": null
   },
   {
@@ -428,10 +590,16 @@
     "hy": "Սովորել",
     "translit": "sovorel",
     "ipa": "/sovoˈɾel/",
-    "ja": ["学ぶ", "慣れる"],
+    "ja": [
+      "学ぶ",
+      "慣れる"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Ես հայերեն եմ սովորում։", "ja": "私はアルメニア語を学んでいます。" },
+    "example": {
+      "hy": "Ես հայերեն եմ սովորում։",
+      "ja": "私はアルメニア語を学んでいます。"
+    },
     "ruCognate": null
   },
   {
@@ -443,10 +611,16 @@
     "hy": "Մնալ",
     "translit": "mnal",
     "ipa": "/məˈnɑl/",
-    "ja": ["留まる", "残る"],
+    "ja": [
+      "留まる",
+      "残る"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Ես մնում եմ Երևանում մեկ ամիս։", "ja": "私はエレバンに1か月滞在します。" },
+    "example": {
+      "hy": "Ես մնում եմ Երևանում մեկ ամիս։",
+      "ja": "私はエレバンに1か月滞在します。"
+    },
     "ruCognate": null
   },
   {
@@ -458,10 +632,15 @@
     "hy": "Դնել",
     "translit": "dnel",
     "ipa": "/dəˈnel/",
-    "ja": ["置く"],
+    "ja": [
+      "置く"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Գիրքը սեղանին դրեք։", "ja": "本を机の上に置いてください。" },
+    "example": {
+      "hy": "Գիրքը սեղանին դրեք։",
+      "ja": "本を机の上に置いてください。"
+    },
     "ruCognate": null
   },
   {
@@ -473,10 +652,15 @@
     "hy": "Բերել",
     "translit": "berel",
     "ipa": "/beˈɾel/",
-    "ja": ["持ってくる"],
+    "ja": [
+      "持ってくる"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Ջուր բերեք, խնդրում եմ։", "ja": "水を持ってきてください。" },
+    "example": {
+      "hy": "Ջուր բերեք, խնդրում եմ։",
+      "ja": "水を持ってきてください。"
+    },
     "ruCognate": null
   },
   {
@@ -488,10 +672,16 @@
     "hy": "Օգնել",
     "translit": "ognel",
     "ipa": "/oɡˈnel/",
-    "ja": ["助ける", "手伝う"],
+    "ja": [
+      "助ける",
+      "手伝う"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Կարո՞ղ եք ինձ օգնել։", "ja": "手伝ってもらえますか。" },
+    "example": {
+      "hy": "Կարո՞ղ եք ինձ օգնել։",
+      "ja": "手伝ってもらえますか。"
+    },
     "ruCognate": null
   },
   {
@@ -503,10 +693,15 @@
     "hy": "Սկսել",
     "translit": "sksel",
     "ipa": "/skəˈsel/",
-    "ja": ["始める"],
+    "ja": [
+      "始める"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Դասը սկսվում է ժամը ինը։", "ja": "授業は9時に始まります。" },
+    "example": {
+      "hy": "Դասը սկսվում է ժամը ինը։",
+      "ja": "授業は9時に始まります。"
+    },
     "ruCognate": null
   },
   {
@@ -518,10 +713,16 @@
     "hy": "Հիշել",
     "translit": "hishel",
     "ipa": "/hiˈʃel/",
-    "ja": ["覚えている", "思い出す"],
+    "ja": [
+      "覚えている",
+      "思い出す"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Չեմ հիշում նրա անունը։", "ja": "彼の名前を思い出せません。" },
+    "example": {
+      "hy": "Չեմ հիշում նրա անունը։",
+      "ja": "彼の名前を思い出せません。"
+    },
     "ruCognate": null
   },
   {
@@ -533,10 +734,15 @@
     "hy": "Մոռանալ",
     "translit": "moranal",
     "ipa": "/moɾɑˈnɑl/",
-    "ja": ["忘れる"],
+    "ja": [
+      "忘れる"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Մի՛ մոռացիր բանալին։", "ja": "鍵を忘れないで。" },
+    "example": {
+      "hy": "Մի՛ մոռացիր բանալին։",
+      "ja": "鍵を忘れないで。"
+    },
     "ruCognate": null
   },
   {
@@ -548,10 +754,15 @@
     "hy": "Ծանր",
     "translit": "tsanr",
     "ipa": "/t͡sɑnɾ/",
-    "ja": ["重い"],
+    "ja": [
+      "重い"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Այս ճամպրուկը շատ ծանր է։", "ja": "このスーツケースはとても重いです。" },
+    "example": {
+      "hy": "Այս ճամպրուկը շատ ծանր է։",
+      "ja": "このスーツケースはとても重いです。"
+    },
     "ruCognate": null
   },
   {
@@ -563,10 +774,15 @@
     "hy": "Թեթև",
     "translit": "t'et'ev",
     "ipa": "/tʰeˈtʰev/",
-    "ja": ["軽い"],
+    "ja": [
+      "軽い"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Այս պայուսակը թեթև է։", "ja": "このかばんは軽いです。" },
+    "example": {
+      "hy": "Այս պայուսակը թեթև է։",
+      "ja": "このかばんは軽いです。"
+    },
     "ruCognate": null
   },
   {
@@ -578,10 +794,16 @@
     "hy": "Բարձր",
     "translit": "bardzr",
     "ipa": "/bɑɾd͡zɾ/",
-    "ja": ["高い", "（声が）大きい"],
+    "ja": [
+      "高い",
+      "（声が）大きい"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Այս շենքը շատ բարձր է։", "ja": "この建物はとても高いです。" },
+    "example": {
+      "hy": "Այս շենքը շատ բարձր է։",
+      "ja": "この建物はとても高いです。"
+    },
     "ruCognate": null
   },
   {
@@ -593,10 +815,15 @@
     "hy": "Ցածր",
     "translit": "ts'atsr",
     "ipa": "/t͡sʰɑt͡sɾ/",
-    "ja": ["低い"],
+    "ja": [
+      "低い"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Աթոռը շատ ցածր է։", "ja": "椅子がとても低いです。" },
+    "example": {
+      "hy": "Աթոռը շատ ցածր է։",
+      "ja": "椅子がとても低いです。"
+    },
     "ruCognate": null
   },
   {
@@ -608,10 +835,16 @@
     "hy": "Լիքը",
     "translit": "lik'y",
     "ipa": "/liˈkʰə/",
-    "ja": ["いっぱいの", "満杯の"],
+    "ja": [
+      "いっぱいの",
+      "満杯の"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Ավտոբուսը լիքն էր։", "ja": "バスは満員でした。" },
+    "example": {
+      "hy": "Ավտոբուսը լիքն էր։",
+      "ja": "バスは満員でした。"
+    },
     "ruCognate": null
   },
   {
@@ -623,10 +856,16 @@
     "hy": "Հանգիստ",
     "translit": "hangist",
     "ipa": "/hɑnˈɡist/",
-    "ja": ["静かな", "落ち着いた"],
+    "ja": [
+      "静かな",
+      "落ち着いた"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Այս թաղամասը հանգիստ է։", "ja": "この地区は静かです。" },
+    "example": {
+      "hy": "Այս թաղամասը հանգիստ է։",
+      "ja": "この地区は静かです。"
+    },
     "ruCognate": null
   },
   {
@@ -638,10 +877,16 @@
     "hy": "Ուրախ",
     "translit": "urakh",
     "ipa": "/uˈɾɑχ/",
-    "ja": ["うれしい", "楽しい"],
+    "ja": [
+      "うれしい",
+      "楽しい"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Ես ուրախ եմ, որ քեզ տեսնում եմ։", "ja": "あなたに会えてうれしいです。" },
+    "example": {
+      "hy": "Ես ուրախ եմ, որ քեզ տեսնում եմ։",
+      "ja": "あなたに会えてうれしいです。"
+    },
     "ruCognate": null
   },
   {
@@ -653,10 +898,1062 @@
     "hy": "Տխուր",
     "translit": "tkhur",
     "ipa": "/təˈχuɾ/",
-    "ja": ["悲しい"],
+    "ja": [
+      "悲しい"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Ինչու՞ ես տխուր։", "ja": "どうして悲しいの。" },
+    "example": {
+      "hy": "Ինչու՞ ես տխուր։",
+      "ja": "どうして悲しいの。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-045",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Մտածել",
+    "translit": "mtatsel",
+    "ipa": "/mətɑˈt͡sel/",
+    "ja": [
+      "考える"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Մտածում եմ։",
+      "ja": "考えています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-046",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Հավատալ",
+    "translit": "havatal",
+    "ipa": "/hɑvɑˈtɑl/",
+    "ja": [
+      "信じる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հավատում եմ։",
+      "ja": "信じています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-047",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Մեռնել",
+    "translit": "mernel",
+    "ipa": "/merˈnel/",
+    "ja": [
+      "死ぬ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ծաղիկը մեռավ։",
+      "ja": "花が枯れました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-048",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Վազել",
+    "translit": "vazel",
+    "ipa": "/vɑˈzel/",
+    "ja": [
+      "走る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Վազում եմ առավոտյան։",
+      "ja": "朝に走っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-049",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Թռչել",
+    "translit": "t'rch'el",
+    "ipa": "/tʰərˈt͡ʃʰel/",
+    "ja": [
+      "飛ぶ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Թռչունը թռչում է։",
+      "ja": "鳥が飛んでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-050",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Լողալ",
+    "translit": "loghal",
+    "ipa": "/loˈʁɑl/",
+    "ja": [
+      "泳ぐ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Լողում եմ ծովում։",
+      "ja": "海で泳いでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-051",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Պառկել",
+    "translit": "parkel",
+    "ipa": "/pɑrˈkel/",
+    "ja": [
+      "横になる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Պառկում եմ։",
+      "ja": "横になります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-052",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Մտնել",
+    "translit": "mtnel",
+    "ipa": "/mətˈnel/",
+    "ja": [
+      "入る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Սենյակ եմ մտնում։",
+      "ja": "部屋に入ります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-053",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Վաճառել",
+    "translit": "vacharel",
+    "ipa": "/vɑt͡ʃɑˈrel/",
+    "ja": [
+      "売る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Միրգ են վաճառում։",
+      "ja": "果物を売っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-054",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Փնտրել",
+    "translit": "p'ntrel",
+    "ipa": "/pʰəntˈɾel/",
+    "ja": [
+      "探す"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Բանալին եմ փնտրում։",
+      "ja": "鍵を探しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-055",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ընտրել",
+    "translit": "yntrel",
+    "ipa": "/əntˈɾel/",
+    "ja": [
+      "選ぶ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ես եմ ընտրում։",
+      "ja": "私が選びます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-056",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Շարունակել",
+    "translit": "sharunakel",
+    "ipa": "/ʃɑɾunɑˈkel/",
+    "ja": [
+      "続ける"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Շարունակում ենք։",
+      "ja": "続けます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-057",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Նկարել",
+    "translit": "nkarel",
+    "ipa": "/nəkɑˈɾel/",
+    "ja": [
+      "描く",
+      "写真を撮る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Նկարում եմ։",
+      "ja": "写真を撮っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-058",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Լսել",
+    "translit": "lsel",
+    "ipa": "/ləˈsel/",
+    "ja": [
+      "聞く"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Երաժշտություն եմ լսում։",
+      "ja": "音楽を聞いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-059",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Նայել",
+    "translit": "nayel",
+    "ipa": "/nɑˈjel/",
+    "ja": [
+      "見る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Նայում եմ։",
+      "ja": "見ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-060",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Պատմել",
+    "translit": "patmel",
+    "ipa": "/pɑtˈmel/",
+    "ja": [
+      "話す",
+      "語る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Պատմիր, խնդրում եմ։",
+      "ja": "話してください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-061",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Կրկնել",
+    "translit": "krknel",
+    "ipa": "/kəɾkˈnel/",
+    "ja": [
+      "繰り返す"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Կրկնում եմ։",
+      "ja": "繰り返します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-062",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Շտապել",
+    "translit": "shtapel",
+    "ipa": "/ʃtɑˈpel/",
+    "ja": [
+      "急ぐ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Շտապում եմ։",
+      "ja": "急いでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-063",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ստուգել",
+    "translit": "stugel",
+    "ipa": "/stuˈɡel/",
+    "ja": [
+      "確認する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ստուգում եմ։",
+      "ja": "確認しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-064",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Հուսալ",
+    "translit": "husal",
+    "ipa": "/huˈsɑl/",
+    "ja": [
+      "望む"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հուսում եմ։",
+      "ja": "そう願っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-065",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Երազել",
+    "translit": "yerazel",
+    "ipa": "/jeɾɑˈzel/",
+    "ja": [
+      "夢見る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Երևանի մասին եմ երազում։",
+      "ja": "エレバンのことを夢見ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-066",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Պատրաստել",
+    "translit": "patrastel",
+    "ipa": "/pɑtɾɑsˈtel/",
+    "ja": [
+      "用意する",
+      "作る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ճաշ եմ պատրաստում։",
+      "ja": "食事を作っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-067",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Սարքել",
+    "translit": "sark'el",
+    "ipa": "/sɑɾˈkʰel/",
+    "ja": [
+      "直す",
+      "作る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Սարքում եմ։",
+      "ja": "直しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-068",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Կառուցել",
+    "translit": "karuts'el",
+    "ipa": "/kɑruˈt͡sʰel/",
+    "ja": [
+      "建てる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Շենք են կառուցում։",
+      "ja": "建物を建てています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-069",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Աճել",
+    "translit": "achel",
+    "ipa": "/ɑˈt͡ʃel/",
+    "ja": [
+      "育つ",
+      "増える"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ծառը աճում է։",
+      "ja": "木が育っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-070",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Բարձրացնել",
+    "translit": "bardzrats'nel",
+    "ipa": "/bɑɾt͡sʰɾɑt͡sʰˈnel/",
+    "ja": [
+      "上げる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ձայնը բարձրացնում եմ։",
+      "ja": "音を大きくします。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-071",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Օգտագործել",
+    "translit": "ogtagortsel",
+    "ipa": "/okʰtɑɡoɾˈt͡sel/",
+    "ja": [
+      "使う"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Բառարան եմ օգտագործում։",
+      "ja": "辞書を使っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-072",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ծանոթանալ",
+    "translit": "tsanot'anal",
+    "ipa": "/t͡sɑnotʰɑˈnɑl/",
+    "ja": [
+      "知り合う"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ուրախ եմ ծանոթանալ։",
+      "ja": "お会いできてうれしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-073",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Տգեղ",
+    "translit": "tgegh",
+    "ipa": "/təˈɡeʁ/",
+    "ja": [
+      "みにくい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Տգեղ շենք է։",
+      "ja": "みにくい建物です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-074",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Հարուստ",
+    "translit": "harust",
+    "ipa": "/hɑˈɾust/",
+    "ja": [
+      "裕福な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հարուստ մարդ է։",
+      "ja": "裕福な人です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-075",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Աղքատ",
+    "translit": "aghk'at",
+    "ipa": "/ɑχˈkʰɑt/",
+    "ja": [
+      "貧しい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Աղքատ երկիր չէ։",
+      "ja": "貧しい国ではありません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-076",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Խելացի",
+    "translit": "khelats'i",
+    "ipa": "/χelɑˈt͡sʰi/",
+    "ja": [
+      "賢い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Խելացի աշակերտ է։",
+      "ja": "賢い生徒です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-077",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Հիմար",
+    "translit": "himar",
+    "ipa": "/hiˈmɑɾ/",
+    "ja": [
+      "ばかな"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հիմար բան է։",
+      "ja": "ばかげたことです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-078",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Բարի",
+    "translit": "bari",
+    "ipa": "/bɑˈɾi/",
+    "ja": [
+      "やさしい",
+      "善い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Բարի մարդ է։",
+      "ja": "やさしい人です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-079",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Չար",
+    "translit": "char",
+    "ipa": "/t͡ʃʰɑɾ/",
+    "ja": [
+      "意地悪な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Չար շուն է։",
+      "ja": "意地悪な犬です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-080",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ազնիվ",
+    "translit": "azniv",
+    "ipa": "/ɑzˈniv/",
+    "ja": [
+      "正直な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ազնիվ վաճառող է։",
+      "ja": "正直な店員です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-081",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ծույլ",
+    "translit": "tsuyl",
+    "ipa": "/t͡sujl/",
+    "ja": [
+      "なまけ者の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ծույլ կատու է։",
+      "ja": "なまけ者の猫です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-082",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Աշխատասեր",
+    "translit": "ashkhataser",
+    "ipa": "/ɑʃχɑtɑˈseɾ/",
+    "ja": [
+      "勤勉な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Աշխատասեր է։",
+      "ja": "働き者です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-083",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Աղմկոտ",
+    "translit": "aghmkot",
+    "ipa": "/ɑʁməˈkot/",
+    "ja": [
+      "うるさい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Աղմկոտ փողոց է։",
+      "ja": "うるさい通りです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-084",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Մութ",
+    "translit": "mut'",
+    "ipa": "/mutʰ/",
+    "ja": [
+      "暗い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Սենյակը մութ է։",
+      "ja": "部屋が暗いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-085",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Լուսավոր",
+    "translit": "lusavor",
+    "ipa": "/lusɑˈvoɾ/",
+    "ja": [
+      "明るい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Լուսավոր սենյակ է։",
+      "ja": "明るい部屋です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-086",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Կլոր",
+    "translit": "klor",
+    "ipa": "/kəˈloɾ/",
+    "ja": [
+      "丸い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Կլոր սեղան է։",
+      "ja": "丸いテーブルです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-087",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ծուռ",
+    "translit": "tsur",
+    "ipa": "/t͡sur/",
+    "ja": [
+      "曲がった"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ծուռ գիծ է։",
+      "ja": "曲がった線です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-088",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Փափուկ",
+    "translit": "p'ap'uk",
+    "ipa": "/pʰɑˈpʰuk/",
+    "ja": [
+      "やわらかい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Բարձը փափուկ է։",
+      "ja": "まくらはやわらかいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-089",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Կոշտ",
+    "translit": "kosht",
+    "ipa": "/koʃt/",
+    "ja": [
+      "かたい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հացը կոշտ է։",
+      "ja": "パンがかたいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-090",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Սուր",
+    "translit": "sur",
+    "ipa": "/suɾ/",
+    "ja": [
+      "鋭い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Դանակը սուր է։",
+      "ja": "ナイフが鋭いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-091",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Թաց",
+    "translit": "t'ats'",
+    "ipa": "/tʰɑt͡sʰ/",
+    "ja": [
+      "ぬれた"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հագուստը թաց է։",
+      "ja": "服がぬれています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-092",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Կեղտոտ",
+    "translit": "keghtot",
+    "ipa": "/keχˈtot/",
+    "ja": [
+      "汚れた"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ձեռքերս կեղտոտ են։",
+      "ja": "手が汚れています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-093",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Հանդարտ",
+    "translit": "handart",
+    "ipa": "/hɑnˈdɑɾt/",
+    "ja": [
+      "穏やかな"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հանդարտ երեկո է։",
+      "ja": "穏やかな夕方です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-094",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Վտանգավոր",
+    "translit": "vtangavor",
+    "ipa": "/vətɑnɡɑˈvoɾ/",
+    "ja": [
+      "危険な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Վտանգավոր է։",
+      "ja": "危険です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-095",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Օգտակար",
+    "translit": "ogtakar",
+    "ipa": "/okʰtɑˈkɑɾ/",
+    "ja": [
+      "役に立つ"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Օգտակար գիրք է։",
+      "ja": "役に立つ本です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-096",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ուժգին",
+    "translit": "uzhgin",
+    "ipa": "/uʒˈɡin/",
+    "ja": [
+      "強い",
+      "激しい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ուժգին քամի է։",
+      "ja": "強い風です。"
+    },
     "ruCognate": null
   }
 ]
