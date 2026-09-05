@@ -1203,5 +1203,207 @@
       "ja": "もっとゆっくりお願いします。"
     },
     "ruCognate": null
+  },
+  {
+    "id": "v-fn-060",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Երբ",
+    "translit": "yerb",
+    "ipa": "/jeɾpʰ/",
+    "ja": [
+      "いつ",
+      "〜のとき"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Երբ ես գալիս։",
+      "ja": "いつ来ますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-061",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Սակայն",
+    "translit": "sakayn",
+    "ipa": "/sɑˈkɑjn/",
+    "ja": [
+      "しかし"
+    ],
+    "pos": "conjunction",
+    "forms": {},
+    "example": {
+      "hy": "Ուզում եմ, սակայն չեմ կարող։",
+      "ja": "行きたいのですが、できません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-062",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Այնուամենայնիվ",
+    "translit": "aynuamenayniv",
+    "ipa": "/ɑjnuɑmenɑjˈniv/",
+    "ja": [
+      "それでも"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Այնուամենայնիվ գնում եմ։",
+      "ja": "それでも行きます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-063",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Նույնիսկ",
+    "translit": "nuynisk",
+    "ipa": "/ˈnujnisk/",
+    "ja": [
+      "〜さえ"
+    ],
+    "pos": "particle",
+    "forms": {},
+    "example": {
+      "hy": "Նույնիսկ չգիտեմ։",
+      "ja": "知りさえしません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-064",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Նախ",
+    "translit": "nakh",
+    "ipa": "/nɑχ/",
+    "ja": [
+      "まず"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Նախ ուտենք։",
+      "ja": "まず食べましょう。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-065",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Բացի",
+    "translit": "bats'i",
+    "ipa": "/bɑˈt͡sʰi/",
+    "ja": [
+      "〜のほかに"
+    ],
+    "pos": "postposition",
+    "forms": {},
+    "example": {
+      "hy": "Բացի ինձնից ոչ ոք չկա։",
+      "ja": "私のほかに誰もいません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-066",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Համաձայն",
+    "translit": "hamadzayn",
+    "ipa": "/hɑmɑˈd͡zɑjn/",
+    "ja": [
+      "同意して",
+      "〜によると"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Համաձայն եմ։",
+      "ja": "賛成です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-067",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Միջև",
+    "translit": "mijev",
+    "ipa": "/miˈt͡ʃʰev/",
+    "ja": [
+      "〜の間に"
+    ],
+    "pos": "postposition",
+    "forms": {},
+    "example": {
+      "hy": "Մեր միջև է։",
+      "ja": "私たちの間のことです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-068",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Դեմ",
+    "translit": "dem",
+    "ipa": "/dem/",
+    "ja": [
+      "〜に反対して"
+    ],
+    "pos": "postposition",
+    "forms": {},
+    "example": {
+      "hy": "Դեմ եմ։",
+      "ja": "反対です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-fn-069",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "function-words",
+    "hy": "Շնորհիվ",
+    "translit": "shnorhiv",
+    "ipa": "/ʃənoˈɾiv/",
+    "ja": [
+      "〜のおかげで"
+    ],
+    "pos": "postposition",
+    "forms": {},
+    "example": {
+      "hy": "Ձեր շնորհիվ։",
+      "ja": "あなたのおかげです。"
+    },
+    "ruCognate": null
   }
 ]

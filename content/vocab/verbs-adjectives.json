@@ -2562,5 +2562,448 @@
       "ja": "お断りします。"
     },
     "ruCognate": null
+  },
+  {
+    "id": "v-vadj-127",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Անհրաժեշտ",
+    "translit": "anhrazhesht",
+    "ipa": "/ɑnhəɾɑˈʒeʃt/",
+    "ja": [
+      "必要な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Անհրաժեշտ է։",
+      "ja": "必要です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-128",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Հնարավոր",
+    "translit": "hnaravor",
+    "ipa": "/hənɑɾɑˈvoɾ/",
+    "ja": [
+      "可能な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հնարավոր է։",
+      "ja": "可能です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-129",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Անհնար",
+    "translit": "anhnar",
+    "ipa": "/ɑnhəˈnɑɾ/",
+    "ja": [
+      "不可能な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Անհնար է։",
+      "ja": "無理です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-130",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ճիշտ",
+    "translit": "chisht",
+    "ipa": "/t͡ʃiʃt/",
+    "ja": [
+      "正しい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ճիշտ եք։",
+      "ja": "おっしゃるとおりです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-131",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Պարզ",
+    "translit": "parz",
+    "ipa": "/pɑɾz/",
+    "ja": [
+      "わかりやすい",
+      "晴れた"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Պարզ է։",
+      "ja": "わかりました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-132",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Բարդ",
+    "translit": "bard",
+    "ipa": "/bɑɾtʰ/",
+    "ja": [
+      "複雑な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Բարդ հարց է։",
+      "ja": "難しい問題です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-133",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Տարօրինակ",
+    "translit": "tarorinak",
+    "ipa": "/tɑɾoɾiˈnɑk/",
+    "ja": [
+      "変な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Տարօրինակ ձայն է։",
+      "ja": "変な音です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-134",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Սովորական",
+    "translit": "sovorakan",
+    "ipa": "/sovoɾɑˈkɑn/",
+    "ja": [
+      "ふつうの"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Սովորական օր է։",
+      "ja": "ふつうの日です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-135",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Հատուկ",
+    "translit": "hatuk",
+    "ipa": "/hɑˈtuk/",
+    "ja": [
+      "特別な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հատուկ օր է։",
+      "ja": "特別な日です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-136",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Նույն",
+    "translit": "nuyn",
+    "ipa": "/nujn/",
+    "ja": [
+      "同じ"
+    ],
+    "pos": "pronoun",
+    "forms": {},
+    "example": {
+      "hy": "Նույն բանն է։",
+      "ja": "同じことです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-137",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Տարբեր",
+    "translit": "tarber",
+    "ipa": "/tɑɾˈbeɾ/",
+    "ja": [
+      "ちがう",
+      "さまざまな"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Տարբեր գույներ կան։",
+      "ja": "いろいろな色があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-138",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Պատրաստ",
+    "translit": "patrast",
+    "ipa": "/pɑtˈɾɑst/",
+    "ja": [
+      "用意ができた"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Պատրաստ եմ։",
+      "ja": "準備ができました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-139",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ժամանակակից",
+    "translit": "zhamanakakits'",
+    "ipa": "/ʒɑmɑnɑkɑˈkit͡sʰ/",
+    "ja": [
+      "現代の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ժամանակակից շենք է։",
+      "ja": "現代的な建物です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-140",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Պաշտոնական",
+    "translit": "pashtonakan",
+    "ipa": "/pɑʃtonɑˈkɑn/",
+    "ja": [
+      "公式の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Պաշտոնական փաստաթուղթ է։",
+      "ja": "公式の書類です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-141",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Հաճելի",
+    "translit": "hacheli",
+    "ipa": "/hɑt͡ʃeˈli/",
+    "ja": [
+      "心地よい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հաճելի երեկո է։",
+      "ja": "気持ちのいい夕方です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-142",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Տհաճ",
+    "translit": "thach",
+    "ipa": "/təˈhɑt͡ʃ/",
+    "ja": [
+      "不快な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Տհաճ հոտ է։",
+      "ja": "いやなにおいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-143",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Սարսափելի",
+    "translit": "sarsap'eli",
+    "ipa": "/sɑɾsɑpʰeˈli/",
+    "ja": [
+      "ひどい",
+      "恐ろしい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Սարսափելի ցուրտ է։",
+      "ja": "ひどく寒いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-144",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Հրաշալի",
+    "translit": "hrashali",
+    "ipa": "/həɾɑʃɑˈli/",
+    "ja": [
+      "すばらしい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հրաշալի է։",
+      "ja": "すばらしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-145",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Հայտնի",
+    "translit": "haytni",
+    "ipa": "/hɑjtˈni/",
+    "ja": [
+      "有名な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հայտնի տեղ է։",
+      "ja": "有名な場所です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-146",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Անհայտ",
+    "translit": "anhayt",
+    "ipa": "/ɑnˈhɑjt/",
+    "ja": [
+      "知られていない"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Անհայտ համար է։",
+      "ja": "知らない番号です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-147",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Իրական",
+    "translit": "irakan",
+    "ipa": "/iɾɑˈkɑn/",
+    "ja": [
+      "本当の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Իրական պատմություն է։",
+      "ja": "実話です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-148",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Կեղծ",
+    "translit": "keghts",
+    "ipa": "/keχt͡s/",
+    "ja": [
+      "にせの"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Կեղծ փաստաթուղթ է։",
+      "ja": "にせの書類です。"
+    },
+    "ruCognate": null
   }
 ]

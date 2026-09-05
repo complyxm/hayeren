@@ -1113,5 +1113,228 @@
       "ja": "ブラシがほしいです。"
     },
     "ruCognate": null
+  },
+  {
+    "id": "v-home-056",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Ականջակալ",
+    "translit": "akanjakal",
+    "ipa": "/ɑkɑnd͡ʒɑˈkɑl/",
+    "ja": [
+      "イヤホン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ականջակալ եմ գնում։",
+      "ja": "イヤホンを買います。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-057",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Օդորակիչ",
+    "translit": "odorakich",
+    "ipa": "/otʰoɾɑˈkit͡ʃʰ/",
+    "ja": [
+      "エアコン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Օդորակիչը չի աշխատում։",
+      "ja": "エアコンが動きません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-058",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Վառարան",
+    "translit": "vararan",
+    "ipa": "/vɑrɑˈɾɑn/",
+    "ja": [
+      "ストーブ",
+      "かまど"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վառարանը տաք է։",
+      "ja": "ストーブが熱いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-059",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Էլեկտրական",
+    "translit": "elektrakan",
+    "ipa": "/elektɾɑˈkɑn/",
+    "ja": [
+      "電気の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Էլեկտրական սարք է։",
+      "ja": "電気製品です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-060",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Մկրատ",
+    "translit": "mkrat",
+    "ipa": "/məkˈɾɑt/",
+    "ja": [
+      "はさみ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մկրատ կա՞։",
+      "ja": "はさみはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-061",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Կողպել",
+    "translit": "koghpel",
+    "ipa": "/koχˈpel/",
+    "ja": [
+      "鍵をかける"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Դուռը կողպում եմ։",
+      "ja": "ドアに鍵をかけます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-062",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Սանդուղք",
+    "translit": "sandughk'",
+    "ipa": "/sɑnˈduχkʰ/",
+    "ja": [
+      "階段",
+      "はしご"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սանդուղքով եմ բարձրանում։",
+      "ja": "階段で上がります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-063",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Խնայել",
+    "translit": "khnayel",
+    "ipa": "/χənɑˈjel/",
+    "ja": [
+      "節約する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հոսանք եմ խնայում։",
+      "ja": "電気を節約しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-064",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Վերանորոգում",
+    "translit": "veranorogum",
+    "ipa": "/veɾɑnoɾoˈkʰum/",
+    "ja": [
+      "修理",
+      "改修"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վերանորոգում է գնում։",
+      "ja": "改修中です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-065",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Տեղադրել",
+    "translit": "teghadrel",
+    "ipa": "/teʁɑdˈɾel/",
+    "ja": [
+      "設置する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Օդորակիչ են տեղադրում։",
+      "ja": "エアコンを設置しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-066",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Միացում",
+    "translit": "miats'um",
+    "ipa": "/miɑˈt͡sʰum/",
+    "ja": [
+      "接続"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Միացումը կայուն է։",
+      "ja": "接続は安定しています。"
+    },
+    "ruCognate": null
   }
 ]
