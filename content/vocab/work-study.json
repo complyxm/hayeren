@@ -731,5 +731,307 @@
       "ja": "証明書をもらいます。"
     },
     "ruCognate": null
+  },
+  {
+    "id": "v-work-037",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Մաթեմատիկա",
+    "translit": "mat'ematika",
+    "ipa": "/mɑtʰemɑtiˈkɑ/",
+    "ja": [
+      "数学"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մաթեմատիկա եմ սովորում։",
+      "ja": "数学を勉強しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-038",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Աշխարհագրություն",
+    "translit": "ashkharhagrut'yun",
+    "ipa": "/ɑʃχɑɾɑɡɾuˈtʰjun/",
+    "ja": [
+      "地理"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Աշխարհագրությունը հետաքրքիր է։",
+      "ja": "地理はおもしろいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-039",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Ֆիզիկա",
+    "translit": "fizika",
+    "ipa": "/fiziˈkɑ/",
+    "ja": [
+      "物理"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ֆիզիկա չեմ սիրում։",
+      "ja": "物理は苦手です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-040",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Քիմիա",
+    "translit": "k'imia",
+    "ipa": "/kʰimiˈɑ/",
+    "ja": [
+      "化学"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Քիմիայի դաս է։",
+      "ja": "化学の授業です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-041",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Կենսաբանություն",
+    "translit": "kensabanut'yun",
+    "ipa": "/kensɑbɑnuˈtʰjun/",
+    "ja": [
+      "生物"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կենսաբանություն եմ սովորում։",
+      "ja": "生物を勉強しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-042",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Գրականություն",
+    "translit": "grakanut'yun",
+    "ipa": "/ɡəɾɑkɑnuˈtʰjun/",
+    "ja": [
+      "文学"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հայ գրականություն է։",
+      "ja": "アルメニア文学です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-043",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Նկարչություն",
+    "translit": "nkarch'ut'yun",
+    "ipa": "/nəkɑɾt͡ʃʰuˈtʰjun/",
+    "ja": [
+      "図画",
+      "絵を描くこと"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նկարչություն եմ սիրում։",
+      "ja": "絵を描くのが好きです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-044",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Մարմնամարզություն",
+    "translit": "marmnamarzut'yun",
+    "ipa": "/mɑɾmnɑmɑɾzuˈtʰjun/",
+    "ja": [
+      "体操"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մարմնամարզություն ունենք։",
+      "ja": "体操の授業があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-045",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Մատիտ",
+    "translit": "matit",
+    "ipa": "/mɑˈtit/",
+    "ja": [
+      "えんぴつ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մատիտ կա՞։",
+      "ja": "えんぴつはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-046",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Քանոն",
+    "translit": "k'anon",
+    "ipa": "/kʰɑˈnon/",
+    "ja": [
+      "定規"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Քանոն եմ ուզում։",
+      "ja": "定規がほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-047",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Ռետին",
+    "translit": "retin",
+    "ipa": "/reˈtin/",
+    "ja": [
+      "消しゴム"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ռետինը կորավ։",
+      "ja": "消しゴムをなくしました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-048",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Դասագիրք",
+    "translit": "dasagirk'",
+    "ipa": "/dɑsɑˈɡiɾkʰ/",
+    "ja": [
+      "教科書"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դասագիրքը բացեք։",
+      "ja": "教科書を開いてください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-049",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Դասարան",
+    "translit": "dasaran",
+    "ipa": "/dɑsɑˈɾɑn/",
+    "ja": [
+      "教室",
+      "学年"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դասարանը մեծ է։",
+      "ja": "教室は広いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-050",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Գրատախտակ",
+    "translit": "gratakhtak",
+    "ipa": "/ɡəɾɑtɑχˈtɑk/",
+    "ja": [
+      "黒板"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գրատախտակին գրում է։",
+      "ja": "黒板に書いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-051",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Ընդմիջում",
+    "translit": "yndmijum",
+    "ipa": "/əndmiˈt͡ʃʰum/",
+    "ja": [
+      "休憩"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ընդմիջում է։",
+      "ja": "休憩です。"
+    },
+    "ruCognate": null
   }
 ]

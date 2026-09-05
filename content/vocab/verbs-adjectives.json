@@ -3005,5 +3005,268 @@
       "ja": "にせの書類です。"
     },
     "ruCognate": null
+  },
+  {
+    "id": "v-vadj-149",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Տոթ",
+    "translit": "tot'",
+    "ipa": "/totʰ/",
+    "ja": [
+      "蒸し暑さ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տոթ է այսօր։",
+      "ja": "今日は蒸し暑いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-150",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Պայծառ",
+    "translit": "payytsar",
+    "ipa": "/pɑjˈt͡sɑr/",
+    "ja": [
+      "輝いた",
+      "明るい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Պայծառ օր է։",
+      "ja": "よく晴れた日です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-151",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Տաքանալ",
+    "translit": "tak'anal",
+    "ipa": "/tɑkʰɑˈnɑl/",
+    "ja": [
+      "暖かくなる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Օդը տաքանում է։",
+      "ja": "気温が上がっています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-152",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Փչել",
+    "translit": "p'ch'el",
+    "ipa": "/pʰəˈt͡ʃʰel/",
+    "ja": [
+      "吹く"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Քամին փչում է։",
+      "ja": "風が吹いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-153",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Հոտ",
+    "translit": "hot",
+    "ipa": "/hot/",
+    "ja": [
+      "におい"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Լավ հոտ է։",
+      "ja": "いいにおいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-154",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Տեսողություն",
+    "translit": "tesoghut'yun",
+    "ipa": "/tesoʁuˈtʰjun/",
+    "ja": [
+      "視力"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տեսողությունս վատ է։",
+      "ja": "視力が悪いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-155",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Լսողություն",
+    "translit": "lsoghut'yun",
+    "ipa": "/ləsoʁuˈtʰjun/",
+    "ja": [
+      "聴力"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Լսողությունը լավ է։",
+      "ja": "耳はよく聞こえます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-156",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Հոտոտել",
+    "translit": "hototel",
+    "ipa": "/hotoˈtel/",
+    "ja": [
+      "においをかぐ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Շունը հոտոտում է։",
+      "ja": "犬がにおいをかいでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-157",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Դիպչել",
+    "translit": "dipch'el",
+    "ipa": "/dipˈt͡ʃʰel/",
+    "ja": [
+      "触れる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Մի՛ դիպչեք։",
+      "ja": "触らないでください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-158",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ձայն",
+    "translit": "dzayn",
+    "ipa": "/d͡zɑjn/",
+    "ja": [
+      "音",
+      "声"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ձայնը բարձր է։",
+      "ja": "音が大きいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-159",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Քայլել",
+    "translit": "k'aylel",
+    "ipa": "/kʰɑjˈlel/",
+    "ja": [
+      "歩く"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Դանդաղ եմ քայլում։",
+      "ja": "ゆっくり歩いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-160",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ցատկել",
+    "translit": "ts'atkel",
+    "ipa": "/t͡sʰɑtˈkel/",
+    "ja": [
+      "跳ぶ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Երեխան ցատկում է։",
+      "ja": "子どもが跳んでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-161",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Բարձրանալ",
+    "translit": "bardzranal",
+    "ipa": "/bɑɾt͡sʰɾɑˈnɑl/",
+    "ja": [
+      "上がる",
+      "登る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Սարը բարձրանում ենք։",
+      "ja": "山を登っています。"
+    },
+    "ruCognate": null
   }
 ]

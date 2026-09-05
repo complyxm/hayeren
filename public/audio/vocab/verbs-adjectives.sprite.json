@@ -1192,6 +1192,110 @@
     "v-vadj-148__ex": {
       "start": 480.366,
       "duration": 2.151
+    },
+    "v-vadj-149": {
+      "start": 482.667,
+      "duration": 0.774
+    },
+    "v-vadj-149__ex": {
+      "start": 483.591,
+      "duration": 1.309
+    },
+    "v-vadj-150": {
+      "start": 485.05,
+      "duration": 1.055
+    },
+    "v-vadj-150__ex": {
+      "start": 486.255,
+      "duration": 1.379
+    },
+    "v-vadj-151": {
+      "start": 487.784,
+      "duration": 1.259
+    },
+    "v-vadj-151__ex": {
+      "start": 489.193,
+      "duration": 1.697
+    },
+    "v-vadj-152": {
+      "start": 491.04,
+      "duration": 1.039
+    },
+    "v-vadj-152__ex": {
+      "start": 492.229,
+      "duration": 1.712
+    },
+    "v-vadj-153": {
+      "start": 494.091,
+      "duration": 0.779
+    },
+    "v-vadj-153__ex": {
+      "start": 495.019,
+      "duration": 1.266
+    },
+    "v-vadj-154": {
+      "start": 496.435,
+      "duration": 1.489
+    },
+    "v-vadj-154__ex": {
+      "start": 498.074,
+      "duration": 2.024
+    },
+    "v-vadj-155": {
+      "start": 500.249,
+      "duration": 1.482
+    },
+    "v-vadj-155__ex": {
+      "start": 501.881,
+      "duration": 2.012
+    },
+    "v-vadj-156": {
+      "start": 504.043,
+      "duration": 1.179
+    },
+    "v-vadj-156__ex": {
+      "start": 505.372,
+      "duration": 1.747
+    },
+    "v-vadj-157": {
+      "start": 507.269,
+      "duration": 1.022
+    },
+    "v-vadj-157__ex": {
+      "start": 508.442,
+      "duration": 1.277
+    },
+    "v-vadj-158": {
+      "start": 509.869,
+      "duration": 0.9
+    },
+    "v-vadj-158__ex": {
+      "start": 510.919,
+      "duration": 1.603
+    },
+    "v-vadj-159": {
+      "start": 512.671,
+      "duration": 1.056
+    },
+    "v-vadj-159__ex": {
+      "start": 513.877,
+      "duration": 1.905
+    },
+    "v-vadj-160": {
+      "start": 515.932,
+      "duration": 1.184
+    },
+    "v-vadj-160__ex": {
+      "start": 517.267,
+      "duration": 2.041
+    },
+    "v-vadj-161": {
+      "start": 519.458,
+      "duration": 1.277
+    },
+    "v-vadj-161__ex": {
+      "start": 520.885,
+      "duration": 1.927
     }
   }
 }
