@@ -304,6 +304,78 @@
     "v-shop-037__ex": {
       "start": 123.822,
       "duration": 3.136
+    },
+    "v-shop-038": {
+      "start": 127.108,
+      "duration": 1.186
+    },
+    "v-shop-038__ex": {
+      "start": 128.444,
+      "duration": 2.172
+    },
+    "v-shop-039": {
+      "start": 130.767,
+      "duration": 1.267
+    },
+    "v-shop-039__ex": {
+      "start": 132.184,
+      "duration": 1.624
+    },
+    "v-shop-040": {
+      "start": 133.958,
+      "duration": 1.448
+    },
+    "v-shop-040__ex": {
+      "start": 135.556,
+      "duration": 2.083
+    },
+    "v-shop-041": {
+      "start": 137.79,
+      "duration": 1.277
+    },
+    "v-shop-041__ex": {
+      "start": 139.217,
+      "duration": 2.236
+    },
+    "v-shop-042": {
+      "start": 141.603,
+      "duration": 0.988
+    },
+    "v-shop-042__ex": {
+      "start": 142.741,
+      "duration": 1.798
+    },
+    "v-shop-043": {
+      "start": 144.689,
+      "duration": 1.057
+    },
+    "v-shop-043__ex": {
+      "start": 145.896,
+      "duration": 1.286
+    },
+    "v-shop-044": {
+      "start": 147.333,
+      "duration": 1.156
+    },
+    "v-shop-044__ex": {
+      "start": 148.638,
+      "duration": 1.787
+    },
+    "v-shop-045": {
+      "start": 150.575,
+      "duration": 1.215
+    },
+    "v-shop-045__ex": {
+      "start": 151.94,
+      "duration": 2.014
+    },
+    "v-shop-046": {
+      "start": 154.104,
+      "duration": 1.041
+    },
+    "v-shop-046__ex": {
+      "start": 155.295,
+      "duration": 1.551
     }
   }
 }

@@ -936,5 +936,291 @@
       "ja": "職員が手伝ってくれます。"
     },
     "ruCognate": null
+  },
+  {
+    "id": "v-net-047",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Սոցիալական",
+    "translit": "sots'ialakan",
+    "ipa": "/sot͡sʰjɑlɑˈkɑn/",
+    "ja": [
+      "社会の",
+      "ソーシャルな"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Սոցիալական ցանց է։",
+      "ja": "SNSです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-048",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Գրառում",
+    "translit": "grarum",
+    "ipa": "/ɡəɾɑˈrum/",
+    "ja": [
+      "投稿",
+      "記録"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գրառում եմ անում։",
+      "ja": "投稿します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-049",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Մեկնաբանություն",
+    "translit": "meknabanut'yun",
+    "ipa": "/meknɑbɑnuˈtʰjun/",
+    "ja": [
+      "コメント"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մեկնաբանություն եմ գրում։",
+      "ja": "コメントを書いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-050",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Կիսվել",
+    "translit": "kisvel",
+    "ipa": "/kisˈvel/",
+    "ja": [
+      "共有する",
+      "分かち合う"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Նկարով եմ կիսվում։",
+      "ja": "写真を共有します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-051",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Բաժանորդ",
+    "translit": "bazhanord",
+    "ipa": "/bɑʒɑˈnoɾtʰ/",
+    "ja": [
+      "購読者",
+      "契約者"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բաժանորդ եմ։",
+      "ja": "契約しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-052",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Ալիք",
+    "translit": "alik'",
+    "ipa": "/ɑˈlikʰ/",
+    "ja": [
+      "チャンネル",
+      "波"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ալիքը նոր է։",
+      "ja": "新しいチャンネルです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-053",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Եթեր",
+    "translit": "yet'er",
+    "ipa": "/jeˈtʰeɾ/",
+    "ja": [
+      "放送"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ուղիղ եթեր է։",
+      "ja": "生放送です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-054",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Հեռախոսազանգ",
+    "translit": "herakhosazang",
+    "ipa": "/herɑχosɑˈzɑnɡ/",
+    "ja": [
+      "電話"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հեռախոսազանգ կա։",
+      "ja": "電話が来ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-055",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Հրավեր",
+    "translit": "hraver",
+    "ipa": "/həɾɑˈveɾ/",
+    "ja": [
+      "招待"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հրավեր եմ ստացել։",
+      "ja": "招待をもらいました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-056",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Ընկերանալ",
+    "translit": "ynkeranal",
+    "ipa": "/ənkeɾɑˈnɑl/",
+    "ja": [
+      "友だちになる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ընկերանում ենք։",
+      "ja": "友だちになります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-057",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Գաղտնիություն",
+    "translit": "gaghtniut'yun",
+    "ipa": "/ɡɑχtniuˈtʰjun/",
+    "ja": [
+      "プライバシー"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գաղտնիությունը կարևոր է։",
+      "ja": "プライバシーは大切です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-058",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Անվտանգություն",
+    "translit": "anvtangut'yun",
+    "ipa": "/ɑnvətɑnɡuˈtʰjun/",
+    "ja": [
+      "安全",
+      "セキュリティ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Անվտանգությունը առաջին է։",
+      "ja": "安全が第一です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-059",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Ծանուցում",
+    "translit": "tsanuts'um",
+    "ipa": "/t͡sɑnuˈt͡sʰum/",
+    "ja": [
+      "通知"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ծանուցում եկավ։",
+      "ja": "通知が来ました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-060",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Նկարահանել",
+    "translit": "nkarahanel",
+    "ipa": "/nəkɑɾɑhɑˈnel/",
+    "ja": [
+      "撮影する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Տեսանյութ եմ նկարահանում։",
+      "ja": "動画を撮影しています。"
+    },
+    "ruCognate": null
   }
 ]

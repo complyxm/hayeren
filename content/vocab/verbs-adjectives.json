@@ -3268,5 +3268,185 @@
       "ja": "山を登っています。"
     },
     "ruCognate": null
+  },
+  {
+    "id": "v-vadj-162",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ջանալ",
+    "translit": "janal",
+    "ipa": "/d͡ʒɑˈnɑl/",
+    "ja": [
+      "努力する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ջանում եմ։",
+      "ja": "がんばっています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-163",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Սովորույթ",
+    "translit": "sovoruyt'",
+    "ipa": "/sovoˈɾujtʰ/",
+    "ja": [
+      "習わし"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հին սովորույթ է։",
+      "ja": "古い習わしです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-164",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ընդունակ",
+    "translit": "yndunak",
+    "ipa": "/əntʰuˈnɑk/",
+    "ja": [
+      "能力のある"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ընդունակ աշակերտ է։",
+      "ja": "できる生徒です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-165",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Պատրաստակամ",
+    "translit": "patrastakam",
+    "ipa": "/pɑtɾɑstɑˈkɑm/",
+    "ja": [
+      "快く応じる"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Պատրաստակամ է։",
+      "ja": "快く引き受けてくれます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-166",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Հմուտ",
+    "translit": "hmut",
+    "ipa": "/həˈmut/",
+    "ja": [
+      "熟練した"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հմուտ վարպետ է։",
+      "ja": "腕のいい職人です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-167",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ուշիմ",
+    "translit": "ushim",
+    "ipa": "/uˈʃim/",
+    "ja": [
+      "のみこみの早い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ուշիմ երեխա է։",
+      "ja": "のみこみの早い子です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-168",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Համբերատար",
+    "translit": "hamberatar",
+    "ipa": "/hɑmpʰeɾɑˈtɑɾ/",
+    "ja": [
+      "がまん強い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Համբերատար եղեք։",
+      "ja": "気長にお願いします。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-169",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Բարեկիրթ",
+    "translit": "barekirt'",
+    "ipa": "/bɑɾeˈkiɾtʰ/",
+    "ja": [
+      "礼儀正しい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Բարեկիրթ մարդ է։",
+      "ja": "礼儀正しい人です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-170",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Քաղաքավարի",
+    "translit": "k'aghak'avari",
+    "ipa": "/kʰɑʁɑkʰɑvɑˈɾi/",
+    "ja": [
+      "ていねいな"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Քաղաքավարի պատասխան է։",
+      "ja": "ていねいな返事です。"
+    },
+    "ruCognate": null
   }
 ]

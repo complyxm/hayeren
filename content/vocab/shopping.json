@@ -757,5 +757,189 @@
       "ja": "この店では服を売っています。"
     },
     "ruCognate": null
+  },
+  {
+    "id": "v-shop-038",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "shopping",
+    "hy": "Վերադարձ",
+    "translit": "veradardz",
+    "ipa": "/veɾɑˈdɑɾt͡sʰ/",
+    "ja": [
+      "返品",
+      "返却"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վերադարձ հնարավո՞ր է։",
+      "ja": "返品できますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-shop-039",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "shopping",
+    "hy": "Երաշխիք",
+    "translit": "yerashkhik'",
+    "ipa": "/jeɾɑʃˈχikʰ/",
+    "ja": [
+      "保証"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Երաշխիք կա՞։",
+      "ja": "保証はありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-shop-040",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "shopping",
+    "hy": "Փոխանակում",
+    "translit": "p'okhanakum",
+    "ipa": "/pʰoχɑnɑˈkum/",
+    "ja": [
+      "交換"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Փոխանակում եմ ուզում։",
+      "ja": "交換をお願いしたいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-shop-041",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "shopping",
+    "hy": "Սակարկել",
+    "translit": "sakarkel",
+    "ipa": "/sɑkɑɾˈkel/",
+    "ja": [
+      "値切る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Շուկայում սակարկում են։",
+      "ja": "市場では値切ります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-shop-042",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "shopping",
+    "hy": "Արժեք",
+    "translit": "arzhek'",
+    "ipa": "/ɑɾˈʒekʰ/",
+    "ja": [
+      "価値",
+      "値段"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Արժեքը բարձր է։",
+      "ja": "価値が高いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-shop-043",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "shopping",
+    "hy": "Գումարել",
+    "translit": "gumarel",
+    "ipa": "/ɡumɑˈɾel/",
+    "ja": [
+      "足す",
+      "合計する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Գումարում եմ։",
+      "ja": "合計します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-shop-044",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "shopping",
+    "hy": "Հաշվարկ",
+    "translit": "hashvark",
+    "ipa": "/hɑʃˈvɑɾk/",
+    "ja": [
+      "計算"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հաշվարկը ճիշտ է։",
+      "ja": "計算は合っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-shop-045",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "shopping",
+    "hy": "Դրամարկղ",
+    "translit": "dramarkgh",
+    "ipa": "/dəɾɑmɑɾkəʁ/",
+    "ja": [
+      "レジ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դրամարկղը այնտեղ է։",
+      "ja": "レジはあそこです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-shop-046",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "shopping",
+    "hy": "Պահեստ",
+    "translit": "pahest",
+    "ipa": "/pɑˈhest/",
+    "ja": [
+      "倉庫",
+      "在庫"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պահեստում կա։",
+      "ja": "在庫にあります。"
+    },
+    "ruCognate": null
   }
 ]

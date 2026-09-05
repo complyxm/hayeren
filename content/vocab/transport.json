@@ -666,5 +666,45 @@
       "ja": "ここで止まってください。"
     },
     "ruCognate": null
+  },
+  {
+    "id": "v-trans-033",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "transport",
+    "hy": "Չվացուցակ",
+    "translit": "ch'vats'uts'ak",
+    "ipa": "/t͡ʃʰəvɑt͡sʰuˈt͡sʰɑk/",
+    "ja": [
+      "時刻表"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Չվացուցակը նայում եմ։",
+      "ja": "時刻表を見ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-trans-034",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "transport",
+    "hy": "Վարորդական",
+    "translit": "varordakan",
+    "ipa": "/vɑɾoɾtʰɑˈkɑn/",
+    "ja": [
+      "運転の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Վարորդական իրավունք ունեմ։",
+      "ja": "運転免許を持っています。"
+    },
+    "ruCognate": null
   }
 ]
