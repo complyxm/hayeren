@@ -1,0 +1,429 @@
+{
+  "meta": {
+    "theme": "clothing",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-cloth-001": {
+      "start": 0,
+      "duration": 1.023
+    },
+    "v-cloth-001__ex": {
+      "start": 1.173,
+      "duration": 1.761
+    },
+    "v-cloth-002": {
+      "start": 3.084,
+      "duration": 1.383
+    },
+    "v-cloth-002__ex": {
+      "start": 4.617,
+      "duration": 2.176
+    },
+    "v-cloth-003": {
+      "start": 6.943,
+      "duration": 1.022
+    },
+    "v-cloth-003__ex": {
+      "start": 8.115,
+      "duration": 1.676
+    },
+    "v-cloth-004": {
+      "start": 9.941,
+      "duration": 1.039
+    },
+    "v-cloth-004__ex": {
+      "start": 11.13,
+      "duration": 2.114
+    },
+    "v-cloth-005": {
+      "start": 13.394,
+      "duration": 1.657
+    },
+    "v-cloth-005__ex": {
+      "start": 15.201,
+      "duration": 2.367
+    },
+    "v-cloth-006": {
+      "start": 17.718,
+      "duration": 1.095
+    },
+    "v-cloth-006__ex": {
+      "start": 18.962,
+      "duration": 1.74
+    },
+    "v-cloth-007": {
+      "start": 20.852,
+      "duration": 1.093
+    },
+    "v-cloth-007__ex": {
+      "start": 22.095,
+      "duration": 1.945
+    },
+    "v-cloth-008": {
+      "start": 24.19,
+      "duration": 1.117
+    },
+    "v-cloth-008__ex": {
+      "start": 25.457,
+      "duration": 1.809
+    },
+    "v-cloth-009": {
+      "start": 27.416,
+      "duration": 1.144
+    },
+    "v-cloth-009__ex": {
+      "start": 28.71,
+      "duration": 1.98
+    },
+    "v-cloth-010": {
+      "start": 30.84,
+      "duration": 1.389
+    },
+    "v-cloth-010__ex": {
+      "start": 32.38,
+      "duration": 2.319
+    },
+    "v-cloth-011": {
+      "start": 34.849,
+      "duration": 1.178
+    },
+    "v-cloth-011__ex": {
+      "start": 36.177,
+      "duration": 1.487
+    },
+    "v-cloth-012": {
+      "start": 37.813,
+      "duration": 0.981
+    },
+    "v-cloth-012__ex": {
+      "start": 38.944,
+      "duration": 1.71
+    },
+    "v-cloth-013": {
+      "start": 40.804,
+      "duration": 1.015
+    },
+    "v-cloth-013__ex": {
+      "start": 41.969,
+      "duration": 1.809
+    },
+    "v-cloth-014": {
+      "start": 43.929,
+      "duration": 1.114
+    },
+    "v-cloth-014__ex": {
+      "start": 45.193,
+      "duration": 1.958
+    },
+    "v-cloth-015": {
+      "start": 47.301,
+      "duration": 1.073
+    },
+    "v-cloth-015__ex": {
+      "start": 48.524,
+      "duration": 1.578
+    },
+    "v-cloth-016": {
+      "start": 50.251,
+      "duration": 0.894
+    },
+    "v-cloth-016__ex": {
+      "start": 51.295,
+      "duration": 1.592
+    },
+    "v-cloth-017": {
+      "start": 53.037,
+      "duration": 1.101
+    },
+    "v-cloth-017__ex": {
+      "start": 54.288,
+      "duration": 1.436
+    },
+    "v-cloth-018": {
+      "start": 55.874,
+      "duration": 1.142
+    },
+    "v-cloth-018__ex": {
+      "start": 57.166,
+      "duration": 1.896
+    },
+    "v-cloth-019": {
+      "start": 59.212,
+      "duration": 0.859
+    },
+    "v-cloth-019__ex": {
+      "start": 60.221,
+      "duration": 1.318
+    },
+    "v-cloth-020": {
+      "start": 61.689,
+      "duration": 1.144
+    },
+    "v-cloth-020__ex": {
+      "start": 62.983,
+      "duration": 1.878
+    },
+    "v-cloth-021": {
+      "start": 65.011,
+      "duration": 1.213
+    },
+    "v-cloth-021__ex": {
+      "start": 66.374,
+      "duration": 2.206
+    },
+    "v-cloth-022": {
+      "start": 68.729,
+      "duration": 1.038
+    },
+    "v-cloth-022__ex": {
+      "start": 69.918,
+      "duration": 1.884
+    },
+    "v-cloth-023": {
+      "start": 71.951,
+      "duration": 1.348
+    },
+    "v-cloth-023__ex": {
+      "start": 73.449,
+      "duration": 2.041
+    },
+    "v-cloth-024": {
+      "start": 75.641,
+      "duration": 1.09
+    },
+    "v-cloth-024__ex": {
+      "start": 76.881,
+      "duration": 1.796
+    },
+    "v-cloth-025": {
+      "start": 78.827,
+      "duration": 1.343
+    },
+    "v-cloth-025__ex": {
+      "start": 80.321,
+      "duration": 1.634
+    },
+    "v-cloth-026": {
+      "start": 82.105,
+      "duration": 0.832
+    },
+    "v-cloth-026__ex": {
+      "start": 83.087,
+      "duration": 1.907
+    },
+    "v-cloth-027": {
+      "start": 85.144,
+      "duration": 0.976
+    },
+    "v-cloth-027__ex": {
+      "start": 86.27,
+      "duration": 1.721
+    },
+    "v-cloth-028": {
+      "start": 88.141,
+      "duration": 0.984
+    },
+    "v-cloth-028__ex": {
+      "start": 89.275,
+      "duration": 1.697
+    },
+    "v-cloth-029": {
+      "start": 91.122,
+      "duration": 1.018
+    },
+    "v-cloth-029__ex": {
+      "start": 92.289,
+      "duration": 1.76
+    },
+    "v-cloth-030": {
+      "start": 94.2,
+      "duration": 1.063
+    },
+    "v-cloth-030__ex": {
+      "start": 95.413,
+      "duration": 1.611
+    },
+    "v-cloth-031": {
+      "start": 97.174,
+      "duration": 0.983
+    },
+    "v-cloth-031__ex": {
+      "start": 98.308,
+      "duration": 1.71
+    },
+    "v-cloth-032": {
+      "start": 100.168,
+      "duration": 1.057
+    },
+    "v-cloth-032__ex": {
+      "start": 101.375,
+      "duration": 1.787
+    },
+    "v-cloth-033": {
+      "start": 103.312,
+      "duration": 0.771
+    },
+    "v-cloth-033__ex": {
+      "start": 104.233,
+      "duration": 1.401
+    },
+    "v-cloth-034": {
+      "start": 105.784,
+      "duration": 1.099
+    },
+    "v-cloth-034__ex": {
+      "start": 107.033,
+      "duration": 1.783
+    },
+    "v-cloth-035": {
+      "start": 108.966,
+      "duration": 1.121
+    },
+    "v-cloth-035__ex": {
+      "start": 110.237,
+      "duration": 1.955
+    },
+    "v-cloth-036": {
+      "start": 112.342,
+      "duration": 1.029
+    },
+    "v-cloth-036__ex": {
+      "start": 113.522,
+      "duration": 1.877
+    },
+    "v-cloth-037": {
+      "start": 115.548,
+      "duration": 0.95
+    },
+    "v-cloth-037__ex": {
+      "start": 116.648,
+      "duration": 1.804
+    },
+    "v-cloth-038": {
+      "start": 118.602,
+      "duration": 1.06
+    },
+    "v-cloth-038__ex": {
+      "start": 119.812,
+      "duration": 1.84
+    },
+    "v-cloth-039": {
+      "start": 121.802,
+      "duration": 1.079
+    },
+    "v-cloth-039__ex": {
+      "start": 123.031,
+      "duration": 1.886
+    },
+    "v-cloth-040": {
+      "start": 125.067,
+      "duration": 0.982
+    },
+    "v-cloth-040__ex": {
+      "start": 126.199,
+      "duration": 1.86
+    },
+    "v-cloth-041": {
+      "start": 128.209,
+      "duration": 1.343
+    },
+    "v-cloth-041__ex": {
+      "start": 129.702,
+      "duration": 2.436
+    },
+    "v-cloth-042": {
+      "start": 132.288,
+      "duration": 0.911
+    },
+    "v-cloth-042__ex": {
+      "start": 133.349,
+      "duration": 1.722
+    },
+    "v-cloth-043": {
+      "start": 135.221,
+      "duration": 0.847
+    },
+    "v-cloth-043__ex": {
+      "start": 136.219,
+      "duration": 1.62
+    },
+    "v-cloth-044": {
+      "start": 137.988,
+      "duration": 0.916
+    },
+    "v-cloth-044__ex": {
+      "start": 139.055,
+      "duration": 1.787
+    },
+    "v-cloth-045": {
+      "start": 140.991,
+      "duration": 0.839
+    },
+    "v-cloth-045__ex": {
+      "start": 141.981,
+      "duration": 1.726
+    },
+    "v-cloth-046": {
+      "start": 143.856,
+      "duration": 0.97
+    },
+    "v-cloth-046__ex": {
+      "start": 144.976,
+      "duration": 1.794
+    },
+    "v-cloth-047": {
+      "start": 146.92,
+      "duration": 1.144
+    },
+    "v-cloth-047__ex": {
+      "start": 148.214,
+      "duration": 1.815
+    },
+    "v-cloth-048": {
+      "start": 150.179,
+      "duration": 1.105
+    },
+    "v-cloth-048__ex": {
+      "start": 151.434,
+      "duration": 2.375
+    },
+    "v-cloth-049": {
+      "start": 153.959,
+      "duration": 0.912
+    },
+    "v-cloth-049__ex": {
+      "start": 155.021,
+      "duration": 2.77
+    },
+    "v-cloth-050": {
+      "start": 157.942,
+      "duration": 1.169
+    },
+    "v-cloth-050__ex": {
+      "start": 159.261,
+      "duration": 1.498
+    },
+    "v-cloth-051": {
+      "start": 160.909,
+      "duration": 1.627
+    },
+    "v-cloth-051__ex": {
+      "start": 162.686,
+      "duration": 2.452
+    },
+    "v-cloth-052": {
+      "start": 165.288,
+      "duration": 1.225
+    },
+    "v-cloth-052__ex": {
+      "start": 166.663,
+      "duration": 2.112
+    }
+  }
+}

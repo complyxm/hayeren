@@ -1,0 +1,1060 @@
+[
+  {
+    "id": "v-cloth-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Շապիկ",
+    "translit": "shapik",
+    "ipa": "/ʃɑˈpik/",
+    "ja": [
+      "シャツ",
+      "Tシャツ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Շապիկը մաքուր է։",
+      "ja": "シャツはきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Վերնաշապիկ",
+    "translit": "vernashapik",
+    "ipa": "/veɾnɑʃɑˈpik/",
+    "ja": [
+      "ワイシャツ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վերնաշապիկ եմ գնում։",
+      "ja": "ワイシャツを買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Տաբատ",
+    "translit": "tabat",
+    "ipa": "/tɑˈbɑt/",
+    "ja": [
+      "ズボン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տաբատը նեղ է։",
+      "ja": "ズボンがきついです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Զգեստ",
+    "translit": "zgest",
+    "ipa": "/zɡest/",
+    "ja": [
+      "服",
+      "ドレス"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Զգեստը գեղեցիկ է։",
+      "ja": "ドレスはきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Կիսաշրջազգեստ",
+    "translit": "kisashrjazgest",
+    "ipa": "/kisɑʃəɾd͡ʒɑzˈɡest/",
+    "ja": [
+      "スカート"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կիսաշրջազգեստ եմ ուզում։",
+      "ja": "スカートがほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Սվիտեր",
+    "translit": "sviter",
+    "ipa": "/sviˈteɾ/",
+    "ja": [
+      "セーター"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սվիտերը տաք է։",
+      "ja": "セーターは暖かいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Բաճկոն",
+    "translit": "bachkon",
+    "ipa": "/bɑt͡ʃˈkon/",
+    "ja": [
+      "ジャケット",
+      "上着"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բաճկոնը հագնում եմ։",
+      "ja": "上着を着ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Վերարկու",
+    "translit": "verarku",
+    "ipa": "/veɾɑɾˈku/",
+    "ja": [
+      "コート"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վերարկուն երկար է։",
+      "ja": "コートは長いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Կոստյում",
+    "translit": "kostyum",
+    "ipa": "/kosˈtjum/",
+    "ja": [
+      "スーツ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կոստյում եմ փորձում։",
+      "ja": "スーツを試着しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Ներքնազգեստ",
+    "translit": "nerk'nazgest",
+    "ipa": "/neɾkʰnɑzˈɡest/",
+    "ja": [
+      "下着"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ներքնազգեստ եմ լվանում։",
+      "ja": "下着を洗っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Կրծկալ",
+    "translit": "krtskal",
+    "ipa": "/kəɾt͡sˈkɑl/",
+    "ja": [
+      "ブラジャー"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կրծկալ կա՞։",
+      "ja": "ブラジャーはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Գուլպա",
+    "translit": "gulpa",
+    "ipa": "/ɡulˈpɑ/",
+    "ja": [
+      "靴下"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գուլպա եմ գնում։",
+      "ja": "靴下を買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Կոշիկ",
+    "translit": "koshik",
+    "ipa": "/koˈʃik/",
+    "ja": [
+      "靴"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կոշիկը փոքր է։",
+      "ja": "靴が小さいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Սանդալ",
+    "translit": "sandal",
+    "ipa": "/sɑnˈdɑl/",
+    "ja": [
+      "サンダル"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սանդալ եմ հագնում։",
+      "ja": "サンダルを履いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Գլխարկ",
+    "translit": "glkhark",
+    "ipa": "/ɡəlˈχɑɾk/",
+    "ja": [
+      "帽子"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գլխարկը նոր է։",
+      "ja": "帽子は新しいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Շարֆ",
+    "translit": "sharf",
+    "ipa": "/ʃɑɾf/",
+    "ja": [
+      "マフラー",
+      "スカーフ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Շարֆ եմ ուզում։",
+      "ja": "マフラーがほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Ձեռնոց",
+    "translit": "dzernots'",
+    "ipa": "/d͡zerˈnot͡sʰ/",
+    "ja": [
+      "手袋"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ձեռնոց կա՞։",
+      "ja": "手袋はありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Փողկապ",
+    "translit": "p'oghkap",
+    "ipa": "/pʰoχˈkɑp/",
+    "ja": [
+      "ネクタイ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Փողկապը կարմիր է։",
+      "ja": "ネクタイは赤いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Գոտի",
+    "translit": "goti",
+    "ipa": "/ɡoˈti/",
+    "ja": [
+      "ベルト"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գոտին նոր է։",
+      "ja": "ベルトは新しいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-020",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Պայուսակ",
+    "translit": "payusak",
+    "ipa": "/pɑjuˈsɑk/",
+    "ja": [
+      "かばん"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պայուսակը ծանր է։",
+      "ja": "かばんが重いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-021",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Հովանոց",
+    "translit": "hovanots'",
+    "ipa": "/hovɑˈnot͡sʰ/",
+    "ja": [
+      "傘"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հովանոց եմ վերցնում։",
+      "ja": "傘を持っていきます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-022",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Ակնոց",
+    "translit": "aknots'",
+    "ipa": "/ɑkˈnot͡sʰ/",
+    "ja": [
+      "めがね"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ակնոցը կոտրեցի։",
+      "ja": "めがねを壊してしまいました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-023",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Ժամացույց",
+    "translit": "zhamats'uyts'",
+    "ipa": "/ʒɑmɑˈt͡sʰujt͡sʰ/",
+    "ja": [
+      "時計",
+      "腕時計"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ժամացույցը թանկ է։",
+      "ja": "時計は高いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-024",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Մատանի",
+    "translit": "matani",
+    "ipa": "/mɑtɑˈni/",
+    "ja": [
+      "指輪"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մատանի եմ գնում։",
+      "ja": "指輪を買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-025",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Ապարանջան",
+    "translit": "aparanjan",
+    "ipa": "/ɑpɑɾɑnˈd͡ʒɑn/",
+    "ja": [
+      "ブレスレット"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ապարանջան կա՞։",
+      "ja": "ブレスレットはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-026",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Զարդ",
+    "translit": "zard",
+    "ipa": "/zɑɾtʰ/",
+    "ja": [
+      "アクセサリー",
+      "飾り"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Զարդը գեղեցիկ է։",
+      "ja": "アクセサリーはきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-027",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Գրպան",
+    "translit": "grpan",
+    "ipa": "/ɡəɾˈpɑn/",
+    "ja": [
+      "ポケット"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գրպանը դատարկ է։",
+      "ja": "ポケットは空です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-028",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Օձիք",
+    "translit": "odzik'",
+    "ipa": "/oˈd͡zikʰ/",
+    "ja": [
+      "えり"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Օձիքը մաքուր է։",
+      "ja": "えりはきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-029",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文に使った ընկնել / առավոտյան / փոխվել も同じ辞書で確認済み。",
+    "theme": "clothing",
+    "hy": "Կոճակ",
+    "translit": "kochak",
+    "ipa": "/koˈt͡ʃɑk/",
+    "ja": [
+      "ボタン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կոճակը ընկել է։",
+      "ja": "ボタンが取れました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-030",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Ներբան",
+    "translit": "nerban",
+    "ipa": "/neɾˈbɑn/",
+    "ja": [
+      "靴底"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ներբանը հաստ է։",
+      "ja": "靴底は厚いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-031",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Կաշի",
+    "translit": "kashi",
+    "ipa": "/kɑˈʃi/",
+    "ja": [
+      "革"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կաշի եմ սիրում։",
+      "ja": "革が好きです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-032",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Բամբակ",
+    "translit": "bambak",
+    "ipa": "/bɑmˈbɑk/",
+    "ja": [
+      "綿"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բամբակ եմ ուզում։",
+      "ja": "綿がいいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-033",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Բուրդ",
+    "translit": "burd",
+    "ipa": "/buɾtʰ/",
+    "ja": [
+      "ウール",
+      "羊毛"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բուրդը տաք է։",
+      "ja": "ウールは暖かいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-034",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Մետաքս",
+    "translit": "metak's",
+    "ipa": "/meˈtɑkʰs/",
+    "ja": [
+      "絹"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մետաքսը թանկ է։",
+      "ja": "絹は高いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-035",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Հագնել",
+    "translit": "hagnel",
+    "ipa": "/hɑkʰˈnel/",
+    "ja": [
+      "着る",
+      "履く"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Բաճկոն եմ հագնում։",
+      "ja": "上着を着ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-036",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Հանել",
+    "translit": "hanel",
+    "ipa": "/hɑˈnel/",
+    "ja": [
+      "脱ぐ",
+      "取り出す"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Կոշիկը հանում եմ։",
+      "ja": "靴を脱いでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-037",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Կրել",
+    "translit": "krel",
+    "ipa": "/kəˈɾel/",
+    "ja": [
+      "身につける",
+      "運ぶ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ակնոց եմ կրում։",
+      "ja": "めがねをかけています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-038",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Չափել",
+    "translit": "ch'ap'el",
+    "ipa": "/t͡ʃʰɑˈpʰel/",
+    "ja": [
+      "測る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Չափս եմ չափում։",
+      "ja": "サイズを測っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-039",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Փոխել",
+    "translit": "p'okhel",
+    "ipa": "/pʰoˈχel/",
+    "ja": [
+      "換える",
+      "取り替える"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Չափսը փոխում եմ։",
+      "ja": "サイズを取り替えます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-040",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Կարել",
+    "translit": "karel",
+    "ipa": "/kɑˈɾel/",
+    "ja": [
+      "縫う"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Կոճակը կարում եմ։",
+      "ja": "ボタンを縫いつけています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-041",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文に使った ընկնել / առավոտյան / փոխվել も同じ辞書で確認済み。",
+    "theme": "clothing",
+    "hy": "Լվացվել",
+    "translit": "lvats'vel",
+    "ipa": "/ləvɑt͡sʰˈvel/",
+    "ja": [
+      "体を洗う"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Առավոտյան լվացվում եմ։",
+      "ja": "朝に体を洗います。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-042",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Նեղ",
+    "translit": "negh",
+    "ipa": "/neʁ/",
+    "ja": [
+      "きつい",
+      "狭い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Կոշիկը նեղ է։",
+      "ja": "靴がきついです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-043",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Լայն",
+    "translit": "layn",
+    "ipa": "/lɑjn/",
+    "ja": [
+      "ゆったりした",
+      "広い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Տաբատը լայն է։",
+      "ja": "ズボンがゆったりしています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-044",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Բարակ",
+    "translit": "barak",
+    "ipa": "/bɑˈɾɑk/",
+    "ja": [
+      "薄い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Շապիկը բարակ է։",
+      "ja": "シャツが薄いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-045",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Հաստ",
+    "translit": "hast",
+    "ipa": "/hɑst/",
+    "ja": [
+      "厚い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Վերարկուն հաստ է։",
+      "ja": "コートは厚いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-046",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Հարմար",
+    "translit": "harmar",
+    "ipa": "/hɑɾˈmɑɾ/",
+    "ja": [
+      "快適な",
+      "ちょうどいい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Կոշիկը հարմար է։",
+      "ja": "靴がちょうどいいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-047",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Անհարմար",
+    "translit": "anharmar",
+    "ipa": "/ɑnhɑɾˈmɑɾ/",
+    "ja": [
+      "合わない",
+      "窮屈な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Գուլպան անհարմար է։",
+      "ja": "靴下が合いません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-048",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Գծավոր",
+    "translit": "gtsavor",
+    "ipa": "/ɡət͡sɑˈvoɾ/",
+    "ja": [
+      "しま模様の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Գծավոր շապիկ եմ ուզում։",
+      "ja": "しま模様のシャツがほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-049",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Զույգ",
+    "translit": "zuyg",
+    "ipa": "/zujkʰ/",
+    "ja": [
+      "一組",
+      "ペア"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մեկ զույգ գուլպա, խնդրում եմ։",
+      "ja": "靴下を1足ください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-050",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Վաճառք",
+    "translit": "vachark'",
+    "ipa": "/vɑˈt͡ʃɑrkʰ/",
+    "ja": [
+      "セール",
+      "販売"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վաճառք կա։",
+      "ja": "セールをしています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-051",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文に使った ընկնել / առավոտյան / փոխվել も同じ辞書で確認済み。",
+    "theme": "clothing",
+    "hy": "Նորաձևություն",
+    "translit": "noradzevut'yun",
+    "ipa": "/noɾɑd͡zevuˈtʰjun/",
+    "ja": [
+      "ファッション"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նորաձևությունը փոխվում է։",
+      "ja": "ファッションは変わります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cloth-052",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "clothing",
+    "hy": "Կոշկակար",
+    "translit": "koshkakar",
+    "ipa": "/koʃkɑˈkɑɾ/",
+    "ja": [
+      "靴屋",
+      "靴の修理屋"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կոշկակարը նորոգում է։",
+      "ja": "靴屋が直してくれます。"
+    },
+    "ruCognate": null
+  }
+]
