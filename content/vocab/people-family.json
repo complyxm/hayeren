@@ -8,10 +8,15 @@
     "hy": "Ընտանիք",
     "translit": "əntanik'",
     "ipa": "/əntɑˈnikʰ/",
-    "ja": ["家族"],
+    "ja": [
+      "家族"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Իմ ընտանիքը մեծ է։", "ja": "私の家族は大きいです。" },
+    "example": {
+      "hy": "Իմ ընտանիքը մեծ է։",
+      "ja": "私の家族は大きいです。"
+    },
     "ruCognate": null
   },
   {
@@ -23,10 +28,18 @@
     "hy": "Մարդ",
     "translit": "mard",
     "ipa": "/mɑɾtʰ/",
-    "ja": ["人", "人間"],
+    "ja": [
+      "人",
+      "人間"
+    ],
     "pos": "noun",
-    "forms": { "plural": "մարդիկ" },
-    "example": { "hy": "Այստեղ շատ մարդ կա։", "ja": "ここには人がたくさんいます。" },
+    "forms": {
+      "plural": "մարդիկ"
+    },
+    "example": {
+      "hy": "Այստեղ շատ մարդ կա։",
+      "ja": "ここには人がたくさんいます。"
+    },
     "ruCognate": null
   },
   {
@@ -38,10 +51,19 @@
     "hy": "Կին",
     "translit": "kin",
     "ipa": "/kin/",
-    "ja": ["女性", "妻"],
+    "ja": [
+      "女性",
+      "妻"
+    ],
     "pos": "noun",
-    "forms": { "genitive": "կնոջ", "plural": "կանայք" },
-    "example": { "hy": "Այն կինը հայ է։", "ja": "あの女性はアルメニア人です。" },
+    "forms": {
+      "genitive": "կնոջ",
+      "plural": "կանայք"
+    },
+    "example": {
+      "hy": "Այն կինը հայ է։",
+      "ja": "あの女性はアルメニア人です。"
+    },
     "ruCognate": null
   },
   {
@@ -53,10 +75,15 @@
     "hy": "Երեխա",
     "translit": "yerekha",
     "ipa": "/jeɾeˈχɑ/",
-    "ja": ["子ども"],
+    "ja": [
+      "子ども"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Երեխան խաղում է։", "ja": "子どもが遊んでいます。" },
+    "example": {
+      "hy": "Երեխան խաղում է։",
+      "ja": "子どもが遊んでいます。"
+    },
     "ruCognate": null
   },
   {
@@ -68,10 +95,17 @@
     "hy": "Մայր",
     "translit": "mayr",
     "ipa": "/mɑjɾ/",
-    "ja": ["母"],
+    "ja": [
+      "母"
+    ],
     "pos": "noun",
-    "forms": { "genitive": "մոր" },
-    "example": { "hy": "Իմ մայրը այստեղ չէ։", "ja": "私の母はここにいません。" },
+    "forms": {
+      "genitive": "մոր"
+    },
+    "example": {
+      "hy": "Իմ մայրը այստեղ չէ։",
+      "ja": "私の母はここにいません。"
+    },
     "ruCognate": null
   },
   {
@@ -83,10 +117,17 @@
     "hy": "Հայր",
     "translit": "hayr",
     "ipa": "/hɑjɾ/",
-    "ja": ["父"],
+    "ja": [
+      "父"
+    ],
     "pos": "noun",
-    "forms": { "genitive": "հոր" },
-    "example": { "hy": "Իմ հայրը աշխատում է։", "ja": "私の父は働いています。" },
+    "forms": {
+      "genitive": "հոր"
+    },
+    "example": {
+      "hy": "Իմ հայրը աշխատում է։",
+      "ja": "私の父は働いています。"
+    },
     "ruCognate": null
   },
   {
@@ -98,10 +139,18 @@
     "hy": "Քույր",
     "translit": "k'uyr",
     "ipa": "/kʰujɾ/",
-    "ja": ["姉", "妹"],
+    "ja": [
+      "姉",
+      "妹"
+    ],
     "pos": "noun",
-    "forms": { "genitive": "քրոջ" },
-    "example": { "hy": "Ես քույր չունեմ։", "ja": "私には姉妹がいません。" },
+    "forms": {
+      "genitive": "քրոջ"
+    },
+    "example": {
+      "hy": "Ես քույր չունեմ։",
+      "ja": "私には姉妹がいません。"
+    },
     "ruCognate": null
   },
   {
@@ -113,10 +162,18 @@
     "hy": "Եղբայր",
     "translit": "yeghbayr",
     "ipa": "/jeʁˈbɑjɾ/",
-    "ja": ["兄", "弟"],
+    "ja": [
+      "兄",
+      "弟"
+    ],
     "pos": "noun",
-    "forms": { "genitive": "եղբոր" },
-    "example": { "hy": "Իմ եղբայրը ուսանող է։", "ja": "私の兄は学生です。" },
+    "forms": {
+      "genitive": "եղբոր"
+    },
+    "example": {
+      "hy": "Իմ եղբայրը ուսանող է։",
+      "ja": "私の兄は学生です。"
+    },
     "ruCognate": null
   },
   {
@@ -128,10 +185,17 @@
     "hy": "Որդի",
     "translit": "vordi",
     "ipa": "/voɾˈdi/",
-    "ja": ["息子"],
+    "ja": [
+      "息子"
+    ],
     "pos": "noun",
-    "forms": { "genitive": "որդու" },
-    "example": { "hy": "Նրանք որդի ունեն։", "ja": "彼らには息子がいます。" },
+    "forms": {
+      "genitive": "որդու"
+    },
+    "example": {
+      "hy": "Նրանք որդի ունեն։",
+      "ja": "彼らには息子がいます。"
+    },
     "ruCognate": null
   },
   {
@@ -143,10 +207,18 @@
     "hy": "Աղջիկ",
     "translit": "aghjik",
     "ipa": "/ɑʁˈd͡ʒik/",
-    "ja": ["女の子", "娘"],
+    "ja": [
+      "女の子",
+      "娘"
+    ],
     "pos": "noun",
-    "forms": { "genitive": "աղջկա" },
-    "example": { "hy": "Նրանք մեկ աղջիկ ունեն։", "ja": "彼らには娘が一人います。" },
+    "forms": {
+      "genitive": "աղջկա"
+    },
+    "example": {
+      "hy": "Նրանք մեկ աղջիկ ունեն։",
+      "ja": "彼らには娘が一人います。"
+    },
     "ruCognate": null
   },
   {
@@ -158,10 +230,18 @@
     "hy": "Ամուսին",
     "translit": "amusin",
     "ipa": "/ɑmuˈsin/",
-    "ja": ["夫", "配偶者"],
+    "ja": [
+      "夫",
+      "配偶者"
+    ],
     "pos": "noun",
-    "forms": { "genitive": "ամուսնու" },
-    "example": { "hy": "Իմ ամուսինը հայ է։", "ja": "私の夫はアルメニア人です。" },
+    "forms": {
+      "genitive": "ամուսնու"
+    },
+    "example": {
+      "hy": "Իմ ամուսինը հայ է։",
+      "ja": "私の夫はアルメニア人です。"
+    },
     "ruCognate": null
   },
   {
@@ -173,10 +253,17 @@
     "hy": "Անուն",
     "translit": "anun",
     "ipa": "/ɑˈnun/",
-    "ja": ["名前"],
+    "ja": [
+      "名前"
+    ],
     "pos": "noun",
-    "forms": { "genitive": "անվան" },
-    "example": { "hy": "Ի՞նչ է քո անունը։", "ja": "あなたの名前は何ですか。" },
+    "forms": {
+      "genitive": "անվան"
+    },
+    "example": {
+      "hy": "Ի՞նչ է քո անունը։",
+      "ja": "あなたの名前は何ですか。"
+    },
     "ruCognate": null
   },
   {
@@ -188,10 +275,15 @@
     "hy": "Տարիք",
     "translit": "tarik'",
     "ipa": "/tɑˈɾikʰ/",
-    "ja": ["年齢"],
+    "ja": [
+      "年齢"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Նրա տարիքը չգիտեմ։", "ja": "彼の年齢は知りません。" },
+    "example": {
+      "hy": "Նրա տարիքը չգիտեմ։",
+      "ja": "彼の年齢は知りません。"
+    },
     "ruCognate": null
   },
   {
@@ -203,10 +295,16 @@
     "hy": "Մասնագիտություն",
     "translit": "masnagitutyun",
     "ipa": "/mɑsnɑɡituˈtʰjun/",
-    "ja": ["専門", "職業分野"],
+    "ja": [
+      "専門",
+      "職業分野"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Ո՞րն է ձեր մասնագիտությունը։", "ja": "あなたの専門は何ですか。" },
+    "example": {
+      "hy": "Ո՞րն է ձեր մասնագիտությունը։",
+      "ja": "あなたの専門は何ですか。"
+    },
     "ruCognate": null
   },
   {
@@ -218,10 +316,16 @@
     "hy": "Աշխատանք",
     "translit": "ashkhatank'",
     "ipa": "/ɑʃχɑˈtɑnkʰ/",
-    "ja": ["仕事", "労働"],
+    "ja": [
+      "仕事",
+      "労働"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Ես աշխատանք եմ փնտրում։", "ja": "私は仕事を探しています。" },
+    "example": {
+      "hy": "Ես աշխատանք եմ փնտրում։",
+      "ja": "私は仕事を探しています。"
+    },
     "ruCognate": null
   },
   {
@@ -233,10 +337,15 @@
     "hy": "Ուսանող",
     "translit": "usanogh",
     "ipa": "/usɑˈnoʁ/",
-    "ja": ["学生"],
+    "ja": [
+      "学生"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Ես ճապոնացի ուսանող եմ։", "ja": "私は日本人の学生です。" },
+    "example": {
+      "hy": "Ես ճապոնացի ուսանող եմ։",
+      "ja": "私は日本人の学生です。"
+    },
     "ruCognate": null
   },
   {
@@ -248,10 +357,17 @@
     "hy": "Երկիր",
     "translit": "yerkir",
     "ipa": "/jeɾˈkiɾ/",
-    "ja": ["国"],
+    "ja": [
+      "国"
+    ],
     "pos": "noun",
-    "forms": { "genitive": "երկրի" },
-    "example": { "hy": "Ո՞ր երկրից ես։", "ja": "どの国の出身ですか。" },
+    "forms": {
+      "genitive": "երկրի"
+    },
+    "example": {
+      "hy": "Ո՞ր երկրից ես։",
+      "ja": "どの国の出身ですか。"
+    },
     "ruCognate": null
   },
   {
@@ -263,10 +379,15 @@
     "hy": "Ճապոնացի",
     "translit": "chaponatsi",
     "ipa": "/t͡ʃɑponɑˈt͡sʰi/",
-    "ja": ["日本人"],
+    "ja": [
+      "日本人"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Ես ճապոնացի եմ։", "ja": "私は日本人です。" },
+    "example": {
+      "hy": "Ես ճապոնացի եմ։",
+      "ja": "私は日本人です。"
+    },
     "ruCognate": null
   },
   {
@@ -278,10 +399,15 @@
     "hy": "Հայ",
     "translit": "hay",
     "ipa": "/hɑj/",
-    "ja": ["アルメニア人"],
+    "ja": [
+      "アルメニア人"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Դու հայ ես։", "ja": "あなたはアルメニア人です。" },
+    "example": {
+      "hy": "Դու հայ ես։",
+      "ja": "あなたはアルメニア人です。"
+    },
     "ruCognate": null
   },
   {
@@ -293,10 +419,16 @@
     "hy": "Ապրել",
     "translit": "aprel",
     "ipa": "/ɑpˈɾel/",
-    "ja": ["住む", "生きる"],
+    "ja": [
+      "住む",
+      "生きる"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Ես ապրում եմ Երևանում։", "ja": "私はエレバンに住んでいます。" },
+    "example": {
+      "hy": "Ես ապրում եմ Երևանում։",
+      "ja": "私はエレバンに住んでいます。"
+    },
     "ruCognate": null
   },
   {
@@ -308,10 +440,15 @@
     "hy": "Տատ",
     "translit": "tat",
     "ipa": "/tɑt/",
-    "ja": ["祖母"],
+    "ja": [
+      "祖母"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Իմ տատը գյուղում է ապրում։", "ja": "私の祖母は村に住んでいます。" },
+    "example": {
+      "hy": "Իմ տատը գյուղում է ապրում։",
+      "ja": "私の祖母は村に住んでいます。"
+    },
     "ruCognate": null
   },
   {
@@ -323,10 +460,15 @@
     "hy": "Պապ",
     "translit": "pap",
     "ipa": "/pɑp/",
-    "ja": ["祖父"],
+    "ja": [
+      "祖父"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Իմ պապը ութսուն տարեկան է։", "ja": "私の祖父は80歳です。" },
+    "example": {
+      "hy": "Իմ պապը ութսուն տարեկան է։",
+      "ja": "私の祖父は80歳です。"
+    },
     "ruCognate": null
   },
   {
@@ -338,10 +480,16 @@
     "hy": "Հարս",
     "translit": "hars",
     "ipa": "/hɑɾs/",
-    "ja": ["嫁", "花嫁"],
+    "ja": [
+      "嫁",
+      "花嫁"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Նրանց հարսը հայ է։", "ja": "彼らの嫁はアルメニア人です。" },
+    "example": {
+      "hy": "Նրանց հարսը հայ է։",
+      "ja": "彼らの嫁はアルメニア人です。"
+    },
     "ruCognate": null
   },
   {
@@ -353,10 +501,16 @@
     "hy": "Փեսա",
     "translit": "p'esa",
     "ipa": "/pʰeˈsɑ/",
-    "ja": ["婿", "花婿"],
+    "ja": [
+      "婿",
+      "花婿"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Փեսան ինժեներ է։", "ja": "婿はエンジニアです。" },
+    "example": {
+      "hy": "Փեսան ինժեներ է։",
+      "ja": "婿はエンジニアです。"
+    },
     "ruCognate": null
   },
   {
@@ -368,10 +522,15 @@
     "hy": "Ազգական",
     "translit": "azgakan",
     "ipa": "/ɑzɡɑˈkɑn/",
-    "ja": ["親戚"],
+    "ja": [
+      "親戚"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Երևանում ազգականներ ունեմ։", "ja": "エレバンに親戚がいます。" },
+    "example": {
+      "hy": "Երևանում ազգականներ ունեմ։",
+      "ja": "エレバンに親戚がいます。"
+    },
     "ruCognate": null
   },
   {
@@ -383,10 +542,16 @@
     "hy": "Ընկեր",
     "translit": "ynker",
     "ipa": "/əŋˈkeɾ/",
-    "ja": ["友達", "仲間"],
+    "ja": [
+      "友達",
+      "仲間"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Նա իմ մտերիմ ընկերն է։", "ja": "彼は私の親友です。" },
+    "example": {
+      "hy": "Նա իմ մտերիմ ընկերն է։",
+      "ja": "彼は私の親友です。"
+    },
     "ruCognate": null
   },
   {
@@ -398,10 +563,15 @@
     "hy": "Ընկերուհի",
     "translit": "ynkeruhi",
     "ipa": "/əŋkeɾuˈhi/",
-    "ja": ["女友達"],
+    "ja": [
+      "女友達"
+    ],
     "pos": "noun",
     "forms": {},
-    "example": { "hy": "Իմ ընկերուհին ուսուցչուհի է։", "ja": "私の女友達は教師です。" },
+    "example": {
+      "hy": "Իմ ընկերուհին ուսուցչուհի է։",
+      "ja": "私の女友達は教師です。"
+    },
     "ruCognate": null
   },
   {
@@ -413,10 +583,15 @@
     "hy": "Ամուսնացած",
     "translit": "amusnatsats",
     "ipa": "/ɑmusnɑˈt͡sʰɑt͡s/",
-    "ja": ["既婚の"],
+    "ja": [
+      "既婚の"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Ես ամուսնացած եմ։", "ja": "私は結婚しています。" },
+    "example": {
+      "hy": "Ես ամուսնացած եմ։",
+      "ja": "私は結婚しています。"
+    },
     "ruCognate": null
   },
   {
@@ -428,10 +603,15 @@
     "hy": "Ամուրի",
     "translit": "amuri",
     "ipa": "/ɑmuˈɾi/",
-    "ja": ["独身の"],
+    "ja": [
+      "独身の"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Իմ եղբայրը դեռ ամուրի է։", "ja": "私の兄はまだ独身です。" },
+    "example": {
+      "hy": "Իմ եղբայրը դեռ ամուրի է։",
+      "ja": "私の兄はまだ独身です。"
+    },
     "ruCognate": null
   },
   {
@@ -443,10 +623,15 @@
     "hy": "Ծնվել",
     "translit": "tsnvel",
     "ipa": "/t͡sənˈvel/",
-    "ja": ["生まれる"],
+    "ja": [
+      "生まれる"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Ես ծնվել եմ Տոկիոյում։", "ja": "私は東京で生まれました。" },
+    "example": {
+      "hy": "Ես ծնվել եմ Տոկիոյում։",
+      "ja": "私は東京で生まれました。"
+    },
     "ruCognate": null
   },
   {
@@ -458,10 +643,15 @@
     "hy": "Ամուսնանալ",
     "translit": "amusnanal",
     "ipa": "/ɑmusnɑˈnɑl/",
-    "ja": ["結婚する"],
+    "ja": [
+      "結婚する"
+    ],
     "pos": "verb",
     "forms": {},
-    "example": { "hy": "Նրանք անցյալ տարի ամուսնացան։", "ja": "彼らは去年結婚しました。" },
+    "example": {
+      "hy": "Նրանք անցյալ տարի ամուսնացան։",
+      "ja": "彼らは去年結婚しました。"
+    },
     "ruCognate": null
   },
   {
@@ -473,10 +663,17 @@
     "hy": "Ծնող",
     "translit": "tsnogh",
     "ipa": "/t͡səˈnoʁ/",
-    "ja": ["親"],
+    "ja": [
+      "親"
+    ],
     "pos": "noun",
-    "forms": { "plural": "ծնողներ" },
-    "example": { "hy": "Իմ ծնողները Ճապոնիայում են։", "ja": "私の両親は日本にいます。" },
+    "forms": {
+      "plural": "ծնողներ"
+    },
+    "example": {
+      "hy": "Իմ ծնողները Ճապոնիայում են։",
+      "ja": "私の両親は日本にいます。"
+    },
     "ruCognate": null
   },
   {
@@ -488,10 +685,16 @@
     "hy": "Երիտասարդ",
     "translit": "yeritasard",
     "ipa": "/jeɾitɑˈsɑɾtʰ/",
-    "ja": ["若い", "若者"],
+    "ja": [
+      "若い",
+      "若者"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Այս թաղամասում շատ երիտասարդ կա։", "ja": "この地区には若者が多いです。" },
+    "example": {
+      "hy": "Այս թաղամասում շատ երիտասարդ կա։",
+      "ja": "この地区には若者が多いです。"
+    },
     "ruCognate": null
   },
   {
@@ -503,10 +706,256 @@
     "hy": "Ծեր",
     "translit": "tser",
     "ipa": "/t͡seɾ/",
-    "ja": ["年老いた", "高齢の"],
+    "ja": [
+      "年老いた",
+      "高齢の"
+    ],
     "pos": "adjective",
     "forms": {},
-    "example": { "hy": "Ծեր կինը դանդաղ էր քայլում։", "ja": "年老いた女性はゆっくり歩いていました。" },
+    "example": {
+      "hy": "Ծեր կինը դանդաղ էր քայլում։",
+      "ja": "年老いた女性はゆっくり歩いていました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-people-035",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "people-family",
+    "hy": "Դուստր",
+    "translit": "dustr",
+    "ipa": "/dustəɾ/",
+    "ja": [
+      "娘"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դուստր ունեմ։",
+      "ja": "娘がいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-people-036",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "people-family",
+    "hy": "Տատիկ",
+    "translit": "tatik",
+    "ipa": "/tɑˈtik/",
+    "ja": [
+      "おばあさん"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տատիկը տանն է։",
+      "ja": "おばあさんは家にいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-people-037",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "people-family",
+    "hy": "Պապիկ",
+    "translit": "papik",
+    "ipa": "/pɑˈpik/",
+    "ja": [
+      "おじいさん"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պապիկը գյուղում է։",
+      "ja": "おじいさんは村にいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-people-038",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "people-family",
+    "hy": "Հորեղբայր",
+    "translit": "horeghbayr",
+    "ipa": "/hoɾeχˈpɑjɾ/",
+    "ja": [
+      "おじ（父方）"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հորեղբայրս բժիշկ է։",
+      "ja": "父方のおじは医者です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-people-039",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "people-family",
+    "hy": "Մորեղբայր",
+    "translit": "moreghbayr",
+    "ipa": "/moɾeχˈpɑjɾ/",
+    "ja": [
+      "おじ（母方）"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մորեղբայրս Երևանում է։",
+      "ja": "母方のおじはエレバンにいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-people-040",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "people-family",
+    "hy": "Մորաքույր",
+    "translit": "morak'uyr",
+    "ipa": "/moɾɑˈkʰujɾ/",
+    "ja": [
+      "おば（母方）"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մորաքույրս ուսուցիչ է։",
+      "ja": "母方のおばは先生です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-people-041",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "people-family",
+    "hy": "Հորաքույր",
+    "translit": "horak'uyr",
+    "ipa": "/hoɾɑˈkʰujɾ/",
+    "ja": [
+      "おば（父方）"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հորաքույրս գալիս է։",
+      "ja": "父方のおばが来ます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-people-042",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "people-family",
+    "hy": "Զարմիկ",
+    "translit": "zarmik",
+    "ipa": "/zɑɾˈmik/",
+    "ja": [
+      "いとこ（男）"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Զարմիկս ուսանող է։",
+      "ja": "いとこは学生です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-people-043",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "people-family",
+    "hy": "Թոռ",
+    "translit": "t'or",
+    "ipa": "/tʰor/",
+    "ja": [
+      "孫"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թոռ ունեն։",
+      "ja": "孫がいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-people-044",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "people-family",
+    "hy": "Սկեսուր",
+    "translit": "skesur",
+    "ipa": "/skeˈsuɾ/",
+    "ja": [
+      "しゅうとめ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սկեսուրը բարի է։",
+      "ja": "しゅうとめはやさしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-people-045",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "people-family",
+    "hy": "Աներ",
+    "translit": "aner",
+    "ipa": "/ɑˈneɾ/",
+    "ja": [
+      "しゅうと（妻の父）"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Աներս գյուղացի է։",
+      "ja": "妻の父は農家です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-people-046",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "people-family",
+    "hy": "Մանկություն",
+    "translit": "mankut'yun",
+    "ipa": "/mɑnkuˈtʰjun/",
+    "ja": [
+      "子ども時代"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մանկությունս հիշում եմ։",
+      "ja": "子ども時代を思い出します。"
+    },
     "ruCognate": null
   }
 ]

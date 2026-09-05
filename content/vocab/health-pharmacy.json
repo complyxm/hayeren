@@ -653,5 +653,346 @@
       "ja": "痛み止めをもらえますか。"
     },
     "ruCognate": null
+  },
+  {
+    "id": "v-health-033",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Ախտանիշ",
+    "translit": "akhtanish",
+    "ipa": "/ɑχtɑˈniʃ/",
+    "ja": [
+      "症状"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ախտանիշ չկա։",
+      "ja": "症状はありません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-034",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Ախտորոշում",
+    "translit": "akhtoroshum",
+    "ipa": "/ɑχtoɾoˈʃum/",
+    "ja": [
+      "診断"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ախտորոշումը պարզ է։",
+      "ja": "診断ははっきりしています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-035",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Բուժում",
+    "translit": "buzhum",
+    "ipa": "/buˈʒum/",
+    "ja": [
+      "治療"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բուժում եմ ստանում։",
+      "ja": "治療を受けています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-036",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Ներարկում",
+    "translit": "nerarkum",
+    "ipa": "/neɾɑɾˈkum/",
+    "ja": [
+      "注射"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ներարկում է պետք։",
+      "ja": "注射が必要です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-037",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Պատվաստում",
+    "translit": "patvastum",
+    "ipa": "/pɑtvɑsˈtum/",
+    "ja": [
+      "予防接種"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պատվաստում եմ արել։",
+      "ja": "予防接種を受けました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-038",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Սրտխառնոց",
+    "translit": "srtkharnots'",
+    "ipa": "/səɾtχɑrˈnot͡sʰ/",
+    "ja": [
+      "吐き気"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սրտխառնոց ունեմ։",
+      "ja": "吐き気があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-039",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Գլխապտույտ",
+    "translit": "glkhaptuyt",
+    "ipa": "/ɡəlχɑpəˈtujt/",
+    "ja": [
+      "めまい"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գլխապտույտ ունեմ։",
+      "ja": "めまいがします。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-040",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Փսխել",
+    "translit": "p'skhel",
+    "ipa": "/pʰəsˈχel/",
+    "ja": [
+      "吐く"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Փսխում է։",
+      "ja": "吐いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-041",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Փռշտալ",
+    "translit": "p'rshtal",
+    "ipa": "/pʰərəʃˈtɑl/",
+    "ja": [
+      "くしゃみをする"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Փռշտում եմ։",
+      "ja": "くしゃみが出ます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-042",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Շնչել",
+    "translit": "shnch'el",
+    "ipa": "/ʃənˈt͡ʃʰel/",
+    "ja": [
+      "呼吸する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Դժվար եմ շնչում։",
+      "ja": "息が苦しいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-043",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Դողալ",
+    "translit": "doghal",
+    "ipa": "/doˈʁɑl/",
+    "ja": [
+      "震える"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Դողում եմ։",
+      "ja": "震えています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-044",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Քոր",
+    "translit": "k'or",
+    "ipa": "/kʰoɾ/",
+    "ja": [
+      "かゆみ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Քոր ունեմ։",
+      "ja": "かゆいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-045",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Վերք",
+    "translit": "verk'",
+    "ipa": "/veɾkʰ/",
+    "ja": [
+      "傷"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վերք ունեմ։",
+      "ja": "けがをしています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-046",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Կոտրվածք",
+    "translit": "kotrvatsk'",
+    "ipa": "/kotəɾˈvɑt͡skʰ/",
+    "ja": [
+      "骨折"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կոտրվածք է։",
+      "ja": "骨折です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-047",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Վարակ",
+    "translit": "varak",
+    "ipa": "/vɑˈɾɑk/",
+    "ja": [
+      "感染"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վարակ կա։",
+      "ja": "感染しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-048",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Մրսել",
+    "translit": "mrsel",
+    "ipa": "/məɾˈsel/",
+    "ja": [
+      "風邪をひく",
+      "冷える"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Մրսել եմ։",
+      "ja": "冷えてしまいました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-health-049",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "health-pharmacy",
+    "hy": "Առողջություն",
+    "translit": "aroghjut'yun",
+    "ipa": "/ɑroχt͡ʃʰuˈtʰjun/",
+    "ja": [
+      "健康"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Առողջությունը կարևոր է։",
+      "ja": "健康は大切です。"
+    },
+    "ruCognate": null
   }
 ]

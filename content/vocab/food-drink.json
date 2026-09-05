@@ -816,5 +816,168 @@
       "ja": "このナイフは切れません。"
     },
     "ruCognate": null
+  },
+  {
+    "id": "v-food-041",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "food-drink",
+    "hy": "Կաթնաշոռ",
+    "translit": "kat'nashor",
+    "ipa": "/kɑtʰnɑˈʃor/",
+    "ja": [
+      "カッテージチーズ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կաթնաշոռ եմ ուտում։",
+      "ja": "カッテージチーズを食べています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-food-042",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "food-drink",
+    "hy": "Թթվասեր",
+    "translit": "t't'vaser",
+    "ipa": "/tʰətʰvɑˈseɾ/",
+    "ja": [
+      "サワークリーム"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թթվասեր կա՞։",
+      "ja": "サワークリームはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-food-043",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "food-drink",
+    "hy": "Ձիթապտուղ",
+    "translit": "dzitaptugh",
+    "ipa": "/d͡zitʰɑpəˈtuʁ/",
+    "ja": [
+      "オリーブ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ձիթապտուղ եմ գնում։",
+      "ja": "オリーブを買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-food-044",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "food-drink",
+    "hy": "Հյութ",
+    "translit": "hyut'",
+    "ipa": "/hjutʰ/",
+    "ja": [
+      "ジュース"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հյութ եմ խմում։",
+      "ja": "ジュースを飲んでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-food-045",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "food-drink",
+    "hy": "Կոնյակ",
+    "translit": "konyak",
+    "ipa": "/koˈnjɑk/",
+    "ja": [
+      "コニャック",
+      "ブランデー"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հայկական կոնյակ է։",
+      "ja": "アルメニアのコニャックです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-food-046",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "food-drink",
+    "hy": "Օղի",
+    "translit": "oghi",
+    "ipa": "/oˈʁi/",
+    "ja": [
+      "ウォッカ",
+      "蒸留酒"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Օղի չեմ խմում։",
+      "ja": "蒸留酒は飲みません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-food-047",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "food-drink",
+    "hy": "Խորտիկ",
+    "translit": "khortik",
+    "ipa": "/χoɾˈtik/",
+    "ja": [
+      "前菜",
+      "つまみ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խորտիկ ենք պատվիրում։",
+      "ja": "前菜を注文します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-food-048",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "food-drink",
+    "hy": "Աղանդեր",
+    "translit": "aghander",
+    "ipa": "/ɑʁɑnˈdeɾ/",
+    "ja": [
+      "デザート"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Աղանդեր կա՞։",
+      "ja": "デザートはありますか。"
+    },
+    "ruCognate": null
   }
 ]
