@@ -166,6 +166,188 @@
           "author": "Հուրի Իսկանյան",
           "license": "CC BY-SA 4.0",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-գարուն.ogg"
+        },
+        {
+          "word": "աղ",
+          "file": "audio/listening/lx-01.mp3",
+          "author": "Aghamalyan-Liana",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-աղ.ogg"
+        },
+        {
+          "word": "դեղ",
+          "file": "audio/listening/lx-02.mp3",
+          "author": "Ջասթ նեյմ",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-դեղ.ogg"
+        },
+        {
+          "word": "փող",
+          "file": "audio/listening/lx-03.mp3",
+          "author": "Ծովինար Ապարան",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-փող.ogg"
+        },
+        {
+          "word": "մեղր",
+          "file": "audio/listening/lx-04.mp3",
+          "author": "Vahagn Petrosyan",
+          "license": "CC BY-SA 3.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-մեղր.ogg"
+        },
+        {
+          "word": "առողջ",
+          "file": "audio/listening/lx-05.mp3",
+          "author": "Azniv Stepanian (WMAM)",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-առողջ.ogg"
+        },
+        {
+          "word": "ձախ",
+          "file": "audio/listening/lx-06.mp3",
+          "author": "Azniv Stepanian (WMAM)",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-ձախ.ogg"
+        },
+        {
+          "word": "գլուխ",
+          "file": "audio/listening/lx-07.mp3",
+          "author": "Tigran Mkrtchyan 2002",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-գլուխ.ogg"
+        },
+        {
+          "word": "նախաճաշ",
+          "file": "audio/listening/lx-08.mp3",
+          "author": "Azniv Stepanian (WMAM)",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-նախաճաշ.ogg"
+        },
+        {
+          "word": "փոխարեն",
+          "file": "audio/listening/lx-09.mp3",
+          "author": "Varsanyan anahit",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-փոխարեն.ogg"
+        },
+        {
+          "word": "աշխատանք",
+          "file": "audio/listening/lx-10.mp3",
+          "author": "Lilit Sharbatyan",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-աշխատանք.ogg"
+        },
+        {
+          "word": "ծնվել",
+          "file": "audio/listening/lc-01.mp3",
+          "author": "Գրիգորյան Գոռ",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-ծնվել.ogg"
+        },
+        {
+          "word": "ծանր",
+          "file": "audio/listening/lc-02.mp3",
+          "author": "Maga Sargsyan",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-ծանր.ogg"
+        },
+        {
+          "word": "մեծ",
+          "file": "audio/listening/lc-03.mp3",
+          "author": "Hayarpi152000",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-մեծ.ogg"
+        },
+        {
+          "word": "ցուրտ",
+          "file": "audio/listening/lc-04.mp3",
+          "author": "Արտյոմ Մովսիսյան",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-ցուրտ.ogg"
+        },
+        {
+          "word": "հաց",
+          "file": "audio/listening/lc-05.mp3",
+          "author": "Լիլիթ Ա",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-հաց.ogg"
+        },
+        {
+          "word": "բաց",
+          "file": "audio/listening/lc-06.mp3",
+          "author": "Shadyworld1",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-բաց.ogg"
+        },
+        {
+          "word": "ճաշ",
+          "file": "audio/listening/lj-01.mp3",
+          "author": "Azniv Stepanian (WMAM)",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-ճաշ.ogg"
+        },
+        {
+          "word": "ճանապարհ",
+          "file": "audio/listening/lj-02.mp3",
+          "author": "Azniv Stepanian (WMAM)",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-ճանապարհ.ogg"
+        },
+        {
+          "word": "կարճ",
+          "file": "audio/listening/lj-03.mp3",
+          "author": "Սահակյան Գոհար",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-կարճ.ogg"
+        },
+        {
+          "word": "աստիճան",
+          "file": "audio/listening/lj-04.mp3",
+          "author": "Edojanjan",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-աստիճան.ogg"
+        },
+        {
+          "word": "անվճար",
+          "file": "audio/listening/lj-05.mp3",
+          "author": "Azniv Stepanian (WMAM)",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-անվճար.ogg"
+        },
+        {
+          "word": "չոր",
+          "file": "audio/listening/lj-06.mp3",
+          "author": "Հայկուհի Քոչարյան",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-չոր.ogg"
+        },
+        {
+          "word": "քիչ",
+          "file": "audio/listening/lj-07.mp3",
+          "author": "Միլուշ",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-քիչ.ogg"
+        },
+        {
+          "word": "կանաչ",
+          "file": "audio/listening/lj-08.mp3",
+          "author": "Argam.V",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-կանաչ.ogg"
+        },
+        {
+          "word": "ինչպես",
+          "file": "audio/listening/lj-09.mp3",
+          "author": "Argine",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-ինչպես.ogg"
+        },
+        {
+          "word": "աչք",
+          "file": "audio/listening/lj-10.mp3",
+          "author": "Lilit Sharbatyan",
+          "license": "CC BY-SA 4.0",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hy-աչք.ogg"
         }
       ]
     }

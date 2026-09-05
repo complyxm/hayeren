@@ -29,6 +29,16 @@ const UA = "hayeren-dev/1.0 (https://github.com/; language-learning app, non-com
  * - `rr-r`: 母音にはさまれた ռ（ふるえ音）/ ր（はじき音）。日本語ではどちらも「ラ」。
  *   位置を母音間にそろえてあるのは、語頭・語末では調音が弱まって
  *   ふるえ音でも接触が1回になりやすく、対立が聞こえにくいため。
+ * - `gh-kh`: ղ（有声）/ խ（無声）。どちらも日本語に無いのどの奥の摩擦音で、
+ *   違いは声帯が鳴るかどうかだけ。ղ は語頭にほとんど立たないので、
+ *   **両方とも語中・語末**の語で揃える（片方だけ語頭にすると位置で当てられる）。
+ * - `ts-tsh`: ծ（無気）/ ց（帯気）。պ/փ と同じ息の対立が破擦音に出たもの。
+ *   日本語ではどちらも「ツ」。
+ * - `ch-chh`: ճ（無気）/ չ（帯気）。同じ対立の「チ」版。
+ *
+ * 摩擦音・破擦音は**産出（自分の声の判定）ではなく知覚で扱う**。判定の閾値を
+ * 決めるには較正用の実録音が要り、その当てが無い。較正前の数値をハードコード
+ * しない（.claude/rules/audio-dsp.md）。ռ/ր で先に同じ判断をしている。
  *
  * どの語も語彙モジュールに載っている検証済みの語から選んである。
  */
@@ -63,6 +73,50 @@ const PAIRS = [
       { word: "արագ", letter: "ր" },
       { word: "սիրել", letter: "ր" },
       { word: "գարուն", letter: "ր" },
+    ],
+  },
+  {
+    pairId: "gh-kh",
+    prefix: "lx",
+    words: [
+      { word: "աղ", letter: "ղ" },
+      { word: "դեղ", letter: "ղ" },
+      { word: "փող", letter: "ղ" },
+      { word: "մեղր", letter: "ղ" },
+      { word: "առողջ", letter: "ղ" },
+      { word: "ձախ", letter: "խ" },
+      { word: "գլուխ", letter: "խ" },
+      { word: "նախաճաշ", letter: "խ" },
+      { word: "փոխարեն", letter: "խ" },
+      { word: "աշխատանք", letter: "խ" },
+    ],
+  },
+  {
+    pairId: "ts-tsh",
+    prefix: "lc",
+    words: [
+      { word: "ծնվել", letter: "ծ" },
+      { word: "ծանր", letter: "ծ" },
+      { word: "մեծ", letter: "ծ" },
+      { word: "ցուրտ", letter: "ց" },
+      { word: "հաց", letter: "ց" },
+      { word: "բաց", letter: "ց" },
+    ],
+  },
+  {
+    pairId: "ch-chh",
+    prefix: "lj",
+    words: [
+      { word: "ճաշ", letter: "ճ" },
+      { word: "ճանապարհ", letter: "ճ" },
+      { word: "կարճ", letter: "ճ" },
+      { word: "աստիճան", letter: "ճ" },
+      { word: "անվճար", letter: "ճ" },
+      { word: "չոր", letter: "չ" },
+      { word: "քիչ", letter: "չ" },
+      { word: "կանաչ", letter: "չ" },
+      { word: "ինչպես", letter: "չ" },
+      { word: "աչք", letter: "չ" },
     ],
   },
 ];
@@ -118,7 +172,10 @@ function fetchPair({ pairId, prefix, words }) {
   const info = fetchInfo(words.map((w) => `File:Hy-${w.word}.ogg`));
   const clips = [];
 
-  for (const { word, letter } of words) {
+  // 採番は **words の並び順**で固定する。取得できた件数で採番すると、
+  // Commons 側の一時的な失敗（MP3 トランスコードが未生成など）が1件あるだけで
+  // 以降のファイル名が全部ずれ、content/listening.json の語と音がすり替わる。
+  for (const [index, { word, letter }] of words.entries()) {
     const page = info.get(`File:Hy-${word}.ogg`);
     if (!page || page.missing !== undefined) {
       console.error(`[skip] ${word}: Commons にファイルが無い`);
@@ -144,7 +201,7 @@ function fetchPair({ pairId, prefix, words }) {
     }
 
     // ファイル名は ASCII にする。アルメニア文字のままだと URL のエンコードで事故りやすい。
-    const outName = `${prefix}-${String(clips.length + 1).padStart(2, "0")}.mp3`;
+    const outName = `${prefix}-${String(index + 1).padStart(2, "0")}.mp3`;
     writeFileSync(join(OUT_DIR, outName), bytes);
 
     clips.push({

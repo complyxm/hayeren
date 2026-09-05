@@ -223,6 +223,302 @@
           "audio": "audio/listening/lr-10.mp3"
         }
       ]
+    },
+    {
+      "pairId": "gh-kh",
+      "choices": [
+        "ղ",
+        "խ"
+      ],
+      "title_ja": "ղ と խ（語中・語末）",
+      "prompt_ja": "のどの奥の音はどちらでしたか。",
+      "note_ja": "どちらも日本語には無い、のどの奥をこすらせて出す音。違いは声帯が鳴るかどうかだけで、ղ は鳴り、խ は鳴らない。ղ は語のはじめにはほとんど立たないので、どちらの側も語中・語末の語だけを集めてある（片方だけ語頭にすると、音ではなく位置で当てられてしまう）。",
+      "items": [
+        {
+          "id": "lx-01",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-աղ.ogg（CC BY-SA 4.0、録音者 Aghamalyan-Liana）。語義は語彙モジュールで検証済み。",
+          "word": "աղ",
+          "letter": "ղ",
+          "ja": "塩",
+          "audio": "audio/listening/lx-01.mp3"
+        },
+        {
+          "id": "lx-02",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-դեղ.ogg（CC BY-SA 4.0、録音者 Ջասթ նեյմ）。語義は語彙モジュールで検証済み。",
+          "word": "դեղ",
+          "letter": "ղ",
+          "ja": "薬",
+          "audio": "audio/listening/lx-02.mp3"
+        },
+        {
+          "id": "lx-03",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-փող.ogg（CC BY-SA 4.0、録音者 Ծովինար Ապարան）。語義は語彙モジュールで検証済み。",
+          "word": "փող",
+          "letter": "ղ",
+          "ja": "お金",
+          "audio": "audio/listening/lx-03.mp3"
+        },
+        {
+          "id": "lx-04",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-մեղր.ogg（CC BY-SA 3.0、録音者 Vahagn Petrosyan）。語義は語彙モジュールで検証済み。",
+          "word": "մեղր",
+          "letter": "ղ",
+          "ja": "はちみつ",
+          "audio": "audio/listening/lx-04.mp3"
+        },
+        {
+          "id": "lx-05",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-առողջ.ogg（CC BY-SA 4.0、録音者 Azniv Stepanian (WMAM)）。語義は語彙モジュールで検証済み。",
+          "word": "առողջ",
+          "letter": "ղ",
+          "ja": "健康な",
+          "audio": "audio/listening/lx-05.mp3"
+        },
+        {
+          "id": "lx-06",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-ձախ.ogg（CC BY-SA 4.0、録音者 Azniv Stepanian (WMAM)）。語義は語彙モジュールで検証済み。",
+          "word": "ձախ",
+          "letter": "խ",
+          "ja": "左",
+          "audio": "audio/listening/lx-06.mp3"
+        },
+        {
+          "id": "lx-07",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-գլուխ.ogg（CC BY-SA 4.0、録音者 Tigran Mkrtchyan 2002）。語義は語彙モジュールで検証済み。",
+          "word": "գլուխ",
+          "letter": "խ",
+          "ja": "頭",
+          "audio": "audio/listening/lx-07.mp3"
+        },
+        {
+          "id": "lx-08",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-նախաճաշ.ogg（CC BY-SA 4.0、録音者 Azniv Stepanian (WMAM)）。語義は語彙モジュールで検証済み。",
+          "word": "նախաճաշ",
+          "letter": "խ",
+          "ja": "朝食",
+          "audio": "audio/listening/lx-08.mp3"
+        },
+        {
+          "id": "lx-09",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-փոխարեն.ogg（CC BY-SA 4.0、録音者 Varsanyan anahit）。語義は語彙モジュールで検証済み。",
+          "word": "փոխարեն",
+          "letter": "խ",
+          "ja": "〜の代わりに",
+          "audio": "audio/listening/lx-09.mp3"
+        },
+        {
+          "id": "lx-10",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-աշխատանք.ogg（CC BY-SA 4.0、録音者 Lilit Sharbatyan）。語義は語彙モジュールで検証済み。",
+          "word": "աշխատանք",
+          "letter": "խ",
+          "ja": "仕事／労働",
+          "audio": "audio/listening/lx-10.mp3"
+        }
+      ]
+    },
+    {
+      "pairId": "ts-tsh",
+      "choices": [
+        "ծ",
+        "ց"
+      ],
+      "title_ja": "ծ と ց（ツの息）",
+      "prompt_ja": "「ツ」の音はどちらでしたか。",
+      "note_ja": "պ と փ で聞いた息の対立が、「ツ」の音に出たもの。ց は息を強く出し、ծ は息を伴わない。日本語の「ツ」はちょうど中間あたりにあるので、意識しないとどちらにも寄らない音になる。",
+      "items": [
+        {
+          "id": "lc-01",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-ծնվել.ogg（CC BY-SA 4.0、録音者 Գրիգորյան Գոռ）。語義は語彙モジュールで検証済み。",
+          "word": "ծնվել",
+          "letter": "ծ",
+          "ja": "生まれる",
+          "audio": "audio/listening/lc-01.mp3"
+        },
+        {
+          "id": "lc-02",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-ծանր.ogg（CC BY-SA 4.0、録音者 Maga Sargsyan）。語義は語彙モジュールで検証済み。",
+          "word": "ծանր",
+          "letter": "ծ",
+          "ja": "重い",
+          "audio": "audio/listening/lc-02.mp3"
+        },
+        {
+          "id": "lc-03",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-մեծ.ogg（CC BY-SA 4.0、録音者 Hayarpi152000）。語義は語彙モジュールで検証済み。",
+          "word": "մեծ",
+          "letter": "ծ",
+          "ja": "大きい",
+          "audio": "audio/listening/lc-03.mp3"
+        },
+        {
+          "id": "lc-04",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-ցուրտ.ogg（CC BY-SA 4.0、録音者 Արտյոմ Մովսիսյան）。語義は語彙モジュールで検証済み。",
+          "word": "ցուրտ",
+          "letter": "ց",
+          "ja": "寒い",
+          "audio": "audio/listening/lc-04.mp3"
+        },
+        {
+          "id": "lc-05",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-հաց.ogg（CC BY-SA 4.0、録音者 Լիլիթ Ա）。語義は語彙モジュールで検証済み。",
+          "word": "հաց",
+          "letter": "ց",
+          "ja": "パン",
+          "audio": "audio/listening/lc-05.mp3"
+        },
+        {
+          "id": "lc-06",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-բաց.ogg（CC BY-SA 4.0、録音者 Shadyworld1）。語義は語彙モジュールで検証済み。",
+          "word": "բաց",
+          "letter": "ց",
+          "ja": "開いている",
+          "audio": "audio/listening/lc-06.mp3"
+        }
+      ]
+    },
+    {
+      "pairId": "ch-chh",
+      "choices": [
+        "ճ",
+        "չ"
+      ],
+      "title_ja": "ճ と չ（チの息）",
+      "prompt_ja": "「チ」の音はどちらでしたか。",
+      "note_ja": "同じ息の対立の「チ」版。չ は息を強く出し、ճ は息を伴わない。չ は「〜ではない」を作る語にもよく出るので、聞き分けられないと否定文を取り違える。",
+      "items": [
+        {
+          "id": "lj-01",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-ճաշ.ogg（CC BY-SA 4.0、録音者 Azniv Stepanian (WMAM)）。語義は語彙モジュールで検証済み。",
+          "word": "ճաշ",
+          "letter": "ճ",
+          "ja": "昼食／食事",
+          "audio": "audio/listening/lj-01.mp3"
+        },
+        {
+          "id": "lj-02",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-ճանապարհ.ogg（CC BY-SA 4.0、録音者 Azniv Stepanian (WMAM)）。語義は語彙モジュールで検証済み。",
+          "word": "ճանապարհ",
+          "letter": "ճ",
+          "ja": "道／道路",
+          "audio": "audio/listening/lj-02.mp3"
+        },
+        {
+          "id": "lj-03",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-կարճ.ogg（CC BY-SA 4.0、録音者 Սահակյան Գոհար）。語義は語彙モジュールで検証済み。",
+          "word": "կարճ",
+          "letter": "ճ",
+          "ja": "短い",
+          "audio": "audio/listening/lj-03.mp3"
+        },
+        {
+          "id": "lj-04",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-աստիճան.ogg（CC BY-SA 4.0、録音者 Edojanjan）。語義は語彙モジュールで検証済み。",
+          "word": "աստիճան",
+          "letter": "ճ",
+          "ja": "度／段",
+          "audio": "audio/listening/lj-04.mp3"
+        },
+        {
+          "id": "lj-05",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-անվճար.ogg（CC BY-SA 4.0、録音者 Azniv Stepanian (WMAM)）。語義は語彙モジュールで検証済み。",
+          "word": "անվճար",
+          "letter": "ճ",
+          "ja": "無料の",
+          "audio": "audio/listening/lj-05.mp3"
+        },
+        {
+          "id": "lj-06",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-չոր.ogg（CC BY-SA 4.0、録音者 Հայկուհի Քոչարյան）。語義は語彙モジュールで検証済み。",
+          "word": "չոր",
+          "letter": "չ",
+          "ja": "乾いた",
+          "audio": "audio/listening/lj-06.mp3"
+        },
+        {
+          "id": "lj-07",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-քիչ.ogg（CC BY-SA 4.0、録音者 Միլուշ）。語義は語彙モジュールで検証済み。",
+          "word": "քիչ",
+          "letter": "չ",
+          "ja": "少し／わずか",
+          "audio": "audio/listening/lj-07.mp3"
+        },
+        {
+          "id": "lj-08",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-կանաչ.ogg（CC BY-SA 4.0、録音者 Argam.V）。語義は語彙モジュールで検証済み。",
+          "word": "կանաչ",
+          "letter": "չ",
+          "ja": "緑の",
+          "audio": "audio/listening/lj-08.mp3"
+        },
+        {
+          "id": "lj-09",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-ինչպես.ogg（CC BY-SA 4.0、録音者 Argine）。語義は語彙モジュールで検証済み。",
+          "word": "ինչպես",
+          "letter": "չ",
+          "ja": "〜のように／〜として",
+          "audio": "audio/listening/lj-09.mp3"
+        },
+        {
+          "id": "lj-10",
+          "dialect": "east",
+          "status": "verified",
+          "source": "音声は Wikimedia Commons の https://commons.wikimedia.org/wiki/File:Hy-աչք.ogg（CC BY-SA 4.0、録音者 Lilit Sharbatyan）。語義は語彙モジュールで検証済み。",
+          "word": "աչք",
+          "letter": "չ",
+          "ja": "目",
+          "audio": "audio/listening/lj-10.mp3"
+        }
+      ]
     }
   ]
 }
