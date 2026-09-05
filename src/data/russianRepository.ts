@@ -1,16 +1,10 @@
 import { buildReviewQueue } from "../domain/srs/queue";
 import { evaluateRussianUnlock, type RussianUnlock } from "../domain/russian/unlock";
-import { db } from "./db";
 import { russianScenes } from "./russian";
 import { scenarios } from "./scenarios";
 import type { RussianPhrase, RussianScene } from "./schemas/russian";
 import type { Scenario } from "./schemas/scenarios";
-import {
-  countNewCardsIntroducedToday,
-  ensureCardsFor,
-  getRussianDailyNewCardLimit,
-  getStableContentIds,
-} from "./srsRepository";
+import { countNewCardsIntroducedToday, ensureCardsFor, getCardsFor, getRussianDailyNewCardLimit, getStableContentIds } from "./srsRepository";
 import { vocabContentId } from "./vocabSrsRepository";
 
 /** ロシア語カードの contentId。"ru:" の名前空間でアルメニア語側と完全に分ける。 */
@@ -77,7 +71,7 @@ export async function getRussianReviewQueue(
   if (contentIds.length === 0) return { items: [], dailyLimit, unlockedScenes: unlocked.length };
 
   await ensureCardsFor(contentIds, now);
-  const cards = await db.cards.where("contentId").anyOf(contentIds).toArray();
+  const cards = await getCardsFor(contentIds);
   const introducedToday = await countNewCardsIntroducedToday(contentIds, now);
 
   const queue = buildReviewQueue(

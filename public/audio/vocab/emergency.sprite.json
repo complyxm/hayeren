@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "theme": "emergency",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-emg-001": {
+      "start": 0,
+      "duration": 1.239
+    },
+    "v-emg-001__ex": {
+      "start": 1.389,
+      "duration": 2.277
+    },
+    "v-emg-002": {
+      "start": 3.816,
+      "duration": 1.06
+    },
+    "v-emg-002__ex": {
+      "start": 5.026,
+      "duration": 1.372
+    },
+    "v-emg-003": {
+      "start": 6.548,
+      "duration": 0.937
+    },
+    "v-emg-003__ex": {
+      "start": 7.635,
+      "duration": 1.677
+    },
+    "v-emg-004": {
+      "start": 9.462,
+      "duration": 0.951
+    },
+    "v-emg-004__ex": {
+      "start": 10.563,
+      "duration": 1.144
+    },
+    "v-emg-005": {
+      "start": 11.857,
+      "duration": 1.67
+    },
+    "v-emg-005__ex": {
+      "start": 13.677,
+      "duration": 2.493
+    },
+    "v-emg-006": {
+      "start": 16.32,
+      "duration": 1.26
+    },
+    "v-emg-006__ex": {
+      "start": 17.731,
+      "duration": 1.946
+    },
+    "v-emg-007": {
+      "start": 19.827,
+      "duration": 1.095
+    },
+    "v-emg-007__ex": {
+      "start": 21.072,
+      "duration": 1.789
+    },
+    "v-emg-008": {
+      "start": 23.011,
+      "duration": 0.916
+    },
+    "v-emg-008__ex": {
+      "start": 24.077,
+      "duration": 1.136
+    },
+    "v-emg-009": {
+      "start": 25.363,
+      "duration": 0.837
+    },
+    "v-emg-009__ex": {
+      "start": 26.35,
+      "duration": 1.097
+    },
+    "v-emg-010": {
+      "start": 27.597,
+      "duration": 1.171
+    },
+    "v-emg-010__ex": {
+      "start": 28.918,
+      "duration": 1.647
+    },
+    "v-emg-011": {
+      "start": 30.715,
+      "duration": 1.02
+    },
+    "v-emg-011__ex": {
+      "start": 31.885,
+      "duration": 1.705
+    },
+    "v-emg-012": {
+      "start": 33.74,
+      "duration": 1.052
+    },
+    "v-emg-012__ex": {
+      "start": 34.943,
+      "duration": 0.931
+    },
+    "v-emg-013": {
+      "start": 36.024,
+      "duration": 1.011
+    },
+    "v-emg-013__ex": {
+      "start": 37.185,
+      "duration": 1.466
+    },
+    "v-emg-014": {
+      "start": 38.801,
+      "duration": 1.158
+    },
+    "v-emg-014__ex": {
+      "start": 40.109,
+      "duration": 1.91
+    },
+    "v-emg-015": {
+      "start": 42.169,
+      "duration": 1.081
+    },
+    "v-emg-015__ex": {
+      "start": 43.4,
+      "duration": 1.728
+    },
+    "v-emg-016": {
+      "start": 45.278,
+      "duration": 1.272
+    },
+    "v-emg-016__ex": {
+      "start": 46.7,
+      "duration": 1.646
+    },
+    "v-emg-017": {
+      "start": 48.496,
+      "duration": 0.862
+    },
+    "v-emg-017__ex": {
+      "start": 49.509,
+      "duration": 1.347
+    },
+    "v-emg-018": {
+      "start": 51.006,
+      "duration": 1.093
+    },
+    "v-emg-018__ex": {
+      "start": 52.249,
+      "duration": 1.654
+    },
+    "v-emg-019": {
+      "start": 54.053,
+      "duration": 1.064
+    },
+    "v-emg-019__ex": {
+      "start": 55.267,
+      "duration": 1.664
+    },
+    "v-emg-020": {
+      "start": 57.081,
+      "duration": 0.898
+    },
+    "v-emg-020__ex": {
+      "start": 58.128,
+      "duration": 1.205
+    },
+    "v-emg-021": {
+      "start": 59.484,
+      "duration": 1.002
+    },
+    "v-emg-021__ex": {
+      "start": 60.636,
+      "duration": 1.733
+    },
+    "v-emg-022": {
+      "start": 62.519,
+      "duration": 1.109
+    },
+    "v-emg-022__ex": {
+      "start": 63.778,
+      "duration": 1.899
+    },
+    "v-emg-023": {
+      "start": 65.827,
+      "duration": 1.246
+    },
+    "v-emg-023__ex": {
+      "start": 67.224,
+      "duration": 1.492
+    },
+    "v-emg-024": {
+      "start": 68.866,
+      "duration": 1.159
+    },
+    "v-emg-024__ex": {
+      "start": 70.175,
+      "duration": 1.513
+    },
+    "v-emg-025": {
+      "start": 71.838,
+      "duration": 1.043
+    },
+    "v-emg-025__ex": {
+      "start": 73.031,
+      "duration": 1.601
+    },
+    "v-emg-026": {
+      "start": 74.782,
+      "duration": 0.971
+    },
+    "v-emg-026__ex": {
+      "start": 75.903,
+      "duration": 1.246
+    },
+    "v-emg-027": {
+      "start": 77.299,
+      "duration": 1.151
+    },
+    "v-emg-027__ex": {
+      "start": 78.6,
+      "duration": 1.895
+    },
+    "v-emg-028": {
+      "start": 80.645,
+      "duration": 1.165
+    },
+    "v-emg-028__ex": {
+      "start": 81.96,
+      "duration": 2.11
+    },
+    "v-emg-029": {
+      "start": 84.22,
+      "duration": 1.102
+    },
+    "v-emg-029__ex": {
+      "start": 85.472,
+      "duration": 1.876
+    },
+    "v-emg-030": {
+      "start": 87.498,
+      "duration": 1.259
+    },
+    "v-emg-030__ex": {
+      "start": 88.907,
+      "duration": 1.483
+    },
+    "v-emg-031": {
+      "start": 90.54,
+      "duration": 1.178
+    },
+    "v-emg-031__ex": {
+      "start": 91.868,
+      "duration": 1.415
+    },
+    "v-emg-032": {
+      "start": 93.433,
+      "duration": 1.019
+    },
+    "v-emg-032__ex": {
+      "start": 94.602,
+      "duration": 1.309
+    },
+    "v-emg-033": {
+      "start": 96.06,
+      "duration": 1.056
+    },
+    "v-emg-033__ex": {
+      "start": 97.266,
+      "duration": 1.511
+    },
+    "v-emg-034": {
+      "start": 98.928,
+      "duration": 1.225
+    },
+    "v-emg-034__ex": {
+      "start": 100.302,
+      "duration": 1.465
+    },
+    "v-emg-035": {
+      "start": 101.917,
+      "duration": 1.447
+    },
+    "v-emg-035__ex": {
+      "start": 103.514,
+      "duration": 2.159
+    },
+    "v-emg-036": {
+      "start": 105.823,
+      "duration": 1.084
+    },
+    "v-emg-036__ex": {
+      "start": 107.056,
+      "duration": 1.482
+    },
+    "v-emg-037": {
+      "start": 108.688,
+      "duration": 1.022
+    },
+    "v-emg-037__ex": {
+      "start": 109.86,
+      "duration": 2.087
+    },
+    "v-emg-038": {
+      "start": 112.097,
+      "duration": 1.214
+    },
+    "v-emg-038__ex": {
+      "start": 113.46,
+      "duration": 2.662
+    },
+    "v-emg-039": {
+      "start": 116.272,
+      "duration": 1.419
+    },
+    "v-emg-039__ex": {
+      "start": 117.842,
+      "duration": 1.968
+    },
+    "v-emg-040": {
+      "start": 119.959,
+      "duration": 1.343
+    },
+    "v-emg-040__ex": {
+      "start": 121.452,
+      "duration": 2.188
+    },
+    "v-emg-041": {
+      "start": 123.79,
+      "duration": 1.815
+    },
+    "v-emg-041__ex": {
+      "start": 125.755,
+      "duration": 2.204
+    },
+    "v-emg-042": {
+      "start": 128.108,
+      "duration": 1.279
+    },
+    "v-emg-042__ex": {
+      "start": 129.537,
+      "duration": 1.968
+    },
+    "v-emg-043": {
+      "start": 131.656,
+      "duration": 1.09
+    },
+    "v-emg-043__ex": {
+      "start": 132.896,
+      "duration": 1.382
+    },
+    "v-emg-044": {
+      "start": 134.428,
+      "duration": 1.384
+    },
+    "v-emg-044__ex": {
+      "start": 135.962,
+      "duration": 1.564
+    },
+    "v-emg-045": {
+      "start": 137.677,
+      "duration": 1.593
+    },
+    "v-emg-045__ex": {
+      "start": 139.419,
+      "duration": 2.253
+    },
+    "v-emg-046": {
+      "start": 141.823,
+      "duration": 1.042
+    },
+    "v-emg-046__ex": {
+      "start": 143.015,
+      "duration": 1.599
+    }
+  }
+}

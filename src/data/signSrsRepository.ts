@@ -1,7 +1,6 @@
 import { buildReviewQueue } from "../domain/srs/queue";
-import { db } from "./db";
 import { signs } from "./signs";
-import { countNewCardsIntroducedToday, ensureCardsFor, getSignDailyNewCardLimit } from "./srsRepository";
+import { countNewCardsIntroducedToday, ensureCardsFor, getCardsFor, getSignDailyNewCardLimit } from "./srsRepository";
 
 /**
  * カードの contentId。文字・語彙・文法と衝突しないよう "sign:" の名前空間を付ける。
@@ -21,7 +20,7 @@ export async function getSignReviewQueue(now: Date): Promise<{ ids: string[]; da
   if (contentIds.length === 0) return { ids: [], dailyLimit };
 
   await ensureCardsFor(contentIds, now);
-  const cards = await db.cards.where("contentId").anyOf(contentIds).toArray();
+  const cards = await getCardsFor(contentIds);
   const introducedToday = await countNewCardsIntroducedToday(contentIds, now);
 
   const queue = buildReviewQueue(

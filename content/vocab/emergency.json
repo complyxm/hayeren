@@ -1,0 +1,932 @@
+[
+  {
+    "id": "v-emg-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Օգնություն",
+    "translit": "ognut'yun",
+    "ipa": "/okʰnuˈtʰjun/",
+    "ja": [
+      "助け"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Օգնություն, խնդրում եմ։",
+      "ja": "助けてください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Վտանգ",
+    "translit": "vtang",
+    "ipa": "/vəˈtɑnɡ/",
+    "ja": [
+      "危険"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վտանգ կա։",
+      "ja": "危険があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Վթար",
+    "translit": "vt'ar",
+    "ipa": "/vəˈtʰɑɾ/",
+    "ja": [
+      "事故"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վթար է եղել։",
+      "ja": "事故がありました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Հրդեհ",
+    "translit": "hrdeh",
+    "ipa": "/həɾˈdeh/",
+    "ja": [
+      "火事"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հրդեհ է։",
+      "ja": "火事です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Ոստիկանություն",
+    "translit": "vostikanut'yun",
+    "ipa": "/vostikɑnuˈtʰjun/",
+    "ja": [
+      "警察"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ոստիկանություն եմ զանգում։",
+      "ja": "警察に電話しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Ոստիկան",
+    "translit": "vostikan",
+    "ipa": "/vostiˈkɑn/",
+    "ja": [
+      "警察官"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ոստիկանը օգնում է։",
+      "ja": "警察官が助けてくれます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Հրշեջ",
+    "translit": "hrshej",
+    "ipa": "/həɾˈʃed͡ʒ/",
+    "ja": [
+      "消防士",
+      "消火器"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հրշեջը եկել է։",
+      "ja": "消防士が来ました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Շտապ",
+    "translit": "shtap",
+    "ipa": "/ʃtɑp/",
+    "ja": [
+      "急ぎの"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Շտապ է։",
+      "ja": "急ぎです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Գող",
+    "translit": "gogh",
+    "ipa": "/ɡoʁ/",
+    "ja": [
+      "泥棒"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գող կա։",
+      "ja": "泥棒がいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文の過去形は Wiktionary の活用表で確認し、content/grammar/exceptions.json にも登録した。",
+    "theme": "emergency",
+    "hy": "Կորցնել",
+    "translit": "korts'nel",
+    "ipa": "/koɾt͡sʰˈnel/",
+    "ja": [
+      "なくす"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Բանալին կորցրի։",
+      "ja": "鍵をなくしました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文の過去形は Wiktionary の活用表で確認し、content/grammar/exceptions.json にも登録した。",
+    "theme": "emergency",
+    "hy": "Գտնել",
+    "translit": "gtnel",
+    "ipa": "/ɡətˈnel/",
+    "ja": [
+      "見つける"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Պայուսակը գտա։",
+      "ja": "かばんを見つけました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文の過去形は Wiktionary の活用表で確認し、content/grammar/exceptions.json にも登録した。",
+    "theme": "emergency",
+    "hy": "Ընկնել",
+    "translit": "ynknel",
+    "ipa": "/ənkˈnel/",
+    "ja": [
+      "落ちる",
+      "転ぶ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ընկա։",
+      "ja": "転びました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Վնաս",
+    "translit": "vnas",
+    "ipa": "/vəˈnɑs/",
+    "ja": [
+      "損害",
+      "害"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վնաս չկա։",
+      "ja": "損害はありません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Վնասել",
+    "translit": "vnasel",
+    "ipa": "/vənɑˈsel/",
+    "ja": [
+      "傷つける",
+      "壊す"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ձեռքս վնասեցի։",
+      "ja": "手をけがしました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Վիրավոր",
+    "translit": "viravor",
+    "ipa": "/viɾɑˈvoɾ/",
+    "ja": [
+      "けがをした"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Վիրավոր մարդ կա։",
+      "ja": "けがをした人がいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Վախենալ",
+    "translit": "vakhenal",
+    "ipa": "/vɑχeˈnɑl/",
+    "ja": [
+      "こわがる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Չեմ վախենում։",
+      "ja": "こわくありません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Վախ",
+    "translit": "vakh",
+    "ipa": "/vɑχ/",
+    "ja": [
+      "恐れ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վախ չկա։",
+      "ja": "こわがることはありません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Զգույշ",
+    "translit": "zguysh",
+    "ipa": "/zɡujʃ/",
+    "ja": [
+      "気をつけて",
+      "慎重な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Զգույշ եղեք։",
+      "ja": "気をつけてください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Ուշադիր",
+    "translit": "ushadir",
+    "ipa": "/uʃɑˈdiɾ/",
+    "ja": [
+      "注意深い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ուշադիր եղեք։",
+      "ja": "注意してください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-020",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Խնդիր",
+    "translit": "khndir",
+    "ipa": "/χənˈtʰiɾ/",
+    "ja": [
+      "問題"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խնդիր կա։",
+      "ja": "問題があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-021",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Լուծել",
+    "translit": "lutsel",
+    "ipa": "/luˈt͡sel/",
+    "ja": [
+      "解決する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Խնդիրը լուծում եմ։",
+      "ja": "問題を解決します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-022",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Կանչել",
+    "translit": "kanchel",
+    "ipa": "/kɑnˈt͡ʃʰel/",
+    "ja": [
+      "呼ぶ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Բժիշկ եմ կանչում։",
+      "ja": "医者を呼んでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-023",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Բղավել",
+    "translit": "bghavel",
+    "ipa": "/bəʁɑˈvel/",
+    "ja": [
+      "叫ぶ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Մի՛ բղավեք։",
+      "ja": "叫ばないでください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-024",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文の過去形は Wiktionary の活用表で確認し、content/grammar/exceptions.json にも登録した。",
+    "theme": "emergency",
+    "hy": "Փախչել",
+    "translit": "p'akhchel",
+    "ipa": "/pʰɑχˈt͡ʃʰel/",
+    "ja": [
+      "逃げる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Գողը փախավ։",
+      "ja": "泥棒が逃げました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-025",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Բռնել",
+    "translit": "brnel",
+    "ipa": "/bərˈnel/",
+    "ja": [
+      "つかまえる",
+      "持つ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ձեռքս բռնեք։",
+      "ja": "手をつかんでください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-026",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Վկա",
+    "translit": "vka",
+    "ipa": "/vəˈkɑ/",
+    "ja": [
+      "目撃者"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վկա կա՞։",
+      "ja": "目撃者はいますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-027",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Ապահով",
+    "translit": "apahov",
+    "ipa": "/ɑpɑˈhov/",
+    "ja": [
+      "安全な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Այստեղ ապահով է։",
+      "ja": "ここは安全です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-028",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Անվտանգ",
+    "translit": "anvtang",
+    "ipa": "/ɑnvəˈtɑnɡ/",
+    "ja": [
+      "安全な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ճանապարհը անվտանգ է։",
+      "ja": "道は安全です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-029",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Արգելել",
+    "translit": "argelel",
+    "ipa": "/ɑɾkʰeˈlel/",
+    "ja": [
+      "禁止する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Այստեղ արգելում են։",
+      "ja": "ここでは禁止されています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-030",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Թույլատրել",
+    "translit": "t'uylatrel",
+    "ipa": "/tʰujlɑtˈɾel/",
+    "ja": [
+      "許可する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Թույլատրու՞մ եք։",
+      "ja": "許可してもらえますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-031",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Սպասել",
+    "translit": "spasel",
+    "ipa": "/spɑˈsel/",
+    "ja": [
+      "待つ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Սպասում եմ։",
+      "ja": "待っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-032",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Վստահ",
+    "translit": "vstah",
+    "ipa": "/vəsˈtɑh/",
+    "ja": [
+      "確かな"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Վստահ եմ։",
+      "ja": "確かです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-033",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Բողոք",
+    "translit": "boghok'",
+    "ipa": "/boˈʁokʰ/",
+    "ja": [
+      "苦情"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բողոք ունեմ։",
+      "ja": "苦情があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-034",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Բողոքել",
+    "translit": "boghok'el",
+    "ipa": "/boʁoˈkʰel/",
+    "ja": [
+      "苦情を言う"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Բողոքում եմ։",
+      "ja": "苦情を言います。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-035",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Վերանորոգել",
+    "translit": "veranorogel",
+    "ipa": "/veɾɑnoɾoˈkʰel/",
+    "ja": [
+      "修理する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Սարքը վերանորոգում են։",
+      "ja": "機器を修理してくれます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-036",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文の過去形は Wiktionary の活用表で確認し、content/grammar/exceptions.json にも登録した。",
+    "theme": "emergency",
+    "hy": "Կպչել",
+    "translit": "kpchel",
+    "ipa": "/kəpˈt͡ʃʰel/",
+    "ja": [
+      "くっつく"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Դուռը կպել է։",
+      "ja": "ドアがくっついて開きません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-037",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Գցել",
+    "translit": "gts'el",
+    "ipa": "/ɡəˈt͡sʰel/",
+    "ja": [
+      "落とす",
+      "投げる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հեռախոսը գցեցի։",
+      "ja": "携帯を落としました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-038",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Ընդհատել",
+    "translit": "yndhatel",
+    "ipa": "/əntʰhɑˈtel/",
+    "ja": [
+      "中断する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Խոսակցությունը ընդհատեցին։",
+      "ja": "会話を中断されました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-039",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文の過去形は Wiktionary の活用表で確認し、content/grammar/exceptions.json にも登録した。",
+    "theme": "emergency",
+    "hy": "Վերադառնալ",
+    "translit": "veradarnal",
+    "ipa": "/veɾɑdɑrˈnɑl/",
+    "ja": [
+      "戻る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Տուն եմ վերադառնում։",
+      "ja": "家に戻ります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-040",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Դեսպանատուն",
+    "translit": "despanatun",
+    "ipa": "/despɑnɑˈtun/",
+    "ja": [
+      "大使館"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դեսպանատունը որտե՞ղ է։",
+      "ja": "大使館はどこですか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-041",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Ապահովագրություն",
+    "translit": "apahovagrut'yun",
+    "ipa": "/ɑpɑhovɑɡɾuˈtʰjun/",
+    "ja": [
+      "保険"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ապահովագրություն ունեմ։",
+      "ja": "保険を持っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-042",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Թարգմանիչ",
+    "translit": "t'argmanich",
+    "ipa": "/tʰɑɾkʰmɑˈnit͡ʃʰ/",
+    "ja": [
+      "通訳"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թարգմանիչ եմ ուզում։",
+      "ja": "通訳をお願いしたいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-043",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Սխալ",
+    "translit": "skhal",
+    "ipa": "/səˈχɑl/",
+    "ja": [
+      "間違い"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սխալ կա։",
+      "ja": "間違いがあります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-044",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Հանգստանալ",
+    "translit": "hangstanal",
+    "ipa": "/hɑnɡəstɑˈnɑl/",
+    "ja": [
+      "休む",
+      "落ち着く"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հանգստանում եմ։",
+      "ja": "休んでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-045",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Դժբախտություն",
+    "translit": "dzhbakhtut'yun",
+    "ipa": "/dəʒbɑχtuˈtʰjun/",
+    "ja": [
+      "不幸",
+      "災難"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դժբախտություն է եղել։",
+      "ja": "災難がありました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-emg-046",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "emergency",
+    "hy": "Այրվել",
+    "translit": "ayrvel",
+    "ipa": "/ɑjɾˈvel/",
+    "ja": [
+      "やけどする",
+      "燃える"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ձեռքս այրվեց։",
+      "ja": "手をやけどしました。"
+    },
+    "ruCognate": null
+  }
+]

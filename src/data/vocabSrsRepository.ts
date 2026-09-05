@@ -1,7 +1,6 @@
 import { buildReviewQueue } from "../domain/srs/queue";
 import { vocab } from "./vocab";
-import { db } from "./db";
-import { countNewCardsIntroducedToday, ensureCardsFor, getVocabDailyNewCardLimit } from "./srsRepository";
+import { countNewCardsIntroducedToday, ensureCardsFor, getCardsFor, getVocabDailyNewCardLimit } from "./srsRepository";
 
 export type VocabDirection = "hy-ja" | "ja-hy";
 
@@ -32,7 +31,7 @@ export async function getVocabReviewQueue(now: Date): Promise<{ items: VocabQueu
   const allContentIds = verifiedIds.flatMap((id) => [vocabContentId(id, "hy-ja"), vocabContentId(id, "ja-hy")]);
 
   await ensureCardsFor(allContentIds, now);
-  const cards = await db.cards.where("contentId").anyOf(allContentIds).toArray();
+  const cards = await getCardsFor(allContentIds);
   const cardByContentId = new Map(cards.map((c) => [c.contentId, c]));
 
   const eligibleCards = cards.filter((c) => {

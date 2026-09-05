@@ -113,6 +113,29 @@ export async function setStabilityThresholdDays(days: number): Promise<void> {
 }
 
 /**
+ * 指定した contentId 群のカードを読む。
+ *
+ * `where("contentId").anyOf(ids)` は id の数に比例して重くなる（語彙が1,500枚に
+ * なった時点で 520ms、全件走査＋絞り込みは 3ms。2026-09-05 実測）。カードの総数は
+ * 学習コンテンツの総数どまりで、増えても数千枚なので、**全件読んでメモリで絞る**
+ * ほうが速く、語彙が増えても劣化しない。
+ */
+export async function getCardsFor(contentIds: string[]): Promise<CardRecord[]> {
+  if (contentIds.length === 0) return [];
+  const wanted = new Set(contentIds);
+  const all = await db.cards.toArray();
+  return all.filter((card) => wanted.has(card.contentId));
+}
+
+/** 同じ理由で、レビュー履歴も cardId 群での anyOf を避ける。 */
+async function getReviewsFor(cardIds: string[]): Promise<ReviewRecord[]> {
+  if (cardIds.length === 0) return [];
+  const wanted = new Set(cardIds);
+  const all = await db.reviews.toArray();
+  return all.filter((review) => wanted.has(review.cardId));
+}
+
+/**
  * 渡した contentId のうち「安定」しているものの集合（curriculum.md §7.1）。
  * 判定そのものは domain の isStable() に任せ、ここは Dexie から
  * カードと直近の評価を集めてくる係に徹する（CLAUDE.md §8）。
@@ -121,12 +144,12 @@ export async function getStableContentIds(contentIds: string[]): Promise<Set<str
   if (contentIds.length === 0) return new Set();
   const [criteria, cards] = await Promise.all([
     getStabilityCriteria(),
-    db.cards.where("contentId").anyOf(contentIds).toArray(),
+    getCardsFor(contentIds),
   ]);
   if (cards.length === 0) return new Set();
 
   // 直近の評価はカードごとに1件だけ要る。reviews を1回で引いて contentId ごとに畳む。
-  const reviews = await db.reviews.where("cardId").anyOf(cards.map((c) => c.contentId)).toArray();
+  const reviews = await getReviewsFor(cards.map((c) => c.contentId));
   const lastRating = new Map<string, { at: Date; rating: ReviewRating }>();
   for (const review of reviews) {
     const current = lastRating.get(review.cardId);
@@ -171,7 +194,7 @@ export async function markGrammarLessonComplete(lessonId: string): Promise<void>
 export async function ensureCardsFor(contentIds: string[], now: Date): Promise<void> {
   if (contentIds.length === 0) return;
   await db.transaction("rw", db.cards, async () => {
-    const existing = await db.cards.where("contentId").anyOf(contentIds).toArray();
+    const existing = await getCardsFor(contentIds);
     const existingIds = new Set(existing.map((c) => c.contentId));
     const missing = contentIds.filter((id) => !existingIds.has(id));
     if (missing.length === 0) return;
@@ -203,7 +226,7 @@ export async function countNewCardsIntroducedToday(contentIds: string[], now: Da
 /** 指定した content id 群を対象に、今日のキュー（due の復習＋新規カード上限の残り枠）を組み立てる。 */
 export async function getTodaysQueue(contentIds: string[], now: Date): Promise<QueueableCard[]> {
   await ensureCardsFor(contentIds, now);
-  const cards = await db.cards.where("contentId").anyOf(contentIds).toArray();
+  const cards = await getCardsFor(contentIds);
   const [dailyNewCardLimit, newCardsIntroducedToday] = await Promise.all([
     getDailyNewCardLimit(),
     countNewCardsIntroducedToday(contentIds, now),

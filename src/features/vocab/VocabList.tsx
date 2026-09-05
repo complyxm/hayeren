@@ -26,6 +26,7 @@ const THEME_LABEL_JA: Record<VocabTheme, string> = {
   "home-chores": "家事・日用品",
   "internet-post": "通信・ネット・郵便",
   clothing: "服・身につけるもの",
+  emergency: "困ったとき・緊急",
 };
 
 /**

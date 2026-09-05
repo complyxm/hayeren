@@ -1,13 +1,7 @@
 import { buildReviewQueue } from "../domain/srs/queue";
-import { db } from "./db";
 import { grammarLessons } from "./grammar";
 import type { GrammarExercise } from "./schemas/grammar";
-import {
-  countNewCardsIntroducedToday,
-  ensureCardsFor,
-  getCompletedGrammarLessonIds,
-  getGrammarDailyNewCardLimit,
-} from "./srsRepository";
+import { countNewCardsIntroducedToday, ensureCardsFor, getCardsFor, getCompletedGrammarLessonIds, getGrammarDailyNewCardLimit } from "./srsRepository";
 
 export interface GrammarQueueItem {
   lessonId: string;
@@ -57,7 +51,7 @@ export async function getGrammarReviewQueue(
   if (contentIds.length === 0) return { items: [], dailyLimit, totalCards: 0 };
 
   await ensureCardsFor(contentIds, now);
-  const cards = await db.cards.where("contentId").anyOf(contentIds).toArray();
+  const cards = await getCardsFor(contentIds);
   const introducedToday = await countNewCardsIntroducedToday(contentIds, now);
 
   const queue = buildReviewQueue(
