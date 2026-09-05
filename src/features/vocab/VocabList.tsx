@@ -35,6 +35,8 @@ const THEME_LABEL_JA: Record<VocabTheme, string> = {
   "culture-holidays": "文化・行事",
   "nature-animals": "自然・生きもの",
   "body-looks": "体・見た目",
+  travel: "旅行・空港",
+  "sports-hobbies": "スポーツ・趣味",
 };
 
 /**

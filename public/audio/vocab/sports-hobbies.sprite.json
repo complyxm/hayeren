@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "theme": "sports-hobbies",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-hob-001": {
+      "start": 0,
+      "duration": 0.944
+    },
+    "v-hob-001__ex": {
+      "start": 1.094,
+      "duration": 1.722
+    },
+    "v-hob-002": {
+      "start": 2.966,
+      "duration": 1.153
+    },
+    "v-hob-002__ex": {
+      "start": 4.269,
+      "duration": 1.945
+    },
+    "v-hob-003": {
+      "start": 6.364,
+      "duration": 1.14
+    },
+    "v-hob-003__ex": {
+      "start": 7.654,
+      "duration": 2
+    },
+    "v-hob-004": {
+      "start": 9.804,
+      "duration": 1.141
+    },
+    "v-hob-004__ex": {
+      "start": 11.095,
+      "duration": 2.109
+    },
+    "v-hob-005": {
+      "start": 13.354,
+      "duration": 0.911
+    },
+    "v-hob-005__ex": {
+      "start": 14.415,
+      "duration": 1.766
+    },
+    "v-hob-006": {
+      "start": 16.331,
+      "duration": 1.018
+    },
+    "v-hob-006__ex": {
+      "start": 17.499,
+      "duration": 1.752
+    },
+    "v-hob-007": {
+      "start": 19.401,
+      "duration": 0.962
+    },
+    "v-hob-007__ex": {
+      "start": 20.512,
+      "duration": 1.648
+    },
+    "v-hob-008": {
+      "start": 22.311,
+      "duration": 1.176
+    },
+    "v-hob-008__ex": {
+      "start": 23.637,
+      "duration": 2.22
+    },
+    "v-hob-009": {
+      "start": 26.007,
+      "duration": 1.188
+    },
+    "v-hob-009__ex": {
+      "start": 27.345,
+      "duration": 1.805
+    },
+    "v-hob-010": {
+      "start": 29.3,
+      "duration": 1.14
+    },
+    "v-hob-010__ex": {
+      "start": 30.59,
+      "duration": 1.422
+    },
+    "v-hob-011": {
+      "start": 32.162,
+      "duration": 0.828
+    },
+    "v-hob-011__ex": {
+      "start": 33.14,
+      "duration": 1.542
+    },
+    "v-hob-012": {
+      "start": 34.832,
+      "duration": 1.076
+    },
+    "v-hob-012__ex": {
+      "start": 36.059,
+      "duration": 1.742
+    },
+    "v-hob-013": {
+      "start": 37.951,
+      "duration": 1.296
+    },
+    "v-hob-013__ex": {
+      "start": 39.397,
+      "duration": 2.046
+    },
+    "v-hob-014": {
+      "start": 41.593,
+      "duration": 1.394
+    },
+    "v-hob-014__ex": {
+      "start": 43.137,
+      "duration": 1.623
+    },
+    "v-hob-015": {
+      "start": 44.91,
+      "duration": 0.986
+    },
+    "v-hob-015__ex": {
+      "start": 46.046,
+      "duration": 1.704
+    },
+    "v-hob-016": {
+      "start": 47.9,
+      "duration": 1.262
+    },
+    "v-hob-016__ex": {
+      "start": 49.311,
+      "duration": 2.248
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "theme": "travel",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-trv-001": {
+      "start": 0,
+      "duration": 1.044
+    },
+    "v-trv-001__ex": {
+      "start": 1.194,
+      "duration": 1.934
+    },
+    "v-trv-002": {
+      "start": 3.278,
+      "duration": 1.176
+    },
+    "v-trv-002__ex": {
+      "start": 4.604,
+      "duration": 1.84
+    },
+    "v-trv-003": {
+      "start": 6.594,
+      "duration": 1.101
+    },
+    "v-trv-003__ex": {
+      "start": 7.845,
+      "duration": 1.728
+    },
+    "v-trv-004": {
+      "start": 9.723,
+      "duration": 1.005
+    },
+    "v-trv-004__ex": {
+      "start": 10.878,
+      "duration": 1.395
+    },
+    "v-trv-005": {
+      "start": 12.423,
+      "duration": 0.992
+    },
+    "v-trv-005__ex": {
+      "start": 13.565,
+      "duration": 1.631
+    },
+    "v-trv-006": {
+      "start": 15.346,
+      "duration": 1.26
+    },
+    "v-trv-006__ex": {
+      "start": 16.756,
+      "duration": 1.546
+    },
+    "v-trv-007": {
+      "start": 18.452,
+      "duration": 1.302
+    },
+    "v-trv-007__ex": {
+      "start": 19.904,
+      "duration": 2.048
+    },
+    "v-trv-008": {
+      "start": 22.102,
+      "duration": 1.138
+    },
+    "v-trv-008__ex": {
+      "start": 23.39,
+      "duration": 1.592
+    },
+    "v-trv-009": {
+      "start": 25.132,
+      "duration": 1.283
+    },
+    "v-trv-009__ex": {
+      "start": 26.566,
+      "duration": 1.774
+    },
+    "v-trv-010": {
+      "start": 28.49,
+      "duration": 1.288
+    },
+    "v-trv-010__ex": {
+      "start": 29.928,
+      "duration": 2.193
+    },
+    "v-trv-011": {
+      "start": 32.272,
+      "duration": 1.16
+    },
+    "v-trv-011__ex": {
+      "start": 33.582,
+      "duration": 1.989
+    },
+    "v-trv-012": {
+      "start": 35.721,
+      "duration": 1.069
+    },
+    "v-trv-012__ex": {
+      "start": 36.94,
+      "duration": 2.155
+    }
+  }
+}

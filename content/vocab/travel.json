@@ -1,0 +1,245 @@
+[
+  {
+    "id": "v-trv-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "travel",
+    "hy": "Չվերթ",
+    "translit": "ch'vert'",
+    "ipa": "/t͡ʃʰəˈveɾtʰ/",
+    "ja": [
+      "フライト",
+      "便"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Չվերթը ուշանում է։",
+      "ja": "フライトが遅れています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-trv-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "travel",
+    "hy": "Ուղեբեռ",
+    "translit": "ugheber",
+    "ipa": "/uʁeˈber/",
+    "ja": [
+      "荷物"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ուղեբեռը ծանր է։",
+      "ja": "荷物が重いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-trv-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "travel",
+    "hy": "Ճամպրուկ",
+    "translit": "champruk",
+    "ipa": "/t͡ʃɑmpˈɾuk/",
+    "ja": [
+      "スーツケース"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ճամպրուկը կորավ։",
+      "ja": "スーツケースがなくなりました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-trv-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "travel",
+    "hy": "Վիզա",
+    "translit": "viza",
+    "ipa": "/viˈzɑ/",
+    "ja": [
+      "ビザ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վիզա ունեմ։",
+      "ja": "ビザを持っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-trv-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "travel",
+    "hy": "Դարպաս",
+    "translit": "darpas",
+    "ipa": "/dɑɾˈpɑs/",
+    "ja": [
+      "ゲート",
+      "門"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դարպասը փակ է։",
+      "ja": "ゲートは閉まっています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-trv-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "travel",
+    "hy": "Ուշացում",
+    "translit": "ushats'um",
+    "ipa": "/uʃɑˈt͡sʰum/",
+    "ja": [
+      "遅れ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ուշացում կա։",
+      "ja": "遅れがあります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-trv-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "travel",
+    "hy": "Մաքսատուն",
+    "translit": "mak'satun",
+    "ipa": "/mɑkʰsɑˈtun/",
+    "ja": [
+      "税関"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մաքսատունը այնտեղ է։",
+      "ja": "税関はあそこです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-trv-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "travel",
+    "hy": "Սահման",
+    "translit": "sahman",
+    "ipa": "/sɑhˈmɑn/",
+    "ja": [
+      "国境",
+      "境"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սահմանը մոտ է։",
+      "ja": "国境は近いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-trv-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "travel",
+    "hy": "Ուղեկցորդ",
+    "translit": "ughekts'ord",
+    "ipa": "/uʁekˈt͡sʰoɾtʰ/",
+    "ja": [
+      "ガイド"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ուղեկցորդ ունենք։",
+      "ja": "ガイドがいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-trv-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "travel",
+    "hy": "Չեղարկել",
+    "translit": "ch'egharkel",
+    "ipa": "/t͡ʃʰeʁɑɾˈkel/",
+    "ja": [
+      "取り消す"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Չվերթը չեղարկեցին։",
+      "ja": "フライトが欠航になりました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-trv-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "travel",
+    "hy": "Ժամանել",
+    "translit": "zhamanel",
+    "ipa": "/ʒɑmɑˈnel/",
+    "ja": [
+      "到着する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ժամանում ենք վաղը։",
+      "ja": "明日到着します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-trv-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "travel",
+    "hy": "Մեկնել",
+    "translit": "meknel",
+    "ipa": "/mekˈnel/",
+    "ja": [
+      "出発する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Առավոտյան մեկնում եմ։",
+      "ja": "朝に出発します。"
+    },
+    "ruCognate": null
+  }
+]

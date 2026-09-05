@@ -1,0 +1,327 @@
+[
+  {
+    "id": "v-hob-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Սպորտ",
+    "translit": "sport",
+    "ipa": "/spoɾt/",
+    "ja": [
+      "スポーツ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սպորտ եմ սիրում։",
+      "ja": "スポーツが好きです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-hob-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Մարզվել",
+    "translit": "marzvel",
+    "ipa": "/mɑɾzəˈvel/",
+    "ja": [
+      "運動する",
+      "トレーニングする"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ամեն օր մարզվում եմ։",
+      "ja": "毎日トレーニングしています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-hob-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Ֆուտբոլ",
+    "translit": "futbol",
+    "ipa": "/futˈbol/",
+    "ja": [
+      "サッカー"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ֆուտբոլ են խաղում։",
+      "ja": "サッカーをしています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-hob-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Շախմատ",
+    "translit": "shakhmat",
+    "ipa": "/ʃɑχˈmɑt/",
+    "ja": [
+      "チェス"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Շախմատ եմ խաղում։",
+      "ja": "チェスをしています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-hob-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Լող",
+    "translit": "logh",
+    "ipa": "/loʁ/",
+    "ja": [
+      "水泳"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Լողը օգտակար է։",
+      "ja": "水泳は体にいいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-hob-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Վազք",
+    "translit": "vazk'",
+    "ipa": "/vɑzkʰ/",
+    "ja": [
+      "ランニング"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վազքը հեշտ չէ։",
+      "ja": "ランニングは楽ではありません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-hob-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Խաղ",
+    "translit": "khagh",
+    "ipa": "/χɑʁ/",
+    "ja": [
+      "ゲーム",
+      "試合"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խաղը երկար էր։",
+      "ja": "試合は長かったです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-hob-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Խաղալ",
+    "translit": "khaghal",
+    "ipa": "/χɑˈʁɑl/",
+    "ja": [
+      "遊ぶ",
+      "（試合を）する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Երեխաները խաղում են։",
+      "ja": "子どもたちが遊んでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-hob-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Հաղթել",
+    "translit": "haght'el",
+    "ipa": "/hɑχˈtʰel/",
+    "ja": [
+      "勝つ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Մեր թիմը հաղթեց։",
+      "ja": "うちのチームが勝ちました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-hob-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Պարտվել",
+    "translit": "partvel",
+    "ipa": "/pɑɾtˈvel/",
+    "ja": [
+      "負ける"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Պարտվեցինք։",
+      "ja": "負けました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-hob-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Թիմ",
+    "translit": "t'im",
+    "ipa": "/tʰim/",
+    "ja": [
+      "チーム"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թիմը ուժեղ է։",
+      "ja": "チームは強いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-hob-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Մրցում",
+    "translit": "mrts'um",
+    "ipa": "/məɾˈt͡sʰum/",
+    "ja": [
+      "試合",
+      "大会"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մրցում կա այսօր։",
+      "ja": "今日は試合があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-hob-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Զբոսնել",
+    "translit": "zbosnel",
+    "ipa": "/zbosˈnel/",
+    "ja": [
+      "散歩する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Այգում ենք զբոսնում։",
+      "ja": "公園を散歩しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-hob-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Լուսանկարել",
+    "translit": "lusankarel",
+    "ipa": "/lusɑnəkɑˈɾel/",
+    "ja": [
+      "写真を撮る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Լուսանկարում եմ։",
+      "ja": "写真を撮っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-hob-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Ֆիլմ",
+    "translit": "film",
+    "ipa": "/film/",
+    "ja": [
+      "映画"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ֆիլմ ենք նայում։",
+      "ja": "映画を見ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-hob-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "sports-hobbies",
+    "hy": "Հավաքել",
+    "translit": "havak'el",
+    "ipa": "/hɑvɑˈkʰel/",
+    "ja": [
+      "集める",
+      "片づける"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ճամպրուկը հավաքում եմ։",
+      "ja": "荷物をまとめています。"
+    },
+    "ruCognate": null
+  }
+]
