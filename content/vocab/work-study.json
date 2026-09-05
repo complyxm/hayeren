@@ -1,0 +1,735 @@
+[
+  {
+    "id": "v-work-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Գործ",
+    "translit": "gorts",
+    "ipa": "/ɡoɾt͡s/",
+    "ja": [
+      "仕事",
+      "用事"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գործ ունեմ։",
+      "ja": "用事があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Ղեկավար",
+    "translit": "ghekavar",
+    "ipa": "/ʁekɑˈvɑɾ/",
+    "ja": [
+      "上司",
+      "責任者"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ղեկավարը այստեղ չէ։",
+      "ja": "上司はここにいません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Գործընկեր",
+    "translit": "gortsynker",
+    "ipa": "/ɡoɾt͡sənˈkeɾ/",
+    "ja": [
+      "同僚"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գործընկերս օգնում է։",
+      "ja": "同僚が手伝ってくれます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Աշխատավարձ",
+    "translit": "ashkhatavardz",
+    "ipa": "/ɑʃχɑtɑˈvɑɾt͡sʰ/",
+    "ja": [
+      "給料"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Աշխատավարձը ամսական է։",
+      "ja": "給料は月ごとです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Արձակուրդ",
+    "translit": "ardzakurd",
+    "ipa": "/ɑɾt͡sʰɑˈkuɾtʰ/",
+    "ja": [
+      "休暇"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Արձակուրդ եմ վերցնում։",
+      "ja": "休暇を取ります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Հանդիպում",
+    "translit": "handipum",
+    "ipa": "/hɑndiˈpum/",
+    "ja": [
+      "会議",
+      "会うこと"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հանդիպում ունեմ։",
+      "ja": "会議があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Նիստ",
+    "translit": "nist",
+    "ipa": "/nist/",
+    "ja": [
+      "会議"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նիստը երկար էր։",
+      "ja": "会議は長かったです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Ժամանակացույց",
+    "translit": "zhamanakats'uyts'",
+    "ipa": "/ʒɑmɑnɑkɑˈt͡sʰujt͡sʰ/",
+    "ja": [
+      "時間割",
+      "スケジュール"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ժամանակացույցը փոխվել է։",
+      "ja": "スケジュールが変わりました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文に使った語（քայլել / փնտրել / ճիշտ / օգտագործել / պատրաստ / սկսվել / մոտ）も同じ辞書で確認済み。",
+    "theme": "work-study",
+    "hy": "Ծրագիր",
+    "translit": "tsragir",
+    "ipa": "/t͡səɾɑˈɡiɾ/",
+    "ja": [
+      "計画",
+      "プログラム"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ծրագիրը պատրաստ է։",
+      "ja": "計画ができています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Պարտականություն",
+    "translit": "partakanut'yun",
+    "ipa": "/pɑɾtɑkɑnuˈtʰjun/",
+    "ja": [
+      "義務",
+      "担当"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պարտականություն ունեմ։",
+      "ja": "担当があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Հարցազրույց",
+    "translit": "harts'azruyts'",
+    "ipa": "/hɑɾt͡sʰɑzəˈɾujt͡sʰ/",
+    "ja": [
+      "面接",
+      "インタビュー"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հարցազրույց ունեմ վաղը։",
+      "ja": "明日面接があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Փորձառություն",
+    "translit": "p'ordzarut'yun",
+    "ipa": "/pʰoɾt͡sʰɑruˈtʰjun/",
+    "ja": [
+      "経験"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Փորձառություն ունեմ։",
+      "ja": "経験があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Առաջարկ",
+    "translit": "arajark",
+    "ipa": "/ɑrɑˈt͡ʃʰɑɾk/",
+    "ja": [
+      "提案"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Առաջարկ ունեմ։",
+      "ja": "提案があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Որոշում",
+    "translit": "voroshum",
+    "ipa": "/voɾoˈʃum/",
+    "ja": [
+      "決定"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Որոշումը լավ է։",
+      "ja": "いい決定です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Որոշել",
+    "translit": "voroshel",
+    "ipa": "/voɾoˈʃel/",
+    "ja": [
+      "決める"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ես որոշում եմ։",
+      "ja": "私が決めます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Ավարտել",
+    "translit": "avartel",
+    "ipa": "/ɑvɑɾˈtel/",
+    "ja": [
+      "終える"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Գործը ավարտում եմ։",
+      "ja": "仕事を終えます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Հրաժարվել",
+    "translit": "hrazharvel",
+    "ipa": "/həɾɑʒɑɾˈvel/",
+    "ja": [
+      "断る",
+      "やめる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հրաժարվում եմ։",
+      "ja": "お断りします。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Կրթություն",
+    "translit": "krt'ut'yun",
+    "ipa": "/kəɾtʰuˈtʰjun/",
+    "ja": [
+      "教育",
+      "学歴"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կրթություն ունեմ։",
+      "ja": "学歴があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Ուսուցիչ",
+    "translit": "usuts'ich",
+    "ipa": "/usuˈt͡sʰit͡ʃʰ/",
+    "ja": [
+      "先生"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ուսուցիչը բացատրում է։",
+      "ja": "先生が説明しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-020",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Դասախոս",
+    "translit": "dasakhos",
+    "ipa": "/dɑsɑˈχos/",
+    "ja": [
+      "講師",
+      "大学の先生"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դասախոսը լավն է։",
+      "ja": "講師はいい人です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-021",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Աշակերտ",
+    "translit": "ashakert",
+    "ipa": "/ɑʃɑˈkeɾt/",
+    "ja": [
+      "生徒"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Աշակերտը սովորում է։",
+      "ja": "生徒が勉強しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-022",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Դասընթաց",
+    "translit": "dasynt'ats'",
+    "ipa": "/dɑsənˈtʰɑt͡sʰ/",
+    "ja": [
+      "講座",
+      "コース"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դասընթաց եմ սկսում։",
+      "ja": "講座を始めます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-023",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文に使った語（քայլել / փնտրել / ճիշտ / օգտագործել / պատրաստ / սկսվել / մոտ）も同じ辞書で確認済み。",
+    "theme": "work-study",
+    "hy": "Դաս",
+    "translit": "das",
+    "ipa": "/dɑs/",
+    "ja": [
+      "授業",
+      "課"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դասը սկսվում է։",
+      "ja": "授業が始まります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-024",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Քննություն",
+    "translit": "k'nnut'yun",
+    "ipa": "/kʰənnuˈtʰjun/",
+    "ja": [
+      "試験"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Քննություն ունեմ։",
+      "ja": "試験があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-025",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Գնահատական",
+    "translit": "gnahatakan",
+    "ipa": "/ɡənɑhɑtɑˈkɑn/",
+    "ja": [
+      "評価",
+      "成績"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գնահատականը լավ է։",
+      "ja": "成績はいいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-026",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Գիտելիք",
+    "translit": "gitelik'",
+    "ipa": "/ɡiteˈlikʰ/",
+    "ja": [
+      "知識"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գիտելիք եմ ուզում։",
+      "ja": "知識がほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-027",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Սովորեցնել",
+    "translit": "sovorets'nel",
+    "ipa": "/sovoɾet͡sʰˈnel/",
+    "ja": [
+      "教える"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հայերեն եմ սովորեցնում։",
+      "ja": "アルメニア語を教えています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-028",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Բացատրել",
+    "translit": "bats'atrel",
+    "ipa": "/bɑt͡sʰɑtˈɾel/",
+    "ja": [
+      "説明する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Բացատրում եմ։",
+      "ja": "説明します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-029",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Հարցնել",
+    "translit": "harts'nel",
+    "ipa": "/hɑɾt͡sʰˈnel/",
+    "ja": [
+      "たずねる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հարցնում եմ։",
+      "ja": "たずねます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-030",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文に使った語（քայլել / փնտրել / ճիշտ / օգտագործել / պատրաստ / սկսվել / մոտ）も同じ辞書で確認済み。",
+    "theme": "work-study",
+    "hy": "Պատասխան",
+    "translit": "pataskhan",
+    "ipa": "/pɑtɑsˈχɑn/",
+    "ja": [
+      "答え"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պատասխանը ճիշտ է։",
+      "ja": "答えは正しいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-031",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Թարգմանել",
+    "translit": "t'argmanel",
+    "ipa": "/tʰɑɾkʰmɑˈnel/",
+    "ja": [
+      "翻訳する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Թարգմանում եմ։",
+      "ja": "翻訳しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-032",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文に使った語（քայլել / փնտրել / ճիշտ / օգտագործել / պատրաստ / սկսվել / մոտ）も同じ辞書で確認済み。",
+    "theme": "work-study",
+    "hy": "Բառարան",
+    "translit": "bararan",
+    "ipa": "/bɑrɑˈɾɑn/",
+    "ja": [
+      "辞書"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բառարան եմ օգտագործում։",
+      "ja": "辞書を使っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-033",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Գիրք",
+    "translit": "girk'",
+    "ipa": "/ɡiɾkʰ/",
+    "ja": [
+      "本"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գիրք եմ կարդում։",
+      "ja": "本を読んでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-034",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Տետր",
+    "translit": "tetr",
+    "ipa": "/tetəɾ/",
+    "ja": [
+      "ノート"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տետր եմ գնում։",
+      "ja": "ノートを買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-035",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Գրիչ",
+    "translit": "grich",
+    "ipa": "/ɡəˈɾit͡ʃʰ/",
+    "ja": [
+      "ペン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գրիչ կա՞։",
+      "ja": "ペンはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-work-036",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "work-study",
+    "hy": "Վկայական",
+    "translit": "vkayakan",
+    "ipa": "/vəkɑjɑˈkɑn/",
+    "ja": [
+      "証明書"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վկայական եմ ստանում։",
+      "ja": "証明書をもらいます。"
+    },
+    "ruCognate": null
+  }
+]

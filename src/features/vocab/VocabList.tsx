@@ -28,6 +28,8 @@ const THEME_LABEL_JA: Record<VocabTheme, string> = {
   clothing: "服・身につけるもの",
   emergency: "困ったとき・緊急",
   "feelings-social": "気持ち・つきあい",
+  "city-places": "街・施設",
+  "work-study": "仕事・学び",
 };
 
 /**

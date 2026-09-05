@@ -1,0 +1,669 @@
+[
+  {
+    "id": "v-city-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文に使った語（քայլել / փնտրել / ճիշտ / օգտագործել / պատրաստ / սկսվել / մոտ）も同じ辞書で確認済み。",
+    "theme": "city-places",
+    "hy": "Այգի",
+    "translit": "aygi",
+    "ipa": "/ɑjˈɡi/",
+    "ja": [
+      "公園",
+      "庭"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Այգում եմ քայլում։",
+      "ja": "公園を歩いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Պուրակ",
+    "translit": "purak",
+    "ipa": "/puˈɾɑk/",
+    "ja": [
+      "小さな公園",
+      "木立"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պուրակը մոտ է։",
+      "ja": "小さな公園は近いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Թանգարան",
+    "translit": "t'angaran",
+    "ipa": "/tʰɑnɡɑˈɾɑn/",
+    "ja": [
+      "博物館",
+      "美術館"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թանգարանը փակ է։",
+      "ja": "博物館は閉まっています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Եկեղեցի",
+    "translit": "yekeghets'i",
+    "ipa": "/jekeʁeˈt͡sʰi/",
+    "ja": [
+      "教会"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Եկեղեցին հին է։",
+      "ja": "教会は古いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Վանք",
+    "translit": "vank'",
+    "ipa": "/vɑnkʰ/",
+    "ja": [
+      "修道院"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վանքը սարում է։",
+      "ja": "修道院は山にあります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Խաչքար",
+    "translit": "khach'k'ar",
+    "ipa": "/χɑt͡ʃʰˈkʰɑɾ/",
+    "ja": [
+      "ハチュカル（十字架石）"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խաչքարը գեղեցիկ է։",
+      "ja": "ハチュカルはきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Կինոթատրոն",
+    "translit": "kinot'atron",
+    "ipa": "/kinotʰɑtˈɾon/",
+    "ja": [
+      "映画館"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կինոթատրոն եմ գնում։",
+      "ja": "映画館に行きます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Թատրոն",
+    "translit": "t'atron",
+    "ipa": "/tʰɑtˈɾon/",
+    "ja": [
+      "劇場"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թատրոնը կենտրոնում է։",
+      "ja": "劇場は中心にあります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Համերգ",
+    "translit": "hamerg",
+    "ipa": "/hɑˈmeɾɡ/",
+    "ja": [
+      "コンサート"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Համերգ կա այսօր։",
+      "ja": "今日コンサートがあります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Ցուցահանդես",
+    "translit": "ts'ts'ahandes",
+    "ipa": "/t͡sʰut͡sʰɑhɑnˈdes/",
+    "ja": [
+      "展覧会"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ցուցահանդես եմ տեսնում։",
+      "ja": "展覧会を見ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Գրադարան",
+    "translit": "gradaran",
+    "ipa": "/ɡəɾɑdɑˈɾɑn/",
+    "ja": [
+      "図書館"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գրադարանը բաց է։",
+      "ja": "図書館は開いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Համալսարան",
+    "translit": "hamalsaran",
+    "ipa": "/hɑmɑlsɑˈɾɑn/",
+    "ja": [
+      "大学"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Համալսարանը մեծ է։",
+      "ja": "大学は大きいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Դպրոց",
+    "translit": "dprots'",
+    "ipa": "/dəpˈɾot͡sʰ/",
+    "ja": [
+      "学校"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դպրոցը մոտ է։",
+      "ja": "学校は近いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Մանկապարտեզ",
+    "translit": "mankapartez",
+    "ipa": "/mɑnkɑpɑɾˈtez/",
+    "ja": [
+      "幼稚園"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մանկապարտեզը այստեղ է։",
+      "ja": "幼稚園はここです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Սրճարան",
+    "translit": "srcharan",
+    "ipa": "/səɾt͡ʃɑˈɾɑn/",
+    "ja": [
+      "カフェ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սրճարանում եմ։",
+      "ja": "カフェにいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Ճաշարան",
+    "translit": "chasharan",
+    "ipa": "/t͡ʃɑʃɑˈɾɑn/",
+    "ja": [
+      "食堂"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ճաշարանը էժան է։",
+      "ja": "食堂は安いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文に使った語（քայլել / փնտրել / ճիշտ / օգտագործել / պատրաստ / սկսվել / մոտ）も同じ辞書で確認済み。",
+    "theme": "city-places",
+    "hy": "Հյուրանոց",
+    "translit": "hyuranots'",
+    "ipa": "/hjuɾɑˈnot͡sʰ/",
+    "ja": [
+      "ホテル"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հյուրանոց եմ փնտրում։",
+      "ja": "ホテルを探しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Լողավազան",
+    "translit": "loghavazan",
+    "ipa": "/loʁɑvɑˈzɑn/",
+    "ja": [
+      "プール"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Լողավազան կա՞։",
+      "ja": "プールはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Մարզասրահ",
+    "translit": "marzasrah",
+    "ipa": "/mɑɾzɑsəˈɾɑh/",
+    "ja": [
+      "ジム"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մարզասրահ եմ գնում։",
+      "ja": "ジムに行きます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-020",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Վարսավիրանոց",
+    "translit": "varsaviranots'",
+    "ipa": "/vɑɾsɑviɾɑˈnot͡sʰ/",
+    "ja": [
+      "美容室",
+      "理髪店"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վարսավիրանոցը որտե՞ղ է։",
+      "ja": "美容室はどこですか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-021",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Դատարան",
+    "translit": "dataran",
+    "ipa": "/dɑtɑˈɾɑn/",
+    "ja": [
+      "裁判所"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դատարանը կենտրոնում է։",
+      "ja": "裁判所は中心にあります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-022",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Քաղաքապետարան",
+    "translit": "k'aghak'apetaran",
+    "ipa": "/kʰɑʁɑkʰɑpetɑˈɾɑn/",
+    "ja": [
+      "市役所"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Քաղաքապետարան եմ գնում։",
+      "ja": "市役所に行きます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-023",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Ավտոկայանատեղի",
+    "translit": "avtokayanateghi",
+    "ipa": "/ɑftokɑjɑnɑteˈʁi/",
+    "ja": [
+      "駐車場"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ավտոկայանատեղի կա՞։",
+      "ja": "駐車場はありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-024",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Շենք",
+    "translit": "shenk'",
+    "ipa": "/ʃenkʰ/",
+    "ja": [
+      "建物"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Շենքը բարձր է։",
+      "ja": "建物は高いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-025",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Թաղամաս",
+    "translit": "t'aghamas",
+    "ipa": "/tʰɑʁɑˈmɑs/",
+    "ja": [
+      "地区",
+      "町内"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թաղամասը հանգիստ է։",
+      "ja": "この地区は静かです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-026",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Սրահ",
+    "translit": "srah",
+    "ipa": "/səˈɾɑh/",
+    "ja": [
+      "ホール",
+      "広間"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սրահը մեծ է։",
+      "ja": "ホールは大きいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-027",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Արձան",
+    "translit": "ardzan",
+    "ipa": "/ɑɾˈd͡zɑn/",
+    "ja": [
+      "像"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Արձանը հրապարակում է։",
+      "ja": "像は広場にあります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-028",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Շատրվան",
+    "translit": "shatrvan",
+    "ipa": "/ʃɑtəɾˈvɑn/",
+    "ja": [
+      "噴水"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Շատրվանը աշխատում է։",
+      "ja": "噴水が動いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-029",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Տոմսարկղ",
+    "translit": "tomsarkgh",
+    "ipa": "/tomsɑɾkəʁ/",
+    "ja": [
+      "切符売り場"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տոմսարկղը փակ է։",
+      "ja": "切符売り場は閉まっています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-030",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Լիճ",
+    "translit": "lich",
+    "ipa": "/lit͡ʃ/",
+    "ja": [
+      "湖"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Լիճը մեծ է։",
+      "ja": "湖は大きいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-031",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Գետ",
+    "translit": "get",
+    "ipa": "/ɡet/",
+    "ja": [
+      "川"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գետը մոտ է։",
+      "ja": "川は近いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-032",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Սար",
+    "translit": "sar",
+    "ipa": "/sɑɾ/",
+    "ja": [
+      "山"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սարը բարձր է։",
+      "ja": "山は高いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-city-033",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "city-places",
+    "hy": "Ամրոց",
+    "translit": "amrots'",
+    "ipa": "/ɑmˈɾot͡sʰ/",
+    "ja": [
+      "城",
+      "要塞"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ամրոցը հին է։",
+      "ja": "城は古いです。"
+    },
+    "ruCognate": null
+  }
+]
