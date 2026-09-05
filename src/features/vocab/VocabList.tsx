@@ -27,6 +27,7 @@ const THEME_LABEL_JA: Record<VocabTheme, string> = {
   "internet-post": "通信・ネット・郵便",
   clothing: "服・身につけるもの",
   emergency: "困ったとき・緊急",
+  "feelings-social": "気持ち・つきあい",
 };
 
 /**

@@ -1,0 +1,853 @@
+[
+  {
+    "id": "v-feel-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Զգացմունք",
+    "translit": "zgats'munk'",
+    "ipa": "/zɡɑt͡sʰˈmunkʰ/",
+    "ja": [
+      "気持ち",
+      "感情"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Զգացմունքը կարևոր է։",
+      "ja": "気持ちは大切です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Տրամադրություն",
+    "translit": "tramadrut'yun",
+    "ipa": "/təɾɑmɑdɾuˈtʰjun/",
+    "ja": [
+      "気分"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տրամադրությունը լավ է։",
+      "ja": "気分がいいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Ուրախություն",
+    "translit": "urakhut'yun",
+    "ipa": "/uɾɑχuˈtʰjun/",
+    "ja": [
+      "喜び"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ուրախություն է։",
+      "ja": "うれしいことです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Տխրություն",
+    "translit": "tkhrut'yun",
+    "ipa": "/təχɾuˈtʰjun/",
+    "ja": [
+      "悲しみ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տխրություն կա։",
+      "ja": "悲しみがあります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Զայրույթ",
+    "translit": "zayruyt'",
+    "ipa": "/zɑjˈɾujtʰ/",
+    "ja": [
+      "怒り"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Զայրույթ չկա։",
+      "ja": "怒ってはいません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文に使った շնորհավոր / երեխա / ապրել と否定命令 մի՛ բարկացեք も同じ辞書で確認済み。",
+    "theme": "feelings-social",
+    "hy": "Բարկանալ",
+    "translit": "barkanal",
+    "ipa": "/bɑɾkɑˈnɑl/",
+    "ja": [
+      "怒る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Մի՛ բարկացեք։",
+      "ja": "怒らないでください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Ծիծաղել",
+    "translit": "tsitsaghel",
+    "ipa": "/t͡sit͡sɑˈʁel/",
+    "ja": [
+      "笑う"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ծիծաղում ենք։",
+      "ja": "笑っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文に使った շնորհավոր / երեխա / ապրել と否定命令 մի՛ բարկացեք も同じ辞書で確認済み。",
+    "theme": "feelings-social",
+    "hy": "Լացել",
+    "translit": "lats'el",
+    "ipa": "/lɑˈt͡sʰel/",
+    "ja": [
+      "泣く"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Երեխան լացում է։",
+      "ja": "子どもが泣いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Ժպտալ",
+    "translit": "zhptal",
+    "ipa": "/ʒəpˈtɑl/",
+    "ja": [
+      "ほほえむ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ժպտում է։",
+      "ja": "ほほえんでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Ժպիտ",
+    "translit": "zhpit",
+    "ipa": "/ʒəˈpit/",
+    "ja": [
+      "ほほえみ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ժպիտը գեղեցիկ է։",
+      "ja": "ほほえみがすてきです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Հետաքրքիր",
+    "translit": "hetak'rk'ir",
+    "ipa": "/hetɑkʰəɾˈkʰiɾ/",
+    "ja": [
+      "おもしろい",
+      "興味深い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Շատ հետաքրքիր է։",
+      "ja": "とてもおもしろいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Ձանձրալի",
+    "translit": "dzandzrali",
+    "ipa": "/d͡zɑnd͡zɾɑˈli/",
+    "ja": [
+      "退屈な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ձանձրալի է։",
+      "ja": "退屈です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Հոգնել",
+    "translit": "hognel",
+    "ipa": "/hokʰˈnel/",
+    "ja": [
+      "疲れる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հոգնել եմ։",
+      "ja": "疲れました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Հոգնած",
+    "translit": "hognats",
+    "ipa": "/hokʰˈnɑt͡s/",
+    "ja": [
+      "疲れた"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հոգնած եմ։",
+      "ja": "疲れています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Քնել",
+    "translit": "k'nel",
+    "ipa": "/kʰəˈnel/",
+    "ja": [
+      "寝る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Շուտ եմ քնում։",
+      "ja": "早く寝ます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Արթնանալ",
+    "translit": "art'nanal",
+    "ipa": "/ɑɾtʰnɑˈnɑl/",
+    "ja": [
+      "起きる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Առավոտյան արթնանում եմ։",
+      "ja": "朝に起きます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Երազ",
+    "translit": "yeraz",
+    "ipa": "/jeˈɾɑz/",
+    "ja": [
+      "夢"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Լավ երազ տեսա։",
+      "ja": "いい夢を見ました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Սիրելի",
+    "translit": "sireli",
+    "ipa": "/siɾeˈli/",
+    "ja": [
+      "親愛な",
+      "大切な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Սիրելի ընկեր։",
+      "ja": "親愛な友へ。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Հանդիպել",
+    "translit": "handipel",
+    "ipa": "/hɑndiˈpel/",
+    "ja": [
+      "会う"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Վաղը հանդիպում ենք։",
+      "ja": "明日会います。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-020",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Հրավիրել",
+    "translit": "hravirel",
+    "ipa": "/həɾɑviˈɾel/",
+    "ja": [
+      "招待する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հյուր եմ հրավիրում։",
+      "ja": "客を招待します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-021",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Շնորհավորել",
+    "translit": "shnorhavorel",
+    "ipa": "/ʃnoɾɑvoˈɾel/",
+    "ja": [
+      "祝う"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Շնորհավորում եմ։",
+      "ja": "おめでとうございます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-022",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Նվեր",
+    "translit": "nver",
+    "ipa": "/nəˈveɾ/",
+    "ja": [
+      "贈り物"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նվեր եմ գնում։",
+      "ja": "贈り物を買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-023",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文に使った շնորհավոր / երեխա / ապրել と否定命令 մի՛ բարկացեք も同じ辞書で確認済み。",
+    "theme": "feelings-social",
+    "hy": "Ծնունդ",
+    "translit": "tsnund",
+    "ipa": "/t͡səˈnund/",
+    "ja": [
+      "誕生",
+      "誕生日"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ծնունդդ շնորհավոր։",
+      "ja": "お誕生日おめでとう。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-024",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Հարսանիք",
+    "translit": "harsanik'",
+    "ipa": "/hɑɾsɑˈnikʰ/",
+    "ja": [
+      "結婚式"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հարսանիք է։",
+      "ja": "結婚式です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-025",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Հյուր",
+    "translit": "hyur",
+    "ipa": "/hjuɾ/",
+    "ja": [
+      "客"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հյուր ունենք։",
+      "ja": "客が来ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-026",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Համբերել",
+    "translit": "hamberel",
+    "ipa": "/hɑmpʰeˈɾel/",
+    "ja": [
+      "がまんする",
+      "待つ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Համբերում եմ։",
+      "ja": "がまんしています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-027",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Կարոտել",
+    "translit": "karotel",
+    "ipa": "/kɑɾoˈtel/",
+    "ja": [
+      "恋しく思う"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Կարոտում եմ։",
+      "ja": "恋しいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-028",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Վստահել",
+    "translit": "vstahel",
+    "ipa": "/vəstɑˈhel/",
+    "ja": [
+      "信じる",
+      "任せる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Քեզ վստահում եմ։",
+      "ja": "あなたを信じています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-029",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Զարմանալ",
+    "translit": "zarmanal",
+    "ipa": "/zɑɾmɑˈnɑl/",
+    "ja": [
+      "驚く"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Զարմանում եմ։",
+      "ja": "驚いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-030",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Հպարտ",
+    "translit": "hpart",
+    "ipa": "/həˈpɑɾt/",
+    "ja": [
+      "誇らしい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հպարտ եմ։",
+      "ja": "誇らしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-031",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Ամաչել",
+    "translit": "amachel",
+    "ipa": "/ɑmɑˈt͡ʃʰel/",
+    "ja": [
+      "恥ずかしがる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ամաչում եմ։",
+      "ja": "恥ずかしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-032",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Ցավոք",
+    "translit": "ts'avok'",
+    "ipa": "/t͡sʰɑˈvokʰ/",
+    "ja": [
+      "残念ながら"
+    ],
+    "pos": "particle",
+    "forms": {},
+    "example": {
+      "hy": "Ցավոք, չեմ կարող։",
+      "ja": "残念ながら、できません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-033",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Միգուցե",
+    "translit": "miguts'e",
+    "ipa": "/ˈmiɡut͡sʰe/",
+    "ja": [
+      "たぶん"
+    ],
+    "pos": "particle",
+    "forms": {},
+    "example": {
+      "hy": "Միգուցե վաղը։",
+      "ja": "たぶん明日です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-034",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Անշուշտ",
+    "translit": "anshusht",
+    "ipa": "/ɑnˈʃuʃt/",
+    "ja": [
+      "きっと",
+      "確かに"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Անշուշտ կգամ։",
+      "ja": "きっと行きます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-035",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Ազատ",
+    "translit": "azat",
+    "ipa": "/ɑˈzɑt/",
+    "ja": [
+      "ひまな",
+      "自由な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Վաղը ազատ եմ։",
+      "ja": "明日はひまです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-036",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Միասին",
+    "translit": "miasin",
+    "ipa": "/miɑˈsin/",
+    "ja": [
+      "いっしょに"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Միասին ենք գնում։",
+      "ja": "いっしょに行きます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-037",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 例文に使った շնորհավոր / երեխա / ապրել と否定命令 մի՛ բարկացեք も同じ辞書で確認済み。",
+    "theme": "feelings-social",
+    "hy": "Առանձին",
+    "translit": "arandzin",
+    "ipa": "/ɑrɑnˈd͡zin/",
+    "ja": [
+      "別々に"
+    ],
+    "pos": "adverb",
+    "forms": {},
+    "example": {
+      "hy": "Առանձին ենք ապրում։",
+      "ja": "別々に住んでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-038",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Կատակ",
+    "translit": "katak",
+    "ipa": "/kɑˈtɑk/",
+    "ja": [
+      "冗談"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կատակ է։",
+      "ja": "冗談です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-039",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Լուրջ",
+    "translit": "lurj",
+    "ipa": "/luɾd͡ʒ/",
+    "ja": [
+      "まじめな",
+      "本気の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Լուրջ եմ ասում։",
+      "ja": "本気で言っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-040",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Բարեկամ",
+    "translit": "barekam",
+    "ipa": "/bɑɾeˈkɑm/",
+    "ja": [
+      "親戚",
+      "親しい人"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բարեկամ ունեմ Երևանում։",
+      "ja": "エレバンに親戚がいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-041",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Սովորություն",
+    "translit": "sovorut'yun",
+    "ipa": "/sovoɾuˈtʰjun/",
+    "ja": [
+      "習慣"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սովորություն է։",
+      "ja": "習慣です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-feel-042",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "feelings-social",
+    "hy": "Կյանք",
+    "translit": "kyank'",
+    "ipa": "/kjɑnkʰ/",
+    "ja": [
+      "人生",
+      "生活"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կյանքը գեղեցիկ է։",
+      "ja": "人生はすばらしいです。"
+    },
+    "ruCognate": null
+  }
+]
