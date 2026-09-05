@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "theme": "jobs",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-job-001": {
+      "start": 0,
+      "duration": 1.122
+    },
+    "v-job-001__ex": {
+      "start": 1.272,
+      "duration": 1.917
+    },
+    "v-job-002": {
+      "start": 3.34,
+      "duration": 1.323
+    },
+    "v-job-002__ex": {
+      "start": 4.812,
+      "duration": 2.012
+    },
+    "v-job-003": {
+      "start": 6.975,
+      "duration": 1.07
+    },
+    "v-job-003__ex": {
+      "start": 8.195,
+      "duration": 1.329
+    },
+    "v-job-004": {
+      "start": 9.674,
+      "duration": 1.601
+    },
+    "v-job-004__ex": {
+      "start": 11.424,
+      "duration": 1.835
+    },
+    "v-job-005": {
+      "start": 13.409,
+      "duration": 1.303
+    },
+    "v-job-005__ex": {
+      "start": 14.862,
+      "duration": 2.483
+    },
+    "v-job-006": {
+      "start": 17.495,
+      "duration": 1.289
+    },
+    "v-job-006__ex": {
+      "start": 18.934,
+      "duration": 2.216
+    },
+    "v-job-007": {
+      "start": 21.3,
+      "duration": 1.214
+    },
+    "v-job-007__ex": {
+      "start": 22.664,
+      "duration": 2.082
+    },
+    "v-job-008": {
+      "start": 24.896,
+      "duration": 1.127
+    },
+    "v-job-008__ex": {
+      "start": 26.173,
+      "duration": 1.822
+    },
+    "v-job-009": {
+      "start": 28.145,
+      "duration": 1.034
+    },
+    "v-job-009__ex": {
+      "start": 29.329,
+      "duration": 1.78
+    },
+    "v-job-010": {
+      "start": 31.259,
+      "duration": 1.122
+    },
+    "v-job-010__ex": {
+      "start": 32.531,
+      "duration": 1.987
+    },
+    "v-job-011": {
+      "start": 34.668,
+      "duration": 1.058
+    },
+    "v-job-011__ex": {
+      "start": 35.876,
+      "duration": 2.351
+    },
+    "v-job-012": {
+      "start": 38.377,
+      "duration": 1.207
+    },
+    "v-job-012__ex": {
+      "start": 39.734,
+      "duration": 2.505
+    },
+    "v-job-013": {
+      "start": 42.39,
+      "duration": 1.005
+    },
+    "v-job-013__ex": {
+      "start": 43.544,
+      "duration": 1.876
+    },
+    "v-job-014": {
+      "start": 45.571,
+      "duration": 1.253
+    },
+    "v-job-014__ex": {
+      "start": 46.974,
+      "duration": 2.062
+    },
+    "v-job-015": {
+      "start": 49.186,
+      "duration": 1.222
+    },
+    "v-job-015__ex": {
+      "start": 50.558,
+      "duration": 2.088
+    },
+    "v-job-016": {
+      "start": 52.796,
+      "duration": 1.118
+    },
+    "v-job-016__ex": {
+      "start": 54.064,
+      "duration": 1.868
+    },
+    "v-job-017": {
+      "start": 56.082,
+      "duration": 0.995
+    },
+    "v-job-017__ex": {
+      "start": 57.227,
+      "duration": 2.288
+    },
+    "v-job-018": {
+      "start": 59.665,
+      "duration": 1.431
+    },
+    "v-job-018__ex": {
+      "start": 61.246,
+      "duration": 1.536
+    },
+    "v-job-019": {
+      "start": 62.931,
+      "duration": 1.205
+    },
+    "v-job-019__ex": {
+      "start": 64.286,
+      "duration": 1.606
+    }
+  }
+}

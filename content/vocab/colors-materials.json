@@ -1,0 +1,323 @@
+[
+  {
+    "id": "v-mat-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Նարնջագույն",
+    "translit": "narnjaguyn",
+    "ipa": "/nɑɾənd͡ʒɑˈɡujn/",
+    "ja": [
+      "オレンジ色の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Նարնջագույն շապիկ է։",
+      "ja": "オレンジ色のシャツです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mat-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Մանուշակագույն",
+    "translit": "manushakaguyn",
+    "ipa": "/mɑnuʃɑkɑˈɡujn/",
+    "ja": [
+      "紫の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Մանուշակագույն ծաղիկ է։",
+      "ja": "紫の花です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mat-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Վարդագույն",
+    "translit": "vardaguyn",
+    "ipa": "/vɑɾtʰɑˈɡujn/",
+    "ja": [
+      "ピンクの"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Վարդագույն գույնը սիրում եմ։",
+      "ja": "ピンクが好きです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mat-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Շագանակագույն",
+    "translit": "shaganakaguyn",
+    "ipa": "/ʃɑɡɑnɑkɑˈɡujn/",
+    "ja": [
+      "茶色の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Շագանակագույն կոշիկ եմ գնում։",
+      "ja": "茶色の靴を買います。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mat-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Մոխրագույն",
+    "translit": "mokhraguyn",
+    "ipa": "/moχɾɑˈɡujn/",
+    "ja": [
+      "灰色の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Մոխրագույն երկինք է։",
+      "ja": "灰色の空です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mat-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Ոսկի",
+    "translit": "voski",
+    "ipa": "/vosˈki/",
+    "ja": [
+      "金"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ոսկի մատանի է։",
+      "ja": "金の指輪です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mat-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Արծաթ",
+    "translit": "artsat'",
+    "ipa": "/ɑɾˈt͡sɑtʰ/",
+    "ja": [
+      "銀"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Արծաթ է, ոչ թե ոսկի։",
+      "ja": "金ではなく銀です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mat-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Երկաթ",
+    "translit": "yerkat'",
+    "ipa": "/jeɾˈkɑtʰ/",
+    "ja": [
+      "鉄"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Երկաթը ծանր է։",
+      "ja": "鉄は重いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mat-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Փայտ",
+    "translit": "p'ayt",
+    "ipa": "/pʰɑjt/",
+    "ja": [
+      "木材"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Փայտը թեթև է։",
+      "ja": "木は軽いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mat-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Ապակի",
+    "translit": "apaki",
+    "ipa": "/ɑpɑˈki/",
+    "ja": [
+      "ガラス"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ապակին մաքուր է։",
+      "ja": "ガラスはきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mat-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Բետոն",
+    "translit": "beton",
+    "ipa": "/beˈton/",
+    "ja": [
+      "コンクリート"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բետոնը կոշտ է։",
+      "ja": "コンクリートはかたいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mat-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Աղյուս",
+    "translit": "aghyus",
+    "ipa": "/ɑˈʁjus/",
+    "ja": [
+      "れんが"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Աղյուսը կարմիր է։",
+      "ja": "れんがは赤いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mat-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Չափ",
+    "translit": "ch'ap'",
+    "ipa": "/t͡ʃʰɑpʰ/",
+    "ja": [
+      "大きさ",
+      "程度"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Չափը ճիշտ է։",
+      "ja": "大きさはちょうどいいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mat-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Քաշ",
+    "translit": "k'ash",
+    "ipa": "/kʰɑʃ/",
+    "ja": [
+      "重さ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Քաշը շատ է։",
+      "ja": "重さがあります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mat-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Երկարություն",
+    "translit": "yerkarut'yun",
+    "ipa": "/jeɾkɑɾuˈtʰjun/",
+    "ja": [
+      "長さ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Երկարությունը մեկ մետր է։",
+      "ja": "長さは1メートルです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-mat-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "colors-materials",
+    "hy": "Լայնություն",
+    "translit": "laynut'yun",
+    "ipa": "/lɑjnuˈtʰjun/",
+    "ja": [
+      "幅"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Լայնությունը քիչ է։",
+      "ja": "幅がせまいです。"
+    },
+    "ruCognate": null
+  }
+]

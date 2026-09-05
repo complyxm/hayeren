@@ -1,0 +1,385 @@
+[
+  {
+    "id": "v-job-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Խոհարար",
+    "translit": "khoharar",
+    "ipa": "/χohɑˈɾɑɾ/",
+    "ja": [
+      "料理人"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խոհարարը լավն է։",
+      "ja": "料理人は腕がいいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。 辞書は動詞の主語分詞（〜する人）として載せる語。職業名として日常的に使う。",
+    "theme": "jobs",
+    "hy": "Մատուցող",
+    "translit": "matuts'ogh",
+    "ipa": "/mɑtuˈt͡sʰoʁ/",
+    "ja": [
+      "ウェイター"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մատուցողը գալիս է։",
+      "ja": "ウェイターが来ます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Ինժեներ",
+    "translit": "inzhener",
+    "ipa": "/inʒeˈneɾ/",
+    "ja": [
+      "エンジニア"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ինժեներ եմ։",
+      "ja": "エンジニアです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。 辞書は動詞の主語分詞（〜する人）として載せる語。職業名として日常的に使う。",
+    "theme": "jobs",
+    "hy": "Ծրագրավորող",
+    "translit": "tsragravorogh",
+    "ipa": "/t͡səɾɑɡɾɑvoˈɾoʁ/",
+    "ja": [
+      "プログラマー"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ծրագրավորող եմ։",
+      "ja": "プログラマーです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Իրավաբան",
+    "translit": "iravaban",
+    "ipa": "/iɾɑvɑˈbɑn/",
+    "ja": [
+      "弁護士",
+      "法律家"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Իրավաբանի հետ եմ խոսում։",
+      "ja": "弁護士と話しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Հաշվապահ",
+    "translit": "hashvapah",
+    "ipa": "/hɑʃvɑˈpɑh/",
+    "ja": [
+      "会計士"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հաշվապահը հաշվում է։",
+      "ja": "会計士が計算しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。 辞書は動詞の主語分詞（〜する人）として載せる語。職業名として日常的に使う。",
+    "theme": "jobs",
+    "hy": "Լրագրող",
+    "translit": "lragrogh",
+    "ipa": "/ləɾɑɡəˈɾoʁ/",
+    "ja": [
+      "記者"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Լրագրողը հարցնում է։",
+      "ja": "記者が質問しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Դերասան",
+    "translit": "derasan",
+    "ipa": "/deɾɑˈsɑn/",
+    "ja": [
+      "俳優"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դերասանը հայտնի է։",
+      "ja": "俳優は有名です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Երգիչ",
+    "translit": "yergich",
+    "ipa": "/jeɾˈkʰit͡ʃʰ/",
+    "ja": [
+      "歌手"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Երգիչը երգում է։",
+      "ja": "歌手が歌っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Նկարիչ",
+    "translit": "nkarich",
+    "ipa": "/nəkɑˈɾit͡ʃʰ/",
+    "ja": [
+      "画家"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նկարիչը նկարում է։",
+      "ja": "画家が絵を描いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Շինարար",
+    "translit": "shinarar",
+    "ipa": "/ʃinɑˈɾɑɾ/",
+    "ja": [
+      "建設作業員"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Շինարարները աշխատում են։",
+      "ja": "建設の人たちが働いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Գյուղացի",
+    "translit": "gyughats'i",
+    "ipa": "/ɡjuʁɑˈt͡sʰi/",
+    "ja": [
+      "農民",
+      "村の人"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գյուղացին միրգ է վաճառում։",
+      "ja": "農家の人が果物を売っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Բանվոր",
+    "translit": "banvor",
+    "ipa": "/bɑnˈvoɾ/",
+    "ja": [
+      "労働者"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բանվորը հոգնած է։",
+      "ja": "労働者は疲れています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Քարտուղար",
+    "translit": "k'artughar",
+    "ipa": "/kʰɑɾtuˈʁɑɾ/",
+    "ja": [
+      "秘書"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Քարտուղարը զանգում է։",
+      "ja": "秘書が電話しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Գիտնական",
+    "translit": "gitnakan",
+    "ipa": "/ɡitnɑˈkɑn/",
+    "ja": [
+      "科学者"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գիտնականը սովորում է։",
+      "ja": "科学者が研究しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Բուժքույր",
+    "translit": "buzhk'uyr",
+    "ipa": "/buʒˈkʰujɾ/",
+    "ja": [
+      "看護師"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բուժքույրը օգնում է։",
+      "ja": "看護師が手伝ってくれます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Վարպետ",
+    "translit": "varpet",
+    "ipa": "/vɑɾˈpet/",
+    "ja": [
+      "職人",
+      "修理の人"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վարպետը գալիս է վաղը։",
+      "ja": "職人さんは明日来ます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Թոշակառու",
+    "translit": "t'oshakaru",
+    "ipa": "/tʰoʃɑkɑˈru/",
+    "ja": [
+      "年金生活者"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թոշակառու է։",
+      "ja": "年金生活者です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-job-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "jobs",
+    "hy": "Գործազուրկ",
+    "translit": "gortsazurk",
+    "ipa": "/ɡoɾt͡sɑˈzuɾk/",
+    "ja": [
+      "失業中の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Գործազուրկ չեմ։",
+      "ja": "失業してはいません。"
+    },
+    "ruCognate": null
+  }
+]

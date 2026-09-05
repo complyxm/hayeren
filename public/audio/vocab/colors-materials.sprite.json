@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "theme": "colors-materials",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-mat-001": {
+      "start": 0,
+      "duration": 1.309
+    },
+    "v-mat-001__ex": {
+      "start": 1.459,
+      "duration": 2.043
+    },
+    "v-mat-002": {
+      "start": 3.652,
+      "duration": 1.632
+    },
+    "v-mat-002__ex": {
+      "start": 5.434,
+      "duration": 2.388
+    },
+    "v-mat-003": {
+      "start": 7.972,
+      "duration": 1.272
+    },
+    "v-mat-003__ex": {
+      "start": 9.394,
+      "duration": 2.388
+    },
+    "v-mat-004": {
+      "start": 11.932,
+      "duration": 1.672
+    },
+    "v-mat-004__ex": {
+      "start": 13.754,
+      "duration": 3.007
+    },
+    "v-mat-005": {
+      "start": 16.911,
+      "duration": 1.297
+    },
+    "v-mat-005__ex": {
+      "start": 18.358,
+      "duration": 2.073
+    },
+    "v-mat-006": {
+      "start": 20.582,
+      "duration": 0.989
+    },
+    "v-mat-006__ex": {
+      "start": 21.721,
+      "duration": 1.691
+    },
+    "v-mat-007": {
+      "start": 23.562,
+      "duration": 0.951
+    },
+    "v-mat-007__ex": {
+      "start": 24.663,
+      "duration": 2.592
+    },
+    "v-mat-008": {
+      "start": 27.405,
+      "duration": 0.999
+    },
+    "v-mat-008__ex": {
+      "start": 28.555,
+      "duration": 1.731
+    },
+    "v-mat-009": {
+      "start": 30.436,
+      "duration": 0.836
+    },
+    "v-mat-009__ex": {
+      "start": 31.421,
+      "duration": 1.683
+    },
+    "v-mat-010": {
+      "start": 33.254,
+      "duration": 1.05
+    },
+    "v-mat-010__ex": {
+      "start": 34.454,
+      "duration": 1.738
+    },
+    "v-mat-011": {
+      "start": 36.342,
+      "duration": 0.971
+    },
+    "v-mat-011__ex": {
+      "start": 37.463,
+      "duration": 1.556
+    },
+    "v-mat-012": {
+      "start": 39.17,
+      "duration": 1.067
+    },
+    "v-mat-012__ex": {
+      "start": 40.386,
+      "duration": 1.773
+    },
+    "v-mat-013": {
+      "start": 42.31,
+      "duration": 0.859
+    },
+    "v-mat-013__ex": {
+      "start": 43.319,
+      "duration": 1.496
+    },
+    "v-mat-014": {
+      "start": 44.965,
+      "duration": 0.864
+    },
+    "v-mat-014__ex": {
+      "start": 45.979,
+      "duration": 1.511
+    },
+    "v-mat-015": {
+      "start": 47.64,
+      "duration": 1.417
+    },
+    "v-mat-015__ex": {
+      "start": 49.207,
+      "duration": 2.284
+    },
+    "v-mat-016": {
+      "start": 51.64,
+      "duration": 1.223
+    },
+    "v-mat-016__ex": {
+      "start": 53.013,
+      "duration": 1.777
+    }
+  }
+}

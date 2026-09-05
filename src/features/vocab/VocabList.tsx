@@ -37,6 +37,8 @@ const THEME_LABEL_JA: Record<VocabTheme, string> = {
   "body-looks": "体・見た目",
   travel: "旅行・空港",
   "sports-hobbies": "スポーツ・趣味",
+  jobs: "職業",
+  "colors-materials": "色・材質",
 };
 
 /**
@@ -51,7 +53,6 @@ export function VocabList({ onSelect, onBack }: VocabListProps) {
   // curriculum.md §3.2 のテーマ順（vocabThemeSchema の宣言順と同じ）に並べる。
   // 実データにまだ無いテーマは一覧にもフィルターにも出さない。
   const themes = vocabThemeSchema.options.filter((theme) => verified.some((entry) => entry.theme === theme));
-  const visibleThemes = selectedTheme === "all" ? themes : themes.filter((theme) => theme === selectedTheme);
 
   return (
     <main className="min-h-screen bg-parchment px-4 py-8 text-ink">
@@ -68,61 +69,59 @@ export function VocabList({ onSelect, onBack }: VocabListProps) {
 
         {themes.length === 0 && <p className="text-sm text-ink/60">まだ語彙がありません。</p>}
 
-        {themes.length > 1 && (
-          <div className="mb-6 flex flex-wrap gap-2" role="group" aria-label="テーマで絞り込む">
+        {selectedTheme === "all" ? (
+          // テーマが30を超え、語も1,000語を超えたので、一覧に全語を並べるのはやめた。
+          // 全部描くとスクロールで探せないうえ、端末によっては描画が引っかかる。
+          // まずテーマの目次を見せ、選んだテーマの語だけを描く。
+          <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+            {themes.map((theme) => (
+              <li key={theme}>
+                <button
+                  type="button"
+                  onClick={() => setSelectedTheme(theme)}
+                  className="flex w-full items-center justify-between gap-3 rounded-lg border border-gold/30 bg-parchment-light px-4 py-3 text-left transition hover:border-gold hover:bg-parchment-light/70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+                >
+                  <span className="font-serif text-lg">{THEME_LABEL_JA[theme]}</span>
+                  <span className="text-sm text-ink/60">
+                    {verified.filter((entry) => entry.theme === theme).length}語
+                  </span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <>
             <button
               type="button"
               onClick={() => setSelectedTheme("all")}
-              aria-pressed={selectedTheme === "all"}
-              className={`rounded-full border px-3 py-1 text-sm transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold ${
-                selectedTheme === "all"
-                  ? "border-gold bg-gold/20 text-ink"
-                  : "border-gold/30 text-ink/70 hover:border-gold"
-              }`}
+              className="mb-4 text-sm text-ink/70 underline decoration-gold/50 underline-offset-4 hover:text-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
             >
-              すべて
+              ← テーマ一覧
             </button>
-            {themes.map((theme) => (
-              <button
-                key={theme}
-                type="button"
-                onClick={() => setSelectedTheme(theme)}
-                aria-pressed={selectedTheme === theme}
-                className={`rounded-full border px-3 py-1 text-sm transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold ${
-                  selectedTheme === theme
-                    ? "border-gold bg-gold/20 text-ink"
-                    : "border-gold/30 text-ink/70 hover:border-gold"
-                }`}
-              >
-                {THEME_LABEL_JA[theme]}
-              </button>
-            ))}
-          </div>
+            <section className="mb-8">
+              <h2 className="mb-3 font-serif text-xl font-bold">{THEME_LABEL_JA[selectedTheme]}</h2>
+              <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+                {verified
+                  .filter((entry) => entry.theme === selectedTheme)
+                  .map((entry) => (
+                    <li key={entry.id}>
+                      <button
+                        type="button"
+                        onClick={() => onSelect(entry.id)}
+                        className="flex w-full items-center justify-between gap-3 rounded-lg border border-gold/30 bg-parchment-light px-4 py-3 text-left transition hover:border-gold hover:bg-parchment-light/70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+                      >
+                        <span lang="hy" className="font-serif text-lg">
+                          {entry.hy}
+                        </span>
+                        <span className="text-sm text-ink/60">{entry.ja[0]}</span>
+                      </button>
+                    </li>
+                  ))}
+              </ul>
+            </section>
+          </>
         )}
 
-        {visibleThemes.map((theme) => (
-          <section key={theme} className="mb-8">
-            <h2 className="mb-3 font-serif text-xl font-bold">{THEME_LABEL_JA[theme]}</h2>
-            <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
-              {verified
-                .filter((entry) => entry.theme === theme)
-                .map((entry) => (
-                  <li key={entry.id}>
-                    <button
-                      type="button"
-                      onClick={() => onSelect(entry.id)}
-                      className="flex w-full items-center justify-between gap-3 rounded-lg border border-gold/30 bg-parchment-light px-4 py-3 text-left transition hover:border-gold hover:bg-parchment-light/70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
-                    >
-                      <span lang="hy" className="font-serif text-lg">
-                        {entry.hy}
-                      </span>
-                      <span className="text-sm text-ink/60">{entry.ja[0]}</span>
-                    </button>
-                  </li>
-                ))}
-            </ul>
-          </section>
-        ))}
       </div>
     </main>
   );
