@@ -42,6 +42,7 @@ const THEME_LABEL_JA: Record<VocabTheme, string> = {
   "society-news": "社会・ニュース",
   "life-events": "人生の出来事",
   ideas: "考えを表す語",
+  "general-nouns": "ものごとを指す語",
 };
 
 /**

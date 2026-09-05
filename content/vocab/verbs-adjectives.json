@@ -1955,5 +1955,612 @@
       "ja": "強い風です。"
     },
     "ruCognate": null
+  },
+  {
+    "id": "v-vadj-097",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ներկայացնել",
+    "translit": "nerkayats'nel",
+    "ipa": "/neɾkɑjɑt͡sʰˈnel/",
+    "ja": [
+      "紹介する",
+      "提出する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ինձ ներկայացնում եմ։",
+      "ja": "自己紹介します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-098",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Նշանակել",
+    "translit": "nshanakel",
+    "ipa": "/nəʃɑnɑˈkel/",
+    "ja": [
+      "意味する",
+      "任命する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ի՞նչ է նշանակում։",
+      "ja": "どういう意味ですか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-099",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Նշել",
+    "translit": "nshel",
+    "ipa": "/nəˈʃel/",
+    "ja": [
+      "書き留める",
+      "述べる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հասցեն նշում եմ։",
+      "ja": "住所を書き留めます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-100",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Գրանցել",
+    "translit": "grants'el",
+    "ipa": "/ɡəɾɑnˈt͡sʰel/",
+    "ja": [
+      "登録する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Անունը գրանցում են։",
+      "ja": "名前を登録します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-101",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ուղղել",
+    "translit": "ughghel",
+    "ipa": "/uʁˈʁel/",
+    "ja": [
+      "直す",
+      "向ける"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Սխալը ուղղում եմ։",
+      "ja": "間違いを直します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-102",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Սխալվել",
+    "translit": "skhalvel",
+    "ipa": "/səχɑlˈvel/",
+    "ja": [
+      "間違える"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Սխալվել եմ։",
+      "ja": "間違えました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-103",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Առաջարկել",
+    "translit": "arajarkel",
+    "ipa": "/ɑrɑt͡ʃʰɑɾˈkel/",
+    "ja": [
+      "提案する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Առաջարկում եմ։",
+      "ja": "提案します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-104",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Խնդրել",
+    "translit": "khndrel",
+    "ipa": "/χəntʰˈɾel/",
+    "ja": [
+      "頼む"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Օգնություն եմ խնդրում։",
+      "ja": "助けをお願いします。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-105",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Պահանջել",
+    "translit": "pahanjel",
+    "ipa": "/pɑhɑnˈd͡ʒel/",
+    "ja": [
+      "要求する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Անձնագիր են պահանջում։",
+      "ja": "パスポートを求められます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-106",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ընդունել",
+    "translit": "yndunel",
+    "ipa": "/əntʰuˈnel/",
+    "ja": [
+      "受け入れる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Առաջարկը ընդունում եմ։",
+      "ja": "提案を受け入れます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-107",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ավարտվել",
+    "translit": "avartvel",
+    "ipa": "/ɑvɑɾtˈvel/",
+    "ja": [
+      "終わる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Դասը ավարտվեց։",
+      "ja": "授業が終わりました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-108",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Զարգանալ",
+    "translit": "zarganal",
+    "ipa": "/zɑɾɡɑˈnɑl/",
+    "ja": [
+      "発展する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Քաղաքը զարգանում է։",
+      "ja": "町が発展しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-109",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Պատկանել",
+    "translit": "patkanel",
+    "ipa": "/pɑtkɑˈnel/",
+    "ja": [
+      "属する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ինձ է պատկանում։",
+      "ja": "私のものです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-110",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ներառել",
+    "translit": "nerarel",
+    "ipa": "/neɾɑˈrel/",
+    "ja": [
+      "含む"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Գինը ներառում է ամեն ինչ։",
+      "ja": "値段に全部含まれています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-111",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Բաժանել",
+    "translit": "bazhanel",
+    "ipa": "/bɑʒɑˈnel/",
+    "ja": [
+      "分ける"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հացը բաժանում եմ։",
+      "ja": "パンを分けます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-112",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Միավորել",
+    "translit": "miavorel",
+    "ipa": "/miɑvoˈɾel/",
+    "ja": [
+      "まとめる",
+      "結びつける"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Խմբերը միավորում են։",
+      "ja": "グループをまとめます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-113",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Համեմատել",
+    "translit": "hamematel",
+    "ipa": "/hɑmemɑˈtel/",
+    "ja": [
+      "比べる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Գները համեմատում եմ։",
+      "ja": "値段を比べています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-114",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Նկատել",
+    "translit": "nkatel",
+    "ipa": "/nəkɑˈtel/",
+    "ja": [
+      "気づく"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Չեմ նկատել։",
+      "ja": "気づきませんでした。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-115",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Զգուշացնել",
+    "translit": "zgushats'nel",
+    "ipa": "/zɡuʃɑt͡sʰˈnel/",
+    "ja": [
+      "注意する",
+      "警告する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Զգուշացնում եմ։",
+      "ja": "注意しておきます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-116",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Հիշեցնել",
+    "translit": "hishets'nel",
+    "ipa": "/hiʃet͡sʰˈnel/",
+    "ja": [
+      "思い出させる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հիշեցնում եմ։",
+      "ja": "念のためお伝えします。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-117",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Բացահայտել",
+    "translit": "bats'ahaytel",
+    "ipa": "/bɑt͡sʰɑhɑjˈtel/",
+    "ja": [
+      "明らかにする"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Պատճառը բացահայտեցին։",
+      "ja": "理由が明らかになりました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-118",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Թաքցնել",
+    "translit": "t'ak'ts'nel",
+    "ipa": "/tʰɑkʰt͡sʰəˈnel/",
+    "ja": [
+      "隠す"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ոչինչ չեմ թաքցնում։",
+      "ja": "何も隠していません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-119",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ապացուցել",
+    "translit": "apats'uts'el",
+    "ipa": "/ɑpɑt͡sʰuˈt͡sʰel/",
+    "ja": [
+      "証明する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ապացուցում եմ։",
+      "ja": "証明します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-120",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Կասկածել",
+    "translit": "kaskatsel",
+    "ipa": "/kɑskɑˈt͡sel/",
+    "ja": [
+      "疑う"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Չեմ կասկածում։",
+      "ja": "疑っていません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-121",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Խոստանալ",
+    "translit": "khostanal",
+    "ipa": "/χostɑˈnɑl/",
+    "ja": [
+      "約束する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Խոստանում եմ։",
+      "ja": "約束します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-122",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Ողջունել",
+    "translit": "voghjunel",
+    "ipa": "/voχt͡ʃʰuˈnel/",
+    "ja": [
+      "あいさつする",
+      "歓迎する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հյուրերին ողջունում ենք։",
+      "ja": "客を歓迎します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-123",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Տառապել",
+    "translit": "tarapel",
+    "ipa": "/tɑrɑˈpel/",
+    "ja": [
+      "苦しむ"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ցավից է տառապում։",
+      "ja": "痛みで苦しんでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-124",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Բուժել",
+    "translit": "buzhel",
+    "ipa": "/buˈʒel/",
+    "ja": [
+      "治す"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Բժիշկը բուժում է։",
+      "ja": "医者が治します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-125",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Վախեցնել",
+    "translit": "vakhets'nel",
+    "ipa": "/vɑχet͡sʰˈnel/",
+    "ja": [
+      "こわがらせる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Շունը վախեցնում է։",
+      "ja": "犬がこわがらせます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-vadj-126",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "verbs-adjectives",
+    "hy": "Մերժել",
+    "translit": "merzhel",
+    "ipa": "/meɾˈʒel/",
+    "ja": [
+      "断る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Մերժում եմ։",
+      "ja": "お断りします。"
+    },
+    "ruCognate": null
   }
 ]

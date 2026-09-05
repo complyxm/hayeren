@@ -1,0 +1,655 @@
+[
+  {
+    "id": "v-gen-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Տեղ",
+    "translit": "tegh",
+    "ipa": "/teʁ/",
+    "ja": [
+      "場所",
+      "席"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տեղ կա՞։",
+      "ja": "席はありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Դեպք",
+    "translit": "depk'",
+    "ipa": "/depkʰ/",
+    "ja": [
+      "出来事",
+      "場合"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դեպքը երեկ էր։",
+      "ja": "その出来事は昨日でした。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Իրադարձություն",
+    "translit": "iradardzut'yun",
+    "ipa": "/iɾɑdɑɾt͡sʰuˈtʰjun/",
+    "ja": [
+      "出来事",
+      "イベント"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կարևոր իրադարձություն է։",
+      "ja": "大きな出来事です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Վիճակ",
+    "translit": "vichak",
+    "ipa": "/viˈt͡ʃɑk/",
+    "ja": [
+      "状態",
+      "状況"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վիճակը լավ է։",
+      "ja": "状態はいいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Պայման",
+    "translit": "payman",
+    "ipa": "/pɑjˈmɑn/",
+    "ja": [
+      "条件"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պայմանը հասկանում եմ։",
+      "ja": "条件は分かりました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Կանոն",
+    "translit": "kanon",
+    "ipa": "/kɑˈnon/",
+    "ja": [
+      "規則"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կանոնը խիստ է։",
+      "ja": "規則は厳しいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Ցուցակ",
+    "translit": "ts'uts'ak",
+    "ipa": "/t͡sʰuˈt͡sʰɑk/",
+    "ja": [
+      "リスト"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ցուցակ եմ գրում։",
+      "ja": "リストを書いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Ազգանուն",
+    "translit": "azganun",
+    "ipa": "/ɑzɡɑˈnun/",
+    "ja": [
+      "名字"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ազգանունս գրում եմ։",
+      "ja": "名字を書きます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Նշան",
+    "translit": "nshan",
+    "ipa": "/nəˈʃɑn/",
+    "ja": [
+      "しるし",
+      "記号"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նշանը կարմիր է։",
+      "ja": "しるしは赤いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Պատկեր",
+    "translit": "patker",
+    "ipa": "/pɑtˈkeɾ/",
+    "ja": [
+      "絵",
+      "画像"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պատկերը գեղեցիկ է։",
+      "ja": "絵はきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Լույս",
+    "translit": "luys",
+    "ipa": "/lujs/",
+    "ja": [
+      "光",
+      "明かり"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Լույսը վառ է։",
+      "ja": "明かりが明るいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Ստվեր",
+    "translit": "stver",
+    "ipa": "/stəˈveɾ/",
+    "ja": [
+      "影"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ստվերում է։",
+      "ja": "日かげにいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Փաստ",
+    "translit": "p'ast",
+    "ipa": "/pʰɑst/",
+    "ja": [
+      "事実"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Փաստ է։",
+      "ja": "事実です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Տեղեկություն",
+    "translit": "teghekut'yun",
+    "ipa": "/teʁekuˈtʰjun/",
+    "ja": [
+      "情報"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տեղեկություն եմ փնտրում։",
+      "ja": "情報を探しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Հարց",
+    "translit": "harts'",
+    "ipa": "/hɑɾt͡sʰ/",
+    "ja": [
+      "質問",
+      "問題"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հարց ունեմ։",
+      "ja": "質問があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Խորհուրդ",
+    "translit": "khorhurd",
+    "ipa": "/χoˈɾuɾtʰ/",
+    "ja": [
+      "助言"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խորհուրդ եմ խնդրում։",
+      "ja": "助言をお願いします。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Վճար",
+    "translit": "vchar",
+    "ipa": "/vəˈt͡ʃɑɾ/",
+    "ja": [
+      "料金"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վճարը ամսական է։",
+      "ja": "料金は月ごとです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Ապրանք",
+    "translit": "aprank'",
+    "ipa": "/ɑpˈɾɑnkʰ/",
+    "ja": [
+      "商品"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ապրանքը թարմ է։",
+      "ja": "商品は新しいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Ծառայություն",
+    "translit": "tsarayut'yun",
+    "ipa": "/t͡sɑrɑjuˈtʰjun/",
+    "ja": [
+      "サービス"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ծառայությունը լավն է։",
+      "ja": "サービスがいいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-020",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Որակ",
+    "translit": "vorak",
+    "ipa": "/voˈɾɑk/",
+    "ja": [
+      "品質"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Որակը բարձր է։",
+      "ja": "品質が高いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-021",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Գործիք",
+    "translit": "gortsik'",
+    "ipa": "/ɡoɾˈt͡sikʰ/",
+    "ja": [
+      "道具"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գործիք եմ ուզում։",
+      "ja": "道具がほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-022",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Նյութ",
+    "translit": "nyut'",
+    "ipa": "/njutʰ/",
+    "ja": [
+      "材料",
+      "物質"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նյութը կոշտ է։",
+      "ja": "材料はかたいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-023",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Կտոր",
+    "translit": "ktor",
+    "ipa": "/kəˈtoɾ/",
+    "ja": [
+      "かけら",
+      "一切れ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մեկ կտոր, խնդրում եմ։",
+      "ja": "一切れください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-024",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Շարք",
+    "translit": "shark'",
+    "ipa": "/ʃɑɾkʰ/",
+    "ja": [
+      "列",
+      "並び"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Շարքը երկար է։",
+      "ja": "列が長いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-025",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Խումբ",
+    "translit": "khumb",
+    "ipa": "/χumb/",
+    "ja": [
+      "グループ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խմբով ենք գնում։",
+      "ja": "グループで行きます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-026",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Անդամ",
+    "translit": "andam",
+    "ipa": "/ɑnˈtʰɑm/",
+    "ja": [
+      "メンバー"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Անդամ եմ։",
+      "ja": "メンバーです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-027",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Մակարդակ",
+    "translit": "makardak",
+    "ipa": "/mɑkɑɾˈdɑk/",
+    "ja": [
+      "レベル"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մակարդակը բարձր է։",
+      "ja": "レベルが高いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-028",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Պահ",
+    "translit": "pah",
+    "ipa": "/pɑh/",
+    "ja": [
+      "瞬間",
+      "時"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մի պահ, խնդրում եմ։",
+      "ja": "少しお待ちください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-029",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Միջոց",
+    "translit": "mijots'",
+    "ipa": "/miˈt͡ʃʰot͡sʰ/",
+    "ja": [
+      "手段"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Միջոց չկա։",
+      "ja": "手立てがありません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-030",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Ուշադրություն",
+    "translit": "ushadrut'yun",
+    "ipa": "/uʃɑdɾuˈtʰjun/",
+    "ja": [
+      "注意"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ուշադրություն, խնդրում եմ։",
+      "ja": "ご注意ください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-031",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Կարիք",
+    "translit": "karik'",
+    "ipa": "/kɑˈɾikʰ/",
+    "ja": [
+      "必要"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կարիք չկա։",
+      "ja": "必要ありません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-gen-032",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "general-nouns",
+    "hy": "Օգուտ",
+    "translit": "ogut",
+    "ipa": "/oˈkʰut/",
+    "ja": [
+      "利益",
+      "ため"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Օգուտ կա։",
+      "ja": "ためになります。"
+    },
+    "ruCognate": null
+  }
+]
