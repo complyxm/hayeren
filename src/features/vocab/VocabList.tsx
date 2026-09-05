@@ -24,6 +24,7 @@ const THEME_LABEL_JA: Record<VocabTheme, string> = {
   "function-words": "機能語",
   "market-groceries": "市場・食材",
   "home-chores": "家事・日用品",
+  "internet-post": "通信・ネット・郵便",
 };
 
 /**

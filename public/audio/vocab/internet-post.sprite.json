@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "theme": "internet-post",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-net-001": {
+      "start": 0,
+      "duration": 0.999
+    },
+    "v-net-001__ex": {
+      "start": 1.149,
+      "duration": 1.53
+    },
+    "v-net-002": {
+      "start": 2.829,
+      "duration": 0.775
+    },
+    "v-net-002__ex": {
+      "start": 3.754,
+      "duration": 1.449
+    },
+    "v-net-003": {
+      "start": 5.354,
+      "duration": 1.422
+    },
+    "v-net-003__ex": {
+      "start": 6.926,
+      "duration": 2.424
+    },
+    "v-net-004": {
+      "start": 9.5,
+      "duration": 1.751
+    },
+    "v-net-004__ex": {
+      "start": 11.401,
+      "duration": 2.592
+    },
+    "v-net-005": {
+      "start": 14.143,
+      "duration": 1.084
+    },
+    "v-net-005__ex": {
+      "start": 15.377,
+      "duration": 1.307
+    },
+    "v-net-006": {
+      "start": 16.835,
+      "duration": 0.885
+    },
+    "v-net-006__ex": {
+      "start": 17.87,
+      "duration": 1.183
+    },
+    "v-net-007": {
+      "start": 19.203,
+      "duration": 1.523
+    },
+    "v-net-007__ex": {
+      "start": 20.876,
+      "duration": 2.688
+    },
+    "v-net-008": {
+      "start": 23.715,
+      "duration": 1.174
+    },
+    "v-net-008__ex": {
+      "start": 25.039,
+      "duration": 1.893
+    },
+    "v-net-009": {
+      "start": 27.081,
+      "duration": 1.169
+    },
+    "v-net-009__ex": {
+      "start": 28.4,
+      "duration": 1.986
+    },
+    "v-net-010": {
+      "start": 30.537,
+      "duration": 0.968
+    },
+    "v-net-010__ex": {
+      "start": 31.654,
+      "duration": 1.711
+    },
+    "v-net-011": {
+      "start": 33.515,
+      "duration": 1.089
+    },
+    "v-net-011__ex": {
+      "start": 34.755,
+      "duration": 1.856
+    },
+    "v-net-012": {
+      "start": 36.761,
+      "duration": 0.844
+    },
+    "v-net-012__ex": {
+      "start": 37.755,
+      "duration": 1.754
+    },
+    "v-net-013": {
+      "start": 39.659,
+      "duration": 1.189
+    },
+    "v-net-013__ex": {
+      "start": 40.997,
+      "duration": 1.926
+    },
+    "v-net-014": {
+      "start": 43.073,
+      "duration": 1.166
+    },
+    "v-net-014__ex": {
+      "start": 44.39,
+      "duration": 2.115
+    },
+    "v-net-015": {
+      "start": 46.655,
+      "duration": 1.408
+    },
+    "v-net-015__ex": {
+      "start": 48.213,
+      "duration": 2.556
+    },
+    "v-net-016": {
+      "start": 50.919,
+      "duration": 1.017
+    },
+    "v-net-016__ex": {
+      "start": 52.086,
+      "duration": 1.503
+    },
+    "v-net-017": {
+      "start": 53.739,
+      "duration": 1.438
+    },
+    "v-net-017__ex": {
+      "start": 55.327,
+      "duration": 1.925
+    },
+    "v-net-018": {
+      "start": 57.402,
+      "duration": 1.015
+    },
+    "v-net-018__ex": {
+      "start": 58.567,
+      "duration": 2.175
+    },
+    "v-net-019": {
+      "start": 60.892,
+      "duration": 1.272
+    },
+    "v-net-019__ex": {
+      "start": 62.314,
+      "duration": 2.422
+    },
+    "v-net-020": {
+      "start": 64.886,
+      "duration": 1.318
+    },
+    "v-net-020__ex": {
+      "start": 66.355,
+      "duration": 2.264
+    },
+    "v-net-021": {
+      "start": 68.769,
+      "duration": 0.866
+    },
+    "v-net-021__ex": {
+      "start": 69.785,
+      "duration": 1.798
+    },
+    "v-net-022": {
+      "start": 71.733,
+      "duration": 1.173
+    },
+    "v-net-022__ex": {
+      "start": 73.056,
+      "duration": 2.415
+    },
+    "v-net-023": {
+      "start": 75.621,
+      "duration": 1.237
+    },
+    "v-net-023__ex": {
+      "start": 77.008,
+      "duration": 1.88
+    },
+    "v-net-024": {
+      "start": 79.038,
+      "duration": 1.108
+    },
+    "v-net-024__ex": {
+      "start": 80.296,
+      "duration": 2.009
+    },
+    "v-net-025": {
+      "start": 82.455,
+      "duration": 1.142
+    },
+    "v-net-025__ex": {
+      "start": 83.746,
+      "duration": 2.238
+    },
+    "v-net-026": {
+      "start": 86.134,
+      "duration": 1.29
+    },
+    "v-net-026__ex": {
+      "start": 87.574,
+      "duration": 2.193
+    },
+    "v-net-027": {
+      "start": 89.917,
+      "duration": 1.259
+    },
+    "v-net-027__ex": {
+      "start": 91.327,
+      "duration": 2.509
+    },
+    "v-net-028": {
+      "start": 93.986,
+      "duration": 1.013
+    },
+    "v-net-028__ex": {
+      "start": 95.148,
+      "duration": 1.988
+    },
+    "v-net-029": {
+      "start": 97.286,
+      "duration": 1.121
+    },
+    "v-net-029__ex": {
+      "start": 98.557,
+      "duration": 2.017
+    },
+    "v-net-030": {
+      "start": 100.724,
+      "duration": 1.685
+    },
+    "v-net-030__ex": {
+      "start": 102.559,
+      "duration": 2.335
+    },
+    "v-net-031": {
+      "start": 105.044,
+      "duration": 0.85
+    },
+    "v-net-031__ex": {
+      "start": 106.044,
+      "duration": 1.375
+    },
+    "v-net-032": {
+      "start": 107.569,
+      "duration": 1.441
+    },
+    "v-net-032__ex": {
+      "start": 109.16,
+      "duration": 2.048
+    },
+    "v-net-033": {
+      "start": 111.357,
+      "duration": 1.029
+    },
+    "v-net-033__ex": {
+      "start": 112.537,
+      "duration": 2.09
+    },
+    "v-net-034": {
+      "start": 114.777,
+      "duration": 1.344
+    },
+    "v-net-034__ex": {
+      "start": 116.271,
+      "duration": 2.528
+    },
+    "v-net-035": {
+      "start": 118.949,
+      "duration": 0.9
+    },
+    "v-net-035__ex": {
+      "start": 119.999,
+      "duration": 1.83
+    },
+    "v-net-036": {
+      "start": 121.979,
+      "duration": 1.212
+    },
+    "v-net-036__ex": {
+      "start": 123.34,
+      "duration": 1.959
+    },
+    "v-net-037": {
+      "start": 125.449,
+      "duration": 1.517
+    },
+    "v-net-037__ex": {
+      "start": 127.116,
+      "duration": 2.234
+    },
+    "v-net-038": {
+      "start": 129.5,
+      "duration": 1.036
+    },
+    "v-net-038__ex": {
+      "start": 130.687,
+      "duration": 1.602
+    },
+    "v-net-039": {
+      "start": 132.438,
+      "duration": 1.312
+    },
+    "v-net-039__ex": {
+      "start": 133.901,
+      "duration": 2.08
+    },
+    "v-net-040": {
+      "start": 136.131,
+      "duration": 0.879
+    },
+    "v-net-040__ex": {
+      "start": 137.16,
+      "duration": 1.218
+    },
+    "v-net-041": {
+      "start": 138.527,
+      "duration": 1.164
+    },
+    "v-net-041__ex": {
+      "start": 139.842,
+      "duration": 2.098
+    },
+    "v-net-042": {
+      "start": 142.09,
+      "duration": 1.461
+    },
+    "v-net-042__ex": {
+      "start": 143.701,
+      "duration": 2.285
+    },
+    "v-net-043": {
+      "start": 146.137,
+      "duration": 1.233
+    },
+    "v-net-043__ex": {
+      "start": 147.52,
+      "duration": 2.254
+    },
+    "v-net-044": {
+      "start": 149.925,
+      "duration": 1.018
+    },
+    "v-net-044__ex": {
+      "start": 151.093,
+      "duration": 2.543
+    },
+    "v-net-045": {
+      "start": 153.786,
+      "duration": 1.02
+    },
+    "v-net-045__ex": {
+      "start": 154.956,
+      "duration": 1.83
+    },
+    "v-net-046": {
+      "start": 156.937,
+      "duration": 1.503
+    },
+    "v-net-046__ex": {
+      "start": 158.59,
+      "duration": 2.292
+    }
+  }
+}

@@ -1,0 +1,940 @@
+[
+  {
+    "id": "v-net-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Ցանց",
+    "translit": "ts'ants'",
+    "ipa": "/t͡sʰɑnt͡sʰ/",
+    "ja": [
+      "ネットワーク",
+      "電波"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ցանց չկա։",
+      "ja": "電波がありません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Կապ",
+    "translit": "kap",
+    "ipa": "/kɑp/",
+    "ja": [
+      "接続",
+      "つながり"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կապը վատ է։",
+      "ja": "接続が悪いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Գաղտնաբառ",
+    "translit": "gaghtnabar",
+    "ipa": "/ɡɑχtnɑˈbɑr/",
+    "ja": [
+      "パスワード"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գաղտնաբառը չեմ հիշում։",
+      "ja": "パスワードを覚えていません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Հաղորդագրություն",
+    "translit": "haghordagrut'yun",
+    "ipa": "/hɑʁoɾtʰɑɡɾuˈtʰjun/",
+    "ja": [
+      "メッセージ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հաղորդագրություն եմ ուղարկում։",
+      "ja": "メッセージを送っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Զանգել",
+    "translit": "zangel",
+    "ipa": "/zɑnˈɡel/",
+    "ja": [
+      "電話する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Զանգում եմ։",
+      "ja": "電話しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Զանգ",
+    "translit": "zang",
+    "ipa": "/zɑnɡ/",
+    "ja": [
+      "電話",
+      "呼び出し"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Զանգ կա։",
+      "ja": "電話が来ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Պատասխանել",
+    "translit": "pataskhanel",
+    "ipa": "/pɑtɑsχɑˈnel/",
+    "ja": [
+      "答える",
+      "出る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հեռախոսին եմ պատասխանում։",
+      "ja": "電話に出ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Ուղարկել",
+    "translit": "ugharkel",
+    "ipa": "/uʁɑɾˈkel/",
+    "ja": [
+      "送る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Նամակ եմ ուղարկում։",
+      "ja": "手紙を送っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Ստանալ",
+    "translit": "stanal",
+    "ipa": "/stɑˈnɑl/",
+    "ja": [
+      "受け取る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ծանրոց եմ ստանում։",
+      "ja": "小包を受け取っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Նամակ",
+    "translit": "namak",
+    "ipa": "/nɑˈmɑk/",
+    "ja": [
+      "手紙"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նամակ եմ գրում։",
+      "ja": "手紙を書いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Ծանրոց",
+    "translit": "tsanrots'",
+    "ipa": "/t͡sɑnˈɾot͡sʰ/",
+    "ja": [
+      "小包"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ծանրոցը եկել է։",
+      "ja": "小包が届きました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Փոստ",
+    "translit": "p'ost",
+    "ipa": "/pʰost/",
+    "ja": [
+      "郵便",
+      "郵便局"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Փոստը որտե՞ղ է։",
+      "ja": "郵便局はどこですか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Առաքում",
+    "translit": "arak'um",
+    "ipa": "/ɑrɑˈkʰum/",
+    "ja": [
+      "配達"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Առաքումը անվճար է։",
+      "ja": "配達は無料です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Առաքել",
+    "translit": "arak'el",
+    "ipa": "/ɑrɑˈkʰel/",
+    "ja": [
+      "配達する",
+      "送る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ծանրոցը առաքում են։",
+      "ja": "小包を配達してくれます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Համակարգիչ",
+    "translit": "hamakargich",
+    "ipa": "/hɑmɑkɑɾˈkʰit͡ʃʰ/",
+    "ja": [
+      "パソコン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Համակարգիչը չի աշխատում։",
+      "ja": "パソコンが動きません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Էկրան",
+    "translit": "ekran",
+    "ipa": "/ekˈɾɑn/",
+    "ja": [
+      "画面"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Էկրանը մեծ է։",
+      "ja": "画面が大きいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Ստեղնաշար",
+    "translit": "steghnashar",
+    "ipa": "/steʁnɑˈʃɑɾ/",
+    "ja": [
+      "キーボード"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ստեղնաշարը նոր է։",
+      "ja": "キーボードは新しいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 辞書は մուկ（ねずみ）の指小形としても載せる。パソコンの入力装置の語義も明記されている。",
+    "theme": "internet-post",
+    "hy": "Մկնիկ",
+    "translit": "mknik",
+    "ipa": "/məkˈnik/",
+    "ja": [
+      "マウス"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մկնիկը չի աշխատում։",
+      "ja": "マウスが動きません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Ներբեռնել",
+    "translit": "nerbernel",
+    "ipa": "/neɾberˈnel/",
+    "ja": [
+      "ダウンロードする"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հավելվածը ներբեռնում եմ։",
+      "ja": "アプリをダウンロードしています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-020",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Հավելված",
+    "translit": "havelvats",
+    "ipa": "/hɑvelˈvɑt͡s/",
+    "ja": [
+      "アプリ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հավելվածը բացում եմ։",
+      "ja": "アプリを開いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-021",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。 辞書は「所有物」「場所」などの古い語義も併記するが、現代の東アルメニア語ではウェブサイトの意味で使う。",
+    "theme": "internet-post",
+    "hy": "Կայք",
+    "translit": "kayk'",
+    "ipa": "/kɑjkʰ/",
+    "ja": [
+      "サイト",
+      "ウェブサイト"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կայքը դանդաղ է։",
+      "ja": "サイトが遅いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-022",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Անջատել",
+    "translit": "anjatel",
+    "ipa": "/ɑnd͡ʒɑˈtel/",
+    "ja": [
+      "切る",
+      "消す"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Համակարգիչը անջատում եմ։",
+      "ja": "パソコンを切っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-023",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Միացնել",
+    "translit": "miats'nel",
+    "ipa": "/miɑt͡sʰˈnel/",
+    "ja": [
+      "つける",
+      "接続する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Լամպը միացնում եմ։",
+      "ja": "電気をつけています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-024",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Միանալ",
+    "translit": "mianal",
+    "ipa": "/miɑˈnɑl/",
+    "ja": [
+      "つながる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ցանցին եմ միանում։",
+      "ja": "ネットワークにつないでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-025",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Օգտվել",
+    "translit": "ogtvel",
+    "ipa": "/okʰtˈvel/",
+    "ja": [
+      "使う",
+      "利用する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ինտերնետից եմ օգտվում։",
+      "ja": "インターネットを使っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-026",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Գրանցվել",
+    "translit": "grants'vel",
+    "ipa": "/ɡəɾɑnt͡sʰˈvel/",
+    "ja": [
+      "登録する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Կայքում գրանցվում եմ։",
+      "ja": "サイトに登録しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-027",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Ամսական",
+    "translit": "amsakan",
+    "ipa": "/ɑmsɑˈkɑn/",
+    "ja": [
+      "月ごとの"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ամսական փաթեթ եմ ուզում։",
+      "ja": "月ごとのプランがほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-028",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Փաթեթ",
+    "translit": "p'at'et'",
+    "ipa": "/pʰɑˈtʰetʰ/",
+    "ja": [
+      "パック",
+      "プラン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նոր փաթեթ եմ ուզում։",
+      "ja": "新しいプランがほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-029",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Դանդաղ",
+    "translit": "dandagh",
+    "ipa": "/dɑnˈdɑʁ/",
+    "ja": [
+      "遅い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ինտերնետը դանդաղ է։",
+      "ja": "インターネットが遅いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-030",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Խոսակցություն",
+    "translit": "khosakts'ut'yun",
+    "ipa": "/χosɑkt͡sʰuˈtʰjun/",
+    "ja": [
+      "会話"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խոսակցությունը երկար է։",
+      "ja": "会話が長いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-031",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Սարք",
+    "translit": "sark'",
+    "ipa": "/sɑɾkʰ/",
+    "ja": [
+      "機器"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սարքը նոր է։",
+      "ja": "機器は新しいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-032",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Սարքավորում",
+    "translit": "sark'avorum",
+    "ipa": "/sɑɾkʰɑvoˈɾum/",
+    "ja": [
+      "設備",
+      "機材"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սարքավորումը թանկ է։",
+      "ja": "機材は高いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-033",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Մոդեմ",
+    "translit": "modem",
+    "ipa": "/moˈdem/",
+    "ja": [
+      "モデム"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մոդեմը չի աշխատում։",
+      "ja": "モデムが動きません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-034",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Տեսախցիկ",
+    "translit": "tesakhts'ik",
+    "ipa": "/tesɑχəˈt͡sʰik/",
+    "ja": [
+      "カメラ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տեսախցիկը չի աշխատում։",
+      "ja": "カメラが動きません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-035",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Նկար",
+    "translit": "nkar",
+    "ipa": "/nəˈkɑɾ/",
+    "ja": [
+      "写真",
+      "絵"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նկար եմ ուղարկում։",
+      "ja": "写真を送っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-036",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Տեսանյութ",
+    "translit": "tesanyut'",
+    "ipa": "/tesɑˈnjutʰ/",
+    "ja": [
+      "動画"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տեսանյութը երկար է։",
+      "ja": "動画が長いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-037",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Երաժշտություն",
+    "translit": "yerazhshtut'yun",
+    "ipa": "/jeɾɑʒəʃtuˈtʰjun/",
+    "ja": [
+      "音楽"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Երաժշտությունը բարձր է։",
+      "ja": "音楽が大きいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-038",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Պատվեր",
+    "translit": "patver",
+    "ipa": "/pɑtˈveɾ/",
+    "ja": [
+      "注文"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պատվերը մեծ է։",
+      "ja": "注文が大きいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-039",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Նամականիշ",
+    "translit": "namakanish",
+    "ipa": "/nɑmɑkɑˈniʃ/",
+    "ja": [
+      "切手"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նամականիշ եմ գնում։",
+      "ja": "切手を買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-040",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Ծրար",
+    "translit": "tsrar",
+    "ipa": "/t͡səˈɾɑɾ/",
+    "ja": [
+      "封筒"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ծրար կա՞։",
+      "ja": "封筒はありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-041",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Վերցնել",
+    "translit": "verts'nel",
+    "ipa": "/veɾt͡sʰˈnel/",
+    "ja": [
+      "取る",
+      "受け取る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ծանրոցը վերցնում եմ։",
+      "ja": "小包を受け取ります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-042",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Էլեկտրոնային",
+    "translit": "elektronayin",
+    "ipa": "/elektɾonɑˈjin/",
+    "ja": [
+      "電子の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Էլեկտրոնային փոստ ունեմ։",
+      "ja": "メールアドレスを持っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-043",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Ծածկագիր",
+    "translit": "tsatskagir",
+    "ipa": "/t͡sɑt͡skɑˈɡiɾ/",
+    "ja": [
+      "暗証番号",
+      "コード"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ծածկագիրը չեմ հիշում։",
+      "ja": "暗証番号を覚えていません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-044",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Ջնջել",
+    "translit": "jnjel",
+    "ipa": "/d͡ʒənˈd͡ʒel/",
+    "ja": [
+      "消す",
+      "削除する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հաղորդագրությունը ջնջում եմ։",
+      "ja": "メッセージを消しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-045",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Պահել",
+    "translit": "pahel",
+    "ipa": "/pɑˈhel/",
+    "ja": [
+      "保存する",
+      "取っておく"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Նամակը պահում եմ։",
+      "ja": "手紙を取っておきます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-net-046",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "internet-post",
+    "hy": "Աշխատակից",
+    "translit": "ashkhatakits'",
+    "ipa": "/ɑʃχɑtɑˈkit͡sʰ/",
+    "ja": [
+      "職員",
+      "同僚"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Աշխատակիցը օգնում է։",
+      "ja": "職員が手伝ってくれます。"
+    },
+    "ruCognate": null
+  }
+]
