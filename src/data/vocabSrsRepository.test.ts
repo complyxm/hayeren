@@ -10,9 +10,16 @@ beforeEach(async () => {
 
 const NOW = new Date("2026-08-29T09:00:00.000Z");
 
+/**
+ * 「上限で切られていない状態」を作るための値。語彙が増えると固定値（1000）を
+ * 追い越してキューが上限で切られ、テストが語数の増加だけで落ちていた。
+ * 語数から決めて、増えても壊れないようにする。
+ */
+const NO_LIMIT = vocab.length + 1;
+
 describe("getVocabReviewQueue", () => {
   it("verified な語すべてに hy-ja(再認)カードを用意する", async () => {
-    await setVocabDailyNewCardLimit(1000);
+    await setVocabDailyNewCardLimit(NO_LIMIT);
     const { items } = await getVocabReviewQueue(NOW);
     const verifiedIds = new Set(vocab.filter((v) => v.status === "verified").map((v) => v.id));
 
@@ -21,13 +28,13 @@ describe("getVocabReviewQueue", () => {
   });
 
   it("ja-hy(想起)は、対応する hy-ja が1回もレビューされていないうちは出題されない", async () => {
-    await setVocabDailyNewCardLimit(1000);
+    await setVocabDailyNewCardLimit(NO_LIMIT);
     const { items } = await getVocabReviewQueue(NOW);
     expect(items.filter((i) => i.direction === "ja-hy")).toHaveLength(0);
   });
 
   it("hy-ja を1回レビューすると、対応する ja-hy が次回のキューに解禁される", async () => {
-    await setVocabDailyNewCardLimit(1000);
+    await setVocabDailyNewCardLimit(NO_LIMIT);
     const target = vocab.find((v) => v.status === "verified")!;
 
     await getVocabReviewQueue(NOW); // カードを作らせる

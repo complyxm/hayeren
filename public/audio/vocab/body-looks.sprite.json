@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "theme": "body-looks",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-body-001": {
+      "start": 0,
+      "duration": 1.012
+    },
+    "v-body-001__ex": {
+      "start": 1.162,
+      "duration": 1.781
+    },
+    "v-body-002": {
+      "start": 3.093,
+      "duration": 0.878
+    },
+    "v-body-002__ex": {
+      "start": 4.121,
+      "duration": 1.766
+    },
+    "v-body-003": {
+      "start": 6.037,
+      "duration": 0.838
+    },
+    "v-body-003__ex": {
+      "start": 7.025,
+      "duration": 1.791
+    },
+    "v-body-004": {
+      "start": 8.966,
+      "duration": 1.019
+    },
+    "v-body-004__ex": {
+      "start": 10.136,
+      "duration": 1.681
+    },
+    "v-body-005": {
+      "start": 11.967,
+      "duration": 0.735
+    },
+    "v-body-005__ex": {
+      "start": 12.852,
+      "duration": 1.459
+    },
+    "v-body-006": {
+      "start": 14.461,
+      "duration": 0.837
+    },
+    "v-body-006__ex": {
+      "start": 15.448,
+      "duration": 1.631
+    },
+    "v-body-007": {
+      "start": 17.23,
+      "duration": 0.971
+    },
+    "v-body-007__ex": {
+      "start": 18.35,
+      "duration": 2.509
+    },
+    "v-body-008": {
+      "start": 21.01,
+      "duration": 0.945
+    },
+    "v-body-008__ex": {
+      "start": 22.105,
+      "duration": 1.814
+    },
+    "v-body-009": {
+      "start": 24.069,
+      "duration": 1.154
+    },
+    "v-body-009__ex": {
+      "start": 25.373,
+      "duration": 2.027
+    },
+    "v-body-010": {
+      "start": 27.55,
+      "duration": 0.718
+    },
+    "v-body-010__ex": {
+      "start": 28.417,
+      "duration": 1.604
+    },
+    "v-body-011": {
+      "start": 30.172,
+      "duration": 0.987
+    },
+    "v-body-011__ex": {
+      "start": 31.309,
+      "duration": 1.956
+    },
+    "v-body-012": {
+      "start": 33.415,
+      "duration": 0.778
+    },
+    "v-body-012__ex": {
+      "start": 34.343,
+      "duration": 1.641
+    },
+    "v-body-013": {
+      "start": 36.134,
+      "duration": 1.135
+    },
+    "v-body-013__ex": {
+      "start": 37.419,
+      "duration": 1.973
+    },
+    "v-body-014": {
+      "start": 39.542,
+      "duration": 0.949
+    },
+    "v-body-014__ex": {
+      "start": 40.641,
+      "duration": 1.857
+    },
+    "v-body-015": {
+      "start": 42.648,
+      "duration": 1.242
+    },
+    "v-body-015__ex": {
+      "start": 44.04,
+      "duration": 2.091
+    },
+    "v-body-016": {
+      "start": 46.28,
+      "duration": 0.797
+    },
+    "v-body-016__ex": {
+      "start": 47.227,
+      "duration": 2.225
+    },
+    "v-body-017": {
+      "start": 49.603,
+      "duration": 0.967
+    },
+    "v-body-017__ex": {
+      "start": 50.72,
+      "duration": 1.234
+    },
+    "v-body-018": {
+      "start": 52.104,
+      "duration": 0.998
+    },
+    "v-body-018__ex": {
+      "start": 53.252,
+      "duration": 1.877
+    },
+    "v-body-019": {
+      "start": 55.279,
+      "duration": 0.848
+    },
+    "v-body-019__ex": {
+      "start": 56.277,
+      "duration": 1.404
+    },
+    "v-body-020": {
+      "start": 57.83,
+      "duration": 0.877
+    },
+    "v-body-020__ex": {
+      "start": 58.857,
+      "duration": 1.754
+    },
+    "v-body-021": {
+      "start": 60.761,
+      "duration": 1.456
+    },
+    "v-body-021__ex": {
+      "start": 62.367,
+      "duration": 1.918
+    },
+    "v-body-022": {
+      "start": 64.435,
+      "duration": 0.907
+    },
+    "v-body-022__ex": {
+      "start": 65.492,
+      "duration": 1.283
+    },
+    "v-body-023": {
+      "start": 66.925,
+      "duration": 0.677
+    },
+    "v-body-023__ex": {
+      "start": 67.752,
+      "duration": 1.434
+    },
+    "v-body-024": {
+      "start": 69.336,
+      "duration": 0.972
+    },
+    "v-body-024__ex": {
+      "start": 70.458,
+      "duration": 1.706
+    },
+    "v-body-025": {
+      "start": 72.315,
+      "duration": 0.861
+    },
+    "v-body-025__ex": {
+      "start": 73.326,
+      "duration": 1.603
+    }
+  }
+}

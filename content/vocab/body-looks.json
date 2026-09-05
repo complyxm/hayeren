@@ -1,0 +1,506 @@
+[
+  {
+    "id": "v-body-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Մարմին",
+    "translit": "marmin",
+    "ipa": "/mɑɾˈmin/",
+    "ja": [
+      "体"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մարմինը հոգնած է։",
+      "ja": "体が疲れています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Մազ",
+    "translit": "maz",
+    "ipa": "/mɑz/",
+    "ja": [
+      "髪"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մազերս երկար են։",
+      "ja": "髪が長いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Դեմք",
+    "translit": "demk'",
+    "ipa": "/demkʰ/",
+    "ja": [
+      "顔"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դեմքը լվանում եմ։",
+      "ja": "顔を洗っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Ճակատ",
+    "translit": "chakat",
+    "ipa": "/t͡ʃɑˈkɑt/",
+    "ja": [
+      "ひたい"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ճակատը տաք է։",
+      "ja": "ひたいが熱いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Այտ",
+    "translit": "ayt",
+    "ipa": "/ɑjt/",
+    "ja": [
+      "ほお"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Այտը կարմիր է։",
+      "ja": "ほおが赤いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Շուրթ",
+    "translit": "shurt'",
+    "ipa": "/ʃuɾtʰ/",
+    "ja": [
+      "くちびる"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Շուրթերը չոր են։",
+      "ja": "くちびるが乾いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Լեզու",
+    "translit": "lezu",
+    "ipa": "/leˈzu/",
+    "ja": [
+      "舌",
+      "言語"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հայերենը գեղեցիկ լեզու է։",
+      "ja": "アルメニア語はきれいな言語です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Ծնոտ",
+    "translit": "tsnot",
+    "ipa": "/t͡səˈnot/",
+    "ja": [
+      "あご"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ծնոտը ցավում է։",
+      "ja": "あごが痛いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Պարանոց",
+    "translit": "paranots'",
+    "ipa": "/pɑɾɑˈnot͡sʰ/",
+    "ja": [
+      "首"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պարանոցս ցավում է։",
+      "ja": "首が痛いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Ուս",
+    "translit": "us",
+    "ipa": "/us/",
+    "ja": [
+      "肩"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ուսը ցավում է։",
+      "ja": "肩が痛いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Արմունկ",
+    "translit": "armunk",
+    "ipa": "/ɑɾˈmunk/",
+    "ja": [
+      "ひじ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Արմունկը վնասեցի։",
+      "ja": "ひじをけがしました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Մատ",
+    "translit": "mat",
+    "ipa": "/mɑt/",
+    "ja": [
+      "指"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մատս ցավում է։",
+      "ja": "指が痛いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Եղունգ",
+    "translit": "yeghung",
+    "ipa": "/jeˈʁunɡ/",
+    "ja": [
+      "つめ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Եղունգները կարճ են։",
+      "ja": "つめは短いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Կուրծք",
+    "translit": "kurtsk'",
+    "ipa": "/kuɾt͡skʰ/",
+    "ja": [
+      "胸"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կուրծքը ցավում է։",
+      "ja": "胸が痛いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Ստամոքս",
+    "translit": "stamok's",
+    "ipa": "/stɑˈmokʰs/",
+    "ja": [
+      "胃"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ստամոքսը ցավում է։",
+      "ja": "胃が痛いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Սիրտ",
+    "translit": "sirt",
+    "ipa": "/siɾt/",
+    "ja": [
+      "心臓",
+      "心"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սիրտը արագ է աշխատում։",
+      "ja": "心臓が速く動いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Արյուն",
+    "translit": "aryun",
+    "ipa": "/ɑˈɾjun/",
+    "ja": [
+      "血"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Արյուն կա։",
+      "ja": "血が出ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Ոսկոր",
+    "translit": "voskor",
+    "ipa": "/vosˈkoɾ/",
+    "ja": [
+      "骨"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ոսկորը ցավում է։",
+      "ja": "骨が痛いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Մաշկ",
+    "translit": "mashk",
+    "ipa": "/mɑʃk/",
+    "ja": [
+      "皮膚",
+      "肌"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մաշկը չոր է։",
+      "ja": "肌が乾いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-020",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Ծունկ",
+    "translit": "tsunk",
+    "ipa": "/t͡sunk/",
+    "ja": [
+      "ひざ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ծունկը ցավում է։",
+      "ja": "ひざが痛いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-021",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Բարձրահասակ",
+    "translit": "bardzrahasak",
+    "ipa": "/bɑɾt͡sʰɾɑhɑˈsɑk/",
+    "ja": [
+      "背の高い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Նա բարձրահասակ է։",
+      "ja": "彼は背が高いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-022",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Նիհար",
+    "translit": "nihar",
+    "ipa": "/niˈhɑɾ/",
+    "ja": [
+      "やせた"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Նա նիհար է։",
+      "ja": "彼はやせています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-023",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Գեր",
+    "translit": "ger",
+    "ipa": "/ɡeɾ/",
+    "ja": [
+      "太った"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Կատուն գեր է։",
+      "ja": "猫が太っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-024",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "body-looks",
+    "hy": "Սիրուն",
+    "translit": "sirun",
+    "ipa": "/siˈɾun/",
+    "ja": [
+      "かわいい",
+      "きれいな"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Սիրուն ծաղիկ է։",
+      "ja": "かわいい花です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-body-025",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。 例文に使った զգալ も同じ辞書で確認済み。",
+    "theme": "body-looks",
+    "hy": "Թույլ",
+    "translit": "t'uyl",
+    "ipa": "/tʰujl/",
+    "ja": [
+      "弱い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Թույլ եմ զգում։",
+      "ja": "体が弱っている気がします。"
+    },
+    "ruCognate": null
+  }
+]

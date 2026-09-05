@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "theme": "nature-animals",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-nat-001": {
+      "start": 0,
+      "duration": 1.161
+    },
+    "v-nat-001__ex": {
+      "start": 1.311,
+      "duration": 1.959
+    },
+    "v-nat-002": {
+      "start": 3.42,
+      "duration": 0.857
+    },
+    "v-nat-002__ex": {
+      "start": 4.426,
+      "duration": 1.366
+    },
+    "v-nat-003": {
+      "start": 5.943,
+      "duration": 0.953
+    },
+    "v-nat-003__ex": {
+      "start": 7.045,
+      "duration": 1.381
+    },
+    "v-nat-004": {
+      "start": 8.576,
+      "duration": 0.762
+    },
+    "v-nat-004__ex": {
+      "start": 9.489,
+      "duration": 1.341
+    },
+    "v-nat-005": {
+      "start": 10.98,
+      "duration": 0.846
+    },
+    "v-nat-005__ex": {
+      "start": 11.976,
+      "duration": 1.892
+    },
+    "v-nat-006": {
+      "start": 14.018,
+      "duration": 1.115
+    },
+    "v-nat-006__ex": {
+      "start": 15.284,
+      "duration": 1.994
+    },
+    "v-nat-007": {
+      "start": 17.427,
+      "duration": 0.743
+    },
+    "v-nat-007__ex": {
+      "start": 18.321,
+      "duration": 1.504
+    },
+    "v-nat-008": {
+      "start": 19.975,
+      "duration": 1.125
+    },
+    "v-nat-008__ex": {
+      "start": 21.251,
+      "duration": 1.818
+    },
+    "v-nat-009": {
+      "start": 23.219,
+      "duration": 0.961
+    },
+    "v-nat-009__ex": {
+      "start": 24.33,
+      "duration": 1.288
+    },
+    "v-nat-010": {
+      "start": 25.768,
+      "duration": 1.029
+    },
+    "v-nat-010__ex": {
+      "start": 26.947,
+      "duration": 2.073
+    },
+    "v-nat-011": {
+      "start": 29.17,
+      "duration": 1.054
+    },
+    "v-nat-011__ex": {
+      "start": 30.374,
+      "duration": 1.576
+    },
+    "v-nat-012": {
+      "start": 32.1,
+      "duration": 0.886
+    },
+    "v-nat-012__ex": {
+      "start": 33.136,
+      "duration": 2.171
+    },
+    "v-nat-013": {
+      "start": 35.458,
+      "duration": 0.988
+    },
+    "v-nat-013__ex": {
+      "start": 36.596,
+      "duration": 1.876
+    },
+    "v-nat-014": {
+      "start": 38.622,
+      "duration": 0.746
+    },
+    "v-nat-014__ex": {
+      "start": 39.518,
+      "duration": 2.075
+    },
+    "v-nat-015": {
+      "start": 41.744,
+      "duration": 0.839
+    },
+    "v-nat-015__ex": {
+      "start": 42.733,
+      "duration": 1.696
+    },
+    "v-nat-016": {
+      "start": 44.579,
+      "duration": 0.78
+    },
+    "v-nat-016__ex": {
+      "start": 45.509,
+      "duration": 1.321
+    },
+    "v-nat-017": {
+      "start": 46.98,
+      "duration": 1.13
+    },
+    "v-nat-017__ex": {
+      "start": 48.26,
+      "duration": 2.136
+    },
+    "v-nat-018": {
+      "start": 50.546,
+      "duration": 1.213
+    },
+    "v-nat-018__ex": {
+      "start": 51.909,
+      "duration": 1.923
+    },
+    "v-nat-019": {
+      "start": 53.982,
+      "duration": 0.822
+    },
+    "v-nat-019__ex": {
+      "start": 54.954,
+      "duration": 1.636
+    },
+    "v-nat-020": {
+      "start": 56.74,
+      "duration": 1.069
+    },
+    "v-nat-020__ex": {
+      "start": 57.96,
+      "duration": 1.835
+    },
+    "v-nat-021": {
+      "start": 59.945,
+      "duration": 0.826
+    },
+    "v-nat-021__ex": {
+      "start": 60.921,
+      "duration": 1.643
+    },
+    "v-nat-022": {
+      "start": 62.714,
+      "duration": 0.96
+    },
+    "v-nat-022__ex": {
+      "start": 63.824,
+      "duration": 1.738
+    },
+    "v-nat-023": {
+      "start": 65.712,
+      "duration": 0.974
+    },
+    "v-nat-023__ex": {
+      "start": 66.836,
+      "duration": 1.537
+    },
+    "v-nat-024": {
+      "start": 68.523,
+      "duration": 0.786
+    },
+    "v-nat-024__ex": {
+      "start": 69.459,
+      "duration": 1.388
+    },
+    "v-nat-025": {
+      "start": 70.997,
+      "duration": 0.914
+    },
+    "v-nat-025__ex": {
+      "start": 72.061,
+      "duration": 1.74
+    },
+    "v-nat-026": {
+      "start": 73.951,
+      "duration": 0.846
+    },
+    "v-nat-026__ex": {
+      "start": 74.947,
+      "duration": 1.533
+    },
+    "v-nat-027": {
+      "start": 76.63,
+      "duration": 0.745
+    },
+    "v-nat-027__ex": {
+      "start": 77.525,
+      "duration": 1.216
+    },
+    "v-nat-028": {
+      "start": 78.892,
+      "duration": 1.054
+    },
+    "v-nat-028__ex": {
+      "start": 80.096,
+      "duration": 1.616
+    },
+    "v-nat-029": {
+      "start": 81.862,
+      "duration": 0.892
+    },
+    "v-nat-029__ex": {
+      "start": 82.904,
+      "duration": 1.51
+    },
+    "v-nat-030": {
+      "start": 84.564,
+      "duration": 1.171
+    },
+    "v-nat-030__ex": {
+      "start": 85.885,
+      "duration": 2.162
+    }
+  }
+}

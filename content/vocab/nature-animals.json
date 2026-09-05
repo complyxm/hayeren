@@ -1,0 +1,605 @@
+[
+  {
+    "id": "v-nat-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Կենդանի",
+    "translit": "kendani",
+    "ipa": "/kentʰɑˈni/",
+    "ja": [
+      "動物",
+      "生きている"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կենդանի եմ տեսնում։",
+      "ja": "動物が見えます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Շուն",
+    "translit": "shun",
+    "ipa": "/ʃun/",
+    "ja": [
+      "犬"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Շունը մեծ է։",
+      "ja": "犬は大きいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Կատու",
+    "translit": "katu",
+    "ipa": "/kɑˈtu/",
+    "ja": [
+      "猫"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կատու ունեմ։",
+      "ja": "猫を飼っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Ձի",
+    "translit": "dzi",
+    "ipa": "/d͡zi/",
+    "ja": [
+      "馬"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ձին արագ է։",
+      "ja": "馬は速いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Կով",
+    "translit": "kov",
+    "ipa": "/kov/",
+    "ja": [
+      "牛"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կովը կաթ է տալիս։",
+      "ja": "牛は乳を出します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Ոչխար",
+    "translit": "voch'khar",
+    "ipa": "/vot͡ʃʰˈχɑɾ/",
+    "ja": [
+      "羊"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ոչխար եմ տեսնում։",
+      "ja": "羊が見えます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Այծ",
+    "translit": "ayts",
+    "ipa": "/ɑjt͡s/",
+    "ja": [
+      "やぎ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Այծը սարում է։",
+      "ja": "やぎは山にいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Թռչուն",
+    "translit": "t'rch'un",
+    "ipa": "/tʰərˈt͡ʃʰun/",
+    "ja": [
+      "鳥"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թռչունը երգում է։",
+      "ja": "鳥が鳴いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Միջատ",
+    "translit": "mijat",
+    "ipa": "/miˈt͡ʃʰɑt/",
+    "ja": [
+      "虫"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Միջատ կա։",
+      "ja": "虫がいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Մեղու",
+    "translit": "meghu",
+    "ipa": "/meˈʁu/",
+    "ja": [
+      "はち"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մեղուն մեղր է անում։",
+      "ja": "はちは蜜を作ります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Մրջյուն",
+    "translit": "mrjyun",
+    "ipa": "/məɾˈt͡ʃʰjun/",
+    "ja": [
+      "あり"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մրջյուններ կան։",
+      "ja": "ありがいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Ճանճ",
+    "translit": "chanch",
+    "ipa": "/t͡ʃɑnt͡ʃ/",
+    "ja": [
+      "はえ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ճանճ կա խոհանոցում։",
+      "ja": "台所にはえがいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Մոծակ",
+    "translit": "motsak",
+    "ipa": "/moˈt͡sɑk/",
+    "ja": [
+      "蚊"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մոծակները շատ են։",
+      "ja": "蚊が多いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Օձ",
+    "translit": "odz",
+    "ipa": "/ot͡sʰ/",
+    "ja": [
+      "へび"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Օձից եմ վախենում։",
+      "ja": "へびがこわいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Գայլ",
+    "translit": "gayl",
+    "ipa": "/ɡɑjl/",
+    "ja": [
+      "おおかみ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գայլը անտառում է։",
+      "ja": "おおかみは森にいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Արջ",
+    "translit": "arj",
+    "ipa": "/ɑɾt͡ʃʰ/",
+    "ja": [
+      "くま"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Արջը մեծ է։",
+      "ja": "くまは大きいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。 例文に使った խորամանկ も同じ辞書で確認済み。",
+    "theme": "nature-animals",
+    "hy": "Աղվես",
+    "translit": "aghves",
+    "ipa": "/ɑʁˈves/",
+    "ja": [
+      "きつね"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Աղվեսը խորամանկ է։",
+      "ja": "きつねはずるがしこいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Նապաստակ",
+    "translit": "napastak",
+    "ipa": "/nɑpɑsˈtɑk/",
+    "ja": [
+      "うさぎ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նապաստակը արագ է։",
+      "ja": "うさぎは速いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Ծառ",
+    "translit": "tsar",
+    "ipa": "/t͡sɑr/",
+    "ja": [
+      "木"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ծառը բարձր է։",
+      "ja": "木は高いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-020",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Ծաղիկ",
+    "translit": "tsaghik",
+    "ipa": "/t͡sɑˈʁik/",
+    "ja": [
+      "花"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ծաղիկ եմ գնում։",
+      "ja": "花を買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-021",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Խոտ",
+    "translit": "khot",
+    "ipa": "/χot/",
+    "ja": [
+      "草"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խոտը կանաչ է։",
+      "ja": "草は緑です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-022",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Տերև",
+    "translit": "terev",
+    "ipa": "/teˈɾev/",
+    "ja": [
+      "葉"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տերևը դեղին է։",
+      "ja": "葉が黄色いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-023",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Անտառ",
+    "translit": "antar",
+    "ipa": "/ɑnˈtɑr/",
+    "ja": [
+      "森"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Անտառը մոտ է։",
+      "ja": "森は近いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-024",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Դաշտ",
+    "translit": "dasht",
+    "ipa": "/dɑʃt/",
+    "ja": [
+      "野原",
+      "畑"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դաշտը մեծ է։",
+      "ja": "野原は広いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-025",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Աստղ",
+    "translit": "astgh",
+    "ipa": "/ɑstəʁ/",
+    "ja": [
+      "星"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Աստղերը շատ են։",
+      "ja": "星がたくさんあります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-026",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Ծով",
+    "translit": "tsov",
+    "ipa": "/t͡sov/",
+    "ja": [
+      "海"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ծովը հեռու է։",
+      "ja": "海は遠いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-027",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Ափ",
+    "translit": "ap'",
+    "ipa": "/ɑpʰ/",
+    "ja": [
+      "岸",
+      "手のひら"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ափին ենք։",
+      "ja": "岸にいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-028",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Ավազ",
+    "translit": "avaz",
+    "ipa": "/ɑˈvɑz/",
+    "ja": [
+      "砂"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ավազը տաք է։",
+      "ja": "砂が熱いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-029",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Հող",
+    "translit": "hogh",
+    "ipa": "/hoʁ/",
+    "ja": [
+      "土"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հողը սև է։",
+      "ja": "土は黒いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-nat-030",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "nature-animals",
+    "hy": "Բնություն",
+    "translit": "bnut'yun",
+    "ipa": "/bənuˈtʰjun/",
+    "ja": [
+      "自然"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բնությունը գեղեցիկ է։",
+      "ja": "自然はきれいです。"
+    },
+    "ruCognate": null
+  }
+]

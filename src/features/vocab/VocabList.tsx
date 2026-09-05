@@ -33,6 +33,8 @@ const THEME_LABEL_JA: Record<VocabTheme, string> = {
   cooking: "料理・味",
   driving: "運転・移動",
   "culture-holidays": "文化・行事",
+  "nature-animals": "自然・生きもの",
+  "body-looks": "体・見た目",
 };
 
 /**

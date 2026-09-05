@@ -18,8 +18,13 @@ describe("VocabReviewScreen", () => {
     // 既定 1s では全スイート同時実行時に間に合わないことがあるので広げる。
     await waitFor(() => expect(screen.queryByText("読み込み中…")).not.toBeInTheDocument(), { timeout: 5000 });
 
-    const first = vocab.find((v) => v.status === "verified")!;
-    expect(screen.getByText(first.hy)).toBeInTheDocument();
+    // どの語が最初に出るかはキューの並び（カードの主キー順）で決まるので、
+    // 語彙ファイルの並びとは一致しない。画面に出ている語を読み取ってから照合する
+    // （語を増やすたびにテストが落ちないようにするため）。
+    const shownWord = document.querySelector('[lang="hy"]')?.textContent ?? "";
+    const first = vocab.find((v) => v.hy === shownWord)!;
+    expect(first, `画面の語 "${shownWord}" が語彙に無い`).toBeDefined();
+    expect(first.status).toBe("verified");
     expect(screen.queryByText(first.ja.join("、"))).not.toBeInTheDocument();
 
     fireEvent.click(screen.getByText("裏を見る"));
