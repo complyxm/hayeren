@@ -1,0 +1,1117 @@
+[
+  {
+    "id": "v-home-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Մաքրել",
+    "translit": "mak'rel",
+    "ipa": "/mɑkʰˈɾel/",
+    "ja": [
+      "掃除する",
+      "きれいにする"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Սենյակը մաքրում եմ։",
+      "ja": "部屋を掃除しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Լվանալ",
+    "translit": "lvanal",
+    "ipa": "/ləvɑˈnɑl/",
+    "ja": [
+      "洗う"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հագուստ եմ լվանում։",
+      "ja": "服を洗っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Ավլել",
+    "translit": "avlel",
+    "ipa": "/ɑvˈlel/",
+    "ja": [
+      "掃く"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Խոհանոցը ավլում եմ։",
+      "ja": "台所を掃いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Փոշի",
+    "translit": "p'oshi",
+    "ipa": "/pʰoˈʃi/",
+    "ja": [
+      "ほこり",
+      "粉"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Փոշին շատ է։",
+      "ja": "ほこりが多いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Փոշեկուլ",
+    "translit": "p'oshekul",
+    "ipa": "/pʰoʃeˈkul/",
+    "ja": [
+      "掃除機"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Փոշեկուլը չի աշխատում։",
+      "ja": "掃除機が動きません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Դույլ",
+    "translit": "duyl",
+    "ipa": "/dujl/",
+    "ja": [
+      "バケツ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դույլ կա՞։",
+      "ja": "バケツはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Սրբիչ",
+    "translit": "srbich",
+    "ipa": "/səɾˈpʰit͡ʃʰ/",
+    "ja": [
+      "タオル"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սրբիչը մաքուր է։",
+      "ja": "タオルはきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Օճառ",
+    "translit": "ochar",
+    "ipa": "/oˈt͡ʃɑr/",
+    "ja": [
+      "せっけん"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Օճառ եմ գնում։",
+      "ja": "せっけんを買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Շամպուն",
+    "translit": "shampun",
+    "ipa": "/ʃɑmˈpun/",
+    "ja": [
+      "シャンプー"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Շամպուն եմ ուզում։",
+      "ja": "シャンプーがほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Ատամի խոզանակ",
+    "translit": "atami khozanak",
+    "ipa": "/ɑtɑˈmi χozɑˈnɑk/",
+    "ja": [
+      "歯ブラシ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նոր ատամի խոզանակ եմ գնում։",
+      "ja": "新しい歯ブラシを買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Ատամի մածուկ",
+    "translit": "atami matsuk",
+    "ipa": "/ɑtɑˈmi mɑˈt͡suk/",
+    "ja": [
+      "歯みがき粉"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ատամի մածուկ կա՞։",
+      "ja": "歯みがき粉はありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Զուգարանի թուղթ",
+    "translit": "zugarani t'ught'",
+    "ipa": "/zukʰɑɾɑˈni tʰuχtʰ/",
+    "ja": [
+      "トイレットペーパー"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Զուգարանի թուղթ չկա։",
+      "ja": "トイレットペーパーがありません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Աղբ",
+    "translit": "aghb",
+    "ipa": "/ɑχp/",
+    "ja": [
+      "ごみ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Աղբը շատ է։",
+      "ja": "ごみが多いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Աղբարկղ",
+    "translit": "aghbarkgh",
+    "ipa": "/ɑχpɑɾkəʁ/",
+    "ja": [
+      "ごみ箱"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Աղբարկղը լիքն է։",
+      "ja": "ごみ箱がいっぱいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Լվացք",
+    "translit": "lvats'k'",
+    "ipa": "/ləˈvɑt͡sʰkʰ/",
+    "ja": [
+      "洗濯",
+      "洗濯物"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Լվացքը չորանում է։",
+      "ja": "洗濯物が乾いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Լվացքի մեքենա",
+    "translit": "lvats'k'i mek'ena",
+    "ipa": "/ləvɑt͡sʰˈkʰi mekʰeˈnɑ/",
+    "ja": [
+      "洗濯機"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Լվացքի մեքենան չի աշխատում։",
+      "ja": "洗濯機が動きません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Արդուկ",
+    "translit": "arduk",
+    "ipa": "/ɑɾˈtʰuk/",
+    "ja": [
+      "アイロン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Արդուկը նոր է։",
+      "ja": "アイロンは新しいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Արդուկել",
+    "translit": "ardukel",
+    "ipa": "/ɑɾtʰuˈkel/",
+    "ja": [
+      "アイロンをかける"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հագուստը արդուկում եմ։",
+      "ja": "服にアイロンをかけています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Կախիչ",
+    "translit": "kakhich",
+    "ipa": "/kɑˈχit͡ʃʰ/",
+    "ja": [
+      "ハンガー"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կախիչ կա՞։",
+      "ja": "ハンガーはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-020",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Պարան",
+    "translit": "paran",
+    "ipa": "/pɑˈɾɑn/",
+    "ja": [
+      "ひも",
+      "ロープ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պարանը երկար է։",
+      "ja": "ひもは長いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-021",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Չորանալ",
+    "translit": "choranal",
+    "ipa": "/t͡ʃʰoɾɑˈnɑl/",
+    "ja": [
+      "乾く"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Սրբիչը չորանում է։",
+      "ja": "タオルが乾いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-022",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Կախել",
+    "translit": "kakhel",
+    "ipa": "/kɑˈχel/",
+    "ja": [
+      "掛ける",
+      "吊るす"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հագուստը կախում եմ։",
+      "ja": "服を掛けています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-023",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Սավան",
+    "translit": "savan",
+    "ipa": "/sɑˈvɑn/",
+    "ja": [
+      "シーツ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սավանը մաքուր է։",
+      "ja": "シーツはきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-024",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。（例文の փափուկ / դատարկ / որտեղ も同じ辞書で確認済み）",
+    "theme": "home-chores",
+    "hy": "Բարձ",
+    "translit": "bardz",
+    "ipa": "/bɑɾt͡sʰ/",
+    "ja": [
+      "まくら"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բարձը փափուկ է։",
+      "ja": "まくらは柔らかいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-025",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Վերմակ",
+    "translit": "vermak",
+    "ipa": "/veɾˈmɑk/",
+    "ja": [
+      "毛布",
+      "かけ布団"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վերմակ եմ ուզում։",
+      "ja": "毛布がほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-026",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Անկողին",
+    "translit": "ankoghin",
+    "ipa": "/ɑnkoˈʁin/",
+    "ja": [
+      "寝床",
+      "ベッド"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Անկողինը մաքուր է։",
+      "ja": "寝床はきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-027",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Գորգ",
+    "translit": "gorg",
+    "ipa": "/ɡoɾɡ/",
+    "ja": [
+      "じゅうたん"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գորգը մեծ է։",
+      "ja": "じゅうたんは大きいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-028",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Հայելի",
+    "translit": "hayeli",
+    "ipa": "/hɑjeˈli/",
+    "ja": [
+      "鏡"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հայելին մաքուր է։",
+      "ja": "鏡はきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-029",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。（例文の փափուկ / դատարկ / որտեղ も同じ辞書で確認済み）",
+    "theme": "home-chores",
+    "hy": "Դարակ",
+    "translit": "darak",
+    "ipa": "/dɑˈɾɑk/",
+    "ja": [
+      "棚",
+      "引き出し"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Դարակը դատարկ է։",
+      "ja": "棚は空です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-030",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Պահարան",
+    "translit": "paharan",
+    "ipa": "/pɑhɑˈɾɑn/",
+    "ja": [
+      "戸棚",
+      "クローゼット"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պահարանը մեծ է։",
+      "ja": "戸棚は大きいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-031",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Աթոռ",
+    "translit": "at'or",
+    "ipa": "/ɑˈtʰor/",
+    "ja": [
+      "いす"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Աթոռը կոտրեցի։",
+      "ja": "いすを壊してしまいました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-032",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Սեղան",
+    "translit": "seghan",
+    "ipa": "/seˈʁɑn/",
+    "ja": [
+      "机",
+      "テーブル"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սեղանը մաքուր է։",
+      "ja": "テーブルはきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-033",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Վարագույր",
+    "translit": "varaguyr",
+    "ipa": "/vɑɾɑˈkʰujɾ/",
+    "ja": [
+      "カーテン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վարագույրը փակ է։",
+      "ja": "カーテンが閉まっています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-034",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Մոմ",
+    "translit": "mom",
+    "ipa": "/mom/",
+    "ja": [
+      "ろうそく"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մոմ կա՞։",
+      "ja": "ろうそくはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-035",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Մուրճ",
+    "translit": "murch",
+    "ipa": "/muɾt͡ʃ/",
+    "ja": [
+      "かなづち"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մուրճ եմ ուզում։",
+      "ja": "かなづちがほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-036",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Մեխ",
+    "translit": "mekh",
+    "ipa": "/meχ/",
+    "ja": [
+      "くぎ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մեխ կա՞։",
+      "ja": "くぎはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-037",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Պտուտակ",
+    "translit": "ptutak",
+    "ipa": "/pətuˈtɑk/",
+    "ja": [
+      "ねじ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պտուտակը փոքր է։",
+      "ja": "ねじは小さいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-038",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Պատառաքաղ",
+    "translit": "patarak'agh",
+    "ipa": "/pɑtɑrɑˈkʰɑʁ/",
+    "ja": [
+      "フォーク"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պատառաքաղ կա՞։",
+      "ja": "フォークはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-039",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Ափսե",
+    "translit": "ap'se",
+    "ipa": "/ɑpʰˈse/",
+    "ja": [
+      "皿"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ափսեն մաքուր է։",
+      "ja": "皿はきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-040",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Թաս",
+    "translit": "t'as",
+    "ipa": "/tʰɑs/",
+    "ja": [
+      "ボウル",
+      "おわん"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թաս եմ ուզում։",
+      "ja": "ボウルがほしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-041",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Կաթսա",
+    "translit": "kat'sa",
+    "ipa": "/kɑtʰˈsɑ/",
+    "ja": [
+      "なべ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կաթսան մեծ է։",
+      "ja": "なべは大きいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-042",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Թավա",
+    "translit": "t'ava",
+    "ipa": "/tʰɑˈvɑ/",
+    "ja": [
+      "フライパン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թավան նոր է։",
+      "ja": "フライパンは新しいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-043",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Ջեռոց",
+    "translit": "jerots'",
+    "ipa": "/d͡ʒeˈrot͡sʰ/",
+    "ja": [
+      "オーブン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ջեռոցը չի աշխատում։",
+      "ja": "オーブンが動きません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-044",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Լվացարան",
+    "translit": "lvats'aran",
+    "ipa": "/ləvɑt͡sʰɑˈɾɑn/",
+    "ja": [
+      "洗面台"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Լվացարանը փչացել է։",
+      "ja": "洗面台が壊れました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-045",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Ցնցուղ",
+    "translit": "ts'nts'ugh",
+    "ipa": "/t͡sʰənˈt͡sʰuʁ/",
+    "ja": [
+      "シャワー"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ցնցուղը չի աշխատում։",
+      "ja": "シャワーが出ません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-046",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。（例文の փափուկ / դատարկ / որտեղ も同じ辞書で確認済み）",
+    "theme": "home-chores",
+    "hy": "Վարդակ",
+    "translit": "vardak",
+    "ipa": "/vɑɾˈtʰɑk/",
+    "ja": [
+      "コンセント"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վարդակը որտե՞ղ է։",
+      "ja": "コンセントはどこですか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-047",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Մարտկոց",
+    "translit": "martkots'",
+    "ipa": "/mɑɾtˈkot͡sʰ/",
+    "ja": [
+      "電池"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մարտկոց եմ գնում։",
+      "ja": "電池を買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-048",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Լիցքավորել",
+    "translit": "lits'k'avorel",
+    "ipa": "/lit͡sʰkʰɑvoˈɾel/",
+    "ja": [
+      "充電する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հեռախոսը լիցքավորում եմ։",
+      "ja": "携帯を充電しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-049",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Կողպեք",
+    "translit": "koghpek'",
+    "ipa": "/koχˈpekʰ/",
+    "ja": [
+      "錠",
+      "鍵（錠前）"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կողպեքը փչացել է։",
+      "ja": "錠が壊れました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-050",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Փակել",
+    "translit": "p'akel",
+    "ipa": "/pʰɑˈkel/",
+    "ja": [
+      "閉める",
+      "閉じる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Դուռը փակում եմ։",
+      "ja": "ドアを閉めています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-051",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Բացել",
+    "translit": "bats'el",
+    "ipa": "/bɑˈt͡sʰel/",
+    "ja": [
+      "開ける"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Պատուհանը բացում եմ։",
+      "ja": "窓を開けています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-052",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Կոտրել",
+    "translit": "kotrel",
+    "ipa": "/kotˈɾel/",
+    "ja": [
+      "壊す",
+      "割る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Բաժակը կոտրեցի։",
+      "ja": "コップを割りました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-053",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Դասավորել",
+    "translit": "dasavorel",
+    "ipa": "/dɑsɑvoˈɾel/",
+    "ja": [
+      "片づける",
+      "並べる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Սենյակը դասավորում եմ։",
+      "ja": "部屋を片づけています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-054",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Սանր",
+    "translit": "sanr",
+    "ipa": "/sɑnəɾ/",
+    "ja": [
+      "くし"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սանր կա՞։",
+      "ja": "くしはありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-home-055",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-05 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "home-chores",
+    "hy": "Խոզանակ",
+    "translit": "khozanak",
+    "ipa": "/χozɑˈnɑk/",
+    "ja": [
+      "ブラシ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խոզանակ եմ ուզում։",
+      "ja": "ブラシがほしいです。"
+    },
+    "ruCognate": null
+  }
+]

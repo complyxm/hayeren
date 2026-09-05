@@ -24,6 +24,7 @@ export const vocabThemeSchema = z.enum([
   "verbs-adjectives",
   "function-words",
   "market-groceries",
+  "home-chores",
 ]);
 
 export type VocabTheme = z.infer<typeof vocabThemeSchema>;

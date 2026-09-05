@@ -23,6 +23,7 @@ const THEME_LABEL_JA: Record<VocabTheme, string> = {
   "verbs-adjectives": "基本動詞・形容詞",
   "function-words": "機能語",
   "market-groceries": "市場・食材",
+  "home-chores": "家事・日用品",
 };
 
 /**
