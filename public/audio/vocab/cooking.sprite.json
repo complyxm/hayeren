@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "theme": "cooking",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-cook-001": {
+      "start": 0,
+      "duration": 1.214
+    },
+    "v-cook-001__ex": {
+      "start": 1.364,
+      "duration": 1.818
+    },
+    "v-cook-002": {
+      "start": 3.332,
+      "duration": 1.23
+    },
+    "v-cook-002__ex": {
+      "start": 4.713,
+      "duration": 1.844
+    },
+    "v-cook-003": {
+      "start": 6.707,
+      "duration": 1.049
+    },
+    "v-cook-003__ex": {
+      "start": 7.906,
+      "duration": 1.729
+    },
+    "v-cook-004": {
+      "start": 9.785,
+      "duration": 1.11
+    },
+    "v-cook-004__ex": {
+      "start": 11.045,
+      "duration": 1.611
+    },
+    "v-cook-005": {
+      "start": 12.806,
+      "duration": 1.036
+    },
+    "v-cook-005__ex": {
+      "start": 13.992,
+      "duration": 1.76
+    },
+    "v-cook-006": {
+      "start": 15.902,
+      "duration": 1.162
+    },
+    "v-cook-006__ex": {
+      "start": 17.214,
+      "duration": 1.823
+    },
+    "v-cook-007": {
+      "start": 19.187,
+      "duration": 1.109
+    },
+    "v-cook-007__ex": {
+      "start": 20.447,
+      "duration": 1.564
+    },
+    "v-cook-008": {
+      "start": 22.161,
+      "duration": 1.044
+    },
+    "v-cook-008__ex": {
+      "start": 23.355,
+      "duration": 1.458
+    },
+    "v-cook-009": {
+      "start": 24.963,
+      "duration": 1.385
+    },
+    "v-cook-009__ex": {
+      "start": 26.498,
+      "duration": 2.072
+    },
+    "v-cook-010": {
+      "start": 28.72,
+      "duration": 1.243
+    },
+    "v-cook-010__ex": {
+      "start": 30.113,
+      "duration": 1.954
+    },
+    "v-cook-011": {
+      "start": 32.217,
+      "duration": 1.538
+    },
+    "v-cook-011__ex": {
+      "start": 33.905,
+      "duration": 1.981
+    },
+    "v-cook-012": {
+      "start": 36.036,
+      "duration": 1.251
+    },
+    "v-cook-012__ex": {
+      "start": 37.436,
+      "duration": 2.261
+    },
+    "v-cook-013": {
+      "start": 39.848,
+      "duration": 1.202
+    },
+    "v-cook-013__ex": {
+      "start": 41.2,
+      "duration": 2.362
+    },
+    "v-cook-014": {
+      "start": 43.712,
+      "duration": 0.855
+    },
+    "v-cook-014__ex": {
+      "start": 44.717,
+      "duration": 1.576
+    },
+    "v-cook-015": {
+      "start": 46.444,
+      "duration": 1.215
+    },
+    "v-cook-015__ex": {
+      "start": 47.809,
+      "duration": 1.787
+    },
+    "v-cook-016": {
+      "start": 49.745,
+      "duration": 0.941
+    },
+    "v-cook-016__ex": {
+      "start": 50.836,
+      "duration": 1.63
+    },
+    "v-cook-017": {
+      "start": 52.616,
+      "duration": 0.958
+    },
+    "v-cook-017__ex": {
+      "start": 53.724,
+      "duration": 1.5
+    },
+    "v-cook-018": {
+      "start": 55.374,
+      "duration": 0.954
+    },
+    "v-cook-018__ex": {
+      "start": 56.478,
+      "duration": 1.744
+    },
+    "v-cook-019": {
+      "start": 58.373,
+      "duration": 0.839
+    },
+    "v-cook-019__ex": {
+      "start": 59.361,
+      "duration": 1.369
+    },
+    "v-cook-020": {
+      "start": 60.881,
+      "duration": 0.988
+    },
+    "v-cook-020__ex": {
+      "start": 62.019,
+      "duration": 1.412
+    },
+    "v-cook-021": {
+      "start": 63.581,
+      "duration": 0.855
+    },
+    "v-cook-021__ex": {
+      "start": 64.586,
+      "duration": 1.643
+    },
+    "v-cook-022": {
+      "start": 66.379,
+      "duration": 1.193
+    },
+    "v-cook-022__ex": {
+      "start": 67.722,
+      "duration": 2.153
+    },
+    "v-cook-023": {
+      "start": 70.025,
+      "duration": 0.822
+    },
+    "v-cook-023__ex": {
+      "start": 70.997,
+      "duration": 1.664
+    },
+    "v-cook-024": {
+      "start": 72.811,
+      "duration": 1.538
+    },
+    "v-cook-024__ex": {
+      "start": 74.498,
+      "duration": 2.233
+    },
+    "v-cook-025": {
+      "start": 76.881,
+      "duration": 0.88
+    },
+    "v-cook-025__ex": {
+      "start": 77.911,
+      "duration": 1.96
+    },
+    "v-cook-026": {
+      "start": 80.021,
+      "duration": 1.426
+    },
+    "v-cook-026__ex": {
+      "start": 81.597,
+      "duration": 2.085
+    },
+    "v-cook-027": {
+      "start": 83.832,
+      "duration": 1.237
+    },
+    "v-cook-027__ex": {
+      "start": 85.219,
+      "duration": 1.575
+    },
+    "v-cook-028": {
+      "start": 86.944,
+      "duration": 1.268
+    },
+    "v-cook-028__ex": {
+      "start": 88.362,
+      "duration": 2.074
+    },
+    "v-cook-029": {
+      "start": 90.586,
+      "duration": 1.139
+    },
+    "v-cook-029__ex": {
+      "start": 91.875,
+      "duration": 1.901
+    },
+    "v-cook-030": {
+      "start": 93.925,
+      "duration": 0.83
+    },
+    "v-cook-030__ex": {
+      "start": 94.905,
+      "duration": 2.638
+    },
+    "v-cook-031": {
+      "start": 97.694,
+      "duration": 1.005
+    },
+    "v-cook-031__ex": {
+      "start": 98.849,
+      "duration": 2.529
+    },
+    "v-cook-032": {
+      "start": 101.527,
+      "duration": 0.942
+    },
+    "v-cook-032__ex": {
+      "start": 102.619,
+      "duration": 1.803
+    },
+    "v-cook-033": {
+      "start": 104.572,
+      "duration": 0.936
+    },
+    "v-cook-033__ex": {
+      "start": 105.659,
+      "duration": 1.545
+    }
+  }
+}

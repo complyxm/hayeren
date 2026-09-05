@@ -1,0 +1,407 @@
+[
+  {
+    "id": "v-drive-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Վարել",
+    "translit": "varel",
+    "ipa": "/vɑˈɾel/",
+    "ja": [
+      "運転する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Մեքենա եմ վարում։",
+      "ja": "車を運転しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Ավտոմեքենա",
+    "translit": "avtomek'ena",
+    "ipa": "/ɑftomekʰeˈnɑ/",
+    "ja": [
+      "自動車"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ավտոմեքենան նոր է։",
+      "ja": "車は新しいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Արագություն",
+    "translit": "aragut'yun",
+    "ipa": "/ɑɾɑɡuˈtʰjun/",
+    "ja": [
+      "速さ",
+      "速度"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Արագությունը մեծ է։",
+      "ja": "スピードが出ています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。 例文に使った ավելացնել / աջ と、命令形 արագացրեք / կանգնեցրեք も同じ辞書で確認済み。",
+    "theme": "driving",
+    "hy": "Արագացնել",
+    "translit": "aragats'nel",
+    "ipa": "/ɑɾɑɡɑt͡sʰˈnel/",
+    "ja": [
+      "加速する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Մի՛ արագացրեք։",
+      "ja": "スピードを上げないでください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Արգելակ",
+    "translit": "argelak",
+    "ipa": "/ɑɾkʰeˈlɑk/",
+    "ja": [
+      "ブレーキ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Արգելակը չի աշխատում։",
+      "ja": "ブレーキが効きません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Ղեկ",
+    "translit": "ghek",
+    "ipa": "/ʁek/",
+    "ja": [
+      "ハンドル"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ղեկը բռնում եմ։",
+      "ja": "ハンドルを持っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Շարժիչ",
+    "translit": "sharzhich",
+    "ipa": "/ʃɑɾˈʒit͡ʃʰ/",
+    "ja": [
+      "エンジン"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Շարժիչը փչացել է։",
+      "ja": "エンジンが壊れました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Անվադող",
+    "translit": "anvadogh",
+    "ipa": "/ɑnvɑˈdoʁ/",
+    "ja": [
+      "タイヤ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Անվադողը հին է։",
+      "ja": "タイヤが古いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Խցանում",
+    "translit": "khts'anum",
+    "ipa": "/χət͡sʰɑˈnum/",
+    "ja": [
+      "渋滞"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խցանում կա։",
+      "ja": "渋滞しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Երթևեկություն",
+    "translit": "yert'evekut'yun",
+    "ipa": "/jeɾtʰevekuˈtʰjun/",
+    "ja": [
+      "交通"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Երթևեկությունը շատ է։",
+      "ja": "交通量が多いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Հետիոտն",
+    "translit": "hetiotn",
+    "ipa": "/hetiotən/",
+    "ja": [
+      "歩行者の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հետիոտն անցում կա։",
+      "ja": "横断歩道があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Անցում",
+    "translit": "ants'um",
+    "ipa": "/ɑnˈt͡sʰum/",
+    "ja": [
+      "横断歩道",
+      "通路"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Անցումը այնտեղ է։",
+      "ja": "横断歩道はあそこです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Մայթ",
+    "translit": "mayt'",
+    "ipa": "/mɑjtʰ/",
+    "ja": [
+      "歩道"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մայթը նեղ է։",
+      "ja": "歩道がせまいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Ուղղություն",
+    "translit": "ughghut'yun",
+    "ipa": "/uʁʁuˈtʰjun/",
+    "ja": [
+      "方向"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ուղղությունը ճիշտ է։",
+      "ja": "方向は合っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。 例文に使った ավելացնել / աջ と、命令形 արագացրեք / կանգնեցրեք も同じ辞書で確認済み。",
+    "theme": "driving",
+    "hy": "Շրջվել",
+    "translit": "shrjvel",
+    "ipa": "/ʃəɾd͡ʒˈvel/",
+    "ja": [
+      "曲がる",
+      "向きを変える"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Աջ եմ շրջվում։",
+      "ja": "右に曲がります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。 例文に使った ավելացնել / աջ と、命令形 արագացրեք / կանգնեցրեք も同じ辞書で確認済み。",
+    "theme": "driving",
+    "hy": "Կանգնեցնել",
+    "translit": "kangnets'nel",
+    "ipa": "/kɑnɡnet͡sʰˈnel/",
+    "ja": [
+      "止める"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Այստեղ կանգնեցրեք։",
+      "ja": "ここで止めてください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Վարձել",
+    "translit": "vardzel",
+    "ipa": "/vɑɾˈt͡sʰel/",
+    "ja": [
+      "借りる",
+      "レンタルする"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Մեքենա եմ վարձում։",
+      "ja": "車を借ります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Ճամփորդել",
+    "translit": "champ'ordel",
+    "ipa": "/t͡ʃɑmpʰoɾˈtʰel/",
+    "ja": [
+      "旅行する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ճամփորդում ենք։",
+      "ja": "旅行しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Ուղևորություն",
+    "translit": "ughevorut'yun",
+    "ipa": "/uʁevoɾuˈtʰjun/",
+    "ja": [
+      "旅行",
+      "移動"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ուղևորությունը երկար է։",
+      "ja": "移動は長いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-drive-020",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "driving",
+    "hy": "Ճամփա",
+    "translit": "champ'a",
+    "ipa": "/t͡ʃɑmˈpʰɑ/",
+    "ja": [
+      "道"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ճամփան փակ է։",
+      "ja": "道が閉まっています。"
+    },
+    "ruCognate": null
+  }
+]

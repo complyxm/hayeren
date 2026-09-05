@@ -31,6 +31,8 @@ export const vocabThemeSchema = z.enum([
   "feelings-social",
   "city-places",
   "work-study",
+  "cooking",
+  "driving",
 ]);
 
 export type VocabTheme = z.infer<typeof vocabThemeSchema>;

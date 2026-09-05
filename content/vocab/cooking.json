@@ -1,0 +1,674 @@
+[
+  {
+    "id": "v-cook-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Տապակել",
+    "translit": "tapakel",
+    "ipa": "/tɑpɑˈkel/",
+    "ja": [
+      "炒める",
+      "揚げる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ձուկ եմ տապակում։",
+      "ja": "魚を焼いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Խորովել",
+    "translit": "khorovel",
+    "ipa": "/χoɾoˈvel/",
+    "ja": [
+      "焼く",
+      "グリルする"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Միս ենք խորովում։",
+      "ja": "肉を焼いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Թխել",
+    "translit": "t'khel",
+    "ipa": "/tʰəˈχel/",
+    "ja": [
+      "（オーブンで）焼く"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հաց եմ թխում։",
+      "ja": "パンを焼いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Խաշել",
+    "translit": "khashel",
+    "ipa": "/χɑˈʃel/",
+    "ja": [
+      "ゆでる",
+      "煮込む"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ձու եմ խաշում։",
+      "ja": "卵をゆでています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Կտրել",
+    "translit": "ktrel",
+    "ipa": "/kətˈɾel/",
+    "ja": [
+      "切る"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Հացը կտրում եմ։",
+      "ja": "パンを切っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Խառնել",
+    "translit": "kharnel",
+    "ipa": "/χɑrˈnel/",
+    "ja": [
+      "混ぜる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ապուրը խառնում եմ։",
+      "ja": "スープを混ぜています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Լցնել",
+    "translit": "lts'nel",
+    "ipa": "/lət͡sʰˈnel/",
+    "ja": [
+      "注ぐ",
+      "入れる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ջուր եմ լցնում։",
+      "ja": "水を注いでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Եռալ",
+    "translit": "yeral",
+    "ipa": "/jeˈɾɑl/",
+    "ja": [
+      "沸く"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ջուրը եռում է։",
+      "ja": "お湯が沸いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Տաքացնել",
+    "translit": "tak'ats'nel",
+    "ipa": "/tɑkʰɑt͡sʰˈnel/",
+    "ja": [
+      "温める"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ճաշը տաքացնում եմ։",
+      "ja": "食事を温めています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Մատուցել",
+    "translit": "matuts'el",
+    "ipa": "/mɑtuˈt͡sʰel/",
+    "ja": [
+      "出す",
+      "給仕する"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Ճաշը մատուցում են։",
+      "ja": "食事を出してくれます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Բաղադրատոմս",
+    "translit": "baghadratoms",
+    "ipa": "/bɑʁɑdɾɑˈtoms/",
+    "ja": [
+      "レシピ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բաղադրատոմս ունեմ։",
+      "ja": "レシピがあります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Բաղադրիչ",
+    "translit": "baghadrich",
+    "ipa": "/bɑʁɑdˈɾit͡ʃʰ/",
+    "ja": [
+      "材料",
+      "成分"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բաղադրիչները թարմ են։",
+      "ja": "材料は新鮮です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。 例文に使った ավելացնել / աջ と、命令形 արագացրեք / կանգնեցրեք も同じ辞書で確認済み。",
+    "theme": "cooking",
+    "hy": "Համեմունք",
+    "translit": "hamemunk'",
+    "ipa": "/hɑmeˈmunkʰ/",
+    "ja": [
+      "調味料",
+      "スパイス"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Համեմունք եմ ավելացնում։",
+      "ja": "調味料を足しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Համ",
+    "translit": "ham",
+    "ipa": "/hɑm/",
+    "ja": [
+      "味"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Համը լավն է։",
+      "ja": "味がいいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Քաղցր",
+    "translit": "k'aghts'r",
+    "ipa": "/kʰɑχt͡sʰəɾ/",
+    "ja": [
+      "甘い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Թեյը քաղցր է։",
+      "ja": "お茶が甘いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Թթու",
+    "translit": "t't'u",
+    "ipa": "/tʰəˈtʰu/",
+    "ja": [
+      "すっぱい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Կիտրոնը թթու է։",
+      "ja": "レモンはすっぱいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Աղի",
+    "translit": "aghi",
+    "ipa": "/ɑˈʁi/",
+    "ja": [
+      "塩からい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ապուրը աղի է։",
+      "ja": "スープが塩からいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Կծու",
+    "translit": "ktsu",
+    "ipa": "/kəˈt͡su/",
+    "ja": [
+      "辛い"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Կծու չեմ ուզում։",
+      "ja": "辛いのはいりません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Հում",
+    "translit": "hum",
+    "ipa": "/hum/",
+    "ja": [
+      "生の"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Միսը հում է։",
+      "ja": "肉が生です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-020",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Սառը",
+    "translit": "sary",
+    "ipa": "/sɑrə/",
+    "ja": [
+      "冷たい"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Ջուրը սառը է։",
+      "ja": "水は冷たいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-021",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Ապուր",
+    "translit": "apur",
+    "ipa": "/ɑˈpuɾ/",
+    "ja": [
+      "スープ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ապուր եմ եփում։",
+      "ja": "スープを作っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-022",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Աղցան",
+    "translit": "aghts'an",
+    "ipa": "/ɑχˈt͡sʰɑn/",
+    "ja": [
+      "サラダ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Աղցան եմ պատվիրում։",
+      "ja": "サラダを注文します。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-023",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Խմոր",
+    "translit": "khmor",
+    "ipa": "/χəˈmoɾ/",
+    "ja": [
+      "生地"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խմորը պատրաստ է։",
+      "ja": "生地ができました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-024",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Շաքարավազ",
+    "translit": "shak'aravaz",
+    "ipa": "/ʃɑkʰɑɾɑˈvɑz/",
+    "ja": [
+      "グラニュー糖"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Շաքարավազ եմ գնում։",
+      "ja": "砂糖を買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-025",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。 例文に使った ավելացնել / աջ と、命令形 արագացրեք / կանգնեցրեք も同じ辞書で確認済み。",
+    "theme": "cooking",
+    "hy": "Յուղ",
+    "translit": "yugh",
+    "ipa": "/juʁ/",
+    "ja": [
+      "油",
+      "バター"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Յուղ եմ ավելացնում։",
+      "ja": "油を足しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-026",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Պաղպաղակ",
+    "translit": "paghpaghak",
+    "ipa": "/pɑχpɑˈʁɑk/",
+    "ja": [
+      "アイスクリーム"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պաղպաղակ եմ ուտում։",
+      "ja": "アイスを食べています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-027",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Թխվածք",
+    "translit": "t'khvatsk'",
+    "ipa": "/tʰəχˈvɑt͡skʰ/",
+    "ja": [
+      "焼き菓子"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թխվածք կա՞։",
+      "ja": "焼き菓子はありますか。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-028",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Կարկանդակ",
+    "translit": "karkandak",
+    "ipa": "/kɑɾkɑnˈdɑk/",
+    "ja": [
+      "パイ",
+      "ピロシキ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կարկանդակ եմ գնում։",
+      "ja": "パイを買っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-029",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Կեղև",
+    "translit": "keghev",
+    "ipa": "/keˈʁev/",
+    "ja": [
+      "皮"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կեղևը հանում եմ։",
+      "ja": "皮をむいています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-030",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Շերտ",
+    "translit": "shert",
+    "ipa": "/ʃeɾt/",
+    "ja": [
+      "一切れ",
+      "層"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մեկ շերտ պանիր, խնդրում եմ։",
+      "ja": "チーズを一切れください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-031",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Բաժին",
+    "translit": "bazhin",
+    "ipa": "/bɑˈʒin/",
+    "ja": [
+      "一人前",
+      "部分"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Երկու բաժին, խնդրում եմ։",
+      "ja": "二人前ください。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-032",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Ուտեստ",
+    "translit": "utest",
+    "ipa": "/uˈtest/",
+    "ja": [
+      "料理",
+      "食べ物"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ուտեստը համեղ է։",
+      "ja": "料理はおいしいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-cook-033",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "cooking",
+    "hy": "Կրակ",
+    "translit": "krak",
+    "ipa": "/kəˈɾɑk/",
+    "ja": [
+      "火"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կրակը մեծ է։",
+      "ja": "火が強いです。"
+    },
+    "ruCognate": null
+  }
+]

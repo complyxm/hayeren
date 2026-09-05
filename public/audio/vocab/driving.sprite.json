@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "theme": "driving",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-drive-001": {
+      "start": 0,
+      "duration": 0.973
+    },
+    "v-drive-001__ex": {
+      "start": 1.123,
+      "duration": 1.855
+    },
+    "v-drive-002": {
+      "start": 3.128,
+      "duration": 1.566
+    },
+    "v-drive-002__ex": {
+      "start": 4.845,
+      "duration": 1.97
+    },
+    "v-drive-003": {
+      "start": 6.965,
+      "duration": 1.32
+    },
+    "v-drive-003__ex": {
+      "start": 8.435,
+      "duration": 1.799
+    },
+    "v-drive-004": {
+      "start": 10.385,
+      "duration": 1.384
+    },
+    "v-drive-004__ex": {
+      "start": 11.919,
+      "duration": 1.574
+    },
+    "v-drive-005": {
+      "start": 13.643,
+      "duration": 1.076
+    },
+    "v-drive-005__ex": {
+      "start": 14.869,
+      "duration": 2.265
+    },
+    "v-drive-006": {
+      "start": 17.284,
+      "duration": 0.856
+    },
+    "v-drive-006__ex": {
+      "start": 18.29,
+      "duration": 1.746
+    },
+    "v-drive-007": {
+      "start": 20.186,
+      "duration": 1.124
+    },
+    "v-drive-007__ex": {
+      "start": 21.459,
+      "duration": 2.146
+    },
+    "v-drive-008": {
+      "start": 23.755,
+      "duration": 1.308
+    },
+    "v-drive-008__ex": {
+      "start": 25.214,
+      "duration": 1.818
+    },
+    "v-drive-009": {
+      "start": 27.182,
+      "duration": 1.216
+    },
+    "v-drive-009__ex": {
+      "start": 28.549,
+      "duration": 1.481
+    },
+    "v-drive-010": {
+      "start": 30.179,
+      "duration": 1.685
+    },
+    "v-drive-010__ex": {
+      "start": 32.014,
+      "duration": 2.225
+    },
+    "v-drive-011": {
+      "start": 34.389,
+      "duration": 1.291
+    },
+    "v-drive-011__ex": {
+      "start": 35.83,
+      "duration": 2.072
+    },
+    "v-drive-012": {
+      "start": 38.052,
+      "duration": 1.08
+    },
+    "v-drive-012__ex": {
+      "start": 39.282,
+      "duration": 1.834
+    },
+    "v-drive-013": {
+      "start": 41.266,
+      "duration": 0.821
+    },
+    "v-drive-013__ex": {
+      "start": 42.237,
+      "duration": 1.49
+    },
+    "v-drive-014": {
+      "start": 43.877,
+      "duration": 1.374
+    },
+    "v-drive-014__ex": {
+      "start": 45.401,
+      "duration": 1.914
+    },
+    "v-drive-015": {
+      "start": 47.465,
+      "duration": 1.269
+    },
+    "v-drive-015__ex": {
+      "start": 48.884,
+      "duration": 1.788
+    },
+    "v-drive-016": {
+      "start": 50.822,
+      "duration": 1.443
+    },
+    "v-drive-016__ex": {
+      "start": 52.415,
+      "duration": 1.993
+    },
+    "v-drive-017": {
+      "start": 54.558,
+      "duration": 1.133
+    },
+    "v-drive-017__ex": {
+      "start": 55.84,
+      "duration": 2.021
+    },
+    "v-drive-018": {
+      "start": 58.011,
+      "duration": 1.305
+    },
+    "v-drive-018__ex": {
+      "start": 59.466,
+      "duration": 1.568
+    },
+    "v-drive-019": {
+      "start": 61.184,
+      "duration": 1.551
+    },
+    "v-drive-019__ex": {
+      "start": 62.885,
+      "duration": 2.201
+    },
+    "v-drive-020": {
+      "start": 65.237,
+      "duration": 1.051
+    },
+    "v-drive-020__ex": {
+      "start": 66.438,
+      "duration": 1.644
+    }
+  }
+}

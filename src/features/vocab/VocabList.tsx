@@ -30,6 +30,8 @@ const THEME_LABEL_JA: Record<VocabTheme, string> = {
   "feelings-social": "気持ち・つきあい",
   "city-places": "街・施設",
   "work-study": "仕事・学び",
+  cooking: "料理・味",
+  driving: "運転・移動",
 };
 
 /**
