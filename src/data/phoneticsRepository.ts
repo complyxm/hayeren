@@ -1,11 +1,11 @@
-import type { AttemptedTarget, PlosivePlace, VotJudgement } from "../domain/phonetics/calibration";
+import type { AttemptedSeries, PlosivePlace, ThreeWayJudgement } from "../domain/phonetics/calibration";
 import { db, type VotAttemptRecord, type VowelAttemptRecord } from "./db";
 
 export interface NewVotAttempt {
   place: PlosivePlace;
-  attempted: AttemptedTarget;
+  attempted: AttemptedSeries;
   votMs: number;
-  judgement: VotJudgement;
+  judgement: ThreeWayJudgement;
   recordedAt: Date;
 }
 

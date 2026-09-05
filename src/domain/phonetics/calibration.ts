@@ -28,7 +28,7 @@
  */
 export type PlosivePlace = "labial" | "dental" | "velar";
 export type VotJudgement = "unaspirated" | "uncertain" | "aspirated";
-/** どちらの音を狙って発音したか（PLOSIVE_PAIRS の unaspiratedId/aspiratedId に対応）。 */
+/** どちらの音を狙って発音したか（PLOSIVE_TRIADS の unaspiratedId/aspiratedId に対応）。 */
 export type AttemptedTarget = "unaspirated" | "aspirated";
 
 export interface VotZone {
@@ -131,8 +131,6 @@ export function classifyThreeWay(
   // 閉鎖が有声なのに VOT が伸びている＝測定が噛み合っていない。断定しない。
   if (voicedClosure) return "uncertain";
 
-  const zone = VOT_ZONES[place];
-  if (votMs <= zone.maxUnaspiratedMs) return "unaspirated";
-  if (votMs >= zone.minAspiratedMs) return "aspirated";
-  return "uncertain";
+  // ここまで来れば有声の可能性は消えているので、無声2系列の判定に委ねる。
+  return classifyVot(votMs, place);
 }

@@ -1,6 +1,6 @@
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { beforeEach, describe, expect, it } from "vitest";
-import { silence, synthesizeVotToken } from "../../test/audioSynth";
+import { silence, synthesizeVoicedStop, synthesizeVotToken } from "../../test/audioSynth";
 import { db } from "../../data/db";
 import { MicrophonePermissionError, type AudioCaptureAdapter } from "../../domain/phonetics/audioCapture";
 import type { AudioSignal } from "../../domain/phonetics/types";
@@ -33,6 +33,30 @@ describe("VotPractice", () => {
     fireEvent.click(screen.getByRole("button", { name: "録音する" }));
 
     await waitFor(() => expect(screen.getByText(/息を弱く/)).toBeInTheDocument());
+  });
+
+  it("前有声化のある録音を有声（բ）のつもりで録ると、狙い通りと返す", async () => {
+    // 実録音の代わりに、閉鎖区間に voice bar を持つ合成トークンを使う
+    // （docs/phonetics.md §4「テストには合成信号を使う」）。
+    const adapter = fakeAdapter(async () => synthesizeVoicedStop({ burstAtMs: 150, votMs: 3 }));
+    render(<VotPractice onBack={() => {}} captureAdapter={adapter} />);
+
+    fireEvent.click(screen.getAllByRole("radio")[0]);
+    fireEvent.click(screen.getByRole("button", { name: "録音する" }));
+
+    await waitFor(() => expect(screen.getByText(/狙い通り/)).toBeInTheDocument());
+    expect(screen.getByText(/閉鎖のあいだも声が続いていました/)).toBeInTheDocument();
+  });
+
+  it("前有声化のない短い VOT は、有声と無気のどちらとも決めない", async () => {
+    // 日本語の「パ」に相当する撃ち方。断定せずに保留するのが正しい挙動
+    // （.claude/rules/audio-dsp.md「たぶん合っているを返さない」）。
+    const adapter = fakeAdapter(async () => synthesizeVotToken({ burstAtMs: 150, votMs: 3 }));
+    render(<VotPractice onBack={() => {}} captureAdapter={adapter} />);
+
+    fireEvent.click(screen.getByRole("button", { name: "録音する" }));
+
+    await waitFor(() => expect(screen.getByText(/見分けがつきません/)).toBeInTheDocument());
   });
 
   it("マイク権限が拒否されたらエラーメッセージを表示し、アプリは壊れない", async () => {

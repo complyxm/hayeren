@@ -26,7 +26,7 @@ describe("lowPass", () => {
 
 describe("measureClosureVoicing", () => {
   it("閉鎖区間に声帯振動がある合成音では、周期性も低域比も高く出る", () => {
-    const signal = synthesizeVoicedStop({ burstAtMs: 150, votMs: 5, closureVoicingAmplitude: 0.06 });
+    const signal = synthesizeVoicedStop({ burstAtMs: 150, votMs: 5 });
     // バーストの位置は合成時に分かっているので、検出器を挟まずに渡す
     // （ここで測りたいのは閉鎖区間の指標であって、バースト検出の精度ではない）。
     const burstSample = Math.round(0.15 * signal.sampleRate);
@@ -55,6 +55,29 @@ describe("measureClosureVoicing", () => {
     const sampleRate = 16000;
     const samples = new Float32Array(sampleRate * 0.3);
     expect(measureClosureVoicing({ samples, sampleRate }, Math.round(0.2 * sampleRate), null)).toBeNull();
+  });
+});
+
+describe("測定から判定までを通した挙動", () => {
+  // ここだけは検出器を挟んだまま通す。実録音では voice bar がバースト検出の
+  // 立ち上がり閾値に届かないおかげでバーストを拾えている（audioSynth.ts の注記）。
+  // その関係が崩れると VOT が数十 ms ずれて有声が取れなくなるので、通しで守る。
+  it("前有声化のある合成トークンを、検出器ごと通しても有声と判定する", () => {
+    const signal = synthesizeVoicedStop({ burstAtMs: 150, votMs: 3 });
+    const { burstSample, voicingOnsetSample, votMs } = measureVot(signal);
+    expect(burstSample).not.toBeNull();
+    expect(votMs).not.toBeNull();
+    // バーストの真値は 150ms。検出は数 ms 手前に出る（バースト直前のフレームで閾値を跨ぐ）。
+    expect((burstSample! / signal.sampleRate) * 1000).toBeGreaterThan(140);
+    const closure = measureClosureVoicing(signal, burstSample!, voicingOnsetSample);
+    expect(classifyThreeWay(votMs!, "labial", closure)).toBe("voiced");
+  });
+
+  it("前有声化のない短い VOT は、通しでも有声と断定しない", () => {
+    const signal = synthesizeVotToken({ burstAtMs: 150, votMs: 3 });
+    const { burstSample, voicingOnsetSample, votMs } = measureVot(signal);
+    const closure = measureClosureVoicing(signal, burstSample!, voicingOnsetSample);
+    expect(classifyThreeWay(votMs!, "labial", closure)).toBe("uncertain");
   });
 });
 

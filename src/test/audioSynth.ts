@@ -150,9 +150,16 @@ export interface SynthVoicedStopOptions extends SynthVotTokenOptions {
 /**
  * 閉鎖区間に低域の周期音（voice bar）を持つ合成トークン。
  * closureVoicing.ts / calibration.ts の三系列判定のテスト用。
+ *
+ * 既定の振幅は実録音に合わせてある。Seyfarth et al. (2023) の有声トークンでは、
+ * 閉鎖区間の低域エネルギーは後続母音の低域の 1〜4%（calibration.ts の実測表）で、
+ * **バースト検出の立ち上がり閾値（ノイズフロアの5倍）には届かない**。だから
+ * detectBurst は voice bar を素通りして本当のバーストを拾える。合成側の振幅を
+ * 大きくしすぎるとこの関係が崩れ、voice bar の頭をバーストと誤検出してしまう
+ * （実録音では起きない現象をテストで作り込むことになる）。
  */
 export function synthesizeVoicedStop(opts: SynthVoicedStopOptions): AudioSignal {
-  const { closureVoicingAmplitude = 0.06, f0Hz = 120 } = opts;
+  const { closureVoicingAmplitude = 0.008, f0Hz = 120 } = opts;
   const token = synthesizeVotToken(opts);
   const { samples, sampleRate } = token;
   const burstStart = Math.round((opts.burstAtMs / 1000) * sampleRate);

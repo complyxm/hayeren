@@ -158,7 +158,7 @@ function Router() {
             { label: "画面内キーボード", go: () => setScreen({ name: "keyboard" }) },
             { label: "エレバン地下鉄ナビ", go: () => setScreen({ name: "metro" }) },
             { label: "聞き分け", hint: "պ/փ と ռ/ր を耳で分ける。発音練習より先に", go: () => setScreen({ name: "listening" }) },
-            { label: "発音チェック", hint: "破裂音の息の強さを測る", go: () => setScreen({ name: "vot-practice" }) },
+            { label: "発音チェック", hint: "破裂音の三系列を録音して測る", go: () => setScreen({ name: "vot-practice" }) },
             {
               label: "母音の位置",
               hint: "6つの母音を録音して四辺形に並べる",

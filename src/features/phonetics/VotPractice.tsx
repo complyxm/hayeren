@@ -2,18 +2,25 @@ import { useEffect, useMemo, useState } from "react";
 import { alphabet } from "../../data/alphabet";
 import type { AlphabetLetter } from "../../data/schemas/alphabet";
 import { getVotAttempts, recordVotAttempt } from "../../data/phoneticsRepository";
-import { classifyVot, VOT_ZONES, type PlosivePlace } from "../../domain/phonetics/calibration";
-import { PLOSIVE_PAIRS } from "../../domain/phonetics/plosivePairs";
+import {
+  classifyThreeWay,
+  VOT_ZONES,
+  type AttemptedSeries,
+  type PlosivePlace,
+} from "../../domain/phonetics/calibration";
+import { letterIdOf, PLOSIVE_TRIADS } from "../../domain/phonetics/plosiveTriads";
 import { measureVot } from "../../domain/phonetics/vot";
+import { measureClosureVoicing } from "../../domain/phonetics/closureVoicing";
 import { hasSufficientSignal } from "../../domain/phonetics/vad";
 import { MicrophonePermissionError, type AudioCaptureAdapter } from "../../domain/phonetics/audioCapture";
 import { WebAudioCaptureAdapter } from "../../adapters/webAudioCaptureAdapter";
 import { VotZonePlot, type VotZonePlotPoint } from "./VotZonePlot";
 import { VotTargetSelector } from "./VotTargetSelector";
-import { buildVotFeedback, type AttemptedTarget } from "./votFeedback";
+import { buildVotFeedback } from "./votFeedback";
 
 const RECORD_DURATION_MS = 1500;
 const PLACES: PlosivePlace[] = ["labial", "dental", "velar"];
+const SERIES: AttemptedSeries[] = ["voiced", "unaspirated", "aspirated"];
 const alphabetById = new Map<string, AlphabetLetter>(alphabet.map((l) => [l.id, l]));
 
 interface VotPracticeProps {
@@ -27,7 +34,7 @@ export function VotPractice({ onBack, captureAdapter }: VotPracticeProps) {
   const supported = useMemo(() => adapter.isSupported(), [adapter]);
 
   const [place, setPlace] = useState<PlosivePlace>("labial");
-  const [attempted, setAttempted] = useState<AttemptedTarget>("unaspirated");
+  const [attempted, setAttempted] = useState<AttemptedSeries>("unaspirated");
   const [recording, setRecording] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [feedback, setFeedback] = useState<string | null>(null);
@@ -54,10 +61,17 @@ export function VotPractice({ onBack, captureAdapter }: VotPracticeProps) {
     };
   }, []);
 
-  const pair = PLOSIVE_PAIRS.find((p) => p.place === place)!;
-  const unaspiratedLetter = alphabetById.get(pair.unaspiratedId)!;
-  const aspiratedLetter = alphabetById.get(pair.aspiratedId)!;
-  const targetLetter = attempted === "unaspirated" ? unaspiratedLetter : aspiratedLetter;
+  const triad = PLOSIVE_TRIADS.find((t) => t.place === place)!;
+  const letters = useMemo(() => {
+    const entries = SERIES.map((s) => [s, alphabetById.get(letterIdOf(triad, s))!] as const);
+    return Object.fromEntries(entries) as Record<AttemptedSeries, AlphabetLetter>;
+  }, [triad]);
+  const targetLetter = letters[attempted];
+  const letterChars: Record<AttemptedSeries, string> = {
+    voiced: letters.voiced.lower,
+    unaspirated: letters.unaspirated.lower,
+    aspirated: letters.aspirated.lower,
+  };
 
   function resetMessages() {
     setError(null);
@@ -78,16 +92,19 @@ export function VotPractice({ onBack, captureAdapter }: VotPracticeProps) {
       }
 
       const measurement = measureVot(raw);
-      if (measurement.votMs === null) {
+      if (measurement.votMs === null || measurement.burstSample === null) {
         setError("うまく検出できませんでした。もう一度、はっきり発音してください。");
         return;
       }
 
-      const judgement = classifyVot(measurement.votMs, place);
+      // 有声（`բ`）は VOT だけでは無気無声と分けられない。閉鎖のあいだに声帯が
+      // 鳴っていたかを併せて見る（calibration.ts の classifyThreeWay）。
+      const closure = measureClosureVoicing(raw, measurement.burstSample, measurement.voicingOnsetSample);
+      const judgement = classifyThreeWay(measurement.votMs, place, closure);
       const votMs = measurement.votMs;
       await recordVotAttempt({ place, attempted, votMs, judgement, recordedAt: new Date() });
       setHistory((prev) => ({ ...prev, [place]: [...prev[place], { votMs, judgement }] }));
-      setFeedback(buildVotFeedback(attempted, judgement, votMs, unaspiratedLetter.lower, aspiratedLetter.lower));
+      setFeedback(buildVotFeedback(attempted, judgement, votMs, letterChars, closure !== null));
     } catch (e) {
       setError(e instanceof MicrophonePermissionError ? e.message : "録音に失敗しました。もう一度お試しください。");
     } finally {
@@ -105,9 +122,9 @@ export function VotPractice({ onBack, captureAdapter }: VotPracticeProps) {
         >
           ← ホームに戻る
         </button>
-        <h1 className="mb-1 font-serif text-3xl font-bold tracking-wide">発音チェック（VOT）</h1>
+        <h1 className="mb-1 font-serif text-3xl font-bold tracking-wide">発音チェック（破裂音）</h1>
         <p className="mb-6 text-sm text-ink/70">
-          破裂音の「無気無声」と「帯気無声」を録音で計測します。息の長さの違いを声に出して確かめましょう。
+          アルメニア語の破裂音は3つに分かれます。日本語の「バ／パ」の2つに潰さずに撃ち分けられているかを、録音して測ります。
         </p>
 
         {!supported ? (
@@ -127,8 +144,7 @@ export function VotPractice({ onBack, captureAdapter }: VotPracticeProps) {
                 setAttempted(t);
                 resetMessages();
               }}
-              unaspiratedLetter={unaspiratedLetter}
-              aspiratedLetter={aspiratedLetter}
+              letters={letters}
             />
 
             <div className="rounded-lg border border-gold/30 bg-parchment-light p-5">
@@ -152,7 +168,7 @@ export function VotPractice({ onBack, captureAdapter }: VotPracticeProps) {
               {feedback && !error && <p className="mt-4 text-sm">{feedback}</p>}
 
               <div className="mt-6">
-                <VotZonePlot zone={VOT_ZONES[place]} points={history[place]} />
+                <VotZonePlot zone={VOT_ZONES[place]} points={history[place]} letters={letterChars} />
               </div>
             </div>
           </>

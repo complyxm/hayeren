@@ -1,6 +1,6 @@
 import Dexie, { type EntityTable } from "dexie";
 import type { CardState, ReviewRating, SrsCard } from "../domain/srs/types";
-import type { AttemptedTarget, PlosivePlace, VotJudgement } from "../domain/phonetics/calibration";
+import type { AttemptedSeries, PlosivePlace, ThreeWayJudgement } from "../domain/phonetics/calibration";
 
 export type { CardState, ReviewRating };
 
@@ -81,9 +81,14 @@ export interface SettingsRecord {
 export interface VotAttemptRecord {
   id: string;
   place: PlosivePlace;
-  attempted: AttemptedTarget;
+  /**
+   * 狙った系列。Phase 8 で有声（`բ`）を足して2値から3値に広げた。
+   * 旧レコードの値（"unaspirated" / "aspirated"）は新しい union にそのまま含まれるので、
+   * 移行は要らない（=Dexie のバージョンを上げていない）。判定 judgement も同じ。
+   */
+  attempted: AttemptedSeries;
   votMs: number;
-  judgement: VotJudgement;
+  judgement: ThreeWayJudgement;
   recordedAt: Date;
 }
 
