@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "theme": "ideas",
+    "source": "eSpeak NG (hy / Eastern Armenian, built-in voice)",
+    "kind": "synthesized-interim",
+    "generatedBy": "scripts/build-vocab-audio.mjs",
+    "sampleRate": 11025,
+    "channels": 1,
+    "note": "見出し語のキーは entry.id、用例文は entry.id + '__ex'"
+  },
+  "clips": {
+    "v-idea-001": {
+      "start": 0,
+      "duration": 1.551
+    },
+    "v-idea-001__ex": {
+      "start": 1.701,
+      "duration": 1.96
+    },
+    "v-idea-002": {
+      "start": 3.812,
+      "duration": 0.789
+    },
+    "v-idea-002__ex": {
+      "start": 4.75,
+      "duration": 0.969
+    },
+    "v-idea-003": {
+      "start": 5.87,
+      "duration": 1.104
+    },
+    "v-idea-003__ex": {
+      "start": 7.124,
+      "duration": 1.89
+    },
+    "v-idea-004": {
+      "start": 9.164,
+      "duration": 1.061
+    },
+    "v-idea-004__ex": {
+      "start": 10.376,
+      "duration": 1.668
+    },
+    "v-idea-005": {
+      "start": 12.194,
+      "duration": 1.128
+    },
+    "v-idea-005__ex": {
+      "start": 13.472,
+      "duration": 1.621
+    },
+    "v-idea-006": {
+      "start": 15.242,
+      "duration": 0.921
+    },
+    "v-idea-006__ex": {
+      "start": 16.313,
+      "duration": 2.034
+    },
+    "v-idea-007": {
+      "start": 18.497,
+      "duration": 0.857
+    },
+    "v-idea-007__ex": {
+      "start": 19.504,
+      "duration": 1.331
+    },
+    "v-idea-008": {
+      "start": 20.986,
+      "duration": 1.142
+    },
+    "v-idea-008__ex": {
+      "start": 22.277,
+      "duration": 1.618
+    },
+    "v-idea-009": {
+      "start": 24.045,
+      "duration": 1.704
+    },
+    "v-idea-009__ex": {
+      "start": 25.899,
+      "duration": 1.969
+    },
+    "v-idea-010": {
+      "start": 28.019,
+      "duration": 1.398
+    },
+    "v-idea-010__ex": {
+      "start": 29.567,
+      "duration": 1.887
+    },
+    "v-idea-011": {
+      "start": 31.604,
+      "duration": 0.843
+    },
+    "v-idea-011__ex": {
+      "start": 32.596,
+      "duration": 1.534
+    },
+    "v-idea-012": {
+      "start": 34.28,
+      "duration": 2.042
+    },
+    "v-idea-012__ex": {
+      "start": 36.472,
+      "duration": 2.43
+    },
+    "v-idea-013": {
+      "start": 39.053,
+      "duration": 1.387
+    },
+    "v-idea-013__ex": {
+      "start": 40.59,
+      "duration": 2.175
+    },
+    "v-idea-014": {
+      "start": 42.915,
+      "duration": 1.333
+    },
+    "v-idea-014__ex": {
+      "start": 44.398,
+      "duration": 2.069
+    },
+    "v-idea-015": {
+      "start": 46.617,
+      "duration": 0.891
+    },
+    "v-idea-015__ex": {
+      "start": 47.658,
+      "duration": 1.339
+    },
+    "v-idea-016": {
+      "start": 49.147,
+      "duration": 1.522
+    },
+    "v-idea-016__ex": {
+      "start": 50.819,
+      "duration": 2.571
+    },
+    "v-idea-017": {
+      "start": 53.54,
+      "duration": 1.346
+    },
+    "v-idea-017__ex": {
+      "start": 55.036,
+      "duration": 1.538
+    }
+  }
+}

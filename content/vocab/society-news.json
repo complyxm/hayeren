@@ -1,0 +1,528 @@
+[
+  {
+    "id": "v-soc-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Կառավարություն",
+    "translit": "karavarut'yun",
+    "ipa": "/kɑrɑvɑɾuˈtʰjun/",
+    "ja": [
+      "政府"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կառավարությունը որոշում է։",
+      "ja": "政府が決めます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Նախագահ",
+    "translit": "nakhagah",
+    "ipa": "/nɑχɑˈɡɑh/",
+    "ja": [
+      "大統領",
+      "議長"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նախագահը խոսում է։",
+      "ja": "大統領が話しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Վարչապետ",
+    "translit": "varch'apet",
+    "ipa": "/vɑɾt͡ʃʰɑˈpet/",
+    "ja": [
+      "首相"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Վարչապետը եկավ։",
+      "ja": "首相が来ました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Ընտրություն",
+    "translit": "yntrut'yun",
+    "ipa": "/əntɾuˈtʰjun/",
+    "ja": [
+      "選挙",
+      "選択"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ընտրություն կա։",
+      "ja": "選挙があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Օրենք",
+    "translit": "orenk'",
+    "ipa": "/oˈɾenkʰ/",
+    "ja": [
+      "法律"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Օրենքը խիստ է։",
+      "ja": "法律は厳しいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Իրավունք",
+    "translit": "iravunk'",
+    "ipa": "/iɾɑˈvunkʰ/",
+    "ja": [
+      "権利"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Իրավունք ունեմ։",
+      "ja": "権利があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Քաղաքացի",
+    "translit": "k'aghak'ats'i",
+    "ipa": "/kʰɑʁɑkʰɑˈt͡sʰi/",
+    "ja": [
+      "市民",
+      "国民"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ճապոնիայի քաղաքացի եմ։",
+      "ja": "日本国民です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Բնակչություն",
+    "translit": "bnakch'ut'yun",
+    "ipa": "/bənɑkt͡ʃʰuˈtʰjun/",
+    "ja": [
+      "人口"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բնակչությունը քիչ է։",
+      "ja": "人口は少ないです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Տնտեսություն",
+    "translit": "tntesut'yun",
+    "ipa": "/təntesuˈtʰjun/",
+    "ja": [
+      "経済"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տնտեսությունը աճում է։",
+      "ja": "経済が伸びています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Գնաճ",
+    "translit": "gnach",
+    "ipa": "/ɡəˈnɑt͡ʃ/",
+    "ja": [
+      "インフレ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գնաճ կա։",
+      "ja": "インフレがあります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Հասարակություն",
+    "translit": "hasarakut'yun",
+    "ipa": "/hɑsɑɾɑkuˈtʰjun/",
+    "ja": [
+      "社会"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հասարակությունը փոխվում է։",
+      "ja": "社会は変わります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Քաղաք",
+    "translit": "k'aghak'",
+    "ipa": "/kʰɑˈʁɑkʰ/",
+    "ja": [
+      "町",
+      "都市"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Քաղաքը գեղեցիկ է։",
+      "ja": "町はきれいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Մայրաքաղաք",
+    "translit": "mayrak'aghak'",
+    "ipa": "/mɑjɾɑkʰɑˈʁɑkʰ/",
+    "ja": [
+      "首都"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Երևանը մայրաքաղաքն է։",
+      "ja": "エレバンは首都です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Գյուղ",
+    "translit": "gyugh",
+    "ipa": "/ɡjuʁ/",
+    "ja": [
+      "村"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գյուղը հեռու է։",
+      "ja": "村は遠いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Մարզ",
+    "translit": "marz",
+    "ipa": "/mɑɾz/",
+    "ja": [
+      "州",
+      "地方"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մարզը մեծ է։",
+      "ja": "州は広いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Լուր",
+    "translit": "lur",
+    "ipa": "/luɾ/",
+    "ja": [
+      "ニュース",
+      "知らせ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Լավ լուր է։",
+      "ja": "いい知らせです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Թերթ",
+    "translit": "t'ert'",
+    "ipa": "/tʰeɾtʰ/",
+    "ja": [
+      "新聞"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թերթ եմ կարդում։",
+      "ja": "新聞を読んでいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-018",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Հեռուստացույց",
+    "translit": "herustats'uyts'",
+    "ipa": "/herustɑˈt͡sʰujt͡sʰ/",
+    "ja": [
+      "テレビ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հեռուստացույցը միացրած է։",
+      "ja": "テレビがついています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-019",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Ռադիո",
+    "translit": "radio",
+    "ipa": "/rɑˈdjo/",
+    "ja": [
+      "ラジオ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ռադիո եմ լսում։",
+      "ja": "ラジオを聞いています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-020",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Պատերազմ",
+    "translit": "paterazm",
+    "ipa": "/pɑteˈɾɑzm/",
+    "ja": [
+      "戦争"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պատերազմ չենք ուզում։",
+      "ja": "戦争は望みません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-021",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Խաղաղություն",
+    "translit": "khaghaghut'yun",
+    "ipa": "/χɑʁɑʁuˈtʰjun/",
+    "ja": [
+      "平和"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Խաղաղություն ենք ուզում։",
+      "ja": "平和を望みます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-022",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Բանակ",
+    "translit": "banak",
+    "ipa": "/bɑˈnɑk/",
+    "ja": [
+      "軍隊"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Բանակում է։",
+      "ja": "軍にいます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-023",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Զինվոր",
+    "translit": "zinvor",
+    "ipa": "/zinˈvoɾ/",
+    "ja": [
+      "兵士"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Զինվորը երիտասարդ է։",
+      "ja": "兵士は若いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-024",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Ցույց",
+    "translit": "ts'uyts'",
+    "ipa": "/t͡sʰujt͡sʰ/",
+    "ja": [
+      "デモ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հրապարակում ցույց կա։",
+      "ja": "広場でデモがあります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-025",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Միջազգային",
+    "translit": "mijazgayin",
+    "ipa": "/mit͡ʃʰɑzɡɑˈjin/",
+    "ja": [
+      "国際的な"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Միջազգային օդանավակայան է։",
+      "ja": "国際空港です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-soc-026",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "society-news",
+    "hy": "Կուսակցություն",
+    "translit": "kusakts'ut'yun",
+    "ipa": "/kusɑkt͡sʰuˈtʰjun/",
+    "ja": [
+      "政党"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Կուսակցությունը նոր է։",
+      "ja": "新しい政党です。"
+    },
+    "ruCognate": null
+  }
+]

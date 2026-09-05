@@ -39,6 +39,9 @@ const THEME_LABEL_JA: Record<VocabTheme, string> = {
   "sports-hobbies": "スポーツ・趣味",
   jobs: "職業",
   "colors-materials": "色・材質",
+  "society-news": "社会・ニュース",
+  "life-events": "人生の出来事",
+  ideas: "考えを表す語",
 };
 
 /**

@@ -1,0 +1,346 @@
+[
+  {
+    "id": "v-idea-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Ճշմարտություն",
+    "translit": "chshmartut'yun",
+    "ipa": "/t͡ʃəʃmɑɾtuˈtʰjun/",
+    "ja": [
+      "真実"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ճշմարտությունը ասա։",
+      "ja": "本当のことを言って。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Սուտ",
+    "translit": "sut",
+    "ipa": "/sut/",
+    "ja": [
+      "うそ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սուտ է։",
+      "ja": "うそです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Պատճառ",
+    "translit": "patchar",
+    "ipa": "/pɑtˈt͡ʃɑr/",
+    "ja": [
+      "理由"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պատճառը չգիտեմ։",
+      "ja": "理由は知りません。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Արդյունք",
+    "translit": "ardyunk'",
+    "ipa": "/ɑɾˈtʰjunkʰ/",
+    "ja": [
+      "結果"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Արդյունքը լավ է։",
+      "ja": "結果はいいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Նպատակ",
+    "translit": "npatak",
+    "ipa": "/nəpɑˈtɑk/",
+    "ja": [
+      "目的"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Նպատակ ունեմ։",
+      "ja": "目的があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Իմաստ",
+    "translit": "imast",
+    "ipa": "/iˈmɑst/",
+    "ja": [
+      "意味"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Իմաստը հասկանում եմ։",
+      "ja": "意味は分かります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Միտք",
+    "translit": "mitk'",
+    "ipa": "/mitkʰ/",
+    "ja": [
+      "考え",
+      "思考"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Լավ միտք է։",
+      "ja": "いい考えです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Գաղափար",
+    "translit": "gaghap'ar",
+    "ipa": "/ɡɑʁɑˈpʰɑɾ/",
+    "ja": [
+      "アイデア"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Գաղափար ունեմ։",
+      "ja": "アイデアがあります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Հնարավորություն",
+    "translit": "hnaravorut'yun",
+    "ipa": "/hənɑɾɑvoɾuˈtʰjun/",
+    "ja": [
+      "可能性",
+      "機会"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հնարավորություն կա։",
+      "ja": "可能性があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Տարբերություն",
+    "translit": "tarberut'yun",
+    "ipa": "/tɑɾbeɾuˈtʰjun/",
+    "ja": [
+      "違い"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տարբերությունը մեծ է։",
+      "ja": "違いは大きいです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-011",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Փորձ",
+    "translit": "p'ordz",
+    "ipa": "/pʰoɾt͡sʰ/",
+    "ja": [
+      "試み",
+      "経験"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Փորձ եմ անում։",
+      "ja": "試してみます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-012",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Պատասխանատվություն",
+    "translit": "pataskhanatvut'yun",
+    "ipa": "/pɑtɑsχɑnɑtvuˈtʰjun/",
+    "ja": [
+      "責任"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Պատասխանատվություն ունեմ։",
+      "ja": "責任があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-013",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Ազատություն",
+    "translit": "azatut'yun",
+    "ipa": "/ɑzɑtuˈtʰjun/",
+    "ja": [
+      "自由"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ազատությունը կարևոր է։",
+      "ja": "自由は大切です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-014",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Արդարություն",
+    "translit": "ardarut'yun",
+    "ipa": "/ɑɾtʰɑɾuˈtʰjun/",
+    "ja": [
+      "正義",
+      "公平"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Արդարություն ենք ուզում։",
+      "ja": "公平さを求めます。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-015",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Հույս",
+    "translit": "huys",
+    "ipa": "/hujs/",
+    "ja": [
+      "希望"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հույս ունեմ։",
+      "ja": "希望があります。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-016",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Երջանկություն",
+    "translit": "yerjankut'yun",
+    "ipa": "/jeɾd͡ʒɑnkuˈtʰjun/",
+    "ja": [
+      "幸せ"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Երջանկություն եմ ցանկանում։",
+      "ja": "幸せを願っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-idea-017",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "ideas",
+    "hy": "Հաղթանակ",
+    "translit": "haght'anak",
+    "ipa": "/hɑχtʰɑˈnɑk/",
+    "ja": [
+      "勝利"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Հաղթանակ է։",
+      "ja": "勝利です。"
+    },
+    "ruCognate": null
+  }
+]

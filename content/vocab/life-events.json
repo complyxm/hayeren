@@ -1,0 +1,206 @@
+[
+  {
+    "id": "v-life-001",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "life-events",
+    "hy": "Ամուսնալուծություն",
+    "translit": "amusnaluts'ut'yun",
+    "ipa": "/ɑmusnɑlut͡suˈtʰjun/",
+    "ja": [
+      "離婚"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ամուսնալուծություն է եղել։",
+      "ja": "離婚しました。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-life-002",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "life-events",
+    "hy": "Հղի",
+    "translit": "hghi",
+    "ipa": "/həˈʁi/",
+    "ja": [
+      "妊娠している"
+    ],
+    "pos": "adjective",
+    "forms": {},
+    "example": {
+      "hy": "Հղի է։",
+      "ja": "妊娠しています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-life-003",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "life-events",
+    "hy": "Մեծանալ",
+    "translit": "metsanal",
+    "ipa": "/met͡sɑˈnɑl/",
+    "ja": [
+      "育つ",
+      "大きくなる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Երեխաները մեծանում են։",
+      "ja": "子どもたちが育っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-life-004",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "life-events",
+    "hy": "Թաղում",
+    "translit": "t'aghum",
+    "ipa": "/tʰɑˈʁum/",
+    "ja": [
+      "葬儀"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թաղում է վաղը։",
+      "ja": "明日は葬儀です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-life-005",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "life-events",
+    "hy": "Մահ",
+    "translit": "mah",
+    "ipa": "/mɑh/",
+    "ja": [
+      "死"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Մահը տխուր է։",
+      "ja": "死は悲しいものです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-life-006",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "life-events",
+    "hy": "Տարեդարձ",
+    "translit": "taredardz",
+    "ipa": "/tɑɾeˈdɑɾt͡sʰ/",
+    "ja": [
+      "記念日",
+      "誕生日"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Տարեդարձ ենք տոնում։",
+      "ja": "記念日を祝っています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-life-007",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "life-events",
+    "hy": "Սեր",
+    "translit": "ser",
+    "ipa": "/seɾ/",
+    "ja": [
+      "愛"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Սերը ուժեղ է։",
+      "ja": "愛は強いです。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-life-008",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "life-events",
+    "hy": "Սիրահարվել",
+    "translit": "siraharvel",
+    "ipa": "/siɾɑhɑɾˈvel/",
+    "ja": [
+      "恋に落ちる"
+    ],
+    "pos": "verb",
+    "forms": {},
+    "example": {
+      "hy": "Սիրահարվել է։",
+      "ja": "恋をしています。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-life-009",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "life-events",
+    "hy": "Ընկերություն",
+    "translit": "ynkerut'yun",
+    "ipa": "/ənkeɾuˈtʰjun/",
+    "ja": [
+      "友情",
+      "会社"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Ընկերությունը կարևոր է։",
+      "ja": "友情は大切です。"
+    },
+    "ruCognate": null
+  },
+  {
+    "id": "v-life-010",
+    "dialect": "east",
+    "status": "verified",
+    "source": "英語版 Wiktionary の機械可読版（kaikki.org, 2026-08-28 版, CC BY-SA 4.0）で綴り・品詞・語義・東アルメニア語の IPA を確認（2026-09-06 参照）。例文はこのプロジェクト用に新規作成。",
+    "theme": "life-events",
+    "hy": "Թոշակ",
+    "translit": "t'oshak",
+    "ipa": "/tʰoˈʃɑk/",
+    "ja": [
+      "年金",
+      "奨学金"
+    ],
+    "pos": "noun",
+    "forms": {},
+    "example": {
+      "hy": "Թոշակ է ստանում։",
+      "ja": "年金をもらっています。"
+    },
+    "ruCognate": null
+  }
+]
